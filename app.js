@@ -138,6 +138,16 @@ async function loadTours() {
 }
 
 // Helper functions
+function escapeHtml(str) {
+    if (str == null) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
 function formatPrice(price, confidence) {
     if (!Number.isFinite(price)) return 'Check live price';
     if (confidence === 'high' || confidence === 'medium') return `From $${price}`;
@@ -190,8 +200,8 @@ function shuffleArray(array) {
 // Create tour card HTML
 function createTourCard(tour) {
     const tags = tour.tags || [];
-    const tagDisplay = tags.slice(0, 3).map(tag => 
-        `<span class="tour-tag">${tag}</span>`
+    const tagDisplay = tags.slice(0, 3).map(tag =>
+        `<span class="tour-tag">${escapeHtml(tag)}</span>`
     ).join('');
     
     const description = tour.description || '';
@@ -221,15 +231,15 @@ function createTourCard(tour) {
         <article class="tour-card" data-id="${tour.id}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
-                <img src="${tour.image}" alt="${tour.name}" loading="lazy" width="400" height="300" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="${tour.image}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'" style="width: 100%; height: auto; object-fit: cover;">
                 ${qualityBadge}
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
-                    <span class="tour-location">📍 ${cleanLoc}, ${capitalizeIsland(tour.island)}</span>
+                    <span class="tour-location">📍 ${escapeHtml(cleanLoc)}, ${escapeHtml(capitalizeIsland(tour.island))}</span>
                 </div>
-                <h3 class="tour-title">${tour.name}</h3>
-                <p class="tour-description">${truncatedDesc}</p>
+                <h3 class="tour-title">${escapeHtml(tour.name)}</h3>
+                <p class="tour-description">${escapeHtml(truncatedDesc)}</p>
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>

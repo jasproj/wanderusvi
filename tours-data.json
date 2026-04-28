@@ -272,7 +272,7 @@
     "image": "https://cdn.filestackcontent.com/pzszyT2lTbScHMiHpanz",
     "bookingLink": "https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/196766/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 140,
-    "description": "Red Hook to St John Snorkel, Beach Charter Aboard MV Island Flyer\n\nNo more than 12 guests. Hour Charter from St Thomas to St John\n\nEnjoy snorkeling at some of the best spots on and around St. Thomas VI 00802\nActivity details\nAdditional information",
+    "description": null,
     "duration": 240,
     "durationText": "",
     "timeOfDay": "",
@@ -294,7 +294,7 @@
       "https://cdn.filestackcontent.com/WTkcWbdTAqafXeqtjDFi/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Red Hook to St John Snorkel, Beach Charter Aboard MV Island Flyer\n\nNo more than 12 guests. Hour Charter from St Thomas to St John\n\nEnjoy snorkeling at some of the best spots on and around St. Thomas VI 00802\nActivity details\nAdditional information\nWhat to bring\n\nTowels\n\nReef safe sunscreen\n\nDisclaimers\n\n*This experience requires a minimum number of travelers.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": "low",
     "priceLabel": "unknown"
   },
@@ -759,7 +759,7 @@
     "image": "https://cdn.filestackcontent.com/L2ug5qJQQC28IMyI5HlV",
     "bookingLink": "https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/292330/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 1495,
-    "description": "Thomas VI 00802\nGroup size\nUp to 8 guests\nActivity details\nAdditional information",
+    "description": "Group size Up to 8 guests Activity details Additional information",
     "duration": null,
     "durationText": "",
     "timeOfDay": "",
@@ -788,7 +788,7 @@
       "https://cdn.filestackcontent.com/LLEURk2bTsyDy9amrVWK/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nGroup size\nUp to 8 guests\nActivity details\nAdditional information\nCheck-in details\n\nMeet the captain at the Seas the Day Charters departure lounge at American Yacht Harbor in Red Hook; exact embarkation details confirmed at booking. What to bring\n\nTowels\n\nNon-aerosol reef-safe sunscreen\n\nCamera\n\nCash for lunch, drinks ashore and",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": "low",
     "priceLabel": "unknown"
   },
@@ -894,7 +894,7 @@
     "image": "https://cdn.filestackcontent.com/NV3LCoUZTMCRYnext2vR",
     "bookingLink": "https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/346091/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 1495,
-    "description": "Seas the Day Charters and Tours USVI Charlotte Amalie, St. Thomas VI 00802\nGroup size\nUp to 12 guests\nActivity details\nAdditional information",
+    "description": "Group size Up to 12 guests Activity details Additional information",
     "duration": 420,
     "durationText": "",
     "timeOfDay": "",
@@ -923,7 +923,7 @@
       "https://cdn.filestackcontent.com/kzV3In7QSTyYCqbfPztm/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionRaw": "Duration\n7 Hours\nMeeting point\nSeas the Day Charters and Tours USVI Charlotte Amalie, St. Thomas VI 00802\nGroup size\nUp to 12 guests\nActivity details\nAdditional information\nWhat to bring\n\nTowels\n\nNon-aerosol reef-safe sunscreen\n\nCamera\n\nCash for lunch, drinks ashore, souvenirs and gratuity\n\nRestrictions\n\nThis vessel is not visiting the British Virgin Islands",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": "medium",
     "priceLabel": "charter"
   },
@@ -1378,7 +1378,7 @@
     "image": "https://cdn.filestackcontent.com/WhggFySlSD30ArQj7rwX",
     "bookingLink": "https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/512124/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 895,
-    "description": "Thomas VI 00802\nActivity details\nAdditional information\nWhat to bring\n\nTowels\n\nNon-aerosol reef-safe sunscreen\n\nCamera\n\nCash for lunch/drinks ashore, souvenirs & gratuity to the crew (customary with good service to tip 15-20% of your booking rate).",
+    "description": "Activity details Additional information What to bring Towels Non-aerosol reef-safe sunscreen Camera Cash for lunch/drinks ashore, souvenirs & gratuity to the crew (customary with good service to tip 15-20% of your booking rate).",
     "duration": 240,
     "durationText": "",
     "timeOfDay": "",
@@ -1401,7 +1401,7 @@
       "https://cdn.filestackcontent.com/3v7lWd2ISra9RNclmWTw/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nActivity details\nAdditional information\nWhat to bring\n\nTowels\n\nNon-aerosol reef-safe sunscreen\n\nCamera\n\nCash for lunch/drinks ashore, souvenirs & gratuity to the crew (customary with good service to tip 15-20% of your booking rate).",
-    "descriptionQuality": "original",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": "medium",
     "priceLabel": "charter"
   },
@@ -1452,7 +1452,7 @@
     "image": "https://cdn.filestackcontent.com/zo2Mrog5SxasEJzdOjEK",
     "bookingLink": "https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/589096/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 995,
-    "description": "Thomas VI 00802\nGroup size\nMaximum 12 people\nActivity details\nAdditional information",
+    "description": "Group size Maximum 12 people Activity details Additional information",
     "duration": 120,
     "durationText": "",
     "timeOfDay": "",
@@ -1475,7 +1475,7 @@
       "https://cdn.filestackcontent.com/zo2Mrog5SxasEJzdOjEK/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nGroup size\nMaximum 12 people\nActivity details\nAdditional information\nCheck-in details\n\nDeparts at American Yacht Harbor in Red Hook at 4:30pm local time.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": "low",
     "priceLabel": "unknown"
   },
@@ -1491,7 +1491,7 @@
     "image": "https://cdn.filestackcontent.com/e7E8PuANRiWDntob3amM",
     "bookingLink": "https://fareharbor.com/embeds/book/adventureawaits/items/601988/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": null,
-    "description": "Thomas VI 00802\nAge\n6 – 74\nGroup size\nUp to 6 Guests Max\nActivity details\nAdditional information",
+    "description": null,
     "duration": 300,
     "durationText": "",
     "timeOfDay": "",
@@ -1514,7 +1514,7 @@
       "https://cdn.filestackcontent.com/GZa7bnTYRzijBClhiM9f/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nAge\n6 – 74\nGroup size\nUp to 6 Guests Max\nActivity details\nAdditional information\nCheck-in details\n\nArrive 15 minutes prior to tour time. What to bring\n\nTowels\nReef Safe Sunscreen No Sprays\n\nSpecial requirements\n\nFamily friendly adventure. Please be well informed and prepared for travel aboard a small yacht type vessel.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": null,
     "priceLabel": null
   },
@@ -1530,7 +1530,7 @@
     "image": "https://cdn.filestackcontent.com/tWhT3OgJSxS3VrwNJn2Z",
     "bookingLink": "https://fareharbor.com/embeds/book/adventureawaits/items/602579/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": null,
-    "description": "Duration\nHalf Day Private Yacht Adventure\nLocation\n6720 Smith Bay Road Smith Bay, St. Thomas VI 00802\nAge\n6 – 74\nGroup size\nUp to 6 Guests Max\nActivity details\nAdditional information",
+    "description": null,
     "duration": null,
     "durationText": "",
     "timeOfDay": "",
@@ -1553,7 +1553,7 @@
       "https://cdn.filestackcontent.com/o26N4Es8QV6Nk2NfPKRg/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionRaw": "Duration\nHalf Day Private Yacht Adventure\nLocation\n6720 Smith Bay Road Smith Bay, St. Thomas VI 00802\nAge\n6 – 74\nGroup size\nUp to 6 Guests Max\nActivity details\nAdditional information\nCheck-in details\n\nArrive 15 minutes prior to departure time. What to bring\n\nBeach Towels\nSunscreen\n\nSpecial requirements\n\nFamily friendly with plenty of room\n\nRestrictions\n\nKeep in mind there are stairs onboard the vessel, as well as this is traveling onboard a sailing vessel.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": null,
     "priceLabel": null
   },
@@ -2233,7 +2233,7 @@
     "image": "https://cdn.filestackcontent.com/OmVYPRvKTainpiAiWGxA",
     "bookingLink": "https://fareharbor.com/embeds/book/haunt/items/591607/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 39,
-    "description": "Fort Christian entrance\nAge\n10 – 100\nGroup size\n25\nAccessibility\nDue to walk ways built in the 1800's and earlier unfortunately we cannot accommodate wheelchairs or strollers. Activity details\nAdditional information",
+    "description": null,
     "duration": 120,
     "durationText": "",
     "timeOfDay": "",
@@ -2255,7 +2255,7 @@
       "https://cdn.filestackcontent.com/zH3aUwHSQAOW0k7tmC3g/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Duration\n2 hrs\nMeeting point\nFort Christian entrance\nAge\n10 – 100\nGroup size\n25\nAccessibility\nDue to walk ways built in the 1800's and earlier unfortunately we cannot accommodate wheelchairs or strollers. Activity details\nAdditional information\nCheck-in details\n\nPlease meet your guide in front of the fort christian entrance. You may also reschedule your booking up to 24 hours in advance by using the \"Change booking\" link in your confirmation email.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": "high",
     "priceLabel": "per person"
   },
@@ -2871,7 +2871,7 @@
     "image": "https://cdn.filestackcontent.com/pE9KJ8qTdmB2v4tvoqwZ",
     "bookingLink": "https://fareharbor.com/embeds/book/adventureawaits/items/602576/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 595,
-    "description": "Thomas VI 00802\nAge\n5 – 74\nGroup size\nUp to 4 Guests\nActivity details\nAdditional information",
+    "description": null,
     "duration": null,
     "durationText": "",
     "timeOfDay": "",
@@ -2894,7 +2894,7 @@
       "https://cdn.filestackcontent.com/pYpzrScSiTRFoEQklVVg/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nAge\n5 – 74\nGroup size\nUp to 4 Guests\nActivity details\nAdditional information\nCheck-in details\n\nWe can pick up Guests staying on St Thomas or St John anywhere on St Thomas or St John and return. What to bring\n\nTowels\nSunscreen\nCash\n\nDisclaimers\n\nSt John Car Ferry Return Trip to Red Hook.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": "low",
     "priceLabel": "unknown"
   },
@@ -3082,7 +3082,7 @@
     "image": "https://cdn.filestackcontent.com/wOrIbY2VRo25SSWlMjoh",
     "bookingLink": "https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/135444/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 50,
-    "description": "Thomas VI 00802\nAge\n12 and under\nGroup size\nUp to 12 guests\nActivity details\nAdditional information",
+    "description": null,
     "duration": 420,
     "durationText": "",
     "timeOfDay": "",
@@ -3111,7 +3111,7 @@
       "https://cdn.filestackcontent.com/JcglkADtRySB6E0gjXQT/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nAge\n12 and under\nGroup size\nUp to 12 guests\nActivity details\nAdditional information\nWhat to bring\n\nTowels\n\nNon-aerosol reef-safe sunscreen\n\nCamera\n\nCash for lunch, souvenirs and gratuity\n\nDisclaimers",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": "low",
     "priceLabel": "unknown"
   },
@@ -3170,7 +3170,7 @@
     "image": "https://cdn.filestackcontent.com/6h68A3Qouc3ej4hH69PA",
     "bookingLink": "https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/171331/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": null,
-    "description": "Thomas VI 00802\nGroup size\nUp to 12 guests\nActivity details\nAdditional information",
+    "description": "Group size Up to 12 guests Activity details Additional information",
     "duration": 240,
     "durationText": "",
     "timeOfDay": "",
@@ -3199,7 +3199,7 @@
       "https://cdn.filestackcontent.com/G3fAZCWuQQCKupRbV9a3/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nGroup size\nUp to 12 guests\nActivity details\nAdditional information\nWhat to bring\n\nTowel\n\nNon-aerosol reef-safe sunscreen\n\nCamera\n\nCash for lunch, drinks ashore and gratuity\n\nDisclaimers\n\nCharters are private and include captain, beverages and snorkeling gear. Interested guests can request British Virg",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": null,
     "priceLabel": null
   },
@@ -3559,7 +3559,7 @@
     "image": "https://cdn.filestackcontent.com/mOnb2FojSPyT1RpxlNzO",
     "bookingLink": "https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/185836/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": null,
-    "description": "Thomas VI 00802\nGroup size\nUp to 12 people\nActivity details\nAdditional information",
+    "description": "Group size Up to 12 people Activity details Additional information",
     "duration": 240,
     "durationText": "",
     "timeOfDay": "",
@@ -3588,7 +3588,7 @@
       "https://cdn.filestackcontent.com/onSTAptTVuwFHicpAuJw/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nGroup size\nUp to 12 people\nActivity details\nAdditional information\nWhat to bring\n\nTowels\n\nNon-aerosol reef-safe sunscreen\n\nCamera\n\nCash for lunch, drinks ashore and gratuity",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": null,
     "priceLabel": null
   },
@@ -3604,7 +3604,7 @@
     "image": "https://cdn.filestackcontent.com/E6eAzgXSOCK9rXOul1wX",
     "bookingLink": "https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/185842/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 50,
-    "description": "Thomas VI 00802\nGroup size\nUp to 12 guests\nActivity details\nAdditional information",
+    "description": "Group size Up to 12 guests Activity details Additional information",
     "duration": 420,
     "durationText": "",
     "timeOfDay": "",
@@ -3634,7 +3634,7 @@
       "https://cdn.filestackcontent.com/BtbHYQFyB6dhF6wnHwoz/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nGroup size\nUp to 12 guests\nActivity details\nAdditional information\nWhat to bring\n\nTowels\n\nNon-aerosol reef-safe sunscreen\n\nCamera\n\nCash for lunch, drinks ashore and gratuity\n\nRestrictions\n\nThis yacht is not visiting the British Virgin Islands at this time. Disclaimers\n\nGuests will sai",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": "low",
     "priceLabel": "unknown"
   },
@@ -3956,7 +3956,7 @@
     "image": "https://cdn.filestackcontent.com/A23TXlHTSLKn9ffQyWZd",
     "bookingLink": "https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/184337/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": null,
-    "description": "Thomas VI 00802\nGroup size\nPrivate charter for up to 12 guests\nActivity details\nAdditional information",
+    "description": null,
     "duration": 420,
     "durationText": "",
     "timeOfDay": "",
@@ -3984,7 +3984,7 @@
       "https://cdn.filestackcontent.com/EzvlHArMSeiHwBbCchwg/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nGroup size\nPrivate charter for up to 12 guests\nActivity details\nAdditional information\nWhat to bring\n\nTowels\n\nNon-aerosol reef-safe sunscreen\n\nCamera\n\nCash for lunch, drinks ashore, souvenirs and crew gratuity\n\nDisclaimers\n\nGratuity for the crew is customary but not included.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": null,
     "priceLabel": null
   },
@@ -5996,7 +5996,7 @@
     "image": "https://cdn.filestackcontent.com/ljFgmdUSRiaL5xIqqxnM",
     "bookingLink": "https://fareharbor.com/embeds/book/adventureawaits/items/667405/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": null,
-    "description": "Thomas VI 00802\nAge\n6 – 74\nGroup size\nUp to 4 Guests Max\nActivity details\nAdditional information",
+    "description": null,
     "duration": 420,
     "durationText": "",
     "timeOfDay": "",
@@ -6019,7 +6019,7 @@
       "https://cdn.filestackcontent.com/la80CTrHTPi67XMbkD74/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionRaw": "Thomas VI 00802\nAge\n6 – 74\nGroup size\nUp to 4 Guests Max\nActivity details\nAdditional information\nCheck-in details\n\nWe Pick you up anywhere on St Thomas to begin your JEEP EXCURSION. Go to Sapphire Beach Marina and board the Sailboat for the Second half of day SAIL & SNORKEL ADVENTURE. What to bring\n\nSunscreen (No Spray Sunscreen)\n\nHat and Sunglasses\nBathing Suit\nCash is recommended\nTowel and Small Beach Bag\nWaterproof Camera\nAlcoholic beverages (No Glass) or hard liquor\nRestrictions\n\nNO SUN SCREEN SPRAYS IN THE NATIONAL PARK OR USED ONBOARD VESSEL\n\nHealth & Safety\n\nCaptain is USCG certified.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": null,
     "priceLabel": null
   },
@@ -6710,7 +6710,7 @@
     "image": "https://cdn.filestackcontent.com/O6Gs8UTMQ6MmE1aGnqkg",
     "bookingLink": "https://fareharbor.com/embeds/book/stcs/items/584436/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 60,
-    "description": "Thomas, VI 00802\nAge\n100 and under\nGroup size\nAny\nAccessibility\nNone\nActivity details\nAdditional information",
+    "description": null,
     "duration": null,
     "durationText": "",
     "timeOfDay": "",
@@ -6731,7 +6731,7 @@
       "https://cdn.filestackcontent.com/x1Y0yeI4S0WtF9Irhgm9/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Thomas, VI 00802\nAge\n100 and under\nGroup size\nAny\nAccessibility\nNone\nActivity details\nAdditional information\nCheck-in details\n\nMeet the Watersports rep at the Elysian Resort Beach Hut located to the left of the beach facing the water. What to bring\n\nTowles\nGratuity for excellent service is appreciated - Industry Standard 18%\n\nRestrictions\n\nWeight limit per kayak is 400 lbs.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": "high",
     "priceLabel": "per adult"
   },
@@ -7682,7 +7682,7 @@
     "image": "https://cdn.filestackcontent.com/T2cpEVmQ92j5AkpIL7ZL",
     "bookingLink": "https://fareharbor.com/embeds/book/stcs/items/564306/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": null,
-    "description": "Thomas, VI 00802\nAge\n100 and under\nAccessibility\nNone\nActivity details\nAdditional information",
+    "description": null,
     "duration": 60,
     "durationText": "",
     "timeOfDay": "",
@@ -7704,7 +7704,7 @@
       "https://cdn.filestackcontent.com/dsGqwWOlQfeVEZrh27rW/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Thomas, VI 00802\nAge\n100 and under\nAccessibility\nNone\nActivity details\nAdditional information\nCheck-in details\n\nArrive 15 mins prior. Meet the Guide at the Elysian Resort Beach Hut located to the left of the beach facing the water.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": null,
     "priceLabel": null
   },
@@ -7720,7 +7720,7 @@
     "image": "https://cdn.filestackcontent.com/Z009qDv5TzGK13siZRBp",
     "bookingLink": "https://fareharbor.com/embeds/book/haunt/items/634259/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 39,
-    "description": "The freedom statue inside Franklin a Powell sr park across from the Cruz bay ferry dock. Age\n10 – 100\nGroup size\n20\nAccessibility\nDue to historic walk ways unfortunately we cannot accommodate wheelchairs or strollers.",
+    "description": "The freedom statue inside Franklin a Powell sr park across from the Cruz bay ferry dock. Age 10 – 100",
     "duration": 120,
     "durationText": "",
     "timeOfDay": "",
@@ -7742,7 +7742,7 @@
       "https://cdn.filestackcontent.com/e7MAR5QNq5n58mX6k3Ah/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Duration\n2 hrs\nMeeting point\nThe freedom statue inside Franklin a Powell sr park across from the Cruz bay ferry dock. Age\n10 – 100\nGroup size\n20\nAccessibility\nDue to historic walk ways unfortunately we cannot accommodate wheelchairs or strollers.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": "high",
     "priceLabel": "per person"
   },
@@ -10854,7 +10854,7 @@
     "image": "https://cdn.filestackcontent.com/YUpIkz4RPeHmaFR4ZMtA",
     "bookingLink": "https://fareharbor.com/embeds/book/greatexplorationtours/items/585280/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 65,
-    "description": "John Dock Nearby Hotels\nAge\n2 – 99\nGroup size\n2-15\nAccessibility\nNot wheelchair accessible\nActivity details\nAdditional information",
+    "description": null,
     "duration": 240,
     "durationText": "",
     "timeOfDay": "",
@@ -10876,7 +10876,7 @@
       "https://cdn.filestackcontent.com/YUpIkz4RPeHmaFR4ZMtA/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "John Dock Nearby Hotels\nAge\n2 – 99\nGroup size\n2-15\nAccessibility\nNot wheelchair accessible\nActivity details\nAdditional information\nSpecial requirements\nAdditional Information\nRestrictions\n\nTravelers should have a moderate physical fitness level\n\nDisclaimers\n\nPick-up and tour start times must be coordinated with the local supplier and are subject to change due to t",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": "high",
     "priceLabel": "per adult"
   },
@@ -11032,7 +11032,7 @@
     "image": "https://cdn.filestackcontent.com/Ie6p05bvRn2nm7WhwNnV",
     "bookingLink": "https://fareharbor.com/embeds/book/stcs/items/702972/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": null,
-    "description": "Thomas, VI 00802\nAge\n100 and under\nGroup size\nAny\nAccessibility\nNone\nActivity details\nAdditional information",
+    "description": null,
     "duration": null,
     "durationText": "",
     "timeOfDay": "",
@@ -11046,7 +11046,7 @@
       "https://cdn.filestackcontent.com/Ie6p05bvRn2nm7WhwNnV/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Thomas, VI 00802\nAge\n100 and under\nGroup size\nAny\nAccessibility\nNone\nActivity details\nAdditional information\nCheck-in details\n\nMeet the Watersports rep at the Elysian Resort Beach Hut located to the left of the beach facing the water. What to bring\n\nTowles\nGratuity for excellent service is appreciated - Industry Standard 18%\n\nRestrictions\n\nWeight limit per kayak is 400 lbs.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": null,
     "priceLabel": null
   },
@@ -11395,7 +11395,7 @@
     "image": "https://cdn.filestackcontent.com/FXXBHAegQGW33EwIGiaa",
     "bookingLink": "https://fareharbor.com/embeds/book/greatexplorationtours/items/586128/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 40,
-    "description": "Duration\n3-4\nMeeting point\n300B Chocolate Hole Rd Great, Cruz Bay, St John 00830, U. Virgin Islands\nAge\n2 – 99\nGroup size\n15\nAccessibility\nNot wheelchair accessible\nActivity details\nAdditional information\nRestrictions\nNo heart problems or other serious medical conditions\nDisclaimers\nPick-up and tour start times must be coordinated with the local supplier and are subject to change due to traffic conditions and the number of groups joining the tour.",
+    "description": "Duration 3-4 Meeting point 300B Chocolate Hole Rd Great, Cruz Bay, St John 00830, U. Virgin Islands Age 2 – 99",
     "duration": null,
     "durationText": "",
     "timeOfDay": "",
@@ -11417,7 +11417,7 @@
       "https://cdn.filestackcontent.com/PjUPtL5FQ3umsIXqGt46/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Duration\n3-4\nMeeting point\n300B Chocolate Hole Rd Great, Cruz Bay, St John 00830, U. Virgin Islands\nAge\n2 – 99\nGroup size\n15\nAccessibility\nNot wheelchair accessible\nActivity details\nAdditional information\nRestrictions\nNo heart problems or other serious medical conditions\nDisclaimers\nPick-up and tour start times must be coordinated with the local supplier and are subject to change due to traffic conditions and the number of groups joining the tour.",
-    "descriptionQuality": "original",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": "high",
     "priceLabel": "per adult"
   },
@@ -11431,7 +11431,7 @@
     "image": "https://cdn.filestackcontent.com/dXXGD7UDSUqzrW2k3GbB",
     "bookingLink": "https://fareharbor.com/embeds/book/greatexplorationtours/items/586129/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 38,
-    "description": "Duration\n3-4\nMeeting point\n300B Chocolate Hole Rd Great, Cruz Bay, St John 00830, U. Virgin Islands\nAge\n2 – 99\nGroup size\n15\nAccessibility\nNot wheelchair accessible\nActivity details\nAdditional information\nCheck-in details\nConfirmation will be received within 48 hours of booking, subject to availability\nRestrictions\nNo heart problems or other serious medical conditions\nDisclaimers\nPick-up and tour start times must be coordinated with the local supplier and are subject to change due to traffic conditions a",
+    "description": "Duration 3-4 Meeting point 300B Chocolate Hole Rd Great, Cruz Bay, St John 00830, U. Virgin Islands Age 2 – 99",
     "duration": null,
     "durationText": "",
     "timeOfDay": "",
@@ -11453,7 +11453,7 @@
       "https://cdn.filestackcontent.com/FWUHxgGLQymrSZniIbxk/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Duration\n3-4\nMeeting point\n300B Chocolate Hole Rd Great, Cruz Bay, St John 00830, U. Virgin Islands\nAge\n2 – 99\nGroup size\n15\nAccessibility\nNot wheelchair accessible\nActivity details\nAdditional information\nCheck-in details\nConfirmation will be received within 48 hours of booking, subject to availability\nRestrictions\nNo heart problems or other serious medical conditions\nDisclaimers\nPick-up and tour start times must be coordinated with the local supplier and are subject to change due to traffic conditions a",
-    "descriptionQuality": "original",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": "high",
     "priceLabel": "per adult"
   },
@@ -11651,7 +11651,7 @@
     "image": "https://cdn.filestackcontent.com/Y9Kp2aIbShqAqxB1E8S9",
     "bookingLink": "https://fareharbor.com/embeds/book/stcs/items/702974/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": null,
-    "description": "Thomas, VI 00802\nAge\n100 and under\nGroup size\nAny\nAccessibility\nNone\nActivity details\nAdditional information",
+    "description": null,
     "duration": null,
     "durationText": "",
     "timeOfDay": "",
@@ -11665,7 +11665,7 @@
       "https://cdn.filestackcontent.com/Y9Kp2aIbShqAqxB1E8S9/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Thomas, VI 00802\nAge\n100 and under\nGroup size\nAny\nAccessibility\nNone\nActivity details\nAdditional information\nCheck-in details\n\nMeet the Watersports rep at the Elysian Resort Beach Hut located to the left of the beach facing the water. What to bring\n\nTowles\nGratuity for excellent service is appreciated - Industry Standard 18%\n\nRestrictions\n\nWeight limit per kayak is 400 lbs.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": null,
     "priceLabel": null
   },
@@ -12889,7 +12889,7 @@
     "image": "https://cdn.filestackcontent.com/xCS56SzUSC2FdEFqZXko",
     "bookingLink": "https://fareharbor.com/embeds/book/stcs/items/700689/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": null,
-    "description": "Thomas, VI 00802\nAge\n100 and under\nGroup size\nAny\nAccessibility\nNone\nActivity details\nAdditional information",
+    "description": null,
     "duration": null,
     "durationText": "",
     "timeOfDay": "",
@@ -12903,7 +12903,7 @@
       "https://cdn.filestackcontent.com/xCS56SzUSC2FdEFqZXko/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Thomas, VI 00802\nAge\n100 and under\nGroup size\nAny\nAccessibility\nNone\nActivity details\nAdditional information\nCheck-in details\n\nMeet the Watersports rep at the Elysian Resort Beach Hut located to the left of the beach facing the water. What to bring\n\nTowles\nGratuity for excellent service is appreciated - Industry Standard 18%\n\nRestrictions\n\nWeight limit per kayak is 400 lbs.",
-    "descriptionQuality": "cleaned",
+    "descriptionQuality": "insufficient_v3",
     "priceConfidence": null,
     "priceLabel": null
   },
@@ -14062,7 +14062,7 @@
     "image": "https://cdn.filestackcontent.com/WIHEJ0wRTjW79NTTu8az",
     "bookingLink": "https://fareharbor.com/embeds/book/greatexplorationtours/items/586139/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
     "price": 90,
-    "description": "Duration\n3\nMeeting point\nSelected Hotels Near Chistiansted\nAge\n2 – 99\nGroup size\n15\nAccessibility\nNot wheelchair accessible\nActivity details\nAdditional information\nSpecial requirements\nContact the supplier to customize your tour. Restrictions\nNot recommended for travelers with back problems\nTravelers should have a moderate physical fitness level\nDisclaimers\nA moderate amount of walking is involved,",
+    "description": "Duration 3 Meeting point Selected Hotels Near Chistiansted Age 2 – 99",
     "duration": null,
     "durationText": "",
     "timeOfDay": "",
@@ -14084,7 +14084,7 @@
       "https://cdn.filestackcontent.com/UfdFrrM7SJOWr2ke9Zf7/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionRaw": "Duration\n3\nMeeting point\nSelected Hotels Near Chistiansted\nAge\n2 – 99\nGroup size\n15\nAccessibility\nNot wheelchair accessible\nActivity details\nAdditional information\nSpecial requirements\nContact the supplier to customize your tour. Restrictions\nNot recommended for travelers with back problems\nTravelers should have a moderate physical fitness level\nDisclaimers\nA moderate amount of walking is involved,",
-    "descriptionQuality": "original",
+    "descriptionQuality": "cleaned_v3",
     "priceConfidence": "high",
     "priceLabel": "per adult"
   },

@@ -138,15 +138,17 @@ async function loadTours() {
 }
 
 // Helper functions
-function formatPrice(price) {
-    return Number.isFinite(price) ? `From $${price}` : 'Check live price';
+function formatPrice(price, confidence) {
+    if (!Number.isFinite(price)) return 'Check live price';
+    if (confidence === 'high' || confidence === 'medium') return `From $${price}`;
+    return 'Check availability';
 }
 
 function cleanLocation(location = '') {
     return location
-        .replace(/^United States\/US Virgin Islands\//, '')
-        .replace(/^US Virgin Islands\//, '')
-        .trim() || 'US Virgin Islands';
+        .replace(/^United States\/U\.?S\.? Virgin Islands\//, '')
+        .replace(/^U\.?S\.? Virgin Islands\//, '')
+        .trim() || 'U.S. Virgin Islands';
 }
 
 function scoreLabel(score) {
@@ -164,7 +166,7 @@ function generateTourSchema(tour) {
         "touristType": tour.tags ? tour.tags.join(", ") : "",
         "offers": {
             "@type": "Offer",
-            "price": tour.price || "",
+            "price": (tour.priceConfidence === 'high' || tour.priceConfidence === 'medium') ? tour.price : "",
             "priceCurrency": "USD",
             "url": tour.bookingLink,
             "availability": "https://schema.org/InStock"
@@ -204,7 +206,7 @@ function createTourCard(tour) {
         : '';
     
     const cleanLoc = cleanLocation(tour.location);
-    const priceDisplay = formatPrice(tour.price);
+    const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
     
     const schema = generateTourSchema(tour);
     const schemaJson = JSON.stringify(schema);
@@ -242,8 +244,10 @@ function createTourCard(tour) {
 
 function capitalizeIsland(island) {
     if (!island) return '';
-    if (island.toLowerCase() === 'big island') return 'Big Island';
-    return island.charAt(0).toUpperCase() + island.slice(1);
+    const lower = island.toLowerCase();
+    if (lower === 'big island') return 'Big Island';
+    if (lower === 'vi') return 'St. Thomas';
+    return island.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join(' ');
 }
 
 // Render tours to grid

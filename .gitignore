@@ -1,0 +1,21 @@
+
+# Tour data pipeline scripts (kept local, not deployed)
+merge-enriched.js
+merge-enriched.js.bak
+clean-descriptions.js
+clean-descriptions-v2.js
+extract-price-v5.js
+extract-price-v5.0.bak
+extract-price-v5.1.js
+rescrape-prices-only.js
+
+# Pipeline backups & intermediates
+tours-data.json.backup
+tours-data.json.pre-merge-*
+tours-data-enriched.json
+tours-data-merged.json
+tours-data-merged.json.pre-desc-clean*
+tours-data-priced.json
+
+# Reports
+desc-cleanup-report*.txt

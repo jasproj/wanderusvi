@@ -243,9 +243,7 @@ function createTourCard(tour) {
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <button onclick="openBookingWithLoader('${tour.bookingLink}', ${JSON.stringify(tour)})" class="tour-book-btn" style="cursor: pointer; border: none; background: none; padding: 0;">
-                        Book Now →
-                    </button>
+                    <button class="book-now-btn tour-book-btn" data-tour-id="${escapeHtml(tour.id)}" style="cursor: pointer; border: none; background: none; padding: 0;">Book Now →</button>
                 </div>
             </div>
         </article>
@@ -399,7 +397,16 @@ function executeHeroSearch() {
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
     loadTours();
-    
+
+    // Delegated Book Now click handler (one listener for all current and future cards)
+    document.getElementById('tours-grid')?.addEventListener('click', (e) => {
+        const btn = e.target.closest('.book-now-btn');
+        if (!btn) return;
+        const tourId = btn.dataset.tourId;
+        const tour = toursData.find(t => String(t.id) === tourId);
+        if (tour) openBookingWithLoader(tour.bookingLink, tour);
+    });
+
     // Filter change listeners
     document.getElementById('island-filter')?.addEventListener('change', () => {
         const val = document.getElementById('island-filter').value;

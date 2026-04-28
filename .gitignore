@@ -19,3 +19,9 @@ tours-data-priced.json
 
 # Reports
 desc-cleanup-report*.txt
+
+# Additional pipeline backups & reports
+app.js.pre-*
+clean-descriptions-v3.js
+desc-cleanup-*report*.txt
+tours-data.json.pre-*

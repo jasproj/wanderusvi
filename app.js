@@ -219,7 +219,7 @@ function createTourCard(tour) {
     const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
     
     const schema = generateTourSchema(tour);
-    const schemaJson = JSON.stringify(schema);
+    const schemaJson = JSON.stringify(schema).replace(/<\/script/gi, '<\\/script');
     
     let badgesHtml = '<div class="tour-badges">';
     if (tour.freeCancellation) {

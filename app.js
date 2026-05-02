@@ -152,7 +152,7 @@ function escapeHtml(str) {
 }
 
 function formatPrice(price, confidence) {
-    if (!Number.isFinite(price)) return 'Check live price';
+    if (!Number.isFinite(price) || price <= 0) return 'Check availability';
     if (confidence === 'high' || confidence === 'medium') return `From $${price}`;
     return 'Check availability';
 }

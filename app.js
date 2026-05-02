@@ -246,7 +246,7 @@ function createTourCard(tour) {
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <button class="book-now-btn tour-book-btn" data-tour-id="${escapeHtml(tour.id)}" style="cursor: pointer; border: none; background: none; padding: 0;">Book Now →</button>
+                    <a href="${tour.bookingLink}" target="_blank" rel="noopener noreferrer" class="book-now-btn tour-book-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="cursor: pointer; border: none; background: none; padding: 0; text-decoration: none; display: inline-block;">Check Availability →</a>
                 </div>
             </div>
         </article>
@@ -401,14 +401,12 @@ function executeHeroSearch() {
 document.addEventListener('DOMContentLoaded', () => {
     loadTours();
 
-    // Delegated Book Now click handler (one listener for all current and future cards)
-    document.getElementById('tours-grid')?.addEventListener('click', (e) => {
-        const btn = e.target.closest('.book-now-btn');
-        if (!btn) return;
-        const tourId = btn.dataset.tourId;
-        const tour = toursData.find(t => String(t.id) === tourId);
-        if (tour) openBookingWithLoader(tour.bookingLink, tour);
-    });
+    // The delegated Book Now click handler that used to call
+    // openBookingWithLoader was a workaround for the previous <button>
+    // markup, which couldn't navigate natively. Now that tour cards
+    // render as <a href target="_blank">, navigation happens via the
+    // anchor's native click and tracking.js's delegated handler still
+    // fires booking_click. No JS handler needed here.
 
     // Filter change listeners
     document.getElementById('island-filter')?.addEventListener('change', () => {

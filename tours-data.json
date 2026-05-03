@@ -56,7 +56,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/inEelbocR6CphZuTifct",
     "bookingLink": "https://fareharbor.com/embeds/book/thevicat/items/2102/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 85,
     "description": "Park in the large, flat gravel parking lot after the security booth on the right. What to bring\n\nBring a copy of your ticket either on your phone or print out\n\nHave online waiver filled out ahead of time\n\nGratuity for your crew\n\nSpecial requirements\n\nMinors are to be accompanied by a parent or guardian\n\nAll guests are to meet on the wooden dock of the Marriott's Frenchman's' Cove 30 minutes prior to trip departure time\n\nDietary restrictions a",
     "duration": 120,
     "durationText": "",
@@ -80,8 +80,8 @@
     ],
     "descriptionRaw": "Park in the large, flat gravel parking lot after the security booth on the right. What to bring\n\nBring a copy of your ticket either on your phone or print out\n\nHave online waiver filled out ahead of time\n\nGratuity for your crew\n\nSpecial requirements\n\nMinors are to be accompanied by a parent or guardian\n\nAll guests are to meet on the wooden dock of the Marriott's Frenchman's' Cove 30 minutes prior to trip departure time\n\nDietary restrictions a",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "2103",
@@ -1947,7 +1947,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ADMdLWfBTban1nnCi0uU",
     "bookingLink": "https://fareharbor.com/embeds/book/stormypirates/items/110165/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 220,
     "description": "Thomas\n\n\t4383 Reviewers\n#1 of 25 Tours in Red Hook\nTripAdvisor Traveler Rating\nAccording to TripAdvisor travelers as of April 2026\n$220\n\tPeople\nAll Ages Welcome! You think the weather is too bad and you might get sea sick\nHad a rough day on the water with Scuba. New excuses added as we get them\n\nYou will still be charged for your boat day and 25% crew gratuity will be added to your balance.",
     "duration": 360,
     "durationText": "",
@@ -1964,8 +1964,9 @@
     ],
     "descriptionRaw": "Thomas\n\n\t4383 Reviewers\n#1 of 25 Tours in Red Hook\nTripAdvisor Traveler Rating\nAccording to TripAdvisor travelers as of April 2026\n$220\n\tPeople\nAll Ages Welcome! You think the weather is too bad and you might get sea sick\nHad a rough day on the water with Scuba. New excuses added as we get them\n\nYou will still be charged for your boat day and 25% crew gratuity will be added to your balance.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "181500",
@@ -2258,7 +2259,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/7F36up8HRoWu5eDYWsyn",
     "bookingLink": "https://fareharbor.com/embeds/book/onecaribbeancharter/items/704467/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1950,
     "description": "A sunset cruise with One Caribbean Charters aboard our 43’ Leopard powercat is the perfect way to unwind at golden hour. This relaxed 2-hour experience showcases the stunning coastline of St. Thomas and St. John as the sun dips below the horizon.\n\nSip cocktails, enjoy light bites, and take in breathtaking island views as the sky transforms with vibrant sunset colors. Whether celebrating something special or simply ending the day in style, this effortless evening escape delivers luxury, beauty, and unforgettable memories on the water.\n\nEnd Your Day the Caribbean Way.\n\nWhat's included\n\nCustom Itinerary\n\nSnorkeling gear for Adults and Children\n\nFreshwater shower\n\nWater, Ice, and Sodas\n\nFresh fruit & baked goods\n\nAdditional information\nCancellations",
     "duration": 120,
     "durationText": "",
@@ -2281,8 +2282,8 @@
       "https://cdn.filestackcontent.com/haYtsGKkTKSsVbRK3LQZ/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Custom Itinerary",
       "Snorkeling gear for Adults and Children",
@@ -2292,7 +2293,8 @@
       "Sun protection",
       "Additional food & beverages of your choice",
       "Cash or credit card for extra expenses"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "190946",
@@ -2556,7 +2558,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/bhUpYpKZTnqGEDvk4SbJ",
     "bookingLink": "https://fareharbor.com/embeds/book/parasailvirginislands/items/509348/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1000,
     "description": "$1,000\n\tPrivate Parasail Trip\nPlease Select The Number of Parasailers + Observers! Croix, USVI\nAge\n6+\nActivity details\nAdditional information\nExtras\n\n-GoPro, Video, or Photo options available for purchase in advance or onboard. In addition, we have a $40 rebooking charge for reservations rebooked within 24 hours.",
     "duration": 60,
     "durationText": "",
@@ -2572,8 +2574,9 @@
     ],
     "descriptionRaw": "$1,000\n\tPrivate Parasail Trip\nPlease Select The Number of Parasailers + Observers! Croix, USVI\nAge\n6+\nActivity details\nAdditional information\nExtras\n\n-GoPro, Video, or Photo options available for purchase in advance or onboard. In addition, we have a $40 rebooking charge for reservations rebooked within 24 hours.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "590712",
@@ -2905,7 +2908,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/bhUpYpKZTnqGEDvk4SbJ",
     "bookingLink": "https://fareharbor.com/embeds/book/parasailvirginislands/items/438217/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1000,
     "description": "Parasail Boat at boat slip N-28 at Sapphire Beach Marina\nGroup size\n1-10 People\nActivity details\nAdditional information\nExtras\n\nGoPro, Video, or Photo options available for purchase in advance or onboard. In addition, we have a $40 rebooking charge for reservations rebooked within 24 hours.",
     "duration": 60,
     "durationText": "",
@@ -2929,8 +2932,9 @@
     ],
     "descriptionRaw": "Duration\n1 Hour\nMeeting point\nParasail Boat at boat slip N-28 at Sapphire Beach Marina\nGroup size\n1-10 People\nActivity details\nAdditional information\nExtras\n\nGoPro, Video, or Photo options available for purchase in advance or onboard. In addition, we have a $40 rebooking charge for reservations rebooked within 24 hours.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "591476",
@@ -3405,7 +3409,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/rYIphGoqREmiynjQD3Qx",
     "bookingLink": "https://fareharbor.com/embeds/book/islandtourconnect/items/630359/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2200,
     "description": "Leave marina \n\n12pm (noon) - 6pm Return Sunset 🌅 \n\n1st stop 🏝️\n\nMaho bay St John  - snorkeling 🤿 or Turtle Cove \n\n2nd stop 🏝️ 🏝️\n\nThere are 3 options for lunch 🥘 \n\nCoki beach - Island Food \nLovango  -Full Menu \nChristmas cove Pizza Pi\nLast stop 🏝️🏝️🏝️\n\nGreat St James -formerly known as Epstein Island or Little St James Christmas Cove for Sunset.\n\nWhat's included\n\nFuel\n\nCaptain\n\nMate\n\nIce and Water\n\nWhat's not included\n\n20% Gratuity not included\n\nCancellations",
     "duration": null,
     "durationText": "",
@@ -3429,14 +3433,15 @@
     ],
     "descriptionRaw": "Duration\nHalf day - 3 Hours • Full Day - 7 Hours\nMeeting point\nOasis cove Marina - 6186 Estate Frydenhoj Route 32, St Thomas 00802, U.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Coki beach - Island Food",
       "Lovango  -Full Menu",
       "Christmas cove Pizza Pi",
       "Ice and Water"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "194410",
@@ -4117,7 +4122,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/GiuHwV6PRfCyUKts0Xhk",
     "bookingLink": "https://fareharbor.com/embeds/book/seathrukayaksstcroix/items/162048/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 75,
     "description": "Duration\n\nApproximately 2 hours\n\nAbout\n\nOur island's most special attraction is the nighttime bioluminescence tour. We offer the only completely see-through kayak tour to view the billions of tiny lights (bioluminescence) in the bay.",
     "duration": null,
     "durationText": "",
@@ -4133,8 +4138,8 @@
     ],
     "descriptionRaw": "Duration\n\nApproximately 2 hours\n\nAbout\n\nOur island's most special attraction is the nighttime bioluminescence tour. We offer the only completely see-through kayak tour to view the billions of tiny lights (bioluminescence) in the bay.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "170950",
@@ -4477,7 +4482,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ZNyhaodMROqMQoQcy6gV",
     "bookingLink": "https://fareharbor.com/embeds/book/palmtreechartersvi/items/660734/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 3500,
     "description": "Step aboard Top Shelf, a 42ft Freeman Power Catamaran, and experience the pinnacle of luxury, speed, and comfort. Known for its sleek design and innovative engineering, Top Shelf offers a ride so smooth it’s often described as a true “magic carpet ride.”\n\nPowered by 4 x 400hp engines, she effortlessly combines speed and stability - making it perfect for exploring the Virgin Islands in style. Its cutting-edge catamaran design ensures exceptional performance, gliding seamlessly over the waves while delivering unparalleled comfort, even at high speeds. Whether you’re cruising between islands or cutting through open waters, the ride is as smooth as it is exhilarating.\n\nThe spacious and thoughtfully designed deck offers plenty of seating, shaded areas, and stunning panoramic views, ensuring you can relax and enjoy every moment on board. High-end finishes and modern amenities elevate your experience, making Top Shelf the ultimate choice for a day of adventure and relaxation on the water.\n\nWhether you’re island-hopping, snorkeling, or simply soaking up the Caribbean sunshine, Top Shelf promises an unforgettable experience. Book your charter today with Palm Tree Charters and let Top Shelf deliver a ride that’s truly first-class.\n\nPrices\nGo Fast Full Day BVI Cruise: $3,500\nGo Fast Full Day USVI Cruise: $3,500\nCancellati",
     "duration": null,
     "durationText": "",
@@ -4502,12 +4507,13 @@
     ],
     "descriptionRaw": "Top Shelf) Freeman Power Catamaran\n\nCoast Guard Certified Captain • Go FAST Full Day • up to 12 Guests\n\nOverview\nDuration\n7-8 Hours\nMeeting point\n1300 Cruz Bay Creek, St. Please allow 7-10 business days for the credit to post to the credit card account.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Go Fast Full Day BVI Cruise: $3,500",
       "Go Fast Full Day USVI Cruise: $3,500"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "664103",
@@ -5332,7 +5338,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/GMuGE6vHQxy7JOsvPyI9",
     "bookingLink": "https://fareharbor.com/embeds/book/islandtourconnect/items/630355/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1200,
     "description": "All charters are Full or Half Day fun Yacht Experience & A Three Island Hopping Excursion!\n\nSnorkeling at Turtle Cove.\nLunch at Water Island & Party Buck Island and/or\nTwo other beaches of your choice whether St. Thomas, St. John or Water Island or Puerto Rico Culebra.\nWe supply Captain and Mate, Bartender, Host; ice and water is included.\nCancellations",
     "duration": null,
     "durationText": "",
@@ -5356,14 +5362,15 @@
     ],
     "descriptionRaw": "Duration\nHalf day - 3 Hours • Full Day - 7 Hours\nMeeting point\nOasis cove Marina - 6186 Estate Frydenhoj Route 32, St Thomas 00802, U.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Snorkeling at Turtle Cove.",
       "Lunch at Water Island & Party Buck Island and/or",
       "Two other beaches of your choice whether St. Thomas, St. John or Water Island or Puerto Rico Culebra.",
       "We supply Captain and Mate, Bartender, Host; ice and water is included."
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "8231",
@@ -5665,7 +5672,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/sBX41r3UQequCQXAejCB",
     "bookingLink": "https://fareharbor.com/embeds/book/islandbuddy-stj/items/411733/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1100,
     "description": "I further agree to assume all risks and responsibilities and understand IslandBuddy, LLC, its employees and agents, assume no responsibility or liability for death, personal injury, property damage, loss or loss of any kind which may be incurred during the course of or arising from use of equipment and/or services provided. All tours, deals and specials are subject to availability and do not include transportation costs unless specified. Changes:\n\nWith some exceptions, IslandBuddy tours and activities may be changed if requested 48 hours in advance of the start time.",
     "duration": null,
     "durationText": "",
@@ -5690,8 +5697,9 @@
     ],
     "descriptionRaw": "I further agree to assume all risks and responsibilities and understand IslandBuddy, LLC, its employees and agents, assume no responsibility or liability for death, personal injury, property damage, loss or loss of any kind which may be incurred during the course of or arising from use of equipment and/or services provided. All tours, deals and specials are subject to availability and do not include transportation costs unless specified. Changes:\n\nWith some exceptions, IslandBuddy tours and activities may be changed if requested 48 hours in advance of the start time.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "421957",
@@ -5822,7 +5830,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/BoTmGljBQdCRpqbqsDHE",
     "bookingLink": "https://fareharbor.com/embeds/book/summerwindadventures/items/484583/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 11770,
     "description": "Virgin Islands and British Virgin Islands\n\nPrivate sailing charter daily for up to 6-nights, 7-days. BVI adventures have minimum of 4 nights\n\n1 to 6 nights, 7 days of Private Sailing Adventures for up to 4 guests. Overnight and Multi-day Private Sailing Adventures\n\nOne night, 24 hours aboard, for the first to 2 guests for $2,500.",
     "duration": null,
     "durationText": "",
@@ -5847,8 +5855,8 @@
     ],
     "descriptionRaw": "Virgin Islands and British Virgin Islands\n\nPrivate sailing charter daily for up to 6-nights, 7-days. BVI adventures have minimum of 4 nights\n\n1 to 6 nights, 7 days of Private Sailing Adventures for up to 4 guests. Overnight and Multi-day Private Sailing Adventures\n\nOne night, 24 hours aboard, for the first to 2 guests for $2,500.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "484584",
@@ -5963,7 +5971,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ARRJGuhQqd2CioAnNr4g",
     "bookingLink": "https://fareharbor.com/embeds/book/stthomasadventures/items/662546/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 500,
     "description": "Additional information\nWhat to bring\n\nReef-safe Sunscreen\n\nTowel\n\nUnderwater camera\n\nCash for lunch & tips\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "duration": null,
     "durationText": "",
@@ -5980,8 +5988,9 @@
     ],
     "descriptionRaw": "Additional information\nWhat to bring\n\nReef-safe Sunscreen\n\nTowel\n\nUnderwater camera\n\nCash for lunch & tips\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "662575",
@@ -6064,7 +6073,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/siyNW3QBSyBpRudIWe4A",
     "bookingLink": "https://fareharbor.com/embeds/book/stthomasadventures/items/662593/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 500,
     "description": "Additional information\nWhat to bring\n\nReef-safe sunscreen\n\nTowel\n\nUnderwater camera\n\nCash for lunch & tips\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "duration": null,
     "durationText": "",
@@ -6081,8 +6090,9 @@
     ],
     "descriptionRaw": "Additional information\nWhat to bring\n\nReef-safe sunscreen\n\nTowel\n\nUnderwater camera\n\nCash for lunch & tips\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "662601",
@@ -6371,7 +6381,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/tDyO0VAxTqyr7qxRVXrq",
     "bookingLink": "https://fareharbor.com/embeds/book/stormypirates/items/181295/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1350,
     "description": "Enjoy the US Virgin Islands on a private trip!\nThis trip departs from St. Thomas only\nAbout\nWith the constant tradewinds and protected waters the Virgin Islands are considered the sailing capitol of the world. Join us for a 4 hours of sailing though the US Virgin Islands. We will explore the scenic Northern Shore of St.John and enjoy lunch at Pizza Pi and a snorkel at Christmas Cove.\nWhat's included\n\nIncludes: Captain, Mate, Fuel, Snorkeling, Open Bar, Snacks, Snorkel Equipment, SUP and Kayak\n\nSt. Thomas Departure Only\n\nAdditional information\nCancellations",
     "duration": 240,
     "durationText": "",
@@ -6387,8 +6397,8 @@
     ],
     "descriptionRaw": "Thomas departure only\nMeeting point\nSt Thomas departure ONLY\nActivity details\nAdditional information\nWhat to bring\n\nBathing suit, reef safe, non aerosol sunscreen and towel.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "You are too hung over to go on a boat day.",
       "You have a bad back and can’t go.",
@@ -7383,7 +7393,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/H1J4VF3nS0mnYc9GeUoP",
     "bookingLink": "https://fareharbor.com/embeds/book/endlesssummervi/items/619185/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1095,
     "description": "Embark on a customizable full-day Virgin Islands adventure!\n\nDepending on weather and time, we'll craft your perfect experience, choosing from 3 to 4 stunning snorkeling spots like Maho Bay, Waterlemon Cay, Lameshur Bay, and Round Bay, with lunch at Limeout. Or, we'll explore the remote Outlying Cays, snorkeling Great St. James, Grass/Thatch Cay, and enjoy a unique Pizza Pi lunch.\n\nWe may include beach stops at Genti Bay, Hans Lollick, Water Island, Buck Island, or Cas Cay.\n\nGet ready for a memorable day!\n\nWhat's included\n\nIce\n\nSoft drinks\n\nBeer & Seltzers\n\nSnorkel Gear\n\nNoodles/Floats\n\nCooler\n\nUSCG Captain\n\nAdditional information\nCancellations",
     "duration": 360,
     "durationText": "",
@@ -7408,8 +7418,8 @@
     ],
     "descriptionRaw": "Thomas, VI US 00802\nGroup size\nMaximum 6 people\nActivity details\nAdditional information\nWhat to bring\n\nSwimsuits\n\nReef Safe Non-spray sunscreen\n\nSunglasses\n\nTowels\n\nRestrictions\n\nTo help us provide the safest and most comfortable experience possible, please let us know in the booking notes if anyone in your group has a handicap, limited mobility, recent injury, or may need special assistance boarding, moving around the boat, or getting in and out of the water. While we will always do our best to accommodate e",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Soft drinks",
       "Beer & Seltzers",
@@ -8709,7 +8719,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/0vMQxQv8RoKuNgLa47nG",
     "bookingLink": "https://fareharbor.com/embeds/book/boattingvi/items/614616/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1450,
     "description": "The Adventure starts with boarding either at our home base at Compass Point Marina, Ritz Carlton on St. Thomas, Westin on St. John or with a pick up at the National Park Dock in Cruz Bay on St. John.\n\nWe totally Customize your trip based on what you want to do and experience.\n\nOur professional captains have great recommendations for world class snorkel sites and fun beach bars for you!\n\nWhat's included\n\nUSCG Credentialed Captain\n\nIce\n\nWater\n\nProfessionally cleaned Snorkel Gear\n\nWhat's not included\n\nPlease bring your own towels\n\nreef friendly sunscreen (no sprays)\n\ncash for fuel costs and gratuity\n\nnon-alcoholic drinks\n\nalcoholic beverages\n\nfood\n\nsnacks\n\nItinerary\n\nSt Thomas departure time is 8:00am\n\nSt John departure time is 8:30am\n\nCancellations",
     "duration": 420,
     "durationText": "",
@@ -8726,8 +8736,8 @@
     ],
     "descriptionRaw": "Duration\n7 Hours\nMeeting point\nCompass Point Marina, Ritz Carlton on St.",
     "descriptionQuality": "insufficient",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "USCG Credentialed Captain",
       "Professionally cleaned Snorkel Gear",
@@ -8736,7 +8746,8 @@
       "cash for fuel costs and gratuity",
       "non-alcoholic drinks",
       "alcoholic beverages"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "614944",
@@ -9071,7 +9082,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/YGwJTI7lSVj1ElTX7npw",
     "bookingLink": "https://fareharbor.com/embeds/book/stormypirates/items/494820/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 7000,
     "description": "Enjoy the Virgin Islands on a private trip!\n\nAdditional hours or different start time can be added at booking\n\nAbout\nWe offer full day private trips on our our new 55' Power Catamaran for up to 49 guests. Private charters are completely customizable.\nWhat's included\n\nALL INCLUSIVE PRICING Includes: Captain, Mates, FUEL, Open Bar, Snacks & Snorkel Equipment\n\nAdditional information\nCancellations",
     "duration": null,
     "durationText": "",
@@ -9088,8 +9099,8 @@
     ],
     "descriptionRaw": "You think the weather is too bad and you might get sea sick\nHad a rough day on the water with Scuba. New excuses added as we get them\n\nYou will",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "We offer full day private trips on our our new 55' Power Catamaran for up to 49 guests. Private charters are completely customizable.",
       "Please don't forget to bring your passport, $85 in cash to pay the BVI customs fee (if going to the BVI)",
@@ -9312,7 +9323,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/SVunOHU2SZ6EYfaVHJx6",
     "bookingLink": "https://fareharbor.com/embeds/book/boattingvi/items/615131/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1295,
     "description": "The Adventure starts with boarding either at our home base at Compass Point Marina, Ritz Carlton on St. Thomas, Westin on St. John or with a pick up at the National Park Dock in Cruz Bay on St. John.\n\nWe totally Customize your trip based on what you want to do and experience.\n\nOur professional captains have great recommendations for world class snorkel sites and fun beach bars for you!\n\nWhat's included\n\nUSCG Credentialed Captain\n\nIce\n\nWater\n\nProfessionally cleaned Snorkel Gear\n\nWhat's not included\n\nPlease bring your own towels\n\nreef friendly sunscreen (no sprays)\n\ncash for fuel costs and gratuity\n\nnon-alcoholic drinks\n\nalcoholic beverages\n\nfood\n\nsnacks\n\nItinerary\n\nSt Thomas departure time is 8:00am\n\nSt John departure time is 8:30am\n\nCancellations",
     "duration": null,
     "durationText": "",
@@ -9331,8 +9342,8 @@
       "https://cdn.filestackcontent.com/f7PjGP46QyyE1iM7h4EJ/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "USCG Credentialed Captain",
       "Professionally cleaned Snorkel Gear",
@@ -9341,7 +9352,8 @@
       "cash for fuel costs and gratuity",
       "non-alcoholic drinks",
       "alcoholic beverages"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "615132",
@@ -9394,7 +9406,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/aC8lWJtKSAqPpg4NVSsz",
     "bookingLink": "https://fareharbor.com/embeds/book/driftcharters/items/624217/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1500,
     "description": "Have your day, your way! Each itinerary is personalized just for you! Want to snorkel with turtles? Beach bar hop? Float all day? We got you!\nBring your own lunch or add a stop to one of our floating restaurants such as Pizza Pi or Lime Out. Landlubber? No problem! Enjoy lunch at one of our islands only accessible by boat such as Lovango Cay or Water Island (Dinghy's Beach Bar).\n\nWhat's included\n\nSnorkel gear\n\nNoodles\n\nFresh water rinse\n\nCooler with ice and bottled water\n\nUSCG-licensed captain\n\nBluetooth sound system\n\nFuel\n\nWhat's not included\n\nCaptain’s gratuity (recommended 20% or more of the boat fee)\n\nHighlights\nPrivate charter for your group of up to 12 guests\nSnorkeling and swimming stops around St. Thomas and St. John\nOption to visit Lovango Cay or Water Island for lunch\nBring your own lunch or stop at floating restaurants like Pizza Pi or Lime Out\nAdditional information\nCancellations",
     "duration": 420,
     "durationText": "",
@@ -9429,8 +9441,8 @@
     ],
     "descriptionRaw": "John, USVI & Lovango Cay\nGroup size\n12 people max\nActivity details\nAdditional information\nCheck-in details\n\nMeeting point: St. John, or Lovango, USVI\n\nWhat to bring\n\nSun protection (hat, sunglasses, sunscreen- non-aerosol only)\n\nAny other food or drink items you would like\n\nA great attitude\n\nDisclaimers\n\nIf you have a larger group the operator can arrange an additional boat.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "200902",
@@ -9558,7 +9570,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/GNCJtWAPTBGVAsf9zy7Z",
     "bookingLink": "https://fareharbor.com/embeds/book/driftcharters/items/624250/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1050,
     "description": "Head out on a half-day fishing charter from St. Thomas or St. John, choosing a morning (7–11 am) or afternoon (2–6 pm) trip that targets the South Drop or nearshore waters. Enjoy a private outing with a captain who provides bait, tackle, fuel and ice, plus bottled water. Keep whatever you catch—your boat captain will clean and bag your fish at the end of the trip so you can take your fresh catch home.\n\nWhat's included\n\nFuel\n\nCaptain fee\n\nBait\n\nIce\n\nBottled water\n\nTackle\n\nWhat's not included\n\nGratuity to the captain (20% standard suggested)\n\nHighlights\nPrivate half-day trips available in the morning or afternoon\nTarget the South Drop or productive nearshore fishing grounds\nCaptain cleans and bags your catch at the end of the trip\nAdditional information\nCancellations",
     "duration": 240,
     "durationText": "",
@@ -9590,8 +9602,9 @@
     ],
     "descriptionRaw": "John, USVI\nAge\n4 – 99\nGroup size\n6 people max\nActivity details\nAdditional information\nCheck-in details\n\nMeeting point: St.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "624259",
@@ -9604,7 +9617,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/lA69CKjYQGqlG8iuQIrG",
     "bookingLink": "https://fareharbor.com/embeds/book/driftcharters/items/624259/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1350,
     "description": "Choose a morning (7:00 am–1:00 pm) or afternoon (12:00 pm–6:00 pm) half-day fishing charter targeting the South Drop or near-shore waters around St. Thomas and St. John. Your experienced captain provides bait, tackle and bottled water, runs the boat, and will clean and bag your catch at the end of the trip so you can take it home. This private outing focuses on maximizing fishing time while offering a relaxed, hands-on experience for families and small groups.\n\nWhat's included\n\nFuel\n\nCaptain fee\n\nBait\n\nIce\n\nBottled water\n\nTackle\n\nWhat's not included\n\nGratuity to the captain (not included)\n\nHighlights\nPrivate half-day charter with a dedicated captain\nCaptain cleans and bags your catch for you\nMorning or afternoon departure times\nFish the South Drop or near-shore locations\nAdditional information\nCancellations",
     "duration": 360,
     "durationText": "",
@@ -9636,8 +9649,9 @@
     ],
     "descriptionRaw": "John, USVI\nAge\n4+\nGroup size\n6 people max\nActivity details\nAdditional information\nCheck-in details\n\nMeeting point: St. Morning trip departs at 7:00 am and returns about 1:00 pm; afternoon trip departs at 12:00 pm and returns about 6:00 pm.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "624266",
@@ -9650,7 +9664,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/m9K5io6SsukuPosrPQxg",
     "bookingLink": "https://fareharbor.com/embeds/book/driftcharters/items/624266/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1800,
     "description": "Spend a full day aboard a private fishing charter exploring the North Drop or South Drop in search of pelagic species. Departing early morning and returning in the afternoon, the trip includes experienced captain service, bait and tackle, and onboard amenities to keep you comfortable. Enjoy sportfishing with the option to keep your catch—your captain will clean and bag fish at trip end so you can take your haul home.\n\nWhat's included\n\nFuel\n\nCaptain fee\n\nBait\n\nIce\n\nBottled water\n\nTackle\n\nWhat's not included\n\nGratuity to the captain (20% standard recommendation)\n\nHighlights\nFull-day (7 am–3 pm) private charter focusing on pelagic species\nCaptain cleans and bags your catch at the end of the trip\nSmall-group experience with a maximum of six guests\nAdditional information\nCancellations",
     "duration": 480,
     "durationText": "",
@@ -9682,8 +9696,8 @@
     ],
     "descriptionRaw": "John, USVI\nAge\n4 – 99\nGroup size\n6 people max\nActivity details\nAdditional information\nCheck-in details\n\nMeeting point: St.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "57772",
@@ -10720,7 +10734,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/rSqCp6HRqfPtmnK0JEQf",
     "bookingLink": "https://fareharbor.com/embeds/book/viecotours/items/353816/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 69,
     "description": "Paddle through the beautiful mangroves -renting a kayak and explore on your own\n\nRound trip Transportation can be coordinated for you. Select the round trip option, and tell let us where you would like to be picked up during the booking process. The pickup time is flexible so let us know what time is best for you to be picked up.",
     "duration": null,
     "durationText": "",
@@ -10742,8 +10756,8 @@
     ],
     "descriptionRaw": "Paddle through the beautiful mangroves -renting a kayak and explore on your own\n\nRound trip Transportation can be coordinated for you. Select the round trip option, and tell let us where you would like to be picked up during the booking process. The pickup time is flexible so let us know what time is best for you to be picked up.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "361018",
@@ -10757,7 +10771,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/OFiuSK05QAyZMQi2panR",
     "bookingLink": "https://fareharbor.com/embeds/book/finntastictours/items/361018/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 675,
     "description": "About\n\nTake in the beauty of the Caribbean waters as you sip sundowners while you cruise in style aboard your own private charter boat. Departing daily at 4:30pm from Compass marina, returning after each amazing sunset. Includes\n• Snorkeling gear for Adults and Children\n• Freshwater shower\n• Water, Ice, Sodas, and light snacks\n\nAdditional Fees\n• Cost of any food purchased\n• Fuel (charged based on actual usage)\n• Recommended gratuity is 20%",
     "duration": 150,
     "durationText": "",
@@ -10782,8 +10796,8 @@
     ],
     "descriptionRaw": "About\n\nTake in the beauty of the Caribbean waters as you sip sundowners while you cruise in style aboard your own private charter boat. Departing daily at 4:30pm from Compass marina, returning after each amazing sunset. Includes\n• Snorkeling gear for Adults and Children\n• Freshwater shower\n• Water, Ice, Sodas, and light snacks\n\nAdditional Fees\n• Cost of any food purchased\n• Fuel (charged based on actual usage)\n• Recommended gratuity is 20%\n\nWhat to bring\n• Towels\n• Sun protection\n• Additional food & beverages of your choice\n• Cash or credit card for extra expenses\n\nDeparture Location\nWe depart",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "411739",
@@ -12248,7 +12262,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/HcV56Sm9TmCo3IGPXcAe",
     "bookingLink": "https://fareharbor.com/embeds/book/caribeexpressvi/items/701648/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1300,
     "description": "Step aboard Caribe Express, a 36' Aquila power catamaran with air conditioning, comfy seating, and everything you need for a smooth, relaxing evening on the water. This sunset cruise departs from St. Thomas or St. John, and is the perfect way to unwind after a day in the islands.\n\nCruise through calm bays and scenic coastlines as the sun starts to set. Stop at Christmas Cove for a swim or float, sip chilled champagne, and enjoy an open bar stocked with island favorites. As golden hour sets in, snack on a fresh charcuterie board with meats, cheeses, fruits, and breads while you soak in the views.\n\nThis easygoing trip includes drinks, snacks, floaties, and a laid-back crew to handle everything. Whether you're celebrating something special or just want to enjoy the evening breeze, a sunset cruise on Caribe Express is the perfect end to any day in paradise.\n\nWhat's included\n\nCharcuterie Board – A tasty spread of meats, cheeses, fresh fruits, breads, and other shareable bites.\n\nAlcoholic Beverages - enjoy a selection of beer, sparkling wine, and spirits with mixed cocktails prepared onboard.\n\nFuel costs - no sur",
     "duration": 150,
     "durationText": "",
@@ -12273,8 +12287,8 @@
     ],
     "descriptionRaw": "John\nGroup size\nMaximum 12 people\nActivity details\nAdditional information\nWhat to bring\n\nRashguards, towels, and swimwear if you plan to get in the water\n\nLight jacket or cover up as the evening air can get cool\n\nCash gratuity for excellent service from your crew.",
     "descriptionQuality": "insufficient",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Charcuterie Board – A tasty spread of meats, cheeses, fresh fruits, breads, and other shareable bites.",
       "Alcoholic Beverages - enjoy a selection of beer, sparkling wine, and spirits with mixed cocktails prepared onboard.",
@@ -12284,7 +12298,8 @@
       "Bottled water and a cooler with ice.",
       "We recommend a 20% cash gratuity for your captain and crew if they provided excellent service.",
       "Lovango Cay – Start your evening with a relaxing cruise toward Lovango. Enjoy a swim or float near the shore, or just sip a drink and take in the views."
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "702974",
@@ -12331,7 +12346,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/kSdcC8v2SXmQdRONIKOl",
     "bookingLink": "https://fareharbor.com/embeds/book/caribeexpressvi/items/710999/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1600,
     "description": "Step aboard Caribe Express, a 36' Aquila power catamaran with air conditioning, comfy seating, and everything you need for a fun, worry-free day on the water. This all-inclusive experience is fully customizable and leaves from St. Thomas or St. John—you choose the vibe, we handle the rest.\n\nSnorkel with sea turtles at Maho Bay, grab lunch at Lovango Cay, float with a drink in hand at Christmas Cove, or swing by the floating pizza boat, Pizza Pi. Whether you're exploring, relaxing, or just soaking up the views, Caribe Express is the easiest way to enjoy the US Virgin Islands in style.\n\nYour trip includes fuel, drinks, snacks, snorkel gear, floaties, and a friendly local crew who knows all the best spots. Want to spend more time snorkeling? Prefer to chill in a quiet cove? No problem. We’ll tailor the day to what you want—just bring your swimsuit and let us take care of the rest.\n\nWhat's included\n\nHors d’oeuvres – A mix of easy snacks like hummus, pretzels, and fresh veggies to enjoy throughout the day.\n\nAlcoholic Beverages - enjoy a selection of beer, sparkling wine, and spirits with mixed",
     "duration": 240,
     "durationText": "",
@@ -12356,8 +12371,8 @@
     ],
     "descriptionRaw": "John\nGroup size\nMaximum 12 people\nActivity details\nAdditional information\nWhat to bring\n\nReef-safe sunscreen (no spray sunscreen, please)\n\nHats, sunglasses, rashguards, towels, and sun protective gear\n\nCash gratuity for excellent service from your crew.",
     "descriptionQuality": "insufficient",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Hors d’oeuvres – A mix of easy snacks like hummus, pretzels, and fresh veggies to enjoy throughout the day.",
       "Alcoholic Beverages - enjoy a selection of beer, sparkling wine, and spirits with mixed cocktails prepared onboard.",
@@ -14327,7 +14342,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/cKkwELjRRr2AEkWMcHgr",
     "bookingLink": "https://fareharbor.com/embeds/book/beachchartersvi/items/718748/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2400,
     "description": "Say hello to a whole new level of day charter elegance. The minute you step aboard our newest and most stunning charter vessel, Tide Together, you will be immersed in a day of pure Caribbean perfection. With its sleek design, spacious decks, and elegant comfort, this vessel is the perfect setting for creating unforgettable memories in the turquoise waters of the U.S. Virgin Islands\n\nWhat's not included\n\nGratuity-20% (Industry Standard)\n\nItinerary\n\nItineraries are customized and built a few days prior to charter with the help of your experience captain.\n\nHighlights\n\nWhat makes this luxury Lagoon 42 day charter so special goes far beyond the vessel and the destinations—it’s the experience itself. From the moment you step aboard, you’re welcomed into an atmosphere of relaxation and personalized service. The crew anticipates your needs, curating a seamless day where every detail feels effortless and indulgent.\nThe Lagoon 42 itself enhances the magic. Its wide decks and open layout create an inviting social space while still offering plenty of private nooks for quiet moments. Whether you’re stretched out in the lounge, shaded beneath the cockpit, o",
     "duration": null,
     "durationText": "",
@@ -14342,9 +14357,10 @@
       "https://cdn.filestackcontent.com/cKkwELjRRr2AEkWMcHgr/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null,
-    "capacity": 12
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "capacity": 12,
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "718749",
@@ -14355,7 +14371,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/wcgroixMSgiKSPAc4R8Y",
     "bookingLink": "https://fareharbor.com/embeds/book/beachchartersvi/items/718749/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2400,
     "description": "Say hello to a whole new level of day charter elegance. The minute you step aboard our newest and most stunning charter vessel, Tide Together, you will be immersed in a day of pure Caribbean perfection. With its sleek design, spacious decks, and elegant comfort, this vessel is the perfect setting for creating unforgettable memories in the turquoise waters of the U.S. Virgin Islands\n\nWhat's not included\n\nGratuity-20% (Industry Standard)\n\nItinerary\n\nItineraries are customized and built a few days prior to charter with the help of your experience captain.\n\nHighlights\n\nWhat makes this luxury Lagoon 42 day charter so special goes far beyond the vessel and the destinations—it’s the experience itself. From the moment you step aboard, you’re welcomed into an atmosphere of relaxation and personalized service. The crew anticipates your needs, curating a seamless day where every detail feels effortless and indulgent.\nThe Lagoon 42 itself enhances the magic. Its wide decks and open layout create an inviting social space while still offering plenty of private nooks for quiet moments. Whether you’re stretched out in the lounge, shaded beneath the cockpit, o",
     "duration": null,
     "durationText": "",
@@ -14370,9 +14386,10 @@
       "https://cdn.filestackcontent.com/wcgroixMSgiKSPAc4R8Y/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null,
-    "capacity": 12
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "capacity": 12,
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "718750",
@@ -14411,7 +14428,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/mtoSZ4OxQHWIdNzflG3u",
     "bookingLink": "https://fareharbor.com/embeds/book/beachchartersvi/items/718751/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2400,
     "description": "Say hello to a whole new level of day charter elegance. The minute you step aboard our newest and most stunning charter vessel, Tide Together, you will be immersed in a day of pure Caribbean perfection. With its sleek design, spacious decks, and elegant comfort, this vessel is the perfect setting for creating unforgettable memories in the turquoise waters of the U.S. Virgin Islands\n\nWhat's not included\n\nGratuity-20% (Industry Standard)\n\nItinerary\n\nItineraries are customized and built a few days prior to charter with the help of your experience captain.\n\nHighlights\n\nWhat makes this luxury Lagoon 42 day charter so special goes far beyond the vessel and the destinations—it’s the experience itself. From the moment you step aboard, you’re welcomed into an atmosphere of relaxation and personalized service. The crew anticipates your needs, curating a seamless day where every detail feels effortless and indulgent.\nThe Lagoon 42 itself enhances the magic. Its wide decks and open layout create an inviting social space while still offering plenty of private nooks for quiet moments. Whether you’re stretched out in the lounge, shaded beneath the cockpit, o",
     "duration": null,
     "durationText": "",
@@ -14426,9 +14443,10 @@
       "https://cdn.filestackcontent.com/mtoSZ4OxQHWIdNzflG3u/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null,
-    "capacity": 12
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "capacity": 12,
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "11996",
@@ -14844,7 +14862,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/nxXqjyXcTvOK0g9FjbJ4",
     "bookingLink": "https://fareharbor.com/embeds/book/driftcharters/items/666374/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1200,
     "description": "Board a private charter for a relaxed 3/4 day on the water—spend four hours fishing with a licensed captain, then head to the famous floating restaurant Pizza Pi for two hours of snorkeling, floating and pizza in scenic Christmas Cove. The outing combines hands-on angling time with a snorkel and pizza stop: enjoy boat time, island views, and a casual meal at an iconic spot in the USVI. Ideal for small groups looking for both sport fishing and a fun seaside hangout.\n\nWhat's included\n\nFuel included\n\nCaptain fee included\n\nBait included\n\nIce included\n\nBottled water included\n\nTackle included\n\nUp to 6 passengers capacity\n\nWhat's not included\n\nGratuity for the captain (20% standard)\n\nPizza and drink orders at Pizza Pi not included\n\nHighlights\nFour hours of guided fishing with a captain\nTwo hours at the floating Pizza Pi restaurant in Christmas Cove\nOpportunity to snorkel or float near the restaurant\nAdditional information\nCancellations",
     "duration": 360,
     "durationText": "",
@@ -14878,8 +14896,8 @@
     ],
     "descriptionRaw": "John, or Lovango, USVI\nAge\n4+\nGroup size\nUp to 6 passengers\nActivity details\nAdditional information\nCheck-in details\n\nMeeting point options: St.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "683827",
@@ -15087,7 +15105,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/4LWOFxOvQPyKhdJBasxi",
     "bookingLink": "https://fareharbor.com/embeds/book/kindredspiritcharters/items/607182/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1550,
     "description": "Experience the best day trips in the US Virgin Islands. Day trips include sailing, snorkel stops, paddle boarding as well as relaxing on board with a delicious lunch stop. Grab tacos at Lime Out, eat at Lovango Resort & Beach Club on a private island or grab a freshly baked pizza from Pizza PI, the pizza boat in Christmas Cove. Hop aboard and enjoy a day filled with adventure and fun in the sun!\n\nPick ups on the East End of St Thomas via dock or dinghy OR Cruz Bay National Park Dock on St John.\n\nWhat's included\n\nYour own private catamaran\n\nCaptain and crew\n\nFruit platter in the morning\n\nLarge cooler stocked with a variety of beer and soft drinks.\n\nOpen bar (basic bar onboard)\n\nFuel and water\n\nSnorkel gear\n\nTwo standup paddleboards\n\nFloats\n\nBluetooth hook up for preferred tunes\n\nWhat's not included\n\nSunscreen (no aerosol sunscreen please)\n\nTowels\n\nCrew Gratuity (min 20% required)\n\nItinerary\n\nItinerary is typically made once on board to account for the entire group's preferences and current weather conditions. You can expect 2-4 stops depending on time spent at each location. Snorkeling, sailing, beach hopping and more can be expected for a fun-filled adventure.\n\nCancellations",
     "duration": 420,
     "durationText": "",
@@ -15112,8 +15130,8 @@
     ],
     "descriptionRaw": "USVI Full Day Trip - Kindred Spirit II\n\nAll Ages • 7 Hours • Up to 12 Passengers\n\n$1,550\n\tPrivate Charter\nPrice includes 6 guests.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Your own private catamaran",
       "Captain and crew",
@@ -15136,7 +15154,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/sxjDihT9Qy2UPVSz9h4g",
     "bookingLink": "https://fareharbor.com/embeds/book/kindredspiritcharters/items/607185/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1750,
     "description": "For our friends who are having a hard time deciding between a day cruise and a sunset sail, Kindred Spirit is now offering an opportunity to enjoy both with a single booking. Come aboard after an early lunch or late breakfast on shore and join us for a day of activities at sea and watch the sunset while enjoying drinks and a gourmet charcuterie board.\n\nPick ups on the East End of St Thomas via dock or dinghy OR Cruz Bay National Park Dock on St John.\n\nWhat's included\n\nYour own private catamaran\n\nCaptain and crew\n\nFruit platter in the early afternoon\n\nCharcuterie board in the late afternoon\n\nLarge cooler stocked with a variety of beer and soft drinks.\n\nOpen bar (basic bar onboard)\n\nFuel and water\n\nSnorkel gear\n\nTwo standup paddleboards\n\nFloats\n\nBluetooth hook up for preferred tunes\n\nWhat's not included\n\nSunscreen (no aerosol sunscreen please)\n\nTowels\n\nCrew Gratuity (min 20% required)\n\nItinerary\n\nItinerary is typically made once on board to account for the entire group's preferences and current weather conditions. You can expect 2-4 stops depending on time spent at each location. Snorkeling, sailing, beach hopping and more can be expected for a fun-filled adventure.\n\nCancellations",
     "duration": 420,
     "durationText": "",
@@ -15161,8 +15179,8 @@
     ],
     "descriptionRaw": "USVI Day Trip with Sunset Sail - Kindred Spirit II\n\nAll Ages • 7 Hours • Up to 12 Passengers\n\n$1,750\n\tPrivate Charter\nPrice includes 6 guests.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Your own private catamaran",
       "Captain and crew",
@@ -15297,7 +15315,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/8ebz4yJPS5a0e08kTGIc",
     "bookingLink": "https://fareharbor.com/embeds/book/topshot/items/665505/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1400,
     "description": "Embark on the ultimate deep-sea fishing adventure with a Full Day Charter aboard the \"Top Shot,\" a 2025 27ft Deep V Hull vessel built for performance and comfort. This 8-hour excursion is designed for up to four passengers, offering an unparalleled day on the water. We provide everything for your full-day adventure, including all fishing equipment, bait, and tackle. Your safety is our priority, and all necessary safety equipment is on board. Enjoy VIP treatment and a delicious lunch while we explore the best deep-sea fishing spots. At the end of your trip, we'll even take care of the fish cleaning, so you can relax and enjoy the memories of an epic day on the open sea.\n\nWhat's included\n\nProfessional fishing rods and reels\n\nAll tackle and bait\n\nCoolers for drinks and catch\n\nBottled water included\n\nSafety equipment and first aid\n\nFish cleaning and filleting (up to 20lbs)\n\nProfessional guidance and instruction\n\nLunch\n\nAdditional information\nFAQs\nCancellations",
     "duration": 480,
     "durationText": "",
@@ -15313,8 +15331,8 @@
       "https://cdn.filestackcontent.com/8ebz4yJPS5a0e08kTGIc/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Professional fishing rods and reels",
       "All tackle and bait",
@@ -15731,7 +15749,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/nXy1TCUfTsCBfFOBuiBt",
     "bookingLink": "https://fareharbor.com/embeds/book/summerwindadventures/items/487208/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 6995,
     "description": "Augustine, Cumberland Island, and Amelia Island\n\nPrivate sailing charter for 1, 2, or 3 nights aboard\n\n1, 2 and 3 night Private Sailing Adventure Sailing, snorkeling, and exploring secluded beaches, bays, and coves. Overnight and Multi-day Private Sailing Adventures\n\nOne day, 24 hours aboard, for up to 4 guests for $2,995. Our itinerarie for multi-day sailing adventures are customized to meet our guest’s desires.",
     "duration": null,
     "durationText": "",
@@ -15756,8 +15774,8 @@
     ],
     "descriptionRaw": "Augustine, Cumberland Island, and Amelia Island\n\nPrivate sailing charter for 1, 2, or 3 nights aboard\n\n1, 2 and 3 night Private Sailing Adventure Sailing, snorkeling, and exploring secluded beaches, bays, and coves. Overnight and Multi-day Private Sailing Adventures\n\nOne day, 24 hours aboard, for up to 4 guests for $2,995. Our itinerarie for multi-day sailing adventures are customized to meet our guest’s desires.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "510184",
@@ -15863,7 +15881,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/LgZZ6NtSHqRhTMH6hmtL",
     "bookingLink": "https://fareharbor.com/embeds/book/beachchartersvi/items/556346/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1350,
     "description": "Embark on an unforgettable day on the beautiful Caribbean Sea aboard one of our spacious catamarans. Designed to accommodate up to 12 guests comfortably, these vessels provide the perfect setting for a day of relaxation and exploration.\n\nSoak up the sun on the bow trampolines or find shade and a cool breeze in the fully-covered cockpit with ample seating.\n\nOn the day of your charter, we’ll collaborate with you to craft a personalized itinerary that caters to your preferences. Your day could include multiple snorkeling spots to see vibrant marine life and stunning coral reefs, relaxing on pristine white sandy beaches, or visiting some of the Caribbean’s most famous beach bars and restaurants.\n\nCancellations",
     "duration": null,
     "durationText": "",
@@ -15887,8 +15905,9 @@
       "https://cdn.filestackcontent.com/KXdY0RW0RtCuValwh7sO/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "556358",
@@ -16078,7 +16097,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/LeuLwtWTEWKoPyoDyX8k",
     "bookingLink": "https://fareharbor.com/embeds/book/kindredspiritcharters/items/607208/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1550,
     "description": "Experience the best day trips in the US Virgin Islands. Day trips include sailing, snorkel stops, paddle boarding as well as relaxing on board with a delicious lunch stop. Grab tacos at Lime Out, eat at Lovango Resort & Beach Club on a private island or grab a freshly baked pizza from Pizza PI, the pizza boat in Christmas Cove. Hop aboard and enjoy a day filled with adventure and fun in the sun!\n\nPick ups on the East End of St Thomas via dock or dinghy OR Cruz Bay National Park Dock on St John.\n\nWhat's included\n\nYour own private catamaran\n\nCaptain and crew\n\nFruit platter in the morning\n\nLarge cooler stocked with a variety of beer and soft drinks.\n\nOpen bar (basic bar onboard)\n\nFuel and water\n\nSnorkel gear\n\nTwo standup paddleboards\n\nFloats\n\nBluetooth hook up for preferred tunes\n\nWhat's not included\n\nSunscreen (no aerosol sunscreen please)\n\nTowels\n\nCrew Gratuity (min 20% required)\n\nItinerary\n\nItinerary is typically made once on board to account for the entire group's preferences and current weather conditions. You can expect 2-4 stops depending on time spent at each location. Snorkeling, sailing, beach hopping and more can be expected for a fun-filled adventure.\n\nCancellations",
     "duration": 420,
     "durationText": "",
@@ -16103,8 +16122,8 @@
     ],
     "descriptionRaw": "USVI Full Day Trip - Intrepid\n\nAll Ages • 7 Hours • Up to 12 Passengers\n\n$1,550\n\tPrivate Charter\nPrice includes 6 guests.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Your own private catamaran",
       "Captain and crew",
@@ -16127,7 +16146,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/dB4k4lTr6RMTR2JgiZ5A",
     "bookingLink": "https://fareharbor.com/embeds/book/kindredspiritcharters/items/607210/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1750,
     "description": "For our friends who are having a hard time deciding between a day cruise and a sunset sail, Kindred Spirit is now offering an opportunity to enjoy both with a single booking. Come aboard after an early lunch or late breakfast on shore and join us for a day of activities at sea and watch the sunset while enjoying drinks and a gourmet charcuterie board.\n\nPick ups on the East End of St Thomas via dock or dinghy OR Cruz Bay National Park Dock on St John.\n\nWhat's included\n\nYour own private catamaran\n\nCaptain and crew\n\nFruit platter in the early afternoon\n\nCharcuterie board in the late afternoon\n\nLarge cooler stocked with a variety of beer and soft drinks.\n\nOpen bar (basic bar onboard)\n\nFuel and water\n\nSnorkel gear\n\nTwo standup paddleboards\n\nFloats\n\nBluetooth hook up for preferred tunes\n\nWhat's not included\nSunscreen (no aerosol sunscreen please)\nTowels\nCrew Gratuity (min 20% required)\nItinerary\n\nItinerary is typically made once on board to account for the entire group's preferences and current weather conditions. You can expect 2-4 stops depending on time spent at each location. Snorkeling, sailing, beach hopping and more can be expected for a fun-filled adventure.\n\nCancellations",
     "duration": 420,
     "durationText": "",
@@ -16151,8 +16170,8 @@
     ],
     "descriptionRaw": "USVI Day Trip with Sunset Sail - Intrepid\n\nAll Ages • 7 Hours • Up to 12 Passengers\n\n$1,750\n\tPrivate Charter\nPrice includes 6 guests.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Your own private catamaran",
       "Captain and crew",
@@ -16293,7 +16312,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/gAbly7LHTpCpBEQNI6dx",
     "bookingLink": "https://fareharbor.com/embeds/book/kindredspiritcharters/items/607228/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2350,
     "description": "BVI Full Day Trip to Jost Van Dyke - Intrepid\n\nAll Ages • 7 Hours • Up to 12 Passengers\n\n$2,350\n Private Charter\nPrice includes 6 guests. East End, St Thomas or Cruz Bay, St John\nActivity details\nAdditional information",
     "duration": 420,
     "durationText": "",
@@ -16318,8 +16337,8 @@
     ],
     "descriptionRaw": "BVI Full Day Trip to Jost Van Dyke - Intrepid\n\nAll Ages • 7 Hours • Up to 12 Passengers\n\n$2,350\n\tPrivate Charter\nPrice includes 6 guests. East End, St Thomas or Cruz Bay, St John\nActivity details\nAdditional information\nCheck-in details\n\nALL GUESTS MUST BRING VALID PASSPORTS!",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "662687",
@@ -16365,7 +16384,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/XaHGRqzQS1aJ9CyhRi3X",
     "bookingLink": "https://fareharbor.com/embeds/book/topshot/items/665503/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1100,
     "description": "Embark on an unforgettable 3/4 Day Charter aboard the \"Top Shot,\" a 2025 27ft Deep V Hull vessel built for performance and comfort. This 6-hour excursion offers an extended fishing experience, allowing you to explore multiple prime spots in the Caribbean. Designed for up to four passengers, this is a truly premium adventure. We provide everything you need for a successful day, including all fishing equipment, bait, and tackle. Your safety is our priority, and all necessary safety equipment is on board. A delicious lunch is included, and at the end of your trip, we'll even take care of the fish cleaning. Get ready for an extended day of excitement and beauty on the open sea.\n\nWhat's included\n\nProfessional fishing rods and reels\n\nAll tackle and bait\n\nCoolers for drinks and catch\n\nBottled water included\n\nSafety equipment and first aid\n\nFish cleaning and filleting (up to 20lbs)\n\nProfessional guidance and instruction\n\nLunch\n\nAdditional information\nFAQs\nCancellations",
     "duration": 360,
     "durationText": "",
@@ -16381,8 +16400,8 @@
       "https://cdn.filestackcontent.com/yHiemPTJvMtkksdDGFQw/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Professional fishing rods and reels",
       "All tackle and bait",
@@ -16391,7 +16410,8 @@
       "Safety equipment and first aid",
       "Fish cleaning and filleting (up to 20lbs)",
       "Professional guidance and instruction"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "688793",
@@ -16402,7 +16422,7 @@
     "tags": [],
     "image": "",
     "bookingLink": "https://fareharbor.com/embeds/book/andbeyondyachtcharters/items/688793/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1850,
     "description": "Step aboard your private Hammercat and experience the British Virgin Islands exactly as they’re meant to be explored—fast, smooth, and in total comfort. Perfect for a half-day escape, this charter allows you to visit top snorkeling spots, pristine beaches, or iconic destinations such as the Willy T or nearby cays, all guided by your experienced captain.\n\nWith ample shade, plush seating, and generous deck space, you’ll enjoy a relaxed and customizable few hours on the water. Whether you’re looking for a quick island adventure, a refreshing swim, or a laid-back cruise with a cocktail in hand, this BVI half-day charter delivers a seamless blend of luxury, flexibility, and fun for all ages.\n\nWhat's included\n\nProfessional licensed captain\n\nAll customs and immigration fees\n\nAll fuel costs\n\nComplimentary beer, Painkillers, soda, and bottled water\n\nPremium snorkeling gear\n\nCooler with ice\n\nHigh-quality sound system\n\nOnboard safety equipment\n\nFlexible itinerary customized to your group\n\nWhat's not included\n\nMeals or lunch at beach bars/restaurants during your island stops\n\nGratuity for the captain (typically 15-20%)\n\nTransporta",
     "duration": 210,
     "durationText": "",
@@ -16417,8 +16437,9 @@
       "https://cdn.filestackcontent.com/Gkd1EsqTI6sdEcBSixZB/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "688794",
@@ -16429,7 +16450,7 @@
     "tags": [],
     "image": "",
     "bookingLink": "https://fareharbor.com/embeds/book/andbeyondyachtcharters/items/688794/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2500,
     "description": "Step aboard your private Hammercat and experience the British Virgin Islands exactly as they’re meant to be explored—fast, smooth, and in total comfort. Your captain will guide you to world-class snorkeling spots, secluded beaches, and iconic stops like the Willy T, The Baths, or Jost Van Dyke.\n\nWith ample shade, plush seating, and plenty of deck space, you’ll enjoy a relaxed, customizable day on the water. Whether you’re chasing adventure, soaking up the sun, or island-hopping with a cocktail in hand, this BVI day charter delivers the perfect blend of luxury, flexibility, and fun for all ages.\n\nWhat's included\n\nProfessional licensed captain\n\nAll customs and immigration fees\n\nAll fuel costs\n\nComplimentary beer, Painkillers, soda, and bottled water\n\nPremium snorkeling gear\n\nCooler with ice\n\nHigh-quality sound system\n\nOnboard safety equipment\n\nFlexible itinerary customized to your group\n\nWhat's not included\n\nMeals or lunch at beach bars/restaurants during your island stops\n\nGratuity for the captain (typically 15-20%)\n\nTransportation to and from the marina\n\nPersonal items such as sunscreen, hats, towels, or rash guards\n\nItinerary\n\nThis is a",
     "duration": 420,
     "durationText": "",
@@ -16444,8 +16465,9 @@
       "https://cdn.filestackcontent.com/Gkd1EsqTI6sdEcBSixZB/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "46259",
@@ -17069,7 +17091,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/xivOgtGTZmZ6uWw2WEwQ",
     "bookingLink": "https://fareharbor.com/embeds/book/driftcharters/items/666372/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1400,
     "description": "Spend a full day on the water (7 am–3 pm) chasing pelagic species along the North Drop or South Drop. Fish with an experienced captain who provides bait, tackle, fuel and ice so you can focus on the action; bottled water is supplied to keep you refreshed. At the end of the trip your captain will clean and bag your catch so you leave with fresh fish ready to take home. This private charter is ideal for anglers seeking a dedicated day of offshore fishing.\n\nWhat's included\n\nFuel\n\nCaptain fee\n\nBait\n\nIce\n\nBottled water\n\nTackle\n\nWhat's not included\n\nGratuity to the captain (20% standard)\n\nHighlights\nFull-day offshore fishing targeting pelagic species\nCaptain cleans and bags your catch at trip end\nPrivate charter for up to six passengers\nAdditional information\nCancellations",
     "duration": 480,
     "durationText": "",
@@ -17101,8 +17123,8 @@
     ],
     "descriptionRaw": "John, or Lovango, USVI\nAge\n4+\nGroup size\nUp to 6 passengers\nActivity details\nAdditional information\nCheck-in details\n\nMeeting points available in St. What to bring\n\nSun protection (hat, sunglasses, sunscreen- non-aerosol only)\n\nAny other food or drink items you would like\n\nA great attitude\n\nDisclaimers\n\nSchedule and fishing location (North Drop or South Drop) may vary with weather and sea conditions.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "377253",
@@ -17336,7 +17358,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/6nIJNKNTZ6H9ARCNvcaA",
     "bookingLink": "https://fareharbor.com/embeds/book/driftcharters/items/647481/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1800,
     "description": "John, USVI (select meeting location at checkout)\nAge\n4+\nGroup size\n6 people max\nActivity details\nAdditional information\nCheck-in details\n\nMeeting locations in St. What to bring\n\nSun protection (hat, sunglasses, sunscreen- non-aerosol only)\n\nAny other food or drink items you would like\n\nA great attitude\n\nTowels\n\nSpecial requirements\n\nMinimum age of 4 years old for all fishing charters.",
     "duration": 480,
     "durationText": "",
@@ -17362,8 +17384,8 @@
     ],
     "descriptionRaw": "John, USVI (select meeting location at checkout)\nAge\n4+\nGroup size\n6 people max\nActivity details\nAdditional information\nCheck-in details\n\nMeeting locations in St. What to bring\n\nSun protection (hat, sunglasses, sunscreen- non-aerosol only)\n\nAny other food or drink items you would like\n\nA great attitude\n\nTowels\n\nSpecial requirements\n\nMinimum age of 4 years old for all fishing charters.",
     "descriptionQuality": "original",
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "679197",
@@ -17402,7 +17424,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/ZzPE7LSoeGNqNun3w0AA",
     "bookingLink": "https://fareharbor.com/embeds/book/beachchartersvi/items/720337/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1100,
     "description": "Discover the wonders of the US Virgin Islands on a thrilling day trip aboard Her Deal- Power Boat.\n\nDuration\n\nEight Hours\n\nIncluded in your Booking\nIce-cold sodas, water\n1-12 pack of light beer\nOne gallon of Painkiller or Rum Punch\nExclusive access to hidden gems inaccessible to larger vessels\nNot Included\nFuel\nAdditional alcohol\n\nGratuities not included (20% industry standard)\n\nCancellations",
     "duration": null,
     "durationText": "",
@@ -17425,15 +17447,16 @@
       "https://cdn.filestackcontent.com/mGihH346QCGP8cep8ERV/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Ice-cold sodas, water",
       "1-12 pack of light beer",
       "One gallon of Painkiller or Rum Punch",
       "Exclusive access to hidden gems inaccessible to larger vessels",
       "Additional alcohol"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "720338",

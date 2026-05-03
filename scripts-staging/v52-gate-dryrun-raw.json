@@ -1,0 +1,3251 @@
+[
+  {
+    "id": "2103",
+    "name": "Sunset & Harbor Lights Dinner Sail from the Marriott's Frenchman's Cove",
+    "capturedPrice": 109,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 109,
+    "reExtractConfidence": "high",
+    "reExtractLabel": "per adult",
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "377266",
+    "name": "Jet Ski Rental",
+    "capturedPrice": 140,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 140,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        140
+      ],
+      "capturedMatchToken": "$140",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $140 Yamaha VX-C 2024 (Recommended) Single o",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "196766",
+    "name": "Red Hook to St John Snorkel, Beach Charter Aboard MV Island Flyer",
+    "capturedPrice": 140,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 140,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        140
+      ],
+      "capturedMatchToken": "$140",
+      "contextWindow": "to TripAdvisor travelers as of May 2026 $140 People All Ages Prices for Monday, May ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "30025",
+    "name": "Package #3: Sightseeing, Shopping & Swimming Excursion",
+    "capturedPrice": 70,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 70,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        70
+      ],
+      "capturedMatchToken": "$70.00",
+      "contextWindow": ", Shopping & Swimming Excursion Rate... $70.00 | 5-6 Hours | Ages 3 to adult. | Most P",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "536583",
+    "name": "Pizza Pi - Jet Ski",
+    "capturedPrice": 175,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "102397",
+    "name": "Baths, Virgin Gorda and White Bay, JVD (BVI trip)",
+    "capturedPrice": 300,
+    "priceLabel": "unknown",
+    "auditCategory": "G",
+    "source": "cached",
+    "reExtractPrice": 300,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        300
+      ],
+      "capturedMatchToken": "$300",
+      "contextWindow": "M T W Th F S 26 27 28 29 30 1 2 3 4 5 6 $300 7 8 9 $300 10 11 $300 12 13 $300 14 15 ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "292330",
+    "name": "Full Day Aboard Sailing Catamaran SY Mazu or SY Neptune",
+    "capturedPrice": 1495,
+    "priceLabel": "unknown",
+    "auditCategory": "F",
+    "source": "cached",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "102398",
+    "name": "Sail and Explore Jost Van Dyke (BVI trip)",
+    "capturedPrice": 270,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 270,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        270
+      ],
+      "capturedMatchToken": "$270",
+      "contextWindow": " Su M T W Th F S 26 27 28 29 30 1 2 3 4 $270 5 6 $270 7 8 9 10 11 12 13 14 $270 15 1",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "266857",
+    "name": "Circle St. John & Food Boat Tour (USVI only)",
+    "capturedPrice": 220,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "340838",
+    "name": "Private (37' Axopar's)",
+    "capturedPrice": 1300,
+    "priceLabel": "unknown",
+    "auditCategory": "F",
+    "source": "cached",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "161648",
+    "name": "Full Day (6-8 hours) Private - 27' Hydra Sport",
+    "capturedPrice": 1000,
+    "priceLabel": "unknown",
+    "auditCategory": "F",
+    "source": "cached",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "589096",
+    "name": "Sunset Champagne Charter 50' Luxury Voyage Catamaran",
+    "capturedPrice": 995,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 995,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        50,
+        995
+      ],
+      "capturedMatchToken": "$995",
+      "contextWindow": "to TripAdvisor travelers as of May 2026 $995 Group Charter Up to 6 people • $50 addi",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "190947",
+    "name": "58' Princess Yachts - Luxury Yacht Charter (Enchantment) USVI trips only",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 50,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        50
+      ],
+      "capturedMatchToken": "$50",
+      "contextWindow": "city of 12 guests, each guest over six +$50. All Ages Welcome What's included Capta",
+      "disqualifierToken": "+$"
+    }
+  },
+  {
+    "id": "578452",
+    "name": "Try Scuba Pool Time",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 50,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        50
+      ],
+      "capturedMatchToken": "$50",
+      "contextWindow": "ut will also get the second dive free! ($50 savings) Additional information Cancell",
+      "disqualifierToken": "additional"
+    }
+  },
+  {
+    "id": "181500",
+    "name": "1/2 Day (4 hours) Private - 27' Hydra Sport",
+    "capturedPrice": 800,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "190946",
+    "name": "37' Intrepid with Triple 350 Yamaha Engines (Max'd Out/ Carried Away)",
+    "capturedPrice": 200,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 200,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        50,
+        200,
+        600,
+        1350
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "476508",
+    "name": "Private Sunset Night Snorkeling Charter",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 50,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        50
+      ],
+      "capturedMatchToken": "$50",
+      "contextWindow": " a truly special evening on the water. ($50 pp above 15 passenger). Watch the sunse",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "112436",
+    "name": "Parasailing (Departs from Christiansted, St. Croix)",
+    "capturedPrice": 95,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "144045",
+    "name": "Dolphin Moment",
+    "capturedPrice": 71,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "170659",
+    "name": "Afternoon 2-Tank Scuba Dive",
+    "capturedPrice": 20,
+    "priceLabel": "unknown",
+    "auditCategory": "E",
+    "source": "cached",
+    "reExtractPrice": 20,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        20,
+        200
+      ],
+      "capturedMatchToken": "$20",
+      "contextWindow": "Rental gear (besides weights/tanks) is +$20 Divers can get Nitrox Certified Close S",
+      "disqualifierToken": "+$"
+    }
+  },
+  {
+    "id": "591476",
+    "name": "Lovango Beach Club Afternoon",
+    "capturedPrice": 850,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 850,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        850,
+        1195
+      ],
+      "capturedMatchToken": "$850",
+      "contextWindow": "s, 4 Hours 4.4 stars 141 Google reviews $850 30' Power Catamaran Holds up to 8 peopl",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "602576",
+    "name": "St John or St Thomas Jeep Tour - Full Day",
+    "capturedPrice": 595,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 595,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        595
+      ],
+      "capturedMatchToken": "$595",
+      "contextWindow": "ustomized Itinerary to suit your group! $595 Jeep Tour - St John or St Thomas Up to ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "8234",
+    "name": "Sea Lion Encounter",
+    "capturedPrice": 119,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "147126",
+    "name": "Buck Island & Water Island Shared Charter: Snorkel & Swim with Turtles",
+    "capturedPrice": 130,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 130,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        130
+      ],
+      "capturedMatchToken": "$130",
+      "contextWindow": "to TripAdvisor travelers as of May 2026 $130 People All Ages Prices for Monday, May ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "211088",
+    "name": "Single Sit-On-Top Kayak Rental",
+    "capturedPrice": 35,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 35,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        35,
+        200
+      ],
+      "capturedMatchToken": "$35",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $35 One Hour $200 Weekly 7 Days Prices for ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "45210",
+    "name": "Parasailing (Departs from Cruz Bay, St. John)",
+    "capturedPrice": 130,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 130,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        5,
+        40,
+        70,
+        130
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "102399",
+    "name": "The Baths, Cooper & Norman Island (BVI trip)",
+    "capturedPrice": 300,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 300,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        300
+      ],
+      "capturedMatchToken": "$300",
+      "contextWindow": "to TripAdvisor travelers as of May 2026 $300 People Prices for Tuesday, May 5, 2026 ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "114303",
+    "name": "32' Intrepid with Twin 300 Yamaha Engines (Cruzomian)",
+    "capturedPrice": 150,
+    "priceLabel": "unknown",
+    "auditCategory": "F",
+    "source": "cached",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "185836",
+    "name": "Half Day 50' Private Sailing Catamaran | Luxury, Beach & Snorkel",
+    "capturedPrice": 25,
+    "priceLabel": "unknown",
+    "auditCategory": "G",
+    "source": "cached",
+    "reExtractPrice": 1495,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "charter",
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "185842",
+    "name": "Full Day 50' Private Sailing Catamaran | Luxury, Beach & Snorkel",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "414427",
+    "name": "USVI Private Half Day",
+    "capturedPrice": 899,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 899,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        50,
+        150,
+        200,
+        400,
+        600,
+        899
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "601987",
+    "name": "St Thomas Jeep Tour Half Day",
+    "capturedPrice": 449,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 449,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        449
+      ],
+      "capturedMatchToken": "$449",
+      "contextWindow": "ustomized Itinerary to suit your group! $449 5 Hour Jeep Tour Up to 4 guests Prices ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "170950",
+    "name": "Rescue Diver Certification",
+    "capturedPrice": 150,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 150,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        150
+      ],
+      "capturedMatchToken": "$150",
+      "contextWindow": "e students may be charged an additional $150 for private instruction at our discreti",
+      "disqualifierToken": "additional"
+    }
+  },
+  {
+    "id": "194495",
+    "name": "Kayak & SUP Rentals - St. John",
+    "capturedPrice": 200,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 200,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        12,
+        55,
+        200,
+        220,
+        250
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "211109",
+    "name": "East End Stand Up Paddle Board Excursion",
+    "capturedPrice": 110,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 110,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        110
+      ],
+      "capturedMatchToken": "$110",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $110 People - Kayak Ages 4+ $110 People - Pa",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "476796",
+    "name": "Snorkeling with Sea Turtles - St. Thomas",
+    "capturedPrice": 79,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 119,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        119
+      ],
+      "capturedMatchToken": "$119",
+      "contextWindow": " Free cancellation Instant confirmation $119 Persons All Ages Prices for Monday, May",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "8237",
+    "name": "Shark Encounter",
+    "capturedPrice": 64,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "211099",
+    "name": "East End Kayaking Excursion",
+    "capturedPrice": 110,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 110,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        110
+      ],
+      "capturedMatchToken": "$110",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $110 People Ages 6+ Prices for Wednesday, Ma",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "274477",
+    "name": "Kayak Rental - Glass Bottom Kayak",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": "B",
+    "source": "cached",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        50,
+        75,
+        80,
+        108,
+        120
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "274479",
+    "name": "Kayak Rental - Sit On Top Ocean Kayak",
+    "capturedPrice": 64,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 64,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        30,
+        50,
+        64,
+        70,
+        86
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "414439",
+    "name": "USVI Private Sunset",
+    "capturedPrice": 125,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 675,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        25,
+        75,
+        125,
+        200,
+        400,
+        600,
+        675
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "672879",
+    "name": "2 Tank Boat Dive",
+    "capturedPrice": 225,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 225,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        225
+      ],
+      "capturedMatchToken": "$225",
+      "contextWindow": " 2030 2 Tank Boat Dive 2 Tank Boat Dive $225 People Prices for Monday, May 4, 2026 a",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "211118",
+    "name": "Hiking Excursion - Salt Pond and Drunk Bay",
+    "capturedPrice": 95,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 95,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        95
+      ],
+      "capturedMatchToken": "$95",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $95 People Ages 6+ Prices for Thursday, May",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "211131",
+    "name": "Hiking Excursion - Brown Bay",
+    "capturedPrice": 95,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 95,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        95
+      ],
+      "capturedMatchToken": "$95",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $95 People Ages 6+ Prices for Thursday, May",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "464915",
+    "name": "Full Day BVI Adventure",
+    "capturedPrice": 100,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 1650,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        100,
+        1650,
+        2150
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "464992",
+    "name": "Half Day USVI Adventure",
+    "capturedPrice": 995,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 995,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        995,
+        1195
+      ],
+      "capturedMatchToken": "$995",
+      "contextWindow": "nfirmation 4.4 stars 141 Google reviews $995 32' Intrepid Boat (32 ft.) Holds up to ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "558582",
+    "name": "Pizza Boat Afternoon",
+    "capturedPrice": 750,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 750,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        100,
+        750,
+        850
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "170949",
+    "name": "Advanced Open Water Diver Certification",
+    "capturedPrice": 200,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 200,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        150,
+        200
+      ],
+      "capturedMatchToken": "$200",
+      "contextWindow": "itrox Certified too - option available +$200 *Rates may vary on holiday dates* Pleas",
+      "disqualifierToken": "+$"
+    }
+  },
+  {
+    "id": "212043",
+    "name": "AM 1/2 Day Private Jeep Tour St Thomas",
+    "capturedPrice": 325,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 325,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        325
+      ],
+      "capturedMatchToken": "$325",
+      "contextWindow": " Free cancellation Instant confirmation $325 Private Jeeps Up to 4 People, Price for",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "212044",
+    "name": "PM 1/2 Day Private Jeep Tour St. Thomas",
+    "capturedPrice": 325,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 325,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        325
+      ],
+      "capturedMatchToken": "$325",
+      "contextWindow": " Free cancellation Instant confirmation $325 Private Jeeps Up to 4 People, Price for",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "369332",
+    "name": "Medline 9",
+    "capturedPrice": 1250,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 1250,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        1250
+      ],
+      "capturedMatchToken": "$1250",
+      "contextWindow": " Rental Time: Starting at 9:00am Price: $1250 Includes: Safety Equipment, Garmin GPS ",
+      "disqualifierToken": "rental"
+    }
+  },
+  {
+    "id": "421957",
+    "name": "Half Day Private Charter",
+    "capturedPrice": 277,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 277,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        277
+      ],
+      "capturedMatchToken": "$277",
+      "contextWindow": "! Nitrox Certification option available $277 (pre scheduled only) Our cooler is stoc",
+      "disqualifierToken": "nitrox"
+    }
+  },
+  {
+    "id": "442936",
+    "name": "New Seasons Watersport Drone Photoshoots- St.Thomas",
+    "capturedPrice": 190,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 190,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        60,
+        190,
+        230
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "484579",
+    "name": "Sailing Adventures (Full & Half Day) in  the Virgin Islands",
+    "capturedPrice": 225,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 225,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        49,
+        75,
+        99,
+        225,
+        349,
+        1350,
+        2094
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "662320",
+    "name": "Multi Beach Adventure",
+    "capturedPrice": 500,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 500,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        500
+      ],
+      "capturedMatchToken": "$500",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $500 Jeeps Fits up to 4 passengers Prices fo",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "662539",
+    "name": "Night Snorkel Adventure",
+    "capturedPrice": 300,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "662575",
+    "name": "Secret Beaches & Caves Boat Charter",
+    "capturedPrice": 800,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 800,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        200,
+        800
+      ],
+      "capturedMatchToken": "$800",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $800 Groups Includes up to 4 people per grou",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "662582",
+    "name": "Beach Break in St. Thomas",
+    "capturedPrice": 300,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "662601",
+    "name": "Island Jeep Excursion",
+    "capturedPrice": 500,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "662679",
+    "name": "Beach Rum & Beer Tour",
+    "capturedPrice": 500,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 500,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        500
+      ],
+      "capturedMatchToken": "$500",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $500 Jeeps Fits up to 4 passengers Prices fo",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "662706",
+    "name": "Turtle Boat Excursion",
+    "capturedPrice": 800,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 800,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        200,
+        800
+      ],
+      "capturedMatchToken": "$800",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $800 Groups Includes up to 4 people per grou",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "662709",
+    "name": "St. John Boat Charter",
+    "capturedPrice": 800,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 800,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        200,
+        800
+      ],
+      "capturedMatchToken": "$800",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $800 Groups Includes up to 4 people per grou",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "662710",
+    "name": "Secret Beach Hike & Snorkel",
+    "capturedPrice": 800,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 800,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        200,
+        800
+      ],
+      "capturedMatchToken": "$800",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $800 Groups Includes up to 4 people per grou",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "662715",
+    "name": "SUP & Snorkel Tour",
+    "capturedPrice": 800,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 800,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        200,
+        800
+      ],
+      "capturedMatchToken": "$800",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $800 Groups Includes up to 4 people per grou",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "170944",
+    "name": "Open Water Dive Certification",
+    "capturedPrice": 400,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 400,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        300,
+        400,
+        500
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "529079",
+    "name": "Children's Botanical Garden in St. Thomas USVI",
+    "capturedPrice": 70,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 70,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        70
+      ],
+      "capturedMatchToken": "$70.15",
+      "contextWindow": "n's Botanical Garden in St. Thomas USVI $70.15 Group (3 People) Family of 3 with Trans",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "615474",
+    "name": "Elopement & Engagement Photography",
+    "capturedPrice": 750,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 750,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        750,
+        1500,
+        2250,
+        3000,
+        3750
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "615491",
+    "name": "Family & Couples Photoshoots",
+    "capturedPrice": 750,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 750,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        750,
+        1500,
+        2250,
+        3000,
+        3750
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "648780",
+    "name": "Half Day Lime Out Taco Trip",
+    "capturedPrice": 850,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 100,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        100
+      ],
+      "capturedMatchToken": "$100",
+      "contextWindow": "up to 12 people. There is an additional $100 charge after 6 passengers on each boat.",
+      "disqualifierToken": "additional"
+    }
+  },
+  {
+    "id": "170656",
+    "name": "Morning 2-Tank Scuba Dive",
+    "capturedPrice": 271,
+    "priceLabel": "unknown",
+    "auditCategory": "E",
+    "source": "cached",
+    "reExtractPrice": 271,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        271
+      ],
+      "capturedMatchToken": "$271",
+      "contextWindow": "Certified this trip - option available +$271 Please be aware we need to Close Secure",
+      "disqualifierToken": "+$"
+    }
+  },
+  {
+    "id": "491003",
+    "name": "Guided Jet Ski Tours",
+    "capturedPrice": 149,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "194434",
+    "name": "Snorkel Gear Rentals - St. John",
+    "capturedPrice": 55,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 55,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        12,
+        55
+      ],
+      "capturedMatchToken": "$55",
+      "contextWindow": "kel Gear Rentals – St. John $12 per day $55 per week Sizing Men’s, women’s, and chi",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "334293",
+    "name": "The Salty Piracy Adventure",
+    "capturedPrice": 349,
+    "priceLabel": "unknown",
+    "auditCategory": "F",
+    "source": "cached",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "411764",
+    "name": "PM 1/2 Day Private Jeep Tour St John",
+    "capturedPrice": 99,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "424579",
+    "name": "Full Day USVI Adventure",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 1500,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        50,
+        1500
+      ],
+      "capturedMatchToken": "$1,500",
+      "contextWindow": " to 12. Duration & Rates Full Day USVI: $1,500 (7 hours) Fees • Fuel (charged based up",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "607533",
+    "name": "USVI Full Day",
+    "capturedPrice": 100,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 100,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        100
+      ],
+      "capturedMatchToken": "$100",
+      "contextWindow": "cluded in base price. Additional guests $100 each up to the legal max 12 guests rega",
+      "disqualifierToken": "additional"
+    }
+  },
+  {
+    "id": "172285",
+    "name": "Open Water Dive Referral Course",
+    "capturedPrice": 150,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 150,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        45,
+        150
+      ],
+      "capturedMatchToken": "$150",
+      "contextWindow": "nstruction may be an additional cost of $150 Certification sessions require a minimu",
+      "disqualifierToken": "additional"
+    }
+  },
+  {
+    "id": "211126",
+    "name": "Hiking and Snorkeling Excursion - Waterlemon Cay",
+    "capturedPrice": 95,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 95,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        95
+      ],
+      "capturedMatchToken": "$95",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $95 People Ages 6+ Prices for Thursday, May",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "411756",
+    "name": "AM 1/2 Day Private Jeep Tour St John",
+    "capturedPrice": 325,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 325,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        30,
+        99,
+        325
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "464969",
+    "name": "Full Day USVI Adventure",
+    "capturedPrice": 100,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 1295,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        100,
+        1295,
+        1595
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "564306",
+    "name": "Guided Kayak Tour from Elysian",
+    "capturedPrice": 40,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 40,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        40
+      ],
+      "capturedMatchToken": "$40",
+      "contextWindow": "Up to 8 People • Our most popular trip! $40 Person Prices for Sunday, May 3, 2026 a",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "334765",
+    "name": "Private St John Tour including Trunk Bay from St. Thomas",
+    "capturedPrice": 456,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 456,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        456
+      ],
+      "capturedMatchToken": "$456",
+      "contextWindow": "our including Trunk Bay from St. Thomas $456 Private Groups (1-3 people) Prices for ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "334774",
+    "name": "Private St John Tour including Trunk Bay from St. John",
+    "capturedPrice": 527,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "421802",
+    "name": "Full Day Private Charter",
+    "capturedPrice": 200,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 200,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        200
+      ],
+      "capturedMatchToken": "$200",
+      "contextWindow": "! Nitrox Certification option available $200 In addition to snorkeling and certified",
+      "disqualifierToken": "nitrox"
+    }
+  },
+  {
+    "id": "614944",
+    "name": "Half Day USVI - Innovation II",
+    "capturedPrice": 995,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 995,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        995
+      ],
+      "capturedMatchToken": "$995",
+      "contextWindow": "Full Shade 4.4 stars 141 Google reviews $995 32' Custom Built Power Catamaran Holds ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "665446",
+    "name": "Surfboard Rentals",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        75,
+        200
+      ],
+      "capturedMatchToken": "$75",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $75 One Day Rentals $200 One Week Rentals P",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "665457",
+    "name": "SUP Rentals",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        75,
+        200
+      ],
+      "capturedMatchToken": "$75",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $75 One Day Rentals $200 One Week Rentals P",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "194421",
+    "name": "Kayak & SUP Rentals - St. Thomas",
+    "capturedPrice": 20,
+    "priceLabel": "unknown",
+    "auditCategory": "F",
+    "source": "cached",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "599922",
+    "name": "USVI Half Day",
+    "capturedPrice": 100,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 1900,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "charter",
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "599934",
+    "name": "BVI Full Day",
+    "capturedPrice": 100,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 3100,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "charter",
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "615132",
+    "name": "Half Day USVI - Shiloh",
+    "capturedPrice": 995,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 995,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        995
+      ],
+      "capturedMatchToken": "$995",
+      "contextWindow": "passengers 4.4 stars 141 Google reviews $995 30' Power Catamaran Holds up to 8 peopl",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "200902",
+    "name": "Snorkel Gear Rental – St. Thomas",
+    "capturedPrice": 24,
+    "priceLabel": "unknown",
+    "auditCategory": "G",
+    "source": "cached",
+    "reExtractPrice": 55,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        12,
+        55
+      ],
+      "capturedMatchToken": "$55",
+      "contextWindow": "confirmation Loading Prices $12 per day $55 per week What's Included Everything you",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "599942",
+    "name": "Champagne and Charcuterie Sunset",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 1400,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        50,
+        1400
+      ],
+      "capturedMatchToken": "$1,400",
+      "contextWindow": " Caribbean Sunset Magic • Fuel Included $1,400 Sunset Cruise 2+ hours • Fuel Included ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "622183",
+    "name": "Black Jeep Wrangler Sport 4x4",
+    "capturedPrice": 150,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 150,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        150
+      ],
+      "capturedMatchToken": "$150",
+      "contextWindow": "k Jeep Wrangler Sport 4x4 18+ to Book • $150 a day • Rent a Jeep to get you around b",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "622386",
+    "name": "White Honda HRV",
+    "capturedPrice": 85,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 85,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        85
+      ],
+      "capturedMatchToken": "$85",
+      "contextWindow": "ilability White Honda HRV 18+ to Book • $85 a day • Rent our White Honda HRV to get",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "622387",
+    "name": "Blue Honda HRV (Mid Size)",
+    "capturedPrice": 85,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 85,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        85
+      ],
+      "capturedMatchToken": "$85",
+      "contextWindow": "Blue Honda HRV (Mid Size) 18+ to Book • $85 a Day • Rent our Blue Honda HRV to get ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "622389",
+    "name": "White Toyota Corolla (Sedan)",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        75
+      ],
+      "capturedMatchToken": "$75",
+      "contextWindow": "te Toyota Corolla (Sedan) 18+ to Book • $75 a Day • Rent our White Toyota Corolla t",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "622391",
+    "name": "Black Toyota Corolla (Sedan)",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        75
+      ],
+      "capturedMatchToken": "$75",
+      "contextWindow": "ck Toyota Corolla (Sedan) 18+ to Book • $75 a Day • Rent our Black Toyota Corolla t",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "622393",
+    "name": "Red Toyota Sienna (Mini Van)",
+    "capturedPrice": 120,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 120,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        120
+      ],
+      "capturedMatchToken": "$120",
+      "contextWindow": " Toyota Sienna (Mini Van) 18+ to Book • $120 a Day • Rent our Toyota Sienna to get y",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "622395",
+    "name": "Red Toyota CHR (Compact)",
+    "capturedPrice": 85,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 85,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        85
+      ],
+      "capturedMatchToken": "$85",
+      "contextWindow": " Red Toyota CHR (Compact) 18+ to Book • $85 a Day • Rent our Toyota CHR to get you ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "622399",
+    "name": "Silver Toyota Corolla (Sedan)",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        75
+      ],
+      "capturedMatchToken": "$75",
+      "contextWindow": "er Toyota Corolla (Sedan) 18+ to Book • $75 a day • Rent our Silver Toyota Corolla ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "630592",
+    "name": "Night Time UTV Tour",
+    "capturedPrice": 500,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 500,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        200,
+        400,
+        500
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "45207",
+    "name": "Parasailing (Departs from Havensight Cruise Ship Dock, St. Thomas)",
+    "capturedPrice": 120,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "103544",
+    "name": "Half Day Private Boat Charter - Snorkeling, Beach Bars & Turtles",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 50,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        50
+      ],
+      "capturedMatchToken": "$50",
+      "contextWindow": "assengers, each additional passenger is $50/pp up to our 10 max capacity Duration A",
+      "disqualifierToken": "additional"
+    }
+  },
+  {
+    "id": "439757",
+    "name": "Private Island Lime Out Tour",
+    "capturedPrice": 99,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "519046",
+    "name": "Travel From The USVI To British Virgin Islands",
+    "capturedPrice": 45,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 45,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        45,
+        75
+      ],
+      "capturedMatchToken": "$45",
+      "contextWindow": "to leave a gratuity at your discretion. $45 Customs fees per person Location Pickup",
+      "disqualifierToken": "gratuity"
+    }
+  },
+  {
+    "id": "519070",
+    "name": "Travel From The BVI To US Virgin Islands",
+    "capturedPrice": 55,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 55,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        55,
+        75
+      ],
+      "capturedMatchToken": "$55",
+      "contextWindow": "to leave a gratuity at your discretion. $55 Customs fees per person Location Pickup",
+      "disqualifierToken": "gratuity"
+    }
+  },
+  {
+    "id": "552926",
+    "name": "Guided Kayak Tour from Margaritaville",
+    "capturedPrice": 40,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "170676",
+    "name": "Bubblemaker",
+    "capturedPrice": 280,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 280,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        280
+      ],
+      "capturedMatchToken": "$280",
+      "contextWindow": "aker Call to book! • Up to 3 people for $280 • 2.5 Hours • Ages 8-9 2497 Reviewers #",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "492066",
+    "name": "Guided Jet Ski Tours",
+    "capturedPrice": 149,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 149,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        149
+      ],
+      "capturedMatchToken": "$149",
+      "contextWindow": " Free cancellation Instant confirmation $149 Single Riders Must be 18+ Prices for Mo",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "660757",
+    "name": "36' (Last Call) Aquila Power Cat",
+    "capturedPrice": 850,
+    "priceLabel": "unknown",
+    "auditCategory": "B",
+    "source": "cached",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "211022",
+    "name": "Paddle Board Rental",
+    "capturedPrice": 35,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 35,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        35,
+        250
+      ],
+      "capturedMatchToken": "$35",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $35 One Hour $250 Weekly 7 Days Prices for ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "448377",
+    "name": "Private 37' Boston Whaler Charter",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        75
+      ],
+      "capturedMatchToken": "$75",
+      "contextWindow": "uel, gratuity and customs fees (approx. $75 per passenger for BVI charters only) Ca",
+      "disqualifierToken": "gratuity"
+    }
+  },
+  {
+    "id": "469720",
+    "name": "Private VanDutch 40' Charter",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        75
+      ],
+      "capturedMatchToken": "$75",
+      "contextWindow": "uel, gratuity and customs fees (approx. $75 per passenger for BVI charters only) Ca",
+      "disqualifierToken": "gratuity"
+    }
+  },
+  {
+    "id": "532681",
+    "name": "BVI Full Day Private Boat Charter",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 50,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        50,
+        85
+      ],
+      "capturedMatchToken": "$50",
+      "contextWindow": "assengers, each additional passenger is $50/pp up to our 10 max capacity. Fuel, Cus",
+      "disqualifierToken": "additional"
+    }
+  },
+  {
+    "id": "532682",
+    "name": "A Day on Jost - Home of the Painkiller",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 50,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        50,
+        85
+      ],
+      "capturedMatchToken": "$50",
+      "contextWindow": "assengers, each additional passenger is $50/pp up to our 10 Max capacity. Fuel, Cus",
+      "disqualifierToken": "additional"
+    }
+  },
+  {
+    "id": "572332",
+    "name": "Caneel Beach Club Adventure",
+    "capturedPrice": 100,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 750,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        100,
+        750,
+        850
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "591486",
+    "name": "Water Taxi  St Thomas -> St John",
+    "capturedPrice": 400,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 400,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        400,
+        800
+      ],
+      "capturedMatchToken": "$400",
+      "contextWindow": "> St John Up to 9ppl - Indoor seating - $400 Redhook 15 min boat ride or $800 Crown ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "593629",
+    "name": "St. Croix's Best Snorkeling with Sea Turtles",
+    "capturedPrice": 89,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 89,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        89
+      ],
+      "capturedMatchToken": "$89",
+      "contextWindow": "roix's Best Snorkeling with Sea Turtles $89 People Ages 7 and up Prices for Wednesd",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "424721",
+    "name": "Full Day BVI Adventure",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        50,
+        75
+      ],
+      "capturedMatchToken": "$75",
+      "contextWindow": "tween the US and British Virgin Islands $75/pp for Custom Fees • Fuel (charged base",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "424727",
+    "name": "Half Day Adventure",
+    "capturedPrice": 850,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 850,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        50,
+        850
+      ],
+      "capturedMatchToken": "$850",
+      "contextWindow": "ts required! Duration & Rates Half Day: $850 (4 hours) Location Pickup & drop-off fr",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "519075",
+    "name": "Travel Between The US Virgin Islands",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        75
+      ],
+      "capturedMatchToken": "$75",
+      "contextWindow": "6 passengers - Additional passenger are $75/people up to our 12 person max capacity",
+      "disqualifierToken": "additional"
+    }
+  },
+  {
+    "id": "569248",
+    "name": "Second Chance-USVI Sunset Trip",
+    "capturedPrice": 900,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 900,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        150,
+        900
+      ],
+      "capturedMatchToken": "$900",
+      "contextWindow": "unset Trip 3 Hours • 6 to 12 Passengers $900 Private Charters Up to 12 People $150 P",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "672276",
+    "name": "Kayak to Lime Out: The Floating Taco Bar Adventure",
+    "capturedPrice": 89,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 89,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        89
+      ],
+      "capturedMatchToken": "$89",
+      "contextWindow": "ut, the Floating Taco bar in Coral Bay! $89 Persons Ages 2+ Prices for Wednesday, J",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "103534",
+    "name": "Full Day Private Boat Charter - USVI",
+    "capturedPrice": 50,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 50,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        50
+      ],
+      "capturedMatchToken": "$50",
+      "contextWindow": "assengers, each additional passenger is $50/pp up to our 10 max capacity Duration 7",
+      "disqualifierToken": "additional"
+    }
+  },
+  {
+    "id": "211096",
+    "name": "Snorkel Gear Rental",
+    "capturedPrice": 20,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 20,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        15,
+        20,
+        100
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "424739",
+    "name": "Half Day Adventure",
+    "capturedPrice": 1000,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 1000,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        10,
+        1000
+      ],
+      "capturedMatchToken": "$1000",
+      "contextWindow": "no passports required! Duration & Rates $1000 (4 hours) Fees • Fuel (charged based up",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "109394",
+    "name": "Dinghys",
+    "capturedPrice": 245,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 245,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        245,
+        295
+      ],
+      "capturedMatchToken": "$245",
+      "contextWindow": "y Rental Time: 10:00am or 2:00pm Price: $245 Includes: Fuel, Safety Equipment Capaci",
+      "disqualifierToken": "rental"
+    }
+  },
+  {
+    "id": "324279",
+    "name": "SUP Rental - Sea Thru Paddleboard",
+    "capturedPrice": 70,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 70,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 4,
+      "distinctDollarValues": [
+        70
+      ],
+      "capturedMatchToken": "$70",
+      "contextWindow": "ation 4.8 stars 495 Google reviews Rate $70/half day rental self-explore Duration H",
+      "disqualifierToken": "rental"
+    }
+  },
+  {
+    "id": "325161",
+    "name": "2 In 1 BOSS Tour",
+    "capturedPrice": 124,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 124,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        124
+      ],
+      "capturedMatchToken": "$124",
+      "contextWindow": "3.5 Hours 4.5 stars 1697 Google reviews $124 Guests Age 10+ Prices for Wednesday, Ma",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "405700",
+    "name": "Mobile Clear Kayak Rentals",
+    "capturedPrice": 60,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 60,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        60,
+        186
+      ],
+      "capturedMatchToken": "$60",
+      "contextWindow": "rgettable memories. Pricing Daily Rate: $60 per day Weekly Special (1-7 days): $186",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "486767",
+    "name": "Aqua Venture - MON-FRI - Return 5:30PM",
+    "capturedPrice": 119,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 119,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        119
+      ],
+      "capturedMatchToken": "$119",
+      "contextWindow": " Free cancellation Instant confirmation $119 People Price is per person Prices for T",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "519998",
+    "name": "Underwater Scooter Rental",
+    "capturedPrice": 200,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 200,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        200,
+        250,
+        375,
+        500,
+        600,
+        625,
+        750
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "560086",
+    "name": "Magens Bay Beach Trail",
+    "capturedPrice": 60,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 60,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        60
+      ],
+      "capturedMatchToken": "$60",
+      "contextWindow": "ook your unforgettable adventure today! $60 Passengers Ages 12+ Prices for Monday, ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "567588",
+    "name": "Coral Reef and Sea Turtle Snorkeling Tour",
+    "capturedPrice": 135,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 135,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        135
+      ],
+      "capturedMatchToken": "$135",
+      "contextWindow": " Free cancellation Instant confirmation $135 People Ages 7+ Prices for Monday, May 4",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "628803",
+    "name": "Island Chocolate Experience with Tasting",
+    "capturedPrice": 82,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 82,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        27,
+        32,
+        56,
+        68,
+        72,
+        82
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "211114",
+    "name": "Snorkel Excursion Starting at Haulover",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 75,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        75
+      ],
+      "capturedMatchToken": "$75",
+      "contextWindow": " TripAdvisor travelers as of April 2026 $75 People Ages 6+ Prices for Thursday, May",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "564312",
+    "name": "Guided Paddle Board Tour from Elysian",
+    "capturedPrice": 40,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "521254",
+    "name": "Discover Jost Van Dyke",
+    "capturedPrice": 1200,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 1200,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        75,
+        1200
+      ],
+      "capturedMatchToken": "$1200",
+      "contextWindow": "st Van Dyke. Duration & Rates Full Day: $1200 (6 hours) Fees • If you are traveling C",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "607195",
+    "name": "USVI Overnight Trips with Captain & Chef - Kindred Spirit II",
+    "capturedPrice": 17,
+    "priceLabel": "unknown",
+    "auditCategory": "B",
+    "source": "cached",
+    "reExtractPrice": 9500,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        7000,
+        9500,
+        12000,
+        14500,
+        17000
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "316901",
+    "name": "Private 37' Axopar Charter",
+    "capturedPrice": 75,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 1475,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "starting at",
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "335081",
+    "name": "Snorkel In Culebra Island with Turtles",
+    "capturedPrice": 60,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 60,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        60
+      ],
+      "capturedMatchToken": "$60",
+      "contextWindow": " Free cancellation Instant confirmation $60 Snorkel Ages 10+ Prices for Monday, May",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "487206",
+    "name": "2-Hour Sailing and Exploring Adventure in St. Augustine.  (Private 1/2 day and full-day charters are available as well)",
+    "capturedPrice": 175,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 175,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        175
+      ],
+      "capturedMatchToken": "$175",
+      "contextWindow": " Per-Person pricing (maximum 6 guests): $175 for each passenger. Two departures dail",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "554947",
+    "name": "Coral Reef Week kayaking",
+    "capturedPrice": 60,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 60,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        60
+      ],
+      "capturedMatchToken": "$60",
+      "contextWindow": "out Higher weight capacity Clear Kayak: $60 Transparent Operates like a Canoe Less ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "556358",
+    "name": "Second Chance-USVI Half Day Trip",
+    "capturedPrice": 900,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 900,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        900
+      ],
+      "capturedMatchToken": "$900",
+      "contextWindow": " Day Trip 4 Hours • Up to 12 Passengers $900 Private Charters First 4 passengers inc",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "607221",
+    "name": "USVI Overnight Trips with Captain & Chef - Intrepid",
+    "capturedPrice": 17,
+    "priceLabel": "unknown",
+    "auditCategory": "B",
+    "source": "cached",
+    "reExtractPrice": 9500,
+    "reExtractConfidence": "low",
+    "reExtractLabel": "unknown",
+    "priceSource": null,
+    "gate": {
+      "passed": false,
+      "criterionFailed": 2,
+      "distinctDollarValues": [
+        7000,
+        9500,
+        12000,
+        14500,
+        17000
+      ],
+      "capturedMatchToken": null,
+      "contextWindow": null,
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "191576",
+    "name": "Be your own Captain! Mini Boat Tours",
+    "capturedPrice": 300,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 300,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        300
+      ],
+      "capturedMatchToken": "$300.00",
+      "contextWindow": "n Captain! Mini Boat Tours Starts at USD$300.00/3.5 Hours/6+ years/ up to 3 people per ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "424388",
+    "name": "Full Day USVI Adventure",
+    "capturedPrice": 1200,
+    "priceLabel": "unknown",
+    "auditCategory": "D",
+    "source": "cached",
+    "reExtractPrice": 1200,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        1200
+      ],
+      "capturedMatchToken": "$1200",
+      "contextWindow": "ts required! Duration & Rates Full Day: $1200 (7 hours) Location Pickup & drop-off fr",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "458935",
+    "name": "Carnival Fireworks Sail",
+    "capturedPrice": 99,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 99,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        45,
+        99
+      ],
+      "capturedMatchToken": "$99",
+      "contextWindow": " – Atlantic Standard Time.) $$$. Price: $99 for adults 13 years of age and older $4",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "595451",
+    "name": "New Seasons Watersport Drone Photoshoots-No edits",
+    "capturedPrice": 100,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 100,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        100,
+        130
+      ],
+      "capturedMatchToken": "$100",
+      "contextWindow": "ts-No edits 30 Minutes • Up to 2 People $100 Single $130 Couples Prices for Saturday",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "437222",
+    "name": "Drive Your Own UTV 4 Seater St Thomas",
+    "capturedPrice": 369,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 369,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        369
+      ],
+      "capturedMatchToken": "$369",
+      "contextWindow": "0 Drive Your Own UTV 4 Seater St Thomas $369 | 9AM - 5 PM | Drive Your Own | Self Gu",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "490938",
+    "name": "TRAIL RUSH UTV Adventure (90 MINS.)",
+    "capturedPrice": 125,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "591491",
+    "name": "Water Taxi  St John --> St Thomas",
+    "capturedPrice": 400,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 400,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        400,
+        800
+      ],
+      "capturedMatchToken": "$400",
+      "contextWindow": "St Thomas Up to 9ppl - Indoor seating - $400 Redhook 15 min boat ride or $800 Crown ",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "679197",
+    "name": "Kayak & SUP Rentals - St. Thomas - Daily & Weekly",
+    "capturedPrice": 110,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  },
+  {
+    "id": "683565",
+    "name": "VIPDS - Airport TO Hotel • One Way",
+    "capturedPrice": 270,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": 270,
+    "reExtractConfidence": "medium",
+    "reExtractLabel": "unknown",
+    "priceSource": "v52-dominant-gate",
+    "gate": {
+      "passed": true,
+      "criterionFailed": null,
+      "distinctDollarValues": [
+        270
+      ],
+      "capturedMatchToken": "$270",
+      "contextWindow": "VIPDS Transportation - Airport TO Hotel $270 One Way Transportation - SUV Up to 6 Pa",
+      "disqualifierToken": null
+    }
+  },
+  {
+    "id": "683569",
+    "name": "VIPDS - Hotel TO Airport • One Way",
+    "capturedPrice": 270,
+    "priceLabel": "unknown",
+    "auditCategory": null,
+    "source": "live",
+    "reExtractPrice": null,
+    "reExtractConfidence": null,
+    "reExtractLabel": null,
+    "priceSource": null,
+    "gate": null
+  }
+]

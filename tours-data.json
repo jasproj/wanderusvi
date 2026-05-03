@@ -164,8 +164,9 @@
     ],
     "descriptionRaw": "Early or late arrivals may find our office is unmanned - We're with other guests, and will be with you at your reserved time. Special requirements\n\nYou must present the physical credit card used to book, along with a physical, valid drivers license, state or federal ID. Additional Notes:\nGuests failing to show up with required documentation will be charged the full price.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "429510",
@@ -299,7 +300,7 @@
     ],
     "descriptionRaw": "Red Hook to St John Snorkel, Beach Charter Aboard MV Island Flyer\n\nNo more than 12 guests. Hour Charter from St Thomas to St John\n\nEnjoy snorkeling at some of the best spots on and around St. Thomas VI 00802\nActivity details\nAdditional information\nWhat to bring\n\nTowels\n\nReef safe sunscreen\n\nDisclaimers\n\n*This experience requires a minimum number of travelers.",
     "descriptionQuality": "insufficient_v3",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
@@ -310,7 +311,8 @@
       "Float Noodles and Cushions",
       "Captain and Crew Gratuity",
       "Reef safe sunscreen"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "259438",
@@ -610,9 +612,10 @@
       "https://cdn.filestackcontent.com/EojfuvyQqi4HDGMr9Dav/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "536583",
@@ -725,8 +728,9 @@
     ],
     "descriptionRaw": "Baths, Virgin Gorda and White Bay, JVD (BVI trip)\n\n9 Hours - Valid passport required\n\n\t4383 Reviewers\n#1 of 25 Tours in Red Hook\nTripAdvisor Traveler Rating\nAccording to TripAdvisor travelers as of April 2026\n$300\n\tPeople\nAll Ages Welcome! Activity details\nAdditional information\nCheck-in details\n\nIf you are joining is from St. Thomas, please arrive 15 minutes early so we can check your passports and depart on time.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "135457",
@@ -1089,7 +1093,7 @@
       "https://cdn.filestackcontent.com/IVSeb41YSuWntNzrJ3dw/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
@@ -1099,7 +1103,8 @@
       "A large cooler stocked with a variety of Beer & Soda & Water",
       "Fresh baked, chocolate cookies in the afternoon",
       "The use of SUP, Snorkel Equipment & Floaties."
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "266857",
@@ -1537,8 +1542,9 @@
     ],
     "descriptionRaw": "Thomas VI 00802\nGroup size\nMaximum 12 people\nActivity details\nAdditional information\nCheck-in details\n\nDeparts at American Yacht Harbor in Red Hook at 4:30pm local time.",
     "descriptionQuality": "cleaned_v3",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "601988",
@@ -2533,9 +2539,10 @@
       "https://cdn.filestackcontent.com/hiOZ2A8GQZG3dYAt6njv/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "509348",
@@ -2959,8 +2966,9 @@
     ],
     "descriptionRaw": "Duration\n12:30 - 4:30pm (4 hours)\nLocation\nCompass Point Marina Estate Bovoni, St.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "601985",
@@ -3038,7 +3046,7 @@
     ],
     "descriptionRaw": "Thomas VI 00802\nAge\n5 – 74\nGroup size\nUp to 4 Guests\nActivity details\nAdditional information\nCheck-in details\n\nWe can pick up Guests staying on St Thomas or St John anywhere on St Thomas or St John and return. What to bring\n\nTowels\nSunscreen\nCash\n\nDisclaimers\n\nSt John Car Ferry Return Trip to Red Hook.",
     "descriptionQuality": "insufficient_v3",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
@@ -3050,7 +3058,8 @@
       "Cooler with Ice\n-Light Acoholic Beverages",
       "Bottled Water ​",
       "Swim Noodles​\n​- Fuel"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "608195",
@@ -3331,8 +3340,9 @@
     ],
     "descriptionRaw": "Join us for an unforgettable snorkeling adventure to Buck Island\n\nEnjoy the protected marine sanctuary just off the coast of St.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "171331",
@@ -3501,8 +3511,9 @@
     ],
     "descriptionRaw": "Experience the joy of kayaking with our top-quality rental fleet, perfect for all ages and available at Maho Bay. Explore the enchanting waters with our sit-on-top single and tandem kayaks from Tribe's 2020 line, catering to various sizes and preferences.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "425638",
@@ -3693,8 +3704,9 @@
     ],
     "descriptionRaw": "You think the weather is too bad and you might get sea sick\nHad a rough day on the water with Scuba. New excuses added as we get them\n\nYou will still be charged for your boat day and 25% crew gratuity will be added to your balance.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "114303",
@@ -4037,7 +4049,7 @@
       "https://cdn.filestackcontent.com/iiNkVbUpReeOE3ryDOs8/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
@@ -4048,7 +4060,8 @@
       "Cooler with Ice\n-Light Acoholic Beverages",
       "Bottled Water ​",
       "Swim Noodles​\n​- Fuel"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "8450",
@@ -4290,8 +4303,9 @@
     ],
     "descriptionRaw": "Kayak starting at Haulover Bay across the turquoise waters of Round Bay\nEnjoy a guided snorkel to Pelican Rock or Hidden Reef. Return to the waters to glide over turtle grazing beds along the tranquil Long Point Peninsula and glimpse Norman Island.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "414246",
@@ -4409,9 +4423,10 @@
       "https://cdn.filestackcontent.com/dVc3qC5JSqivucvoFqVz/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "477902",
@@ -4709,8 +4724,9 @@
     ],
     "descriptionRaw": "Embark on a thrilling kayak adventure in Haulover Bay, exploring the vibrant marine life and stunning views of St. Experience a unique half-day kayaking and guided snorkeling tour, perfect for families and all generations.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "274477",
@@ -5028,8 +5044,9 @@
     ],
     "descriptionRaw": "Wreck dive with penetration\n\nCome join us for a laid-back two-tank dive in Culebra. We’ll explore a special 99-foot sunken tugboat from 1981 that only locals know about.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "170680",
@@ -5105,8 +5122,9 @@
     ],
     "descriptionRaw": "John's wilderness with a hike through Salt Pond & Drunk Bay\nJoin us for a guided hiking adventure through Salt Pond & Drunk Bay trails, offering unique insights into the wildlife and native vegetation of St. This 3-hour excursion is perfect for nature lovers and those who want to explore St.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "211131",
@@ -5142,8 +5160,9 @@
     ],
     "descriptionRaw": "Immerse yourself in the captivating history and natural beauty of Brown Bay on this 3-hour guided hike and snorkeling adventure. Embark on a scenic hike through diverse landscapes, starting with a steep climb amidst cacti and agave, then transitioning into a lush tropical paradise.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "377230",
@@ -5259,8 +5278,9 @@
     ],
     "descriptionRaw": "Duration\n\n4 Hours\n\nAbout\n\nThe Adventure starts with a custom boarding either at our home base at Compass Point Marina, The Ritz-Carlton,\nor pick up at the National Park Dock Cruz Bay. Please bring your own towels, reef friendly sunscreen (no sprays), and cash for additional fuel costs and gratuity. Our professional captains have great recommendations for world class snorkel sites and fun beach bars for you!",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "558582",
@@ -5499,8 +5519,9 @@
     ],
     "descriptionRaw": "I further agree to assume all risks and responsibilities and understand IslandBuddy, LLC, its employees and agents, assume no responsibility or liability for death, personal injury, property damage, loss or loss of any kind which may be incurred during the course of or arising from use of equipment and/or services provided. All tours, deals and specials are subject to availability and do not include transportation costs unless specified. Changes:\n\nWith some exceptions, IslandBuddy tours and activities may be changed if requested 48 hours in advance of the start time.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "212044",
@@ -5539,8 +5560,9 @@
     ],
     "descriptionRaw": "I further agree to assume all risks and responsibilities and understand IslandBuddy, LLC, its employees and agents, assume no responsibility or liability for death, personal injury, property damage, loss or loss of any kind which may be incurred during the course of or arising from use of equipment and/or services provided. All tours, deals and specials are subject to availability and do not include transportation costs unless specified. Changes:\n\nWith some exceptions, IslandBuddy tours and activities may be changed if requested 48 hours in advance of the start time.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "306996",
@@ -5895,8 +5917,9 @@
     ],
     "descriptionRaw": "Additional information\nWhat to bring\n\nReef-safe sunscreen\n\nTowels\n\nUnderwater camera\n\nCash for lunch and tipping\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "662539",
@@ -5988,8 +6011,9 @@
     ],
     "descriptionRaw": "Thomas\nTripAdvisor Traveler Rating\nAccording to TripAdvisor travelers as of April 2026\n$800\n\tGroups\nIncludes up to 4 people per group\n\n\n$200\n\tPeople\nAdd more passengers! Overview\nDuration\n4-5 Hours\nMeeting point\nHull Bay or Brewers Bay\nActivity details\nAdditional information\nWhat to bring\n\nLunch\n\nSunscreen\n\nHat\n\nSunglasses\n\nTowel\n\nUnderwater camera\n\nCash for tipping\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "662582",
@@ -6119,8 +6143,9 @@
     ],
     "descriptionRaw": "Additional information\nWhat to bring\n\nSunscreen\n\nTowel\n\nCash for lunch & tipping\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "662702",
@@ -6181,8 +6206,9 @@
     ],
     "descriptionRaw": "Turtle Boat Excursion\n\nAges 12+ • 4 Hours\n\n\t1111 Reviewers\n#29 of 308 Boat Tours & Water Sports in St. Thomas\nTripAdvisor Traveler Rating\nAccording to TripAdvisor travelers as of April 2026\n$800\n\tGroups\nIncludes up to 4 people per group • Ages 12+\n\n\n$200\n\tPeople\nAdd more passengers! Overview\nDuration\n4 Hours\nMeeting point\nHull Bay or Compass Point\nActivity details\nAdditional information\nWhat to bring\n\nSunscreen\n\nTowel\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "662709",
@@ -6212,8 +6238,9 @@
     ],
     "descriptionRaw": "John Boat Charter\n\nAges 12+ • 4 Hours\n\n\t1111 Reviewers\n#29 of 308 Boat Tours & Water Sports in St. Thomas\nTripAdvisor Traveler Rating\nAccording to TripAdvisor travelers as of April 2026\n$800\n\tGroups\nIncludes up to 4 people per group\n\n\n$200\n\tPeople\nAdd more passengers! Overview\nDuration\n4 Hours\nMeeting point\nHull Bay or Compass Point\nActivity details\nAdditional information\nWhat to bring\n\nSunscreen\n\nTowel\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "662710",
@@ -6243,12 +6270,13 @@
     ],
     "descriptionRaw": "Thomas\nTripAdvisor Traveler Rating\nAccording to TripAdvisor travelers as of April 2026\n$800\n\tGroups\nIncludes up to 4 people per group\n\n\n$200\n\tPeople\nAdd more passengers! Overview\nDuration\n3 Hours\nMeeting point\nHull Bay or Compass Point\nActivity details\nAdditional information\nWhat to bring\n\nSunscreen\n\nTowel\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
       "Snorkel gear"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "662715",
@@ -6278,8 +6306,9 @@
     ],
     "descriptionRaw": "Thomas\nTripAdvisor Traveler Rating\nAccording to TripAdvisor travelers as of April 2026\n$800\n\tGroups\nIncludes up to 4 people per group\n\n\n$200\n\tPeople\nAdd more passengers! Overview\nDuration\n5 Hours\nMeeting point\nHull Bay or Compass Point\nActivity details\nAdditional information\nWhat to bring\n\nSunscreen\n\nTowel\n\nDisclaimers\n\nAll tour times are approximate and may vary depending on weather conditions or your ship schedule.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "667405",
@@ -7031,8 +7060,9 @@
     ],
     "descriptionRaw": "Thomas USVI (wonderful and engaging tour for the family)\n\nExplore the Children’s Botanical Garden in St. Wander through our whimsical Flower Garden designed just for young nature lovers.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "584436",
@@ -7579,8 +7609,9 @@
     ],
     "descriptionRaw": "Thomas, VI\n\nEverything you need to snorkel - mask, snorkel, fins, life jacket & more! John\n$12 per day\n$55 per week\nSizing\n\nMen’s, women’s, and children’s sizes available\n\nWhat’s Included\nHigh-quality silicone mask\nSnorkel\nAdjustable fins\nLife jacket\nMesh backpack (for carrying gear)\nDefogger\nSt. John snorkel map\nFish ID card\nPickup or Delivery\nPickup: Virgin Islands Ecotours Outfitters Store at Mongoose Junction, Cruz Bay.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "334293",
@@ -7738,8 +7769,9 @@
     ],
     "descriptionRaw": "Experience the thrill of speed and luxury seamlessly fused in our 37' Midnight Express.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "607533",
@@ -7874,8 +7906,9 @@
     ],
     "descriptionRaw": "Duration\n\n3 Hours\n\nAbout\n\nAll Ages\n\nWaterlemon Cay is located on the east side of Leinster Bay on the north shore of St John. Our hike follows the flat, mile long Leinsterxa Bay Trail along the water’s edge through dappled shade and ending near Waterlemon Cay.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "239155",
@@ -8074,14 +8107,15 @@
     ],
     "descriptionRaw": "Thomas, VI 00802\nAge\n100 and under\nAccessibility\nNone\nActivity details\nAdditional information\nCheck-in details\n\nArrive 15 mins prior. Meet the Guide at the Elysian Resort Beach Hut located to the left of the beach facing the water.",
     "descriptionQuality": "insufficient_v3",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
       "Single (up to 5 people)",
       "Double (up to 3 couples or 6 people)",
       "Children must be accompanied by an adult"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "634259",
@@ -8355,8 +8389,9 @@
     ],
     "descriptionRaw": "John with a private island tour for just you and your group\nDuration\n\nAbout 4-5 hours depending on traffic and pick-up schedule\n\nAbout\n\nLearn about the local culture and life on the smallest Virgin Island. The Annaberg Sugar Plantation is a partially restored but the most intact sugar plantation in the Virgin Islands.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "334774",
@@ -8732,7 +8767,7 @@
     ],
     "descriptionRaw": "Duration\n4 Hours\nMeeting point\nCompass Point Marina, Ritz Carlton on St.",
     "descriptionQuality": "insufficient",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
@@ -8743,7 +8778,8 @@
       "cash for additional fuel costs and gratuity",
       "non-alcoholic drinks",
       "alcoholic beverages"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "619190",
@@ -8841,9 +8877,10 @@
       "https://cdn.filestackcontent.com/UlF3UyEESAGlF0xh4p7b/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "665457",
@@ -8871,9 +8908,10 @@
       "https://cdn.filestackcontent.com/NifYWNMeSC2pu5hzzkh2/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "194421",
@@ -9331,7 +9369,7 @@
     ],
     "descriptionRaw": "Duration\n4 Hours\nMeeting point\nCompass Point Marina, Ritz Carlton on St.",
     "descriptionQuality": "insufficient",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
@@ -9342,7 +9380,8 @@
       "cash for additional fuel costs and gratuity",
       "non-alcoholic drinks",
       "alcoholic beverages"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "624217",
@@ -9426,8 +9465,9 @@
     ],
     "descriptionRaw": "Thomas, VI\n\nEverything you need to snorkel — mask, snorkel, fins, and a life jacket. Prices\n$12 per day\n$55 per week\nWhat's Included\n\nEverything you need to snorkel\n\nMask\nSnorkel\nFins\nLife Jacket\n\nAvailable in adult and child sizes. Duration\nDaily or weekly rentals available\n(Select your dates on the calendar)\nPickup or Delivery\nPickup: Mangrove Lagoon Marina, St.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "334764",
@@ -9503,8 +9543,9 @@
     ],
     "descriptionRaw": "Meeting point\nVirgin Islands National Park Dock, Cruz Bay (unless otherwise prearranged)\nGroup size\nMaximum 12 people\nActivity details\nAdditional information\nExtras\n\nSalty swag available on board for purchase!",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "624250",
@@ -10100,8 +10141,9 @@
     ],
     "descriptionRaw": "Black Jeep Wrangler Sport 4x4\n\n18+ to Book • $150 a day • Rent a Jeep to get you around beautiful St. Overview\nDuration\nYou can rent a car for up to a month to get you around beautiful St. Meeting point\nWe can deliver your rental car to you, or you can pick it up on the day of your rental at the Cyril E.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "622386",
@@ -10130,8 +10172,9 @@
     ],
     "descriptionRaw": "White Honda HRV\n\n18+ to Book • $85 a day • Rent our White Honda HRV to get you around beautiful St. Overview\nDuration\nYou can rent a car for up to a month to get you around beautiful St. Meeting point\nWe can deliver your rental car to you, or you can pick it up on the day of your rental at the Cyril E.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "622387",
@@ -10160,8 +10203,9 @@
     ],
     "descriptionRaw": "Blue Honda HRV (Mid Size)\n\n18+ to Book • $85 a Day • Rent our Blue Honda HRV to get you around beautiful St. Overview\nDuration\nYou can rent a car for up to a month to get you around beautiful St. Meeting point\nWe can deliver your rental car to you, or you can pick it up on the day of your rental at the Cyril E.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "622389",
@@ -10190,8 +10234,9 @@
     ],
     "descriptionRaw": "White Toyota Corolla (Sedan)\n\n18+ to Book • $75 a Day • Rent our White Toyota Corolla to get you around beautiful St. Overview\nDuration\nYou can rent a car for up to a month to get you around beautiful St. Meeting point\nWe can deliver your rental car to you, or you can pick it up on the day of your rental at the Cyril E.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "622391",
@@ -10220,8 +10265,9 @@
     ],
     "descriptionRaw": "Black Toyota Corolla (Sedan)\n\n18+ to Book • $75 a Day • Rent our Black Toyota Corolla to get you around beautiful St. Overview\nDuration\nYou can rent a car for up to a month to get you around beautiful St. Meeting point\nWe can deliver your rental car to you, or you can pick it up on the day of your rental at the Cyril E.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "622393",
@@ -10250,8 +10296,9 @@
     ],
     "descriptionRaw": "Red Toyota Sienna (Mini Van)\n\n18+ to Book • $120 a Day • Rent our Toyota Sienna to get you around beautiful St. Overview\nDuration\nYou can rent a car for up to a month to get you around beautiful St. Meeting point\nWe can deliver your rental car to you, or you can pick it up on the day of your rental at the Cyril E.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "622395",
@@ -10280,8 +10327,9 @@
     ],
     "descriptionRaw": "Red Toyota CHR (Compact)\n\n18+ to Book • $85 a Day • Rent our Toyota CHR to get you around beautiful St. Overview\nDuration\nYou can rent a car for up to a month to get you around beautiful St. Meeting point\nWe can deliver your rental car to you, or you can pick it up on the day of your rental at the Cyril E.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "622399",
@@ -10310,8 +10358,9 @@
     ],
     "descriptionRaw": "Silver Toyota Corolla (Sedan)\n\n18+ to Book • $75 a day • Rent our Silver Toyota Corolla to get you around beautiful St. Overview\nDuration\nYou can rent a car for up to a month to get you around beautiful St. Meeting point\nWe can deliver your rental car to you, or you can pick it up on the day of your rental at the Cyril E.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "622401",
@@ -11264,9 +11313,10 @@
       "https://cdn.filestackcontent.com/A3XHRhspSO2KKUCU1QpZ/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "458899",
@@ -11334,9 +11384,10 @@
       "https://cdn.filestackcontent.com/mRDkpKxvRJZZKEd43SrQ/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "585279",
@@ -11723,8 +11774,9 @@
     ],
     "descriptionRaw": "Experience the thrill of paddleboarding as you glide through the crystal-clear Caribbean waters along St. With a variety of board sizes available for rent, there's a perfect fit for everyone, making it an ideal activity for all ages.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "212792",
@@ -12111,9 +12163,10 @@
     ],
     "descriptionRaw": "Duration\n15 min from Sapphire or 40 min from Crown Bay\nMeeting point\nCrown Bay Marina St Thomas U.",
     "descriptionQuality": "insufficient",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "593629",
@@ -12151,8 +12204,9 @@
     ],
     "descriptionRaw": "Duration\n75 minutes\nMeeting point\nTurtle Cove right next to the Frederiksted Pier on the left\nGroup size\nMax 49 people\nActivity details\nAdditional information\nCheck-in details\n\nMeet your guide at the entrance to the cruise ship pier. What to bring\n\nSwimsuit, shoes that can get wet, towel, reef safe sunscreen, change of clothing.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "605308",
@@ -12541,8 +12595,9 @@
     ],
     "descriptionRaw": "Enjoy a day in the beautiful turquoise waters of Tortola, Jost Van Dyke, Norman Island and/or Virgin Gorda. John over to the British Virgin Islands for the day and customize an itinerary with you!",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "424727",
@@ -12579,8 +12634,9 @@
     ],
     "descriptionRaw": "Upon arrival, you and your Captain can discuss the many options available for your amazing day. Go to an uninhabited island, snorkel with sea turtles and stingrays, explore a shipwreck, visit the many beautiful beaches of St.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "519075",
@@ -12655,8 +12711,9 @@
     ],
     "descriptionRaw": "Duration\n\nThree Hours\n\nIncluded in your Booking\nBoat Fee\nFuel\nCharcuterie board\n1 bottle of white wine(no red wine allowed on board)\ngin/vodka/whiskey cocktails with mixers, sodas, water.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "590716",
@@ -13115,8 +13172,9 @@
     ],
     "descriptionRaw": "This tour is not recommended for guests who are unable to swim or who have limited mobility.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "712879",
@@ -13378,8 +13436,9 @@
     ],
     "descriptionRaw": "Duration & Rates\n$1000 (4 hours)\nFees\n\n• Fuel (charged based upon use at end of trip)\n• Standard gratuity is 20%\n\nLocation\n\nPickup & drop-off from St. Upon arrival, you and your Captain can discuss the many options available for your amazing day.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "616139",
@@ -13842,8 +13901,9 @@
     ],
     "descriptionRaw": "Hours\n\nAbout\n\nExperience the ultimate thrill of a lifetime with your own underwater motor scooter! The BOSS will allow you to view the marvels of the sea with no diving experience necessary…and you are the driver!",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "405700",
@@ -13879,9 +13939,10 @@
       "https://cdn.filestackcontent.com/51oTQJ1wSVGvGfMwViNu/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "486767",
@@ -13910,7 +13971,7 @@
       "https://cdn.filestackcontent.com/rpl6EHA3R2eaA9MJSrbZ/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
@@ -13922,7 +13983,8 @@
       "Beach Towels\n-Sunscreen",
       "Change of dry clothes",
       "Bottle of water"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "509655",
@@ -14017,8 +14079,9 @@
     ],
     "descriptionRaw": "Magens Bay Beach Trail - Difficulty: Moderate\n\nA scenic forest hike with stone steps and rope assists, winding above the famous Magens Bay. Overview\nDuration\n2 Hours • Difficulty: Moderate\nLocation\n6200 Magen's Bay Rd St. Thomas, VI 00802\nAge\n12+\nActivity details\nAdditional information\nWhat to bring\n\nPlease note that proper hiking footwear is recommended for this tour.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "567588",
@@ -14048,8 +14111,9 @@
     ],
     "descriptionRaw": "However, we grant a \"\"rain check\"\" for you to reschedule with us upon operator's availability, valid for 2 years.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "589442",
@@ -14436,8 +14500,9 @@
     ],
     "descriptionRaw": "Experience Majestic Turtles, Spotted Rays, and Vibrant Coral Reefs on a Guided Snorkeling Adventure\nNatural wonders await you on our incredible snorkeling adventures. Swim with majestic Turtles, watch the underwater dances of spotted rays, and revel in the rainbow-colored fish and coral reefs of St John.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "334596",
@@ -14980,8 +15045,9 @@
     ],
     "descriptionRaw": "John\n\nPrivate 34' Nor-tech - 11 person capacity\n\n\t77 Reviewers\n#15 of 137 Transportation in St. Thomas\nTripAdvisor Traveler Rating\nAccording to TripAdvisor travelers as of April 2026\nEnjoy a day in the beautiful turquoise waters of Tortola, Jost Van Dyke. Duration & Rates\nFull Day: $1200 (6 hours)\nFees\n\n• If you are traveling between the US and British Virgin Islands $75/pp for Custom Fees\n• Fuel (charged based upon use at end of trip)\n• Standard gratuity is 20%\n\nLocation\n\nPickup & drop-off from St.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "577264",
@@ -15472,8 +15538,9 @@
     ],
     "descriptionRaw": "Description:\n\nOn our Culebra Island Snorkel Tour, we hit the water at Tamarindo Beach for a long snorkeling session. Snorkeling in Culebra is one of Puerto Rico's main attractions, and it will all make sense when you find yourself snorkeling among sea turtles in Tamarindo Beach's clear waters. We will make a few stops during our snorkel sessions to go over facts of Culebra's interesting marine life.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "381368",
@@ -15649,8 +15716,9 @@
     ],
     "descriptionRaw": "Hour Sailing Charter Pricing Options:\n\nShared Sailing and Exploring Adventure per-person pricing\n\nA 2-hour adventure morning and afternoon departures. Private Sailing and Exploring Adventure the entire yacht pricing\n\n2-hour private adventure of sailing on the historic waterfront of Saint Augustine, and the Tolomoto River Daily departures each morning at 11:00 am and an afternoon departure at 2:00 pm. Private sailing adventure is $676 for the entire yacht for up to 6 passengers, (saving the cost of two compared to the per-passenger rate).",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "487208",
@@ -15782,8 +15850,9 @@
     ],
     "descriptionRaw": "Reviewers\n#7 of 41 Tours in Christiansted\nTripAdvisor Traveler Rating\nAccording to TripAdvisor travelers as of April 2026\nFree for VI residents | Beautiful Morning Under the Sun!",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "556346",
@@ -15854,7 +15923,7 @@
       "https://cdn.filestackcontent.com/mZTVte0TSGmJ085n5v6h/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
@@ -15864,7 +15933,8 @@
       "Captain and crew fee",
       "Water activity equipment: snorkeling gear, pool noodles, sea hammocks",
       "Additional alcohol"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "556360",
@@ -16744,8 +16814,9 @@
     ],
     "descriptionRaw": "Please keep in mind that once you make your reservation our booking platform will update instantly which means we cannot book those spots. Please understand that if you wish to reschedule you must do so within 48 hours prior to the check-in time of your original trip and is only based on availability.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "262055",
@@ -16804,8 +16875,9 @@
     ],
     "descriptionRaw": "Upon arrival, you and your Captain can discuss the many options available for your amazing day.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "458935",
@@ -16839,8 +16911,9 @@
     ],
     "descriptionRaw": "Any guests with medical concerns is encouraged to address them with their own medical professional prior to attending excursion.",
     "descriptionQuality": "original",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "587814",
@@ -16908,13 +16981,14 @@
       "https://cdn.filestackcontent.com/QbeSMvBShavAU0SpCGbw/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
     "currency": "USD",
     "highlights": [
       "Please note that they’re changes in weather conditions. Due to the climate and weather change, it can possibly have an effect on the visuals and lucidity of the images and/ or videos. *",
       "Please note, the couple shots will be taken together and this option allows 2 person to have individual shots."
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "619238",
@@ -17129,9 +17203,10 @@
       "https://cdn.filestackcontent.com/Y4INVNibR9ywdqtggjYP/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "490938",
@@ -17248,8 +17323,9 @@
     ],
     "descriptionRaw": "Duration\n15 min to sapphire or 40 min to Crown bay\nMeeting point\nCruz Bay Visitor Center: 86M4+4F4, Virgin Island National Park, St John 00830, U.",
     "descriptionQuality": "cleaned",
-    "priceConfidence": "low",
-    "priceLabel": "unknown"
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "647481",
@@ -17552,9 +17628,10 @@
       "https://cdn.filestackcontent.com/o7odhsgdQCmhxBGsvaIn/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&w=1000&fit=max&h=150"
     ],
     "descriptionQuality": "missing",
-    "priceConfidence": "low",
+    "priceConfidence": "medium",
     "priceLabel": "unknown",
-    "currency": "USD"
+    "currency": "USD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "683569",

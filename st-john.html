@@ -421,5 +421,27 @@
     <p>© 2026 WanderUSVI. All rights reserved.</p>
   </div>
 </footer>
+<script>
+(function () {
+  function shuffleArray(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.tours-grid').forEach(function (grid) {
+      const cards = Array.from(grid.children);
+      if (cards.length < 2) return;
+      const shuffled = shuffleArray(cards);
+      const frag = document.createDocumentFragment();
+      shuffled.forEach(function (c) { frag.appendChild(c); });
+      grid.appendChild(frag);
+    });
+  });
+})();
+</script>
 </body>
 </html>

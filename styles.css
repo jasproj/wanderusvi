@@ -289,6 +289,40 @@ ul, ol { list-style: none; }
     overflow-x: hidden;
 }
 
+/* Mobile hero compression — KWST styles.css:1559-1591 pattern.
+   Targets ~150-170px above-the-fold (above the 120px guideline because
+   the fixed header occupies ~60px and we keep both the brand logo and
+   the search bar visible — user's primary action on a discovery site).
+   Hides tagline / subtitle / quick-tags (decorative). Desktop unchanged. */
+@media (max-width: 767px) {
+    .hero {
+        min-height: auto;
+        padding: 70px 12px 8px;
+        justify-content: flex-start;
+    }
+    .hero-tagline,
+    .hero-subtitle,
+    .quick-tags-wrapper {
+        display: none;
+    }
+    .hero-logo-pill {
+        margin: 0 0 8px;
+    }
+    .hero-logo-img {
+        max-height: 40px;
+        width: auto;
+    }
+    .hero-search {
+        gap: 6px;
+    }
+    .hero-search input,
+    .hero-search .search-btn {
+        min-height: 44px;
+        padding: 10px 12px;
+        font-size: 0.95rem;
+    }
+}
+
 .hero-bg {
     position: absolute;
     inset: 0;

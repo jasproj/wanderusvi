@@ -55,7 +55,6 @@
         "areaServed": {"@type": "Place", "name": "US Virgin Islands, United States"}
     }
     </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,6 +70,8 @@
 }
 </script>
 <script src="/tracking.js" defer></script>
+    <link rel="stylesheet" href="/sponsor-slot.css">
+    <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
     <!-- LEAD MAGNET BANNER -->
@@ -198,10 +199,11 @@
         </div>
     </section>
 
-    <!-- AD SLOT: Below Hero Section (728x90 Leaderboard) -->
-    <div class="ad-slot" id="ad-hero-below">
-        Advertisement
-    </div>
+    <!-- SPONSOR SLOT: Hero leaderboard -->
+    <div class="sponsor-slot"
+         data-slot-id="hero-leaderboard"
+         data-slot-type="leaderboard"
+         data-slot-page="index.html"></div>
 
     <!-- ISLANDS -->
     <section class="islands-nav" id="islands">
@@ -323,6 +325,13 @@
             </div>
         </div>
     </section>
+
+    <!-- SPONSOR SLOT: In-feed MREC after tours grid -->
+    <div class="sponsor-slot"
+         data-slot-id="home-mrec-1"
+         data-slot-type="mrec"
+         data-slot-page="index.html"
+         style="margin: 24px auto;"></div>
 
     <!-- WHY US -->
     <section class="why-section" id="why">
@@ -577,6 +586,13 @@
     <div class="sticky-cta-bar" id="sticky-cta-bar">
         <button>Find Your Adventure</button>
     </div>
+
+    <!-- SPONSOR SLOT: Mobile sticky banner -->
+    <div class="sponsor-slot"
+         data-slot-id="mobile-sticky"
+         data-slot-type="mobile-banner"
+         data-slot-page="index.html"
+         data-sticky-bottom="true"></div>
 </body>
 </html>
 <!-- Cache bust: 1775794080 -->

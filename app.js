@@ -152,9 +152,9 @@ function escapeHtml(str) {
 }
 
 function formatPrice(price, confidence) {
-    if (!Number.isFinite(price) || price <= 0) return 'Check availability';
+    if (!Number.isFinite(price) || price <= 0) return 'Price on request';
     if (confidence === 'high' || confidence === 'medium') return `From $${price}`;
-    return 'Check availability';
+    return 'Price on request';
 }
 
 function cleanLocation(location = '') {

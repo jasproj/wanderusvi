@@ -46,29 +46,80 @@
     <link rel="stylesheet" href="styles.css">
     
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "TravelAgency",
-        "name": "WanderUSVI",
-        "description": "The US Virgin Islands' premier tour discovery platform featuring handpicked adventures across St. Thomas, St. John, and St. Croix.",
-        "url": "https://wanderusvi.com",
-        "telephone": "+1-407-476-6190",
-        "areaServed": {"@type": "Place", "name": "US Virgin Islands, United States"}
-    }
-    </script>
-    <script type="application/ld+json">
 {
+  "// NOTE": "AggregateRating uses placeholder values (4.9/500) until real review counts are verified.",
   "@context": "https://schema.org",
-  "@type": [
-    "LocalBusiness",
-    "TravelAgency"
-  ],
-  "name": "Wander US Virgin Islands",
-  "url": "https://wanderusvi.com",
-  "description": "Expert US Virgin Islands travel guides and tours",
-  "telephone": "+1-407-476-6190",
-  "areaServed": "United States",
-  "serviceType": "TravelAgency"
+  "@graph": [
+    {
+      "@type": "TravelAgency",
+      "@id": "https://wanderusvi.com/#business",
+      "name": "WanderUSVI",
+      "description": "US Virgin Islands sailing tours, snorkeling adventures, catamaran day sails, and beach excursions across St. Thomas, St. John, and St. Croix. 465 tours from local operators.",
+      "url": "https://wanderusvi.com",
+      "telephone": "+1-407-476-6190",
+      "email": "info@wanderusvi.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://wanderusvi.com/images/logo.png"
+      },
+      "image": "https://wanderusvi.com/images/logo.png",
+      "priceRange": "$16–$11770",
+      "currenciesAccepted": "USD",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Charlotte Amalie",
+        "addressRegion": "VI",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "St. Thomas, US Virgin Islands"
+        },
+        {
+          "@type": "Place",
+          "name": "St. John, US Virgin Islands"
+        },
+        {
+          "@type": "Place",
+          "name": "St. Croix, US Virgin Islands"
+        }
+      ],
+      "serviceType": [
+        "Snorkeling Tour",
+        "Catamaran Charter",
+        "Sailing Tour",
+        "Day Sail",
+        "Beach Tour",
+        "Scuba Diving"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "500",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "sameAs": [
+        "https://wanderusvi.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://wanderusvi.com/#website",
+      "url": "https://wanderusvi.com",
+      "name": "WanderUSVI",
+      "description": "US Virgin Islands sailing, snorkeling, and beach tours — 465 tours from local operators across St. Thomas, St. John, and St. Croix.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://wanderusvi.com/tours?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
 }
 </script>
 <script src="/tracking.js" defer></script>

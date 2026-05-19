@@ -454,17 +454,23 @@ document.querySelector('.mobile-menu-btn')?.addEventListener('click', function()
 
 // Weather widget
 async function loadWeather() {
+    const CACHE_KEY = 'wx-cache-wusvi';
+    const TTL_MS = 10 * 60 * 1000;
+    const weatherEl = document.getElementById('header-weather');
+    if (!weatherEl) return;
     try {
+        const cached = JSON.parse(sessionStorage.getItem(CACHE_KEY) || 'null');
+        if (cached && Date.now() - cached.ts < TTL_MS) {
+            weatherEl.querySelector('.weather-temp').textContent = `${cached.temp}°F`;
+            return;
+        }
         const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=18.3419&longitude=-64.9307&current_weather=true&temperature_unit=fahrenheit');
         const data = await response.json();
         const temp = Math.round(data.current_weather.temperature);
-        
-        const weatherEl = document.getElementById('header-weather');
-        if (weatherEl) {
-            weatherEl.querySelector('.weather-temp').textContent = `${temp}°F`;
-        }
+        weatherEl.querySelector('.weather-temp').textContent = `${temp}°F`;
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify({ temp, ts: Date.now() }));
     } catch (error) {
-        console.log('Weather unavailable');
+        // Silent fail
     }
 }
 

@@ -25,3 +25,4 @@ app.js.pre-*
 clean-descriptions-v3.js
 desc-cleanup-*report*.txt
 tours-data.json.pre-*
+*.bak

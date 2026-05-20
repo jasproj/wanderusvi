@@ -30,8 +30,8 @@ function getBookingUrl(tourId, fallbackUrl) {
 
 function preCacheBookingUrls(tours) {
     tours.forEach(tour => {
-        if (tour.bookingLink) {
-            cacheBookingUrl(tour.id || tour.name, tour.bookingLink);
+        if (tour.bookingUrl) {
+            cacheBookingUrl(tour.id || tour.name, tour.bookingUrl);
         }
     });
 }
@@ -182,7 +182,7 @@ function generateTourSchema(tour) {
             "@type": "Offer",
             "price": (tour.priceConfidence === 'high' || tour.priceConfidence === 'medium') ? tour.price : "",
             "priceCurrency": "USD",
-            "url": tour.bookingLink,
+            "url": tour.bookingUrl,
             "availability": "https://schema.org/InStock"
         },
         "provider": {
@@ -248,7 +248,7 @@ function createTourCard(tour) {
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="book-now-btn tour-book-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="text-decoration: none;">Check Availability →</a>
+                    <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="book-now-btn tour-book-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="text-decoration: none;">Check Availability →</a>
                 </div>
             </div>
         </article>

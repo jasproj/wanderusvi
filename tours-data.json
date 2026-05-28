@@ -17323,7 +17323,9 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.851856"
+      "lastUpdated": "2026-05-27T13:49:49.851856",
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-05-28"
     },
     {
       "id": "492066",
@@ -20994,7 +20996,9 @@
       "lastUpdated": "2026-05-27T13:49:49.852094",
       "_unknownFields": {
         "priceSource": "v52-dominant-gate"
-      }
+      },
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-05-28"
     },
     {
       "id": "509655",
@@ -24861,7 +24865,9 @@
       "lastUpdated": "2026-05-27T13:49:49.852468",
       "_unknownFields": {
         "priceSource": "v52-dominant-gate"
-      }
+      },
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-05-28"
     },
     {
       "id": "587814",

@@ -201,9 +201,6 @@ ul, ol { list-style: none; }
     .logo-img {
         height: 60px;
     }
-    .hero-logo-img {
-        height: 330px;
-    }
     .footer-logo-img {
         height: 90px;
     }
@@ -289,37 +286,83 @@ ul, ol { list-style: none; }
     overflow-x: hidden;
 }
 
-/* Mobile hero compression — KWST styles.css:1559-1591 pattern.
-   Targets ~150-170px above-the-fold (above the 120px guideline because
-   the fixed header occupies ~60px and we keep both the brand logo and
-   the search bar visible — user's primary action on a discovery site).
-   Hides tagline / subtitle / quick-tags (decorative). Desktop unchanged. */
-@media (max-width: 767px) {
+/* Hero Mobile — image-backed band (~290px) with brand logo + tagline +
+   single-row search overlaid. Top padding clears the position:fixed 77px
+   header so the stack sits in the visible band below it.
+   Ported from wanderhawaii #73/#74 (mobile-hero-spec). */
+@media (max-width: 768px) {
     .hero {
-        min-height: auto;
-        padding: 70px 12px 8px;
+        min-height: 280px;
+        max-height: 290px;
+        padding: 85px var(--space-md) var(--space-md);
         justify-content: flex-start;
+        overflow: hidden;
     }
-    .hero-tagline,
+
+    .hero-overlay {
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-content {
+        padding: 0 20px;
+        padding-bottom: 0;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
     .hero-subtitle,
-    .quick-tags-wrapper {
+    .quick-tags-wrapper,
+    .trust-bar {
         display: none;
     }
+
+    .hero-tagline {
+        font-size: 0.75rem;
+        letter-spacing: 0.15em;
+        margin-bottom: var(--space-sm);
+    }
+
+    .hero-logo {
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+
     .hero-logo-pill {
-        margin: 0 0 8px;
+        display: inline-block;
+        padding: 0;
+        margin-bottom: var(--space-sm);
     }
+
     .hero-logo-img {
-        max-height: 40px;
+        height: 80px;
         width: auto;
+        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
     }
+
     .hero-search {
-        gap: 6px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: var(--space-sm);
+        padding: var(--space-sm);
     }
-    .hero-search input,
-    .hero-search .search-btn {
-        min-height: 44px;
-        padding: 10px 12px;
-        font-size: 0.95rem;
+
+    .hero-search .search-input-wrap {
+        flex: 1;
+        min-width: 0;
+        padding-left: var(--space-sm);
+    }
+
+    .hero-search input {
+        min-width: 0;
+    }
+
+    .search-btn {
+        width: auto;
+        flex: 0 0 auto;
+        white-space: nowrap;
+        padding: var(--space-sm) var(--space-md);
     }
 }
 
@@ -502,15 +545,6 @@ ul, ol { list-style: none; }
     box-shadow: 0 6px 20px rgba(8, 131, 149, 0.5);
 }
 
-@media (max-width: 560px) {
-    .hero-search {
-        flex-direction: column;
-        border-radius: var(--radius-lg);
-        padding: var(--space-md);
-    }
-    .search-input-wrap { padding: var(--space-sm); }
-    .search-btn { width: 100%; }
-}
 
 /* Quick Tags - Scrolling Marquee */
 .quick-tags-wrapper {
@@ -1895,18 +1929,6 @@ section { padding: var(--space-3xl) 0; }
     .logo-tagline {
         font-size: 0.5rem;
         padding-left: 0;
-    }
-    
-    .hero-logo-text {
-        font-size: 2rem;
-    }
-    
-    .hero-logo-flower {
-        font-size: 2.5rem;
-    }
-    
-    .hero-logo-img {
-        height: 240px;
     }
 }
 /* ============================================

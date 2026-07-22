@@ -30,15 +30,36 @@
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; line-height: 1.6; color: #222; background: #fff; }
   .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-  header { background: #0c7c8c; color: white; padding: 16px 20px; }
-  header .nav-wrap { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-  header a { color: white; text-decoration: none; }
-  header .logo { font-weight: 700; font-size: 1.2rem; }
-  header nav a { margin-left: 18px; opacity: 0.9; }
-  header nav a:hover { opacity: 1; text-decoration: underline; }
-  .hero { background: linear-gradient(135deg, #0c7c8c 0%, #f4a460 100%); color: white; padding: 64px 20px; text-align: center; }
+  /* Site header — cloned from about.html / styles.css, inlined & scoped to .header only */
+  .header { background: rgba(255,255,255,0.95); border-bottom: 1px solid #E5E5E5; }
+  .header-container { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; max-width: 1280px; margin: 0 auto; }
+  .header .logo { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; transition: transform 150ms ease; }
+  .header .logo:hover { transform: scale(1.02); }
+  .header .logo-group { display: flex; flex-direction: column; gap: 2px; }
+  .header .logo-img { height: 80px; width: auto; vertical-align: middle; }
+  .header .nav-desktop { display: flex; align-items: center; gap: 2rem; }
+  .header .nav-desktop a { font-weight: 500; color: #404040; text-decoration: none; padding: 0.5rem 0; position: relative; }
+  .header .nav-desktop a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: #088395; transition: width 250ms ease; }
+  .header .nav-desktop a:hover { color: #0A4D68; }
+  .header .nav-desktop a:hover::after { width: 100%; }
+  .header .mobile-menu-btn { display: none; flex-direction: column; gap: 5px; padding: 0.5rem; background: none; border: none; cursor: pointer; }
+  .header .mobile-menu-btn span { display: block; width: 24px; height: 2px; background: #404040; transition: all 150ms ease; }
+  .header .nav-mobile { display: none; flex-direction: column; background: #FFFFFF; border-top: 1px solid #E5E5E5; padding: 1rem 1.5rem; }
+  .header .nav-mobile.active { display: flex; }
+  .header .nav-mobile a { padding: 1rem 0; border-bottom: 1px solid #F5F5F5; font-weight: 500; color: #404040; text-decoration: none; }
+  @media (max-width: 768px) {
+    .header .nav-desktop { display: none; }
+    .header .mobile-menu-btn { display: flex; }
+    .header .logo-img { height: 60px; }
+    .header-container { padding: 0.5rem 1rem; }
+  }
+  .hero { position: relative; background: #0c7c8c; color: white; padding: 64px 20px; text-align: center; overflow: hidden; }
+  .hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+  .hero-overlay { position: absolute; inset: 0; z-index: 1; background: linear-gradient(135deg, rgba(12,124,140,0.82) 0%, rgba(244,164,96,0.72) 100%); }
+  .hero-content { position: relative; z-index: 2; }
   .hero h1 { font-size: 2.4rem; margin: 0 0 12px 0; line-height: 1.2; }
   .hero p { font-size: 1.1rem; max-width: 760px; margin: 0 auto; opacity: 0.96; }
+  .tour-img { width: 100%; height: 210px; object-fit: cover; border-radius: 8px; margin-bottom: 0.9rem; display: block; }
   article { max-width: 820px; margin: 0 auto; padding: 44px 20px; font-size: 1.05rem; }
   article h2 { font-size: 1.7rem; margin: 2.4rem 0 1rem; color: #0a5866; }
   article h3 { font-size: 1.25rem; margin: 1.8rem 0 0.6rem; color: #333; }
@@ -68,20 +89,30 @@
   .related { padding: 30px 0; background: #fafafa; }
   .related a { color: #0c7c8c; text-decoration: none; margin-right: 14px; }
   .related a:hover { text-decoration: underline; }
-  .footer { background: #222; color: #ccc; padding: 34px 20px; margin-top: 10px; }
-  .footer a { color: #9fd6df; text-decoration: none; }
-  .footer .footer-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 26px; }
-  .footer h4 { color: #fff; margin: 0 0 10px; font-size: 0.95rem; }
-  .footer ul { list-style: none; padding: 0; margin: 0; }
-  .footer li { margin-bottom: 6px; font-size: 0.9rem; }
-  .footer-logo-img { height: 46px; }
-  .footer-tagline { font-style: italic; }
-  .footer-bottom { max-width: 1100px; margin: 22px auto 0; padding-top: 16px; border-top: 1px solid #444; text-align: center; font-size: 0.85rem; }
+  /* Footer — WanderNZ / styles.css canonical treatment, inlined & scoped */
+  .footer { background: #171717; color: #D4D4D4; padding: 4rem 0 2rem; margin-top: 10px; }
+  .footer a { color: #D4D4D4; text-decoration: none; transition: color 150ms ease; }
+  .footer .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; }
+  .footer .footer-brand .logo { display: inline-block; margin-bottom: 0.5rem; }
+  .footer .footer-logo-img { height: 120px; width: auto; }
+  .footer .footer-brand p { font-size: 0.9375rem; line-height: 1.7; margin: 0 0 0.5rem; }
+  .footer .footer-tagline { color: #FFD93D; }
+  .footer .footer-links h4 { color: #fff; font-weight: 600; margin: 0 0 1rem; font-size: 1rem; }
+  .footer .footer-links ul { list-style: none; padding: 0; margin: 0; }
+  .footer .footer-links ul li { margin-bottom: 0.5rem; }
+  .footer .footer-links a { font-size: 0.9375rem; }
+  .footer .footer-links a:hover { color: #05BFDB; }
+  .footer .footer-bottom { padding-top: 2rem; border-top: 1px solid #404040; text-align: center; }
+  .footer .footer-bottom p { font-size: 0.875rem; margin: 0 0 0.5rem; }
+  @media (max-width: 768px) {
+    .footer .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .footer .footer-brand { grid-column: 1 / -1; }
+    .footer .footer-logo-img { height: 90px; }
+  }
+  @media (max-width: 480px) { .footer .footer-grid { grid-template-columns: 1fr; } }
   @media (max-width: 700px) {
     .hero h1 { font-size: 1.8rem; }
     .hero { padding: 46px 20px; }
-    header nav a { display: none; }
-    header nav a:first-child { display: inline; }
     article { padding: 30px 16px; }
     .compare-table { font-size: 0.86rem; }
     .compare-table th, .compare-table td { padding: 0.45rem 0.5rem; }
@@ -93,19 +124,40 @@
   <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
-<header>
-  <div class="nav-wrap">
-    <a href="/" class="logo">WanderUSVI</a>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/faq.html">FAQ</a>
+<header class="header">
+  <div class="header-container">
+    <div class="logo-group">
+      <a href="/" class="logo">
+        <picture>
+          <source type="image/webp" srcset="/images/logo-160.webp 1x, /images/logo-320.webp 2x, /images/logo-480.webp 3x">
+          <img src="/images/logo.png" alt="WanderUSVI" class="logo-img" loading="eager" decoding="async">
+        </picture>
+      </a>
+    </div>
+    <nav class="nav-desktop">
+      <a href="/#tours-section">Tours</a>
+      <a href="/#islands">Islands</a>
       <a href="/blog/">Blog</a>
+      <a href="/about.html">About</a>
+      <a href="/faq.html">FAQs</a>
     </nav>
+    <button class="mobile-menu-btn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
+  <nav class="nav-mobile">
+    <a href="/#tours-section">Tours</a>
+    <a href="/#islands">Islands</a>
+    <a href="/blog/">Blog</a>
+    <a href="/about.html">About</a>
+    <a href="/faq.html">FAQs</a>
+  </nav>
 </header>
 
 <section class="hero">
-  <div class="container">
+  <img class="hero-img" src="https://cdn.filestackcontent.com/resize=w:1600/auto_image/compress/Yw2dYIvRIGRLV4tgQzHg" alt="The Baths boulder grottos at Virgin Gorda, BVI" loading="eager" decoding="async">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
     <h1>St. Thomas to the BVI: The Baths or Jost Van Dyke?</h1>
     <p>A day trip to the British Virgin Islands is an international trip — bring your passport. Two iconic destinations, one boat day. Here's how to choose, and how to book.</p>
   </div>
@@ -140,12 +192,14 @@
   <p><strong>Best for:</strong> first-timers, families, and anyone who wants the iconic BVI photo. At the Baths, house-sized granite boulders form a maze of sea grottos and tidal pools you wade and swim through, ending at Devil's Bay beach. Most trips pair it with snorkeling. If you only do one BVI day trip, do this one.</p>
 
   <div class="cta-box">
+    <img class="tour-img" src="https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/Yw2dYIvRIGRLV4tgQzHg" alt="Baths, Virgin Gorda and White Bay, JVD full-day BVI trip" loading="eager" decoding="async">
     <p class="cta-label">Full-day Baths + White Bay (Jost) — Stormy Pirates</p>
     <p class="cta-price">$300 per person</p>
     <a class="book" href="https://fareharbor.com/embeds/book/stormypirates/items/102397/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" data-tour-id="stormypirates/102397" data-tour-name="Baths, Virgin Gorda and White Bay, JVD (BVI trip)">Check Availability →</a>
   </div>
 
   <div class="cta-box">
+    <img class="tour-img" src="https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/fLV8ZeDDRLDKKk6zlppD" alt="Discover the Baths of Virgin Gorda shared trip" loading="eager" decoding="async">
     <p class="cta-label">Discover the Baths of Virgin Gorda (shared) — Cruz Bay Watersports</p>
     <p class="cta-price">$179 per adult</p>
     <a class="book" href="https://fareharbor.com/embeds/book/cruzbaywatersports/items/10949/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" data-tour-id="cruzbaywatersports/10949" data-tour-name="Discover The Baths of Virgin Gorda - British Virgin Islands">Check Availability →</a>
@@ -155,12 +209,14 @@
   <p><strong>Best for:</strong> laid-back groups who want to spend the day at White Bay with a painkiller in hand. Jost is tiny and famous for its beach bars — the Soggy Dollar Bar (of painkiller fame) and Foxy's. The snorkeling is secondary; the point is the sand, the water, and the bar tab. Pick this over the Baths when the vibe matters more than the scenery.</p>
 
   <div class="cta-box">
+    <img class="tour-img" src="https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/eNNLY3SRyGRmCA86ofoN" alt="Sail and Explore Jost Van Dyke, BVI" loading="eager" decoding="async">
     <p class="cta-label">Sail and Explore Jost Van Dyke — Stormy Pirates</p>
     <p class="cta-price">$270 per person</p>
     <a class="book" href="https://fareharbor.com/embeds/book/stormypirates/items/102398/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" data-tour-id="stormypirates/102398" data-tour-name="Sail and Explore Jost Van Dyke (BVI trip)">Check Availability →</a>
   </div>
 
   <div class="cta-box">
+    <img class="tour-img" src="https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/t3GfztkvTlGKgJLW9uAV" alt="Discover Jost Van Dyke shared trip" loading="eager" decoding="async">
     <p class="cta-label">Discover Jost Van Dyke (shared) — Cruz Bay Watersports</p>
     <p class="cta-price">$179 per adult</p>
     <a class="book" href="https://fareharbor.com/embeds/book/cruzbaywatersports/items/10966/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" data-tour-id="cruzbaywatersports/10966" data-tour-name="Discover Jost Van Dyke - British Virgin Islands">Check Availability →</a>
@@ -170,6 +226,7 @@
   <p><strong>Best for:</strong> groups of six or more, families, or anyone who wants their own itinerary and no strangers aboard. A private charter lets you set the pace — hit the Baths and Jost in one day, or add Cooper or Norman Island — and it's often the better value once you're splitting it across a group. This is a whole-boat rate, not a per-person price.</p>
 
   <div class="cta-box private">
+    <img class="tour-img" src="https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/r98oT3qsTXWH0EAopsk4" alt="Full-day private charter aboard M/V Aquarius, BVI" loading="eager" decoding="async">
     <p class="cta-label">Full-Day Private Charter — M/V Aquarius (Seas the Day Charters)</p>
     <p class="cta-price">$1,795 for the whole boat — private, up to 12 guests</p>
     <a class="book" href="https://fareharbor.com/embeds/book/seasthedaychartersusvi/items/429510/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" data-tour-id="seasthedaychartersusvi/429510" data-tour-name="Full Day Private Charter Aboard M/V Aquarius | BVI">Check Availability →</a>
@@ -261,5 +318,11 @@
     </div>
   </div>
 </footer>
+<script>
+  document.querySelector('.mobile-menu-btn')?.addEventListener('click', function () {
+    document.querySelector('.nav-mobile')?.classList.toggle('active');
+    this.classList.toggle('active');
+  });
+</script>
 </body>
 </html>

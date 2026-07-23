@@ -789,7 +789,9 @@
       "lastUpdated": "2026-05-27T13:49:49.850933",
       "_unknownFields": {
         "durationMinutes": 390
-      }
+      },
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-07-23"
     },
     {
       "id": "30025",
@@ -942,7 +944,9 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.850943"
+      "lastUpdated": "2026-05-27T13:49:49.850943",
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-07-23"
     },
     {
       "id": "102397",
@@ -1451,7 +1455,9 @@
       "lastUpdated": "2026-05-27T13:49:49.850979",
       "_unknownFields": {
         "durationMinutes": 480
-      }
+      },
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-07-23"
     },
     {
       "id": "102398",
@@ -20894,7 +20900,9 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.852089"
+      "lastUpdated": "2026-05-27T13:49:49.852089",
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-07-23"
     },
     {
       "id": "325161",

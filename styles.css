@@ -1750,12 +1750,12 @@ section { padding: var(--space-3xl) 0; }
     /* Trust Bar Mobile */
     .trust-bar {
         padding: var(--space-sm) var(--space-md);
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap: var(--space-sm);
     }
-    
+
     .trust-item {
-        flex: 1 1 45%;
+        flex: 1 1 0;
         text-align: center;
     }
     
@@ -1764,13 +1764,13 @@ section { padding: var(--space-3xl) 0; }
     }
     
     .trust-number {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
-    
+
     .trust-label {
-        font-size: 0.65rem;
+        font-size: 0.6rem;
     }
-    
+
     /* Section Titles Mobile */
     .section-title {
         font-size: 1.5rem;

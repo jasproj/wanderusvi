@@ -8,7 +8,7 @@ WanderUSVI helps travelers find and book authentic Hawaiian experiences from loc
 
 - [Homepage](https://wanderusvi.com/): Search and browse 595 Hawaiian tours
 - [All Tours](https://wanderusvi.com/tours.html): Complete tour directory with filters
-- [Islands Guide](https://wanderusvi.com/islands.html): Compare Oahu, Maui, Big Island, Kauai
+- [St. Thomas Guide](https://wanderusvi.com/st-thomas.html): St. Thomas tours, beaches and things to do
 
 ## Activity Guides
 

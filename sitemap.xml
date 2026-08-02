@@ -138,4 +138,34 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
+    <url>
+        <loc>https://wanderusvi.com/blog/kayak-and-snorkel-with-sea-turtles-st-john-usvi.html</loc>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderusvi.com/blog/kayak-paddleboard-usvi-beginners.html</loc>
+        <lastmod>2026-07-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderusvi.com/blog/best-snorkeling-tours-st-john-for-beginners.html</loc>
+        <lastmod>2026-07-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderusvi.com/blog/best-snorkeling-tours-st-thomas-for-beginners.html</loc>
+        <lastmod>2026-07-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wanderusvi.com/blog/usvi-night-activities-guide.html</loc>
+        <lastmod>2026-05-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>

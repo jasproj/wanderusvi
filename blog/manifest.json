@@ -1,23 +1,20 @@
 [
-  {
-    "url": "/blog/best-time-to-visit-usvi.html",
-    "title": "Best Time to Visit the US Virgin Islands: Month-by-Month",
-    "description": "When to visit the USVI for the best weather, lowest prices, and clearest snorkeling \u2014 a month-by-month guide for travelers planning St. Thomas, St. John, or St. Croix.",
-    "tag": "Best Time",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Trunk_Bay%2C_Saint_John%2C_US_Virgin_Islands.jpg/1280px-Trunk_Bay%2C_Saint_John%2C_US_Virgin_Islands.jpg"
-  },
-  {
-    "url": "/blog/st-thomas-vs-st-john-vs-st-croix.html",
-    "title": "St. Thomas vs St. John vs St. Croix: Which Island Fits",
-    "description": "A practical comparison of the three US Virgin Islands \u2014 vibe, snorkeling, food, and how to choose for your trip type. Updated for 2026 travelers.",
-    "tag": "Compare",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Magens_Bay_St._Thomas_2007.jpg/1280px-Magens_Bay_St._Thomas_2007.jpg"
-  },
-  {
-    "url": "/blog/top-snorkeling-usvi.html",
-    "title": "Top Snorkeling Spots in the US Virgin Islands",
-    "description": "The best snorkeling reefs in St. Thomas, St. John, and St. Croix \u2014 including underwater trails, sea turtle spots, and accessible shore-snorkel sites.",
-    "tag": "Top Picks",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Trunk_Bay_Beach_aerial_view.jpg/1280px-Trunk_Bay_Beach_aerial_view.jpg"
-  }
+    {
+        "url": "/blog/best-time-to-visit-usvi.html",
+        "title": "Best Time to Visit the US Virgin Islands: Month-by-Month",
+        "description": "When to visit the USVI for the best weather, lowest prices, and clearest snorkeling — a month-by-month guide for travelers planning St. Thomas, St. John, or St. Croix.",
+        "tag": "Best Time"
+    },
+    {
+        "url": "/blog/st-thomas-vs-st-john-vs-st-croix.html",
+        "title": "St. Thomas vs St. John vs St. Croix: Which Island Fits",
+        "description": "A practical comparison of the three US Virgin Islands — vibe, snorkeling, food, and how to choose for your trip type. Updated for 2026 travelers.",
+        "tag": "Compare"
+    },
+    {
+        "url": "/blog/top-snorkeling-usvi.html",
+        "title": "Top Snorkeling Spots in the US Virgin Islands",
+        "description": "The best snorkeling reefs in St. Thomas, St. John, and St. Croix — including underwater trails, sea turtle spots, and accessible shore-snorkel sites.",
+        "tag": "Top Picks"
+    }
 ]

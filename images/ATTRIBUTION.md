@@ -28,7 +28,7 @@ Hero photos sourced from [Pexels](https://www.pexels.com) on 2026-04-24 under th
 - ⚠️ Because it is the global fallback it appears in many contexts. Any alt text
   claiming a different island is wrong — see the open items below.
 
-## hero-photo-2.jpg — beach seen from inside a parked vehicle
+## hero-photo-2.jpg — Jeep interior framing a bay through the windscreen
 - Photographer: [livin](https://www.pexels.com/@livin)
 - Photo URL: https://www.pexels.com/photo/vehicle-interior-close-up-photography-2794001/
 - Original dimensions: 6240×4160 · Final: 1920×1280 · Downloaded: 2026-04-24
@@ -57,10 +57,16 @@ Hero photos sourced from [Pexels](https://www.pexels.com) on 2026-04-24 under th
 - ⚠️ **Previously recorded here as "Caribbean sailing catamaran", which dropped the
   country.** That omission is the whole defect: the file reads as generic Caribbean
   stock while the source explicitly says Curaçao.
-- 🔴 **OPEN — not resolved in this PR, awaiting a ruling.** This file is live as the
-  **St Croix island card on `index.html`**, i.e. a Curaçao vessel representing a USVI
-  island on the homepage, carrying a named third-party operator's branding and URL.
-- **Live in:** `index.html` — St Croix island card background.
+- 🚫 **RETIRED FROM ALL PAGES 2026-08-02. Do not reuse anywhere on this site.**
+  Two independent reasons, either sufficient:
+  1. **Wrong territory.** It was live as the **St Croix island card on `index.html`** —
+     a Curaçao vessel representing a USVI island on the homepage.
+  2. **Third-party brand.** "BlueFinn Charters" and their URL are printed large on the
+     hull. That is an unaffiliated operator's advertising, in an island slot, on a site
+     whose whole proposition is USVI operators.
+- **Live in:** nothing. The St Croix card now ships with **no image** — no local asset
+  genuinely depicts St Croix, and a near-match is a worse defect than no image.
+- The file is retained, not deleted, so this record stays checkable.
 
 ---
 
@@ -87,9 +93,13 @@ of a warning as clearance.
 - **Depicts:** a composed brand card — "Wander US Virgin Islands / St. Thomas.
   St. John. St. Croix." set over an illustrated bay with moored sailboats, hibiscus
   and frangipani. Rendered/illustrated artwork, not a photograph of a real location.
-- **Live in:** `index.html`, `snorkeling.html`, `whale-watching.html`,
-  `advertise.html` (all as `og:image`), and
-  `blog/best-shore-excursions-st-thomas-cruise-ship.html` uses hero-photo-1 instead.
+- **Live in: 19 files** as of 2026-08-02 — every page's `og:image` / `twitter:image`,
+  plus JSON-LD `publisher.logo.url` on the 7 blog posts (see open item 4). It became
+  the site's single social-preview and publisher-logo asset when the 404
+  `og-image.png` references were repointed here.
+- ⚠️ It is a **wide brand card with baked-in text**, not a logo and not a photograph.
+  It works as `og:image`; as `publisher.logo.url` it is serviceable but `logo.png`
+  would be the more correct asset if anyone wants to split the two later.
 
 ## hero-banner.png / hero-banner.webp / footer-badge*.png|webp / logo*.png|webp / favicon*
 - **Provenance: UNRECORDED.** Brand/logo assets, added 2026-04-24 and 2026-05-02.
@@ -98,20 +108,21 @@ of a warning as clearance.
 
 ---
 
-## Open items — recorded, not resolved in this PR
+## Item log — ✅ resolved, or still open
 
-1. 🔴 **hero-photo-3.jpg is a Curaçao vessel in the St Croix homepage slot**, with a
-   third-party operator's name and URL visible on the hull. Awaiting a ruling.
-2. **Wrong-island alt text on hero-photo-1.jpg.** `index.html` and
-   `blog/best-snorkeling-tours-st-john-for-beginners.html` both caption it
-   "St Thomas harbour in summer" — correct for the file, wrong for a St John page.
-   The same file is the global `FALLBACK_IMAGE`, so every catalogue record lacking
-   an image renders a St Thomas harbour photo under its own name as alt.
+1. ✅ **RESOLVED 2026-08-02** — hero-photo-3.jpg (Curaçao, BlueFinn-branded) removed
+   from the St Croix homepage card. The card now ships with no image; no local asset
+   depicts St Croix. The file is retired, not deleted.
+2. **`hero-photo-1.jpg` is the global `FALLBACK_IMAGE` — 66 catalogue records have no
+   image of their own and therefore render a St Thomas harbour photo**, whichever
+   island the record belongs to, with the tour name as alt. Alt text on the two pages
+   that reference the file directly was corrected on 2026-08-02; **the fallback itself
+   is unchanged and remains a live wrong-island risk.** Not addressed in that PR.
 3. **`about-mission.jpg` is captioned "Francis Bay, St. John" on `about.html`** with
    no recorded source. Verify or soften.
-4. **JSON-LD `publisher.logo.url` is `https://wanderusvi.com/og-image.png` — a 404.**
-   Present in the structured data of every blog post. The real asset is
-   `images/og-image.jpg`; no `og-image.png` exists at the repo root.
+4. ✅ **RESOLVED 2026-08-02** — `https://wanderusvi.com/og-image.png` (404, no such
+   file) replaced with `images/og-image.jpg` in all 23 references: 7 blog posts as
+   JSON-LD `publisher.logo.url`, and 8 pages as `og:image` + `twitter:image`.
 
 ## Rule
 

@@ -691,6 +691,12 @@ section { padding: var(--space-3xl) 0; }
 
 .island-card:hover .island-img { transform: scale(1.1); }
 
+/* No honest local photo exists for this island yet: a brand panel, not an image claim. */
+.island-img--placeholder {
+    background: linear-gradient(135deg, var(--ocean-deep), var(--ocean-mid));
+}
+.island-card:hover .island-img--placeholder { transform: none; }
+
 .island-content { padding: var(--space-lg); }
 
 .island-content h3 {

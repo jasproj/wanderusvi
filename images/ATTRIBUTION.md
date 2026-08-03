@@ -121,8 +121,19 @@ of a warning as clearance.
 3. **`about-mission.jpg` is captioned "Francis Bay, St. John" on `about.html`** with
    no recorded source. Verify or soften.
 4. ✅ **RESOLVED 2026-08-02** — `https://wanderusvi.com/og-image.png` (404, no such
-   file) replaced with `images/og-image.jpg` in all 23 references: 7 blog posts as
-   JSON-LD `publisher.logo.url`, and 8 pages as `og:image` + `twitter:image`.
+   file) replaced with `images/og-image.jpg` in all **27** references: 12 `og:image`,
+   8 `twitter:image`, and 7 blog posts as JSON-LD `publisher.logo.url`.
+   Corrected 2026-08-03 — this entry previously read "23 references … 8 pages as
+   `og:image` + `twitter:image`", which assumed every page carried both tags.
+   **It does not.** `og:image` appears on **12** pages but only **8** carry a
+   matching `twitter:image`. The four unpaired pages — `advertise.html`,
+   `index.html`, `snorkeling.html`, `whale-watching.html` — have `og:image`
+   with no `twitter:image`. Not addressed here; recorded so the count is not
+   re-derived from the wrong assumption.
+   These 27 are the references **repointed off `og-image.png` on 2026-08-02**, not
+   a running total. A later PR added `og:image` + `twitter:image` to
+   `blog/best-time-to-visit-usvi.html` as net-new tags, so grepping the tree today
+   measures 13 / 9 / 7 = 29. That is not a contradiction of this entry.
 
 ## Rule
 

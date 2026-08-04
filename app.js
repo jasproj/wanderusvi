@@ -118,6 +118,42 @@ let filteredTours = [];
 let displayedCount = 0;
 const TOURS_PER_PAGE = 24;
 
+// Read ?activity=<value> and, when it names a real option on #activity-filter,
+// pre-select it and render the filtered grid. This is what makes deep links
+// like /index.html?activity=Snorkel#tours-section land on a filtered grid.
+//
+// Matching is case-insensitive against the option's value but always assigns
+// the option's canonical value, so ?activity=snorkel and ?activity=Snorkel
+// both resolve to the "Snorkel" tag that tour records actually carry.
+// Returns true when a filter was applied — filterTours() renders and updates
+// the results count itself, so the caller must not render again.
+function applyActivityFromUrl() {
+    let requested;
+    try {
+        requested = new URLSearchParams(window.location.search).get('activity');
+    } catch (e) {
+        return false;
+    }
+    if (!requested) return false;
+
+    const select = document.getElementById('activity-filter');
+    if (!select) return false;
+
+    const wanted = requested.trim().toLowerCase();
+    const match = Array.from(select.options)
+        .find(o => o.value && o.value.toLowerCase() === wanted);
+
+    if (!match) {
+        console.warn(`⚠️ ?activity=${requested} matches no activity filter option — ignoring`);
+        return false;
+    }
+
+    select.value = match.value;
+    console.log(`🔗 ?activity=${requested} → filtering on "${match.value}"`);
+    filterTours();
+    return true;
+}
+
 // Load tours data
 async function loadTours() {
     try {
@@ -143,8 +179,13 @@ async function loadTours() {
         preCacheBookingUrls(toursData);
         
         displayedCount = 0;
-        renderTours();
-        updateResultsCount();
+        // A ?activity= param pre-selects the activity dropdown and renders the
+        // filtered grid instead of the full one. When absent (or unrecognised)
+        // this is a no-op and the unfiltered render below runs as before.
+        if (!applyActivityFromUrl()) {
+            renderTours();
+            updateResultsCount();
+        }
         console.log('✅ Tours rendered successfully');
     } catch (error) {
         console.error('❌ Error loading tours:', error.message);

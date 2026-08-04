@@ -80,8 +80,14 @@ ul, ol { list-style: none; }
     left: 0;
     right: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
+    /* Opaque, unblurred. The header logo asset (images/logo.png + its WebP
+       variants) is fully opaque #ffffff with no alpha channel, so it could not
+       pick up the old rgba(255,255,255,0.95) + backdrop-blur tint the way the
+       header around it did. Any non-white content scrolling under the fixed
+       header tinted the bar but not the logo, leaving the logo's bounding box
+       visible as a crisp pure-white rectangle. Matching the header to the
+       asset removes the seam without touching the assets. */
+    background: #ffffff;
     border-bottom: 1px solid var(--gray-200);
 }
 

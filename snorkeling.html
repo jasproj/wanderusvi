@@ -229,7 +229,60 @@
             background: var(--plumeria-hover);
             transform: translateY(-2px);
         }
-    
+
+        /* Live snorkeling tours. Card shape is the island-page treatment
+           (st-thomas.html et al) so the two surfaces read identically; scoped
+           under .snorkel-tours so it wins over the generic .tour-card rules in
+           styles.css, which this page also links. */
+        .snorkel-tours {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+            margin: 0 0 var(--space-xl) 0;
+            text-align: left;
+        }
+        .snorkel-tours .tour-card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            display: flex;
+            flex-direction: column;
+        }
+        .snorkel-tours .tour-image { position: relative; }
+        .snorkel-tours .tour-image img {
+            width: 100%; height: 200px; object-fit: cover; display: block;
+        }
+        .snorkel-tours .tour-price {
+            position: absolute; bottom: 10px; left: 10px;
+            background: #f4a460; color: #fff;
+            padding: 6px 12px; border-radius: 4px;
+            font-weight: 600; font-size: 0.9rem;
+        }
+        .snorkel-tours .tour-content {
+            padding: 16px; display: flex; flex-direction: column; flex: 1;
+        }
+        .snorkel-tours .tour-company { font-size: 0.85rem; color: #666; }
+        .snorkel-tours .tour-title {
+            font-size: 1.05rem; margin: 6px 0 10px 0; line-height: 1.3; color: var(--gray-900);
+        }
+        .snorkel-tours .tour-desc {
+            font-size: 0.92rem; color: #555; margin: 0 0 14px 0;
+            display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+        }
+        .snorkel-tours .tour-book-btn {
+            display: inline-block; margin-top: auto; align-self: flex-start;
+            background: #0c7c8c; color: #fff !important;
+            padding: 10px 20px; border-radius: 4px; font-weight: 600;
+            min-height: 44px; line-height: 24px; text-align: center;
+        }
+        .snorkel-tours .tour-book-btn:hover { opacity: 0.9; }
+        .snorkel-tours-status { opacity: 0.9; margin: 0 0 var(--space-xl) 0; }
+
+        @media (max-width: 480px) {
+            .snorkel-tours { grid-template-columns: 1fr; }
+        }
+
         @media (max-width: 768px) {
             .activity-hero { padding: 48px var(--space-lg) 32px; }
             .activity-hero h1 { font-size: 1.75rem; }
@@ -373,8 +426,10 @@
     </section>    <section class="cta-section">
         <div class="container">
             <h2>Ready to Snorkel?</h2>
-            <p>Browse tours from local operators.</p>
-            <a href="index.html#tours-section" class="cta-btn" onclick="localStorage.setItem('filterActivity', 'Snorkel')">View All Snorkel Tours →</a>
+            <p>Top-rated snorkeling trips, booked direct with the operator.</p>
+            <div class="snorkel-tours" id="snorkel-tours-grid" hidden></div>
+            <p class="snorkel-tours-status" id="snorkel-tours-status">Loading snorkeling tours…</p>
+            <a href="index.html?activity=Snorkel#tours-section" class="cta-btn" id="snorkel-browse-all">Browse all snorkeling tours →</a>
         </div>
     </section>
 
@@ -452,6 +507,121 @@
         document.querySelector('.nav-mobile')?.classList.toggle('active');
         this.classList.toggle('active');
     });
+    </script>
+
+    <!-- Live snorkeling tours.
+         Pattern page: the first activity page to show real bookable inventory
+         instead of a CTA pointing at an unfiltered grid. Reads the same
+         catalogue index.html reads and applies the same two-signal liveness
+         test (status active AND not bookingDead) that app.js:134 applies, so
+         the count shown here cannot drift from the count on the homepage. -->
+    <script>
+    (function () {
+        var TAG = 'Snorkel';
+        var TOP_N = 3;
+
+        var grid   = document.getElementById('snorkel-tours-grid');
+        var status = document.getElementById('snorkel-tours-status');
+        var browse = document.getElementById('snorkel-browse-all');
+        if (!grid || !status || !browse) return;
+
+        function esc(s) {
+            return String(s == null ? '' : s)
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+        }
+
+        // Mirrors app.js formatPrice: a price is only shown when the extractor
+        // was confident about it. Anything else falls back to the island-page
+        // "Check availability" label rather than inventing a number.
+        function priceLabel(t) {
+            var ok = (t.priceConfidence === 'high' || t.priceConfidence === 'medium');
+            if (ok && typeof t.price === 'number' && isFinite(t.price) && t.price > 0) {
+                return 'From $' + t.price;
+            }
+            return 'Check availability';
+        }
+
+        function truncate(s, n) {
+            s = String(s == null ? '' : s).replace(/\s+/g, ' ').trim();
+            return s.length > n ? s.slice(0, n - 1) + '…' : s;
+        }
+
+        // Root-absolute: this page is served from /snorkeling.html today, but a
+        // relative path would break the moment it moved into a subdirectory.
+        fetch('/tours-data.json', { cache: 'no-cache' })
+            .then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(function (raw) {
+                var all = Array.isArray(raw) ? raw : (raw && raw.tours) || [];
+
+                // Two-signal liveness, same as app.js: status must be active AND
+                // the record must not be flagged bookingDead. A bookingUrl is
+                // required too — a card we cannot book is not worth rendering.
+                var live = all.filter(function (t) {
+                    return t
+                        && t.status !== 'inactive'
+                        && !t.bookingDead
+                        && t.bookingUrl
+                        && Array.isArray(t.tags)
+                        && t.tags.indexOf(TAG) !== -1;
+                });
+
+                var total = live.length;
+
+                var top = live.slice().sort(function (a, b) {
+                    return (b.qualityScore || 0) - (a.qualityScore || 0);
+                }).slice(0, TOP_N);
+
+                if (!top.length) {
+                    status.textContent = 'Tours are loading slowly right now — browse the full list below.';
+                    console.warn('[snorkel-tours] no bookable ' + TAG + ' records found');
+                    return;
+                }
+
+                if (top.length < TOP_N) {
+                    console.warn('[snorkel-tours] only ' + top.length + ' bookable ' +
+                                 TAG + ' record(s) available, expected ' + TOP_N);
+                }
+
+                grid.innerHTML = top.map(function (t) {
+                    var name = esc(t.name || 'Snorkeling tour');
+                    // t.bookingUrl is emitted verbatim: it carries the
+                    // asn=fhdn / asn-ref / ref affiliate attribution and the
+                    // real FareHarbor item pk. Rewriting it would break payout.
+                    return '' +
+                        '<article class="tour-card">' +
+                            '<div class="tour-image">' +
+                                '<img src="' + esc(t.image || '/images/hero-photo-1.jpg') + '" ' +
+                                     'alt="' + name + '" loading="lazy" width="400" height="200" ' +
+                                     'onerror="this.src=\'/images/hero-photo-1.jpg\'">' +
+                                '<div class="tour-price">' + esc(priceLabel(t)) + '</div>' +
+                            '</div>' +
+                            '<div class="tour-content">' +
+                                '<div class="tour-company">' + esc(t.company || '') + '</div>' +
+                                '<h3 class="tour-title">' + name + '</h3>' +
+                                '<p class="tour-desc">' + esc(truncate(t.description, 120)) + '</p>' +
+                                '<a href="' + esc(t.bookingUrl) + '" target="_blank" rel="noopener noreferrer" ' +
+                                   'class="tour-book-btn book-now-btn" ' +
+                                   'data-tour-id="' + esc(t.id) + '" ' +
+                                   'data-tour-name="' + name + '">Check Availability →</a>' +
+                            '</div>' +
+                        '</article>';
+                }).join('');
+
+                grid.hidden = false;
+                status.hidden = true;
+                browse.textContent = 'Browse all ' + total + ' snorkeling tours →';
+                console.log('[snorkel-tours] rendered ' + top.length + ' of ' + total + ' live ' + TAG + ' tours');
+            })
+            .catch(function (err) {
+                // Editorial content below is unaffected; only the live strip degrades.
+                status.textContent = 'Tours are loading slowly right now — browse the full list below.';
+                console.error('[snorkel-tours] load failed:', err && err.message);
+            });
+    })();
     </script>
 </body>
 </html>

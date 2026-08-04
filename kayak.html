@@ -60,6 +60,24 @@
         .cta-section p { font-size: 1.125rem; opacity: 0.9; margin-bottom: var(--space-xl); }
         .cta-btn { display: inline-flex; padding: var(--space-lg) var(--space-2xl); background: var(--plumeria); color: var(--gray-900); font-weight: 600; font-size: 1.125rem; border-radius: var(--radius-full); transition: all var(--transition-fast); }
         .cta-btn:hover { background: var(--plumeria-hover); transform: translateY(-2px); }
+
+        /* Live activity tours. Card shape is the island-page treatment
+           (st-thomas.html et al) so the two surfaces read identically; scoped
+           under .activity-tours so it wins over the generic .tour-card rules in
+           styles.css, which this page also links. */
+        .activity-tours { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin: 0 0 var(--space-xl) 0; text-align: left; }
+        .activity-tours .tour-card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); display: flex; flex-direction: column; }
+        .activity-tours .tour-image { position: relative; }
+        .activity-tours .tour-image img { width: 100%; height: 200px; object-fit: cover; display: block; }
+        .activity-tours .tour-price { position: absolute; bottom: 10px; left: 10px; background: #f4a460; color: #fff; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.9rem; }
+        .activity-tours .tour-content { padding: 16px; display: flex; flex-direction: column; flex: 1; }
+        .activity-tours .tour-company { font-size: 0.85rem; color: #666; }
+        .activity-tours .tour-title { font-size: 1.05rem; margin: 6px 0 10px 0; line-height: 1.3; color: var(--gray-900); }
+        .activity-tours .tour-desc { font-size: 0.92rem; color: #555; margin: 0 0 14px 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .activity-tours .tour-book-btn { display: inline-block; margin-top: auto; align-self: flex-start; background: #0c7c8c; color: #fff !important; padding: 10px 20px; border-radius: 4px; font-weight: 600; min-height: 44px; line-height: 24px; text-align: center; }
+        .activity-tours .tour-book-btn:hover { opacity: 0.9; }
+        .activity-tours-status { opacity: 0.9; margin: 0 0 var(--space-xl) 0; }
+        @media (max-width: 480px) { .activity-tours { grid-template-columns: 1fr; } }
     
         @media (max-width: 768px) {
             .activity-hero { padding: 48px var(--space-lg) 32px; }
@@ -187,8 +205,10 @@
     </section>    <section class="cta-section">
         <div class="container">
             <h2>Ready to Kayak?</h2>
-            <p>Browse tours from local operators.</p>
-            <a href="index.html#tours-section" class="cta-btn" onclick="localStorage.setItem('filterActivity', 'Kayak')">View All Kayak Tours →</a>
+            <p>Top-rated kayaking trips, booked direct with the operator.</p>
+            <div class="activity-tours" id="activity-tours-grid" data-activity-tag="Kayak" data-activity-label="kayaking" hidden></div>
+            <p class="activity-tours-status" id="activity-tours-status">Loading kayaking tours…</p>
+            <a href="index.html?activity=Kayak#tours-section" class="cta-btn" id="activity-browse-all">Browse all kayaking tours →</a>
         </div>
     </section>
 
@@ -253,5 +273,7 @@
         </div>
     </footer>
     <script>document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() { document.querySelector('.nav-mobile')?.classList.toggle('active'); this.classList.toggle('active'); });</script>
+
+    <script src="/activity-tours.js" defer></script>
 </body>
 </html>

@@ -20,6 +20,7 @@
 
     var TAG = grid.getAttribute('data-activity-tag');
     var LABEL = grid.getAttribute('data-activity-label') || (TAG || '').toLowerCase();
+    var PREFER_PER_SEAT = grid.getAttribute('data-prefer-per-seat') === 'true';
     if (!TAG) return;
 
     function esc(s) {
@@ -110,7 +111,7 @@
     // product AND a distinct operator, so the strip does not become three
     // listings from one company. If that cannot fill TOP_N, pass 2 relaxes the
     // operator constraint but still refuses duplicate products.
-    function pickDistinct(sorted, n) {
+    function pickDistinct(sorted, n, tiers) {
         var picked = [], usedCompanies = {};
 
         function conflicts(cand) {
@@ -120,23 +121,52 @@
             return false;
         }
 
-        var i;
-        for (i = 0; i < sorted.length && picked.length < n; i++) {
-            var c = sorted[i];
-            var co = (c.company || '').trim().toLowerCase();
-            if (co && usedCompanies[co]) continue;
-            if (conflicts(c)) continue;
-            picked.push(c);
-            if (co) usedCompanies[co] = 1;
+        // sweep(list, preferDistinctOperator): take from `list` in order,
+        // skipping duplicate products always, and duplicate operators only on
+        // the operator-preferring sweep.
+        function sweep(list, preferDistinctOperator) {
+            for (var i = 0; i < list.length && picked.length < n; i++) {
+                var c = list[i];
+                if (picked.indexOf(c) !== -1) continue;
+                var co = (c.company || '').trim().toLowerCase();
+                if (preferDistinctOperator && co && usedCompanies[co]) continue;
+                if (conflicts(c)) continue;
+                picked.push(c);
+                if (co) usedCompanies[co] = 1;
+            }
         }
-        for (i = 0; i < sorted.length && picked.length < n; i++) {
-            var c2 = sorted[i];
-            if (picked.indexOf(c2) !== -1) continue;
-            if (conflicts(c2)) continue;
-            picked.push(c2);
-        }
+
+        // Without tiers this is the original two-pass behaviour: prefer a
+        // distinct operator, then relax that to fill the slots.
+        var groups = tiers && tiers.length ? tiers : [sorted];
+        var g;
+        for (g = 0; g < groups.length; g++) sweep(groups[g], true);
+        for (g = 0; g < groups.length; g++) sweep(groups[g], false);
         return picked;
     }
+
+    // Per-seat curation guard.
+    //
+    // Ranking purely by qualityScore surfaced whole-boat products inside
+    // per-seat activity strips: snorkeling's third card was an ~$1,800
+    // "Full Day (6 or 8 hours) Private Charter - Luxury Sailing Catamaran"
+    // sitting beside two ~$100 per-person trips. That is a real, bookable
+    // product — it is just not comparable merchandising.
+    //
+    // Opt in per page with data-prefer-per-seat="true". Charter-shaped
+    // products are demoted to a second tier, so they appear only when there
+    // are fewer than TOP_N distinct non-charter products to show. Nothing is
+    // filtered out, and the distinct-product / distinct-operator rules apply
+    // across both tiers exactly as before.
+    //
+    // Matched on the NAME only, never the company: "Kaos, 3/4 Day Fishing"
+    // from Drift Charters is a per-seat product whose *operator* happens to be
+    // called Charters. Matching company would have wrongly demoted it.
+    //
+    // Deliberately NOT enabled on fishing.html (4 of its 6 live records are
+    // charter-shaped, because whole-boat IS the fishing product) or on
+    // zipline.html (a single live record).
+    var CHARTER_SHAPED = /private|charter|whole\s*boat|luxury/i;
     // ------------------------------------------------------------------------
 
     // Root-absolute: these pages sit at the site root today, but a relative path
@@ -168,7 +198,16 @@
             });
             sorted.forEach(function (t) { t._sig = signature(t.name); });
 
-            var top = pickDistinct(sorted, TOP_N);
+            var tiers = null;
+            if (PREFER_PER_SEAT) {
+                var perSeat = [], charterish = [];
+                sorted.forEach(function (t) {
+                    (CHARTER_SHAPED.test(t.name || '') ? charterish : perSeat).push(t);
+                });
+                tiers = [perSeat, charterish];
+            }
+
+            var top = pickDistinct(sorted, TOP_N, tiers);
 
             if (!top.length) {
                 status.textContent = 'Tours are loading slowly right now — browse the full list below.';
@@ -185,6 +224,12 @@
             if (collapsed > 0) {
                 console.log('[activity-tours] dedupe collapsed ' + collapsed +
                             ' near-identical ' + TAG + ' product(s)');
+            }
+            if (PREFER_PER_SEAT) {
+                var shown = top.filter(function (t) { return CHARTER_SHAPED.test(t.name || ''); }).length;
+                console.log('[activity-tours] per-seat preference on: ' + tiers[1].length +
+                            ' of ' + total + ' live ' + TAG + ' record(s) are charter-shaped, ' +
+                            shown + ' in the top ' + TOP_N);
             }
 
             grid.innerHTML = top.map(function (t) {

@@ -16,5 +16,41 @@
         "title": "Top Snorkeling Spots in the US Virgin Islands",
         "description": "The best snorkeling reefs in St. Thomas, St. John, and St. Croix — including underwater trails, sea turtle spots, and accessible shore-snorkel sites.",
         "tag": "Top Picks"
+    },
+    {
+        "url": "/blog/best-shore-excursions-st-thomas-cruise-ship.html",
+        "title": "Best Shore Excursions in St. Thomas for Cruise Ship Passengers",
+        "description": "The best St. Thomas shore excursions for cruise passengers with limited time — snorkeling, beach hopping, and island tours that work with port schedules.",
+        "tag": "Guide"
+    },
+    {
+        "url": "/blog/best-snorkeling-tours-st-john-for-beginners.html",
+        "title": "Best Snorkeling Tours St. John for Beginners",
+        "description": "Find the best beginner-friendly snorkeling tours in St. John, USVI. Expert guide to calm bays, what to expect, and how to book your first snorkeling adventure.",
+        "tag": "Tours"
+    },
+    {
+        "url": "/blog/best-snorkeling-tours-st-thomas-for-beginners.html",
+        "title": "Best Snorkeling Tours St Thomas for Beginners",
+        "description": "Find the best beginner-friendly snorkeling tours in St. Thomas, USVI. Expert tips on choosing your first snorkel adventure, what to expect, and how to book.",
+        "tag": "Tours"
+    },
+    {
+        "url": "/blog/kayak-and-snorkel-with-sea-turtles-st-john-usvi.html",
+        "title": "Kayak and Snorkel with Sea Turtles in St. John, USVI",
+        "description": "Everything you need to know about kayak and snorkel tours with sea turtles in St. John, USVI — best bays, what to expect, and how to book a local guided trip.",
+        "tag": "Snorkel"
+    },
+    {
+        "url": "/blog/kayak-paddleboard-usvi-beginners.html",
+        "title": "Best Kayaking and Paddleboarding in USVI for Beginners",
+        "description": "A practical guide to beginner-friendly kayak and SUP tours in St. Thomas, St. John, and St. Croix — calm bays, mangrove routes, and what to expect on your first paddle.",
+        "tag": "Guide"
+    },
+    {
+        "url": "/blog/usvi-night-activities-guide.html",
+        "title": "USVI Bio Bay? No, But Here's What You Can Do",
+        "description": "The Virgin Islands don't have bioluminescent bays, but here are the best night activities and what makes USVI special after dark.",
+        "tag": "Guide"
     }
 ]

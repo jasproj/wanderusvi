@@ -98,6 +98,27 @@
   .related-links ul { margin: 0; padding-left: 20px; }
   footer { background: #222; color: #ccc; padding: 30px 20px; text-align: center; font-size: 0.9rem; }
   footer a { color: #f4a460; }
+  /* Footer — WanderNZ / styles.css canonical treatment, inlined & scoped */
+  .footer { background: #171717; color: #D4D4D4; padding: 4rem 0 2rem; margin-top: 10px; }
+  .footer a { color: #D4D4D4; text-decoration: none; transition: color 150ms ease; }
+  .footer .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; }
+  .footer .footer-brand .logo { display: inline-block; margin-bottom: 0.5rem; }
+  .footer .footer-logo-img { height: 120px; width: auto; box-sizing: border-box; background: rgba(255, 255, 255, 0.9); border-radius: 50%; padding: 10px; filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5)); }
+  .footer .footer-brand p { font-size: 0.9375rem; line-height: 1.7; margin: 0 0 0.5rem; }
+  .footer .footer-tagline { color: #FFD93D; }
+  .footer .footer-links h4 { color: #fff; font-weight: 600; margin: 0 0 1rem; font-size: 1rem; }
+  .footer .footer-links ul { list-style: none; padding: 0; margin: 0; }
+  .footer .footer-links ul li { margin-bottom: 0.5rem; }
+  .footer .footer-links a { font-size: 0.9375rem; }
+  .footer .footer-links a:hover { color: #05BFDB; }
+  .footer .footer-bottom { padding-top: 2rem; border-top: 1px solid #404040; text-align: center; }
+  .footer .footer-bottom p { font-size: 0.875rem; margin: 0 0 0.5rem; }
+  @media (max-width: 768px) {
+    .footer .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .footer .footer-brand { grid-column: 1 / -1; }
+    .footer .footer-logo-img { height: 90px; }
+  }
+  @media (max-width: 480px) { .footer .footer-grid { grid-template-columns: 1fr; } }
 </style>
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
@@ -279,8 +300,55 @@
   </div>
 </article>
 
-<footer>
-  <p>&copy; 2026 WanderUSVI · <a href="/about.html">About</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
-</footer>
+<footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <picture>
+                        <source type="image/webp" srcset="/images/footer-badge-240.webp 1x, /images/footer-badge-480.webp 2x, /images/footer-badge-720.webp 3x">
+                        <img src="/images/footer-badge.png" alt="WanderUSVI" class="footer-logo-img" loading="lazy" decoding="async">
+                    </picture>
+                    </a>
+                    <p>Your guide to hundreds of US Virgin Islands tours. Verified local operators, direct booking.</p>
+                    <p class="footer-tagline">Thanks for keeping it local! 🏝️</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Islands</h4>
+                    <ul>
+                        <li><a href="/st-thomas.html">St. Thomas</a></li>
+                        <li><a href="/st-john.html">St. John</a></li>
+                        <li><a href="/st-croix.html">St. Croix</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Popular</h4>
+                    <ul>
+                        <li><a href="/snorkeling.html">Snorkeling</a></li>
+                        <li><a href="/kayak.html">Kayaking</a></li>
+                        <li><a href="/tours.html">Boat Tours</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/advertise.html">Advertise</a></li>
+                        <li><a href="/faq.html">FAQs</a></li>
+                        <li><a href="mailto:info@wanderusvi.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 WanderUSVI. All rights reserved.</p>
+                <p><a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

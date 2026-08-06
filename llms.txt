@@ -2,7 +2,7 @@
 
 > US Virgin Islands tour discovery platform. Hundreds of bookable tours across St. Thomas, St. John, and St. Croix.
 
-WanderUSVI helps travelers find and book authentic US Virgin Islands experiences from local operators. We aggregate tours from across the three main US Virgin Islands, making it easy to discover snorkeling, sailing and catamaran trips, kayaking, hiking, fishing, and more. Booking goes direct to the operator — no middleman markup.
+WanderUSVI helps travelers find and book authentic US Virgin Islands experiences from local operators. We aggregate tours from across the three main US Virgin Islands, making it easy to discover snorkeling, sailing and catamaran trips, kayaking, hiking, fishing, and more. Booking goes direct to the operator.
 
 ## Key Pages
 

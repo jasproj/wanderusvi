@@ -31,15 +31,6 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-HGSNY075ZS');
-        
-        function trackBookingClick(tourName, tourId, island) {
-            gtag('event', 'booking_click', {
-                'event_category': 'conversion',
-                'event_label': tourName,
-                'tour_id': tourId,
-                'island': island || 'home'
-            });
-        }
     </script>
     
     <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" fetchpriority="high">
@@ -188,15 +179,15 @@
             <h1 class="hero-decision-h1">Which US Virgin Islands experience should you book?</h1>
             <p class="hero-decision-sub">Sails, snorkeling, or a BVI day trip — here's where to start.</p>
             <div class="region-decision-cards">
-                <a class="region-decision-card" href="/st-thomas-catamaran-sail.html" onclick="trackBookingClick('St. Thomas Catamaran Sails', 'st-thomas-catamaran-sail', 'st-thomas')">
+                <a class="region-decision-card" href="/st-thomas-catamaran-sail.html">
                     <span class="region-decision-card__name">St. Thomas catamaran sails</span>
                     <span class="region-decision-card__desc">Snorkel, sunset, or dinner cruise?</span>
                 </a>
-                <a class="region-decision-card" href="/bvi-day-trip-from-usvi.html" onclick="trackBookingClick('BVI Day Trip', 'bvi-day-trip-from-usvi', 'st-thomas')">
+                <a class="region-decision-card" href="/bvi-day-trip-from-usvi.html">
                     <span class="region-decision-card__name">BVI day trip</span>
                     <span class="region-decision-card__desc">The Baths or Jost Van Dyke?</span>
                 </a>
-                <a class="region-decision-card" href="/private-charters-usvi.html" onclick="trackBookingClick('Private &amp; Overnight Charters', 'private-charters-usvi', 'all')">
+                <a class="region-decision-card" href="/private-charters-usvi.html">
                     <span class="region-decision-card__name">Private &amp; overnight charters</span>
                     <span class="region-decision-card__desc">Multi-day sails and private boats</span>
                 </a>
@@ -291,7 +282,7 @@
             <p class="section-subtitle">Each island has its own personality. Find your perfect match.</p>
             
             <div class="islands-grid">
-                <a href="st-thomas.html" class="island-card" onclick="trackBookingClick('St. Thomas Tours', 'st-thomas', 'st-thomas')">
+                <a href="st-thomas.html" class="island-card">
                     <div class="island-img" style="background-image: url('images/hero-photo-1.jpg')"></div>
                     <div class="island-content">
                         <h3>St. Thomas</h3>
@@ -299,7 +290,7 @@
                     </div>
                 </a>
                 
-                <a href="st-john.html" class="island-card" onclick="trackBookingClick('St. John Tours', 'st-john', 'st-john')">
+                <a href="st-john.html" class="island-card">
                     <div class="island-img" style="background-image: url('images/hero-photo-2.jpg')"></div>
                     <div class="island-content">
                         <h3>St. John</h3>
@@ -307,7 +298,7 @@
                     </div>
                 </a>
                 
-                <a href="st-croix.html" class="island-card" onclick="trackBookingClick('St. Croix Tours', 'st-croix', 'st-croix')">
+                <a href="st-croix.html" class="island-card">
                     <div class="island-img island-img--placeholder"></div>
                     <div class="island-content">
                         <h3>St. Croix</h3>
@@ -381,7 +372,7 @@
             
             <div class="results-info">
                 <span id="results-count">Loading adventures...</span>
-                <button class="shuffle-btn" onclick="trackBookingClick('Shuffle Tours', 'shuffle', 'all'); shuffleTours()">🎲 Shuffle</button>
+                <button class="shuffle-btn" onclick="shuffleTours()">🎲 Shuffle</button>
             </div>
             
             <div class="tours-grid" id="tours-grid">
@@ -392,7 +383,7 @@
             </div>
             
             <div class="load-more-wrap">
-                <button class="load-more-btn" id="load-more" onclick="trackBookingClick('Load More Adventures', 'load-more', 'all'); loadMoreTours()">
+                <button class="load-more-btn" id="load-more" onclick="loadMoreTours()">
                     Load More Adventures <span>→</span>
                 </button>
             </div>
@@ -645,7 +636,7 @@
 
     <!-- MOBILE CTA -->
     <div class="mobile-cta" id="mobile-cta">
-        <a href="#tours-section" class="mobile-cta-btn" onclick="trackBookingClick('Find Your Adventure', 'mobile-cta', 'all')">
+        <a href="#tours-section" class="mobile-cta-btn">
             <span>🌺</span> Find Your Adventure
         </a>
     </div>

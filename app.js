@@ -209,9 +209,9 @@ function escapeHtml(str) {
         .replace(/'/g, '&#39;');
 }
 
-function formatPrice(price, confidence) {
+function formatPrice(price, confidence, priceLabel) {
     if (!Number.isFinite(price) || price <= 0) return 'Price on request';
-    if (confidence === 'high' || confidence === 'medium') return `From $${price}`;
+    if (priceLabel === 'per adult' && (confidence === 'high' || confidence === 'medium')) return `From $${price}`;
     return 'Price on request';
 }
 
@@ -229,6 +229,7 @@ function scoreLabel(score) {
 }
 
 function generateTourSchema(tour) {
+    const priceGated = tour.priceLabel === 'per adult' && (tour.priceConfidence === 'high' || tour.priceConfidence === 'medium');
     return {
         "@context": "https://schema.org",
         "@type": "TouristTrip",
@@ -237,7 +238,7 @@ function generateTourSchema(tour) {
         "touristType": tour.tags ? tour.tags.join(", ") : "",
         "offers": {
             "@type": "Offer",
-            "price": (tour.priceConfidence === 'high' || tour.priceConfidence === 'medium') ? tour.price : "",
+            ...(priceGated ? { "price": tour.price } : {}),
             "priceCurrency": "USD",
             "url": tour.bookingUrl,
             "availability": "https://schema.org/InStock"
@@ -278,7 +279,7 @@ function createTourCard(tour) {
         : '';
     
     const cleanLoc = cleanLocation(tour.location);
-    const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
+    const priceDisplay = formatPrice(tour.price, tour.priceConfidence, tour.priceLabel);
     
     const schema = generateTourSchema(tour);
     const schemaJson = JSON.stringify(schema).replace(/<\/script/gi, '<\\/script');

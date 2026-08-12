@@ -30,10 +30,11 @@
     }
 
     // Mirrors app.js formatPrice: a price is shown only where the extractor was
-    // confident. Anything else gets the island-page "Check availability" label
-    // rather than an invented number.
+    // confident AND the catalogue confirms it's a per-adult rate, not a whole-
+    // charter figure. Anything else gets the island-page "Check availability"
+    // label rather than an invented number.
     function priceLabel(t) {
-        var ok = (t.priceConfidence === 'high' || t.priceConfidence === 'medium');
+        var ok = t.priceLabel === 'per adult' && (t.priceConfidence === 'high' || t.priceConfidence === 'medium');
         if (ok && typeof t.price === 'number' && isFinite(t.price) && t.price > 0) {
             return 'From $' + t.price;
         }

@@ -362,6 +362,13 @@ function updateResultsCount() {
     }
 }
 
+// Some activity-filter options collapse several data tags into one buyer-facing
+// choice. Anything not listed here matches itself, unchanged.
+const ACTIVITY_TAG_ALIASES = {
+    'Transportation': ['Transportation', 'Transfer', 'Shuttle', 'Bus Tour'],
+    'Jet Ski': ['Jet Ski Rental', 'Jet Ski Tour'],
+};
+
 // Filter tours
 function filterTours() {
     const islandFilter = document.getElementById('island-filter')?.value?.toLowerCase() || '';
@@ -381,8 +388,11 @@ function filterTours() {
         }
         
         // Activity filter
-        if (activityFilter && !tour.tags?.includes(activityFilter)) {
-            return false;
+        if (activityFilter) {
+            const wantedTags = ACTIVITY_TAG_ALIASES[activityFilter] || [activityFilter];
+            if (!tour.tags?.some(t => wantedTags.includes(t))) {
+                return false;
+            }
         }
         
         // Search filter

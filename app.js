@@ -240,8 +240,15 @@ function generateTourSchema(tour) {
             "@type": "Offer",
             ...(priceGated ? { "price": tour.price } : {}),
             "priceCurrency": "USD",
-            "url": tour.bookingUrl,
-            "availability": "https://schema.org/InStock"
+            "url": tour.bookingUrl
+            // No "availability". It was hardcoded to schema.org/InStock on every
+            // card regardless of whether the product could actually be booked;
+            // measured 2026-08-17, 120 of the 561 grid-renderable records (21.4%)
+            // have no bookable availability, so a mean 5 of the 24 cards rendered
+            // per load asserted InStock for something unbookable. schema.org does
+            // not require Offer.availability — omitting it is valid, asserting it
+            // falsely is not. Restore only from a live liveness signal, never a
+            // constant.
         },
         "provider": {
             "@type": "LocalBusiness",

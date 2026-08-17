@@ -193,8 +193,10 @@
     </section>    <section class="cta-section">
         <div class="container">
             <h2>Ready to Jet Ski?</h2>
-            <p>Browse tours from local operators.</p>
-            <a href="index.html#tours-section" class="cta-btn" onclick="localStorage.setItem('filterActivity', 'Jet Ski')">View All Jet Ski Tours →</a>
+            <p>Top-rated jet ski trips, booked direct with the operator.</p>
+            <div class="activity-tours" id="activity-tours-grid" data-activity-tag="Jet Ski Tour" data-activity-label="jet ski" hidden></div>
+            <p class="activity-tours-status" id="activity-tours-status">Loading jet ski tours…</p>
+            <a href="index.html?activity=Jet%20Ski#tours-section" class="cta-btn" id="activity-browse-all">Browse all jet ski tours →</a>
         </div>
     </section>
 
@@ -258,5 +260,7 @@
         </div>
     </footer>
     <script>document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() { document.querySelector('.nav-mobile')?.classList.toggle('active'); this.classList.toggle('active'); });</script>
+
+    <script src="/activity-tours.js" defer></script>
 </body>
 </html>

@@ -189,12 +189,18 @@ async function loadTours() {
         console.log('✅ Tours rendered successfully');
     } catch (error) {
         console.error('❌ Error loading tours:', error.message);
-        document.getElementById('tours-grid').innerHTML = `
+        // The grid may be absent — that is one of the ways we get here — so the
+        // handler must not repeat the deref that threw. Without this null check
+        // the catch itself throws, replacing a logged error with an uncaught one.
+        const grid = document.getElementById('tours-grid');
+        if (grid) {
+            grid.innerHTML = `
             <div class="error-state">
                 <p>⚠️ Unable to load tours. Please refresh the page.</p>
                 <p style="font-size: 12px; color: #666;">Error: ${error.message}</p>
             </div>
         `;
+        }
     }
 }
 
@@ -476,7 +482,13 @@ function executeHeroSearch() {
 
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
-    loadTours();
+    // Pages that load app.js without a grid to draw into (advertise.html) must
+    // not pull tours-data.json — it is ~1.9MB fetched only to be thrown away,
+    // and renderTours() would then deref a null #tours-grid. Same guard shape
+    // as activity-tours.js, which checks its own grid before its fetch.
+    if (document.getElementById('tours-grid')) {
+        loadTours();
+    }
 
     // The delegated Book Now click handler that used to call
     // openBookingWithLoader was a workaround for the previous <button>

@@ -30605,7 +30605,7 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
+      "status": "inactive",
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,

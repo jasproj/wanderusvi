@@ -354,8 +354,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Red Hook",
       "island": "st-thomas",
       "price": 140,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 91,
       "currency": "USD",
       "duration": "240 minutes",
@@ -403,7 +403,23 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 277015,
+          "singular": "Person",
+          "plural": "People",
+          "note": "All Ages",
+          "priceCents": 14000,
+          "price": 140,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "259438",
@@ -535,7 +551,7 @@
       "location": "U.S. Virgin Islands/VI/St Thomas",
       "island": "st-thomas",
       "price": 90,
-      "priceLabel": "Snorkeler",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 88,
       "currency": "USD",
@@ -590,8 +606,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:41.789Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -656,7 +672,7 @@
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
       "price": 65,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 87,
       "currency": "USD",
@@ -735,8 +751,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:46.160Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -804,8 +820,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
       "price": 70,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -848,7 +864,32 @@
       "lastUpdated": "2026-05-27T13:49:49.850936",
       "_unknownFields": {
         "priceSource": "v52-dominant-gate"
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 68968,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 3+",
+          "priceCents": 7000,
+          "price": 70,
+          "minPartySize": 1
+        },
+        {
+          "id": 69046,
+          "singular": "Child 2 years and under",
+          "plural": "Children 2 years and under",
+          "note": "",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "536583",
@@ -960,8 +1001,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Red Hook",
       "island": "st-thomas",
       "price": 300,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 84,
       "currency": "USD",
       "duration": "540 minutes",
@@ -1004,7 +1045,23 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 540
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 217530,
+          "singular": "Person",
+          "plural": "People",
+          "note": "All Ages Welcome!",
+          "priceCents": 30000,
+          "price": 300,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "135457",
@@ -1131,7 +1188,7 @@
       "location": "U.S. Virgin Islands/Virgin Islands/St Thomas",
       "island": "st-thomas",
       "price": 182.5,
-      "priceLabel": "Visitor - Child",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 83,
       "currency": "USD",
@@ -1184,15 +1241,6 @@
       },
       "priceBreakdown": [
         {
-          "id": 377005,
-          "singular": "Visitor - Child",
-          "plural": "Visitor - Child",
-          "note": "Ages 7-9| Must be accompanied by a participating adult – 1 child per adult)",
-          "priceCents": 18250,
-          "price": 182.5,
-          "minPartySize": 1
-        },
-        {
           "id": 377006,
           "singular": "Visitor",
           "plural": "Visitor",
@@ -1202,21 +1250,30 @@
           "minPartySize": 1
         },
         {
-          "id": 377008,
-          "singular": "Resident - Child",
-          "plural": "Resident - Child",
-          "note": "Ages 7-9| Must be accompanied by a participating adult – 1 child per adult)",
-          "priceCents": 16425,
-          "price": 164.25,
+          "id": 377005,
+          "singular": "Visitor - Child",
+          "plural": "Visitor - Child",
+          "note": "Ages 7-9 | Must be accompanied by a participating adult (1 child per adult)",
+          "priceCents": 18250,
+          "price": 182.5,
           "minPartySize": 1
         },
         {
           "id": 377009,
           "singular": "Resident",
           "plural": "Resident",
-          "note": "Ages 10+",
-          "priceCents": 16425,
-          "price": 164.25,
+          "note": "Ages 10+ | A valid local ID must be presented at check in",
+          "priceCents": 14300,
+          "price": 143,
+          "minPartySize": 1
+        },
+        {
+          "id": 377008,
+          "singular": "Resident - Child",
+          "plural": "Resident - Child",
+          "note": "Ages 7-9 | Must be accompanied by a participating adult (1 child per adult)",
+          "priceCents": 14300,
+          "price": 143,
           "minPartySize": 1
         },
         {
@@ -1224,15 +1281,15 @@
           "singular": "Member",
           "plural": "Member",
           "note": "A valid membership code is required in order to complete the booking.",
-          "priceCents": 16425,
-          "price": 164.25,
+          "priceCents": 14300,
+          "price": 143,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:47.289Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -1472,8 +1529,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Red Hook",
       "island": "st-thomas",
       "price": 270,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 82,
       "currency": "USD",
       "duration": null,
@@ -1524,7 +1581,23 @@
       "lastUpdated": "2026-05-27T13:49:49.850983",
       "_unknownFields": {
         "priceSource": "v52-dominant-gate"
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 217530,
+          "singular": "Person",
+          "plural": "People",
+          "note": "",
+          "priceCents": 27000,
+          "price": 270,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "266857",
@@ -1912,8 +1985,8 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/St Thomas",
       "island": "st-thomas",
-      "price": 25,
-      "priceLabel": "Snorkeler",
+      "price": 35,
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 80,
       "currency": "USD",
@@ -1957,15 +2030,15 @@
           "singular": "Snorkeler",
           "plural": "Snorkelers",
           "note": "",
-          "priceCents": 2500,
-          "price": 25,
+          "priceCents": 3500,
+          "price": 35,
           "minPartySize": 4
         }
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:41.789Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -2546,7 +2619,7 @@
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
       "price": 50,
-      "priceLabel": "per person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 77,
       "currency": "USD",
@@ -2584,7 +2657,32 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.851045"
+      "lastUpdated": "2026-05-27T13:49:49.851045",
+      "priceBreakdown": [
+        {
+          "id": 68968,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 3+",
+          "priceCents": 5000,
+          "price": 50,
+          "minPartySize": 4
+        },
+        {
+          "id": 69046,
+          "singular": "Child 2 years and under",
+          "plural": "Children 2 years and under",
+          "note": "",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 4
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "30027",
@@ -2596,7 +2694,7 @@
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
       "price": 50,
-      "priceLabel": "per person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 77,
       "currency": "USD",
@@ -2641,7 +2739,32 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.851048"
+      "lastUpdated": "2026-05-27T13:49:49.851048",
+      "priceBreakdown": [
+        {
+          "id": 68968,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 3+",
+          "priceCents": 5000,
+          "price": 50,
+          "minPartySize": 1
+        },
+        {
+          "id": 69046,
+          "singular": "Child 2 years and under",
+          "plural": "Children 2 years and under",
+          "note": "",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "110165",
@@ -2653,8 +2776,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Red Hook",
       "island": "st-thomas",
       "price": 220,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 77,
       "currency": "USD",
       "duration": "360 minutes",
@@ -2689,7 +2812,23 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 360
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 217530,
+          "singular": "Person",
+          "plural": "People",
+          "note": "All Ages Welcome!",
+          "priceCents": 22000,
+          "price": 220,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "181500",
@@ -3207,7 +3346,7 @@
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
       "price": 39,
-      "priceLabel": "per person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 75,
       "currency": "USD",
@@ -3257,7 +3396,23 @@
       "lastUpdated": "2026-05-27T13:49:49.851084",
       "_unknownFields": {
         "durationMinutes": 120
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1044039,
+          "singular": "Person",
+          "plural": "Per Person",
+          "note": "",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "72784",
@@ -3320,8 +3475,8 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Red Hook",
       "island": "st-thomas",
-      "price": 85,
-      "priceLabel": "per person",
+      "price": 300,
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 74,
       "currency": "USD",
@@ -3359,7 +3514,23 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.851090"
+      "lastUpdated": "2026-05-27T13:49:49.851090",
+      "priceBreakdown": [
+        {
+          "id": 217530,
+          "singular": "Person",
+          "plural": "People",
+          "note": "",
+          "priceCents": 30000,
+          "price": 300,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "235969",
@@ -3540,7 +3711,7 @@
       "location": "U.S. Virgin Islands/St. Croix/Christiansted",
       "island": "st-croix",
       "price": 39,
-      "priceLabel": "per person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 74,
       "currency": "USD",
@@ -3580,7 +3751,23 @@
       "lastUpdated": "2026-05-27T13:49:49.851102",
       "_unknownFields": {
         "durationMinutes": 120
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1044039,
+          "singular": "Person",
+          "plural": "Per Person",
+          "note": "",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 2
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "8235",
@@ -3592,7 +3779,7 @@
       "location": "U.S. Virgin Islands/Virgin Islands/St Thomas",
       "island": "st-thomas",
       "price": 119,
-      "priceLabel": "Visitor",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 73,
       "currency": "USD",
@@ -3630,7 +3817,7 @@
           "id": 377006,
           "singular": "Visitor",
           "plural": "Visitor",
-          "note": "Ages 8+",
+          "note": "Ages 8+ | Children 12 and under must be accompanied by a participating adult",
           "priceCents": 11900,
           "price": 119,
           "minPartySize": 1
@@ -3639,9 +3826,9 @@
           "id": 377009,
           "singular": "Resident",
           "plural": "Resident",
-          "note": "Ages 8+",
-          "priceCents": 10700,
-          "price": 107,
+          "note": "Ages 8+ | Children 12 and under must be accompanied by a participating adult | A valid local ID must be presented at check in",
+          "priceCents": 8900,
+          "price": 89,
           "minPartySize": 1
         },
         {
@@ -3649,15 +3836,15 @@
           "singular": "Member",
           "plural": "Member",
           "note": "A valid membership code is required in order to complete the booking.",
-          "priceCents": 10700,
-          "price": 107,
+          "priceCents": 8900,
+          "price": 89,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:47.289Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -3721,9 +3908,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/Virgin Islands/St Thomas",
       "island": "st-thomas",
-      "price": null,
-      "priceLabel": "unknown",
-      "priceConfidence": "",
+      "price": 119,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 73,
       "currency": "USD",
       "duration": "45 minutes",
@@ -3769,7 +3956,50 @@
       "lastUpdated": "2026-05-27T13:49:49.851114",
       "_unknownFields": {
         "durationMinutes": 45
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 377006,
+          "singular": "Visitor",
+          "plural": "Visitor",
+          "note": "Ages 10+ | Select one participating adult for up to 2 accompanied children",
+          "priceCents": 11900,
+          "price": 119,
+          "minPartySize": 1
+        },
+        {
+          "id": 377009,
+          "singular": "Resident",
+          "plural": "Resident",
+          "note": "Ages 10+ | Select one participating adult for up to 2 accompanied children | A valid local ID must be presented at check in",
+          "priceCents": 10710,
+          "price": 107.1,
+          "minPartySize": 1
+        },
+        {
+          "id": 377011,
+          "singular": "Accompanied Child",
+          "plural": "Accompanied Children",
+          "note": "Ages 0-9 Years Old | Must be accompanied with a participating adult ticket (up to 2 children per adult)",
+          "priceCents": 7140,
+          "price": 71.4,
+          "minPartySize": 1
+        },
+        {
+          "id": 26197,
+          "singular": "Member",
+          "plural": "Member",
+          "note": "A valid membership code is required in order to complete the booking.",
+          "priceCents": 10710,
+          "price": 107.1,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "170659",
@@ -4529,8 +4759,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Red Hook",
       "island": "st-thomas",
       "price": 130,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 72,
       "currency": "USD",
       "duration": "240 minutes",
@@ -4574,7 +4804,23 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 277015,
+          "singular": "Person",
+          "plural": "People",
+          "note": "All Ages",
+          "priceCents": 13000,
+          "price": 130,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "171331",
@@ -4808,7 +5054,7 @@
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
       "price": 45,
-      "priceLabel": "Person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 71,
       "currency": "USD",
@@ -4867,8 +5113,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:57.121Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -5046,8 +5292,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Red Hook",
       "island": "st-thomas",
       "price": 300,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 70,
       "currency": "USD",
       "duration": null,
@@ -5088,7 +5334,23 @@
       "lastUpdated": "2026-05-27T13:49:49.851193",
       "_unknownFields": {
         "priceSource": "v52-dominant-gate"
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 217530,
+          "singular": "Person",
+          "plural": "People",
+          "note": "",
+          "priceCents": 30000,
+          "price": 300,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "114303",
@@ -6040,9 +6302,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
-      "price": 79,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "price": 129,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 69,
       "currency": "USD",
       "duration": "120 minutes",
@@ -6083,7 +6345,23 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 120
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 401420,
+          "singular": "Person",
+          "plural": "Persons",
+          "note": "All Ages",
+          "priceCents": 12900,
+          "price": 129,
+          "minPartySize": 2
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "477902",
@@ -6338,7 +6616,7 @@
       "location": "U.S. Virgin Islands/Virgin Islands/St Thomas",
       "island": "st-thomas",
       "price": 102,
-      "priceLabel": "Visitor",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 68,
       "currency": "USD",
@@ -6388,7 +6666,7 @@
           "id": 377009,
           "singular": "Resident",
           "plural": "Resident",
-          "note": "Ages 8+ | Children 12 and under must be accompanied by a participating adult",
+          "note": "Ages 8+ | Children 12 and under must be accompanied by a participating adult | A valid local ID must be presented at check in",
           "priceCents": 9200,
           "price": 92,
           "minPartySize": 1
@@ -6405,8 +6683,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:47.289Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -6463,7 +6741,7 @@
       "location": "U.S. Virgin Islands/St. Croix/Christiansted",
       "island": "st-croix",
       "price": 50,
-      "priceLabel": "per person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 68,
       "currency": "USD",
@@ -6505,7 +6783,23 @@
       "lastUpdated": "2026-05-27T13:49:49.851273",
       "_unknownFields": {
         "durationMinutes": 180
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 210471,
+          "singular": "Ocean Kayak - Per Person Ticket",
+          "plural": "Ocean Kayaks -Per Person Ticket",
+          "note": "Recommended for beginners | Priced per seat (each Kayak holds two individuals)",
+          "priceCents": 5000,
+          "price": 50,
+          "minPartySize": 2
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "211099",
@@ -6878,7 +7172,7 @@
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
       "price": 35,
-      "priceLabel": "Person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 68,
       "currency": "USD",
@@ -6935,8 +7229,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:57.121Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -7692,7 +7986,7 @@
       "location": "U.S. Virgin Islands/Virgin Islands/St Thomas",
       "island": "st-thomas",
       "price": 29,
-      "priceLabel": "Visitor - Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 65,
       "currency": "USD",
@@ -7756,7 +8050,7 @@
           "id": 31780,
           "singular": "Child Under 3",
           "plural": "Children Under 3",
-          "note": "Under 3 years old",
+          "note": "",
           "priceCents": 0,
           "price": 0,
           "minPartySize": 1
@@ -7765,7 +8059,7 @@
           "id": 377007,
           "singular": "Resident - Adult",
           "plural": "Resident - Adult",
-          "note": "Ages 13+",
+          "note": "Ages 13+ | A valid local ID must be presented at check in",
           "priceCents": 1700,
           "price": 17,
           "minPartySize": 1
@@ -7792,25 +8086,16 @@
           "id": 86846,
           "singular": "Local Family Day Pass",
           "plural": "Local Family Day Passes",
-          "note": "2 Adult & 4 children",
+          "note": "2 Adult & 4 children between the ages of 3 and 21",
           "priceCents": 7000,
           "price": 70,
-          "minPartySize": 1
-        },
-        {
-          "id": 116617,
-          "singular": "Senior",
-          "plural": "Seniors",
-          "note": "",
-          "priceCents": 2610,
-          "price": 26.1,
           "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:47.289Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -7870,7 +8155,7 @@
       "location": "U.S. Virgin Islands/St. Thomas/Lovenlund",
       "island": "st-thomas",
       "price": 109,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 65,
       "currency": "USD",
@@ -7965,8 +8250,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:11:23.066Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -9917,8 +10202,8 @@
       "category": "",
       "location": "U.S. Virgin Islands/VI/St. Thomas",
       "island": "st-thomas",
-      "price": 59,
-      "priceLabel": "Adult",
+      "price": 99,
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 62,
       "currency": "USD",
@@ -9965,18 +10250,18 @@
           "singular": "Adult",
           "plural": "Adults",
           "note": "Ages 13+",
-          "priceCents": 5900,
-          "price": 59,
-          "minPartySize": 2
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 4
         },
         {
           "id": 32956,
           "singular": "Child",
           "plural": "Children",
           "note": "Ages 7 - 12",
-          "priceCents": 2900,
-          "price": 29,
-          "minPartySize": 2
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 4
         },
         {
           "id": 375985,
@@ -9985,13 +10270,13 @@
           "note": "Ages 2 - 6",
           "priceCents": 0,
           "price": 0,
-          "minPartySize": 2
+          "minPartySize": 4
         }
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:11:34.978Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -11266,9 +11551,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/VI/St Thomas",
       "island": "st-thomas",
-      "price": null,
-      "priceLabel": "unknown",
-      "priceConfidence": "",
+      "price": 598.8,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 59,
       "currency": "USD",
       "duration": null,
@@ -11296,7 +11581,23 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.851546"
+      "lastUpdated": "2026-05-27T13:49:49.851546",
+      "priceBreakdown": [
+        {
+          "id": 335302,
+          "singular": "Diver",
+          "plural": "Divers",
+          "note": "Ages 10+ - Includes 4 Open Water Training Dives",
+          "priceCents": 59880,
+          "price": 598.8,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "211126",
@@ -11574,8 +11875,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Frydendal",
       "island": "st-thomas",
       "price": 40,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 59,
       "currency": "USD",
       "duration": "60 minutes",
@@ -11618,7 +11919,23 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 60
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1050498,
+          "singular": "Person",
+          "plural": "Person",
+          "note": "",
+          "priceCents": 4000,
+          "price": 40,
+          "minPartySize": 2
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "634259",
@@ -11630,7 +11947,7 @@
       "location": "U.S. Virgin Islands/St. John/Cruz Bay",
       "island": "st-john",
       "price": 39,
-      "priceLabel": "per person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 59,
       "currency": "USD",
@@ -11670,7 +11987,23 @@
       "lastUpdated": "2026-05-27T13:49:49.851573",
       "_unknownFields": {
         "durationMinutes": 120
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1044039,
+          "singular": "Person",
+          "plural": "Per Person",
+          "note": "",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 2
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "98824",
@@ -11682,8 +12015,8 @@
       "location": "U.S. Virgin Islands/St. Croix/Christiansted",
       "island": "st-croix",
       "price": 50,
-      "priceLabel": "starting at",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 58,
       "currency": "USD",
       "duration": null,
@@ -11712,7 +12045,23 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.851575"
+      "lastUpdated": "2026-05-27T13:49:49.851575",
+      "priceBreakdown": [
+        {
+          "id": 210473,
+          "singular": "Person",
+          "plural": "People",
+          "note": "",
+          "priceCents": 5000,
+          "price": 50,
+          "minPartySize": 2
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "108035",
@@ -11765,7 +12114,7 @@
       "location": "U.S. Virgin Islands/VI/St Thomas",
       "island": "st-thomas",
       "price": 210,
-      "priceLabel": "Diver",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 58,
       "currency": "USD",
@@ -11809,8 +12158,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:41.789Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -17445,8 +17794,8 @@
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
       "price": 149,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 53,
       "currency": "USD",
       "duration": "60 minutes",
@@ -17486,7 +17835,23 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 60
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 878058,
+          "singular": "Single Rider",
+          "plural": "Single Riders",
+          "note": "Must be 18+",
+          "priceCents": 14900,
+          "price": 149,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "585279",
@@ -18572,8 +18937,8 @@
       "location": "U.S. Virgin Islands/VI/St. Thomas",
       "island": "st-thomas",
       "price": 89,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 52,
       "currency": "USD",
       "duration": "75 minutes",
@@ -18613,7 +18978,32 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 75
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 32955,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 13+",
+          "priceCents": 8900,
+          "price": 89,
+          "minPartySize": 3
+        },
+        {
+          "id": 32956,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Child 5-12 years",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 3
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "605308",
@@ -20855,7 +21245,7 @@
       "location": "U.S. Virgin Islands/St. Thomas/Lovenlund",
       "island": "st-thomas",
       "price": 149,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 48,
       "currency": "USD",
@@ -20929,8 +21319,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:11:23.066Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -21088,8 +21478,8 @@
       "location": "U.S. Virgin Islands/US Virgin Islands/St. Thomas",
       "island": "st-thomas",
       "price": 124,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 48,
       "currency": "USD",
       "duration": "210 minutes",
@@ -21126,7 +21516,23 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 210
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 596793,
+          "singular": "Guest",
+          "plural": "Guests",
+          "note": "Age 10+",
+          "priceCents": 12400,
+          "price": 124,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "405700",
@@ -21281,8 +21687,8 @@
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
       "price": 60,
-      "priceLabel": "unknown",
-      "priceConfidence": "medium",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 48,
       "currency": "USD",
       "duration": "120 minutes",
@@ -21319,7 +21725,23 @@
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 120
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 993683,
+          "singular": "Passenger",
+          "plural": "Passengers",
+          "note": "Ages 12+",
+          "priceCents": 6000,
+          "price": 60,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "589442",
@@ -24289,7 +24711,7 @@
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
       "price": 110,
-      "priceLabel": "Person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 45,
       "currency": "USD",
@@ -24337,8 +24759,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:11:28.513Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -24493,9 +24915,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
-      "price": 59,
-      "priceLabel": "starting at",
-      "priceConfidence": "medium",
+      "price": 69,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 44,
       "currency": "USD",
       "duration": null,
@@ -24533,7 +24955,32 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.852425"
+      "lastUpdated": "2026-05-27T13:49:49.852425",
+      "priceBreakdown": [
+        {
+          "id": 105044,
+          "singular": "Person",
+          "plural": "People",
+          "note": "All ages",
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 1
+        },
+        {
+          "id": 1099465,
+          "singular": "Person in group of 12+",
+          "plural": "People in group of 12+",
+          "note": "A 20% auto-gratuity is added and for and appreciated by our hard working guides with groups of 12+",
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "75237",
@@ -24593,9 +25040,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. John/Cruz Bay",
       "island": "st-john",
-      "price": 59,
-      "priceLabel": "starting at",
-      "priceConfidence": "medium",
+      "price": 69,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 44,
       "currency": "USD",
       "duration": null,
@@ -24626,7 +25073,23 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.852435"
+      "lastUpdated": "2026-05-27T13:49:49.852435",
+      "priceBreakdown": [
+        {
+          "id": 105044,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Minimum age of 16 in each kayak | Must be accompanied by an Adult (18+)",
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
+      "priceEnrichmentStatus": "high"
     },
     {
       "id": "260984",
@@ -24638,7 +25101,7 @@
       "location": "U.S. Virgin Islands/St. Thomas/Lovenlund",
       "island": "st-thomas",
       "price": 109,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 44,
       "currency": "USD",
@@ -24719,8 +25182,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:11:23.066Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -27181,7 +27644,7 @@
       "location": "U.S. Virgin Islands/Havensight",
       "island": "st-croix",
       "price": 99,
-      "priceLabel": "Person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 60,
       "currency": "USD",
@@ -27242,8 +27705,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:11:46.675Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -27366,7 +27829,7 @@
       "location": "U.S. Virgin Islands/Charlotte Amalie",
       "island": "st-thomas",
       "price": 25,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 56,
       "currency": "USD",
@@ -27416,8 +27879,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:11:41.812Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -27770,7 +28233,7 @@
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-croix",
       "price": 155,
-      "priceLabel": "Passenger",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 51,
       "currency": "USD",
@@ -27813,8 +28276,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:12:33.731Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -28979,7 +29442,7 @@
       "location": "U.S. Virgin Islands/Reef Bay",
       "island": "st-john",
       "price": 85,
-      "priceLabel": "Passenger",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 42,
       "currency": "USD",
@@ -29020,8 +29483,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:12:36.341Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -29710,7 +30173,7 @@
       "location": "U.S. Virgin Islands/Charlotte Amalie",
       "island": "st-thomas",
       "price": 38,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 39,
       "currency": "USD",
@@ -29772,8 +30235,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:12:28.963Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -29786,7 +30249,7 @@
       "location": "U.S. Virgin Islands/Charlotte Amalie",
       "island": "st-thomas",
       "price": 38,
-      "priceLabel": "Person",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 39,
       "currency": "USD",
@@ -29827,8 +30290,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:12:28.963Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -29841,7 +30304,7 @@
       "location": "U.S. Virgin Islands/Charlotte Amalie",
       "island": "st-thomas",
       "price": 60,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 39,
       "currency": "USD",
@@ -29919,8 +30382,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:12:28.963Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -33329,7 +33792,7 @@
       "location": "",
       "island": "st-john",
       "price": 130,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 33,
       "currency": "USD",
@@ -33389,8 +33852,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:12:37.474Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -33613,7 +34076,7 @@
       "location": "U.S. Virgin Islands/Red Hook",
       "island": "st-thomas",
       "price": 70,
-      "priceLabel": "Passenger",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 30,
       "currency": "USD",
@@ -33654,8 +34117,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:12:36.341Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -33796,7 +34259,7 @@
       "location": "U.S. Virgin Islands/Cruz Bay",
       "island": "st-john",
       "price": 129,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 29,
       "currency": "USD",
@@ -33851,12 +34314,30 @@
           "priceCents": 0,
           "price": 0,
           "minPartySize": 1
+        },
+        {
+          "id": 1308299,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "",
+          "priceCents": 12900,
+          "price": 129,
+          "minPartySize": 1
+        },
+        {
+          "id": 1308300,
+          "singular": "Child",
+          "plural": "Child",
+          "note": "",
+          "priceCents": 8900,
+          "price": 89,
+          "minPartySize": 1
         }
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:10:58.484Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -35561,7 +36042,7 @@
       "location": "U.S. Virgin Islands/Cruz Bay",
       "island": "st-john",
       "price": 60,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 15,
       "currency": "USD",
@@ -35609,8 +36090,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:11:08.352Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {
@@ -35748,7 +36229,7 @@
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-john",
       "price": 159,
-      "priceLabel": "Adult",
+      "priceLabel": "per adult",
       "priceConfidence": "high",
       "qualityScore": 12,
       "currency": "USD",
@@ -35790,8 +36271,8 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:11:34.978Z",
+      "priceEnrichmentSource": "s40-297-sweep-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-22T21:12:17.335Z",
       "priceEnrichmentStatus": "high"
     },
     {

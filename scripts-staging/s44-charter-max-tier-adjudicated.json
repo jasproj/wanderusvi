@@ -1,0 +1,276 @@
+{
+  "generator": "scripts-staging/s44-charter-max-tier-probe.js + S44 adjudication",
+  "probeBase": "2026-08-24",
+  "probeDates": 17,
+  "endpoint": "/api/embed/{shortname}/price-preview/per-item/v2/?item_pks={pk}&include_breakdown=yes&date={d}",
+  "population": "priceLabel==\"charter\" rows in tours-data.json @ 7c5f744 = 8 (KWST recon claimed 39 @ f2e7179; #144 relabelled 31 of them to \"private boat\")",
+  "template": "KWST #240 three-branch charter-unit template (D-574 as amended by D-600: only the extract-price-v5.2.js Math.max branch, i.e. priceLabel \"charter\")",
+  "publishRule": "live floor of the confirmed whole-boat tier (D-597); tiers matched across dates by name; gratuity never a fare; D-596 vessel assertion required",
+  "gate": {
+    "probed": 8,
+    "published": 6,
+    "insufficient": 2,
+    "requests": 68,
+    "requestErrors": 0,
+    "dateHonoured": "55 of 102 readings fell on the date asked for; recorded per reading, never assumed",
+    "discardRules": [
+      "D-575 zero-priced tiers discarded (zeroOnlyDates recorded, not counted)",
+      "D-483/D-494 ancillary per-person add-ons excluded",
+      "wrong-shortname rule checked before any INSUFFICIENT call"
+    ]
+  },
+  "droppedRows": [
+    {
+      "pk": 484583,
+      "name": "Multi-night Sailing Adventures in the U.S. Virgin Islands and British Virgin Islands",
+      "shortname": "summerwindadventures",
+      "verdict": "INSUFFICIENT",
+      "okReadings": 0,
+      "reason": "items:[] on all 17 dates (68-request run, 0 errors); shortname valid (HTTP 200, company found); /api/v1 item is_archived=false is_private=false is_unlisted=false — live but publishes no priced availability; empty availability is a date verdict, not a dead call",
+      "storedPrice": 11770,
+      "storedLabel": "charter",
+      "customerTypes": []
+    },
+    {
+      "pk": 487208,
+      "name": "Multi-night Sailing Adventure in St. Augustine, Cumberland Island, and Amelia Island",
+      "shortname": "summerwindadventures",
+      "verdict": "INSUFFICIENT",
+      "okReadings": 0,
+      "reason": "items:[] on all 17 dates (68-request run, 0 errors); shortname valid (HTTP 200, company found); /api/v1 item is_archived=false is_private=false is_unlisted=false — live but publishes no priced availability; empty availability is a date verdict, not a dead call",
+      "storedPrice": 6995,
+      "storedLabel": "charter",
+      "customerTypes": []
+    }
+  ],
+  "rows": [
+    {
+      "pk": 102402,
+      "name": "Full Day Private Charter (42' Power Boat)",
+      "shortname": "stormypirates",
+      "classification": "correct-by-construction",
+      "vesselAssertion": "row name: 42' Power Boat",
+      "ladder": "duration ladder 6h/7h/8h/8h-BVI; stored already equals the floor",
+      "customerTypes": [
+        "Six Hour Private Charter (USVI only trip) — Price includes 6 guests",
+        "Seven Hour Private Charter (USVI only trip) — Price includes 6 guests",
+        "Eight Hour Private Charter (USVI only trip) — Price includes 6 guests",
+        "Eight Hour Private Charter (BVI trip) — Price includes 6 guests"
+      ],
+      "ancillaryExcluded": [],
+      "okReadings": 17,
+      "dateHonouredReadings": 8,
+      "zeroOnlyDates": [],
+      "tierName": "Six Hour Private Charter (USVI only trip)",
+      "livePrices": [
+        1900
+      ],
+      "storedPriceBefore": 1900,
+      "storedLabelBefore": "charter",
+      "storedConfidenceBefore": "medium",
+      "price": 1900,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 444250,
+          "singular": "Six Hour Private Charter (USVI only trip)",
+          "plural": "Six Hour Private Charters (USVI only trip)",
+          "note": "Price includes 6 guests",
+          "priceCents": 190000,
+          "price": 1900,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 113436,
+      "name": "Full Day (6 or 8 hours) Private Charter - Luxury Sailing Catamaran",
+      "shortname": "stormypirates",
+      "classification": "duration-matched (D-601)",
+      "vesselAssertion": "row name: Luxury Sailing Catamaran",
+      "ladder": "duration ladder 6h/8h/8h-BVI; row name \"6 or 8 hours\" matches the 6h floor tier; stored price was null",
+      "customerTypes": [
+        "Six Hour Private Charter (USVI only trip) — Price includes 6 guests",
+        "Eight Hour Private Charter (USVI only trip) — Price includes 6 guests",
+        "Eight Hour Private Charter (BVI trip) — Price includes 6 guests • Up to 12 passengers total"
+      ],
+      "ancillaryExcluded": [],
+      "okReadings": 17,
+      "dateHonouredReadings": 12,
+      "zeroOnlyDates": [],
+      "tierName": "Six Hour Private Charter (USVI only trip)",
+      "livePrices": [
+        1900
+      ],
+      "storedPriceBefore": null,
+      "storedLabelBefore": "charter",
+      "storedConfidenceBefore": "",
+      "price": 1900,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 444250,
+          "singular": "Six Hour Private Charter (USVI only trip)",
+          "plural": "Six Hour Private Charters (USVI only trip)",
+          "note": "Price includes 6 guests",
+          "priceCents": 190000,
+          "price": 1900,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 414246,
+      "name": "BVI Private",
+      "shortname": "locallegendcharters",
+      "classification": "stale-single-tier (FST)",
+      "vesselAssertion": "description: powerboat / vessel",
+      "ladder": "single whole-boat tier; stored  matches no live tier on any of 17 dates",
+      "customerTypes": [
+        "Includes Up To 6 Guests — + Fees",
+        "Additional Passenger — Priced per person"
+      ],
+      "ancillaryExcluded": [
+        "Additional Passenger (Priced per person) — D-483/D-494 per-person add-on"
+      ],
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "zeroOnlyDates": [],
+      "tierName": "Includes Up To 6 Guests",
+      "livePrices": [
+        1799.99
+      ],
+      "storedPriceBefore": 600,
+      "storedLabelBefore": "charter",
+      "storedConfidenceBefore": "medium",
+      "price": 1799.99,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 746705,
+          "singular": "Includes Up To 6 Guests",
+          "plural": "Includes Up To 6 Guests",
+          "note": "+ Fees",
+          "priceCents": 179999,
+          "price": 1799.99,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 494820,
+      "name": "Private Charter - Gorda Pirate",
+      "shortname": "stormypirates",
+      "classification": "max-tier→floor (D-597)",
+      "vesselAssertion": "row name: named vessel Gorda Pirate; description: Catamaran",
+      "ladder": "duration ladder 6h/8h/8h-BVI; stored  is the 8h-USVI tier, not the floor (the live ladder max is the  BVI tier)",
+      "customerTypes": [
+        "Six Hour Private Charter (USVI only trip) — Price includes 12 guests",
+        "Eight Hour Private Charter (USVI only trip) — Price Includes 12 guests",
+        "Eight Hour Charter (BVI trip) — Price includes 12 guests"
+      ],
+      "ancillaryExcluded": [],
+      "okReadings": 17,
+      "dateHonouredReadings": 2,
+      "zeroOnlyDates": [],
+      "tierName": "Six Hour Private Charter (USVI only trip)",
+      "livePrices": [
+        6000
+      ],
+      "storedPriceBefore": 7000,
+      "storedLabelBefore": "charter",
+      "storedConfidenceBefore": "medium",
+      "price": 6000,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 884049,
+          "singular": "Six Hour Private Charter (USVI only trip)",
+          "plural": "Six Hour Private Charter (USVI only trip)",
+          "note": "Price includes 12 guests",
+          "priceCents": 600000,
+          "price": 6000,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 623831,
+      "name": "USVI Half Day Charter",
+      "shortname": "driftcharters",
+      "classification": "max-tier→floor (D-597)",
+      "vesselAssertion": "description: boat / captain; company Drift Charters",
+      "ladder": "party-size bands under one unit tier \"Private Charter\" (1-6 / 7-12); stored  is the band max",
+      "customerTypes": [
+        "Private Charter — 7 to 12 People",
+        "Private Charter — 1 to 6 People"
+      ],
+      "ancillaryExcluded": [],
+      "okReadings": 17,
+      "dateHonouredReadings": 9,
+      "zeroOnlyDates": [],
+      "tierName": "Private Charter",
+      "livePrices": [
+        875
+      ],
+      "storedPriceBefore": 975,
+      "storedLabelBefore": "charter",
+      "storedConfidenceBefore": "medium",
+      "price": 875,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097225,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "1 to 6 People",
+          "priceCents": 87500,
+          "price": 875,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 624217,
+      "name": "USVI Full Day Charter",
+      "shortname": "driftcharters",
+      "classification": "max-tier→floor (D-597)",
+      "vesselAssertion": "description: boat / captain; company Drift Charters",
+      "ladder": "party-size bands under one unit tier \"Private Charter\" (1-6 / 7-12); stored  is the band max",
+      "customerTypes": [
+        "Private Charter — 7 to 12 People",
+        "Private Charter — 1 to 6 People"
+      ],
+      "ancillaryExcluded": [],
+      "okReadings": 17,
+      "dateHonouredReadings": 9,
+      "zeroOnlyDates": [],
+      "tierName": "Private Charter",
+      "livePrices": [
+        1400
+      ],
+      "storedPriceBefore": 1500,
+      "storedLabelBefore": "charter",
+      "storedConfidenceBefore": "medium",
+      "price": 1400,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097225,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "1 to 6 People",
+          "priceCents": 140000,
+          "price": 1400,
+          "minPartySize": 1
+        }
+      ]
+    }
+  ]
+}

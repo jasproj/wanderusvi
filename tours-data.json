@@ -641,9 +641,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
-      "price": null,
-      "priceLabel": "charter",
-      "priceConfidence": "",
+      "price": 1900,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 87,
       "currency": "USD",
       "duration": null,
@@ -682,7 +682,18 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.850929"
+      "lastUpdated": "2026-05-27T13:49:49.850929",
+      "priceBreakdown": [
+        {
+          "id": 444250,
+          "singular": "Six Hour Private Charter (USVI only trip)",
+          "plural": "Six Hour Private Charters (USVI only trip)",
+          "note": "Price includes 6 guests",
+          "priceCents": 190000,
+          "price": 1900,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "440447",
@@ -2430,8 +2441,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Red Hook",
       "island": "st-thomas",
       "price": 1900,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 78,
       "currency": "USD",
       "duration": null,
@@ -2480,7 +2491,18 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.851028"
+      "lastUpdated": "2026-05-27T13:49:49.851028",
+      "priceBreakdown": [
+        {
+          "id": 444250,
+          "singular": "Six Hour Private Charter (USVI only trip)",
+          "plural": "Six Hour Private Charters (USVI only trip)",
+          "note": "Price includes 6 guests",
+          "priceCents": 190000,
+          "price": 1900,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "190947",
@@ -6349,9 +6371,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/Saint Thomas/Estate Bovoni",
       "island": "st-thomas",
-      "price": 600,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "price": 1799.99,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 69,
       "currency": "USD",
       "duration": "420 minutes",
@@ -6399,7 +6421,18 @@
       "lastUpdated": "2026-05-27T13:49:49.851240",
       "_unknownFields": {
         "durationMinutes": 420
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 746705,
+          "singular": "Includes Up To 6 Guests",
+          "plural": "Includes Up To 6 Guests",
+          "note": "+ Fees",
+          "priceCents": 179999,
+          "price": 1799.99,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "438300",
@@ -14680,9 +14713,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Red Hook",
       "island": "st-thomas",
-      "price": 7000,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "price": 6000,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 57,
       "currency": "USD",
       "duration": null,
@@ -14722,7 +14755,18 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.851663"
+      "lastUpdated": "2026-05-27T13:49:49.851663",
+      "priceBreakdown": [
+        {
+          "id": 884049,
+          "singular": "Six Hour Private Charter (USVI only trip)",
+          "plural": "Six Hour Private Charter (USVI only trip)",
+          "note": "Price includes 12 guests",
+          "priceCents": 600000,
+          "price": 6000,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "508266",
@@ -15231,9 +15275,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
-      "price": 1500,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "price": 1400,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 57,
       "currency": "USD",
       "duration": "420 minutes",
@@ -15281,7 +15325,18 @@
       "lastUpdated": "2026-05-27T13:49:49.851692",
       "_unknownFields": {
         "durationMinutes": 420
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1097225,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "1 to 6 People",
+          "priceCents": 140000,
+          "price": 1400,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "200902",
@@ -17676,9 +17731,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
-      "price": 975,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "price": 875,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 54,
       "currency": "USD",
       "duration": "240 minutes",
@@ -17725,7 +17780,18 @@
       "lastUpdated": "2026-05-27T13:49:49.851834",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1097225,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "1 to 6 People",
+          "priceCents": 87500,
+          "price": 875,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "624228",

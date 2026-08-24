@@ -215,9 +215,20 @@ function escapeHtml(str) {
         .replace(/'/g, '&#39;');
 }
 
+// Three ruled branches, plus the unchanged fallback.
+//
+//   charter (verified)  -> "From $X · private boat"
+//   per adult           -> "From $X per adult"
+//   no usable price     -> null, and the caller emits NO price element at all.
+//                          Not empty text, not a placeholder node — no node.
+//
+// Every other label (per person unverified, unknown, per group, …) still gets
+// the "Price on request" fallback: those units are not adjudicated yet, and
+// inventing a basis for them is how a whole-boat fare gets read as a seat price.
 function formatPrice(price, confidence, priceLabel) {
-    if (!Number.isFinite(price) || price <= 0) return 'Price on request';
-    if (priceLabel === 'per adult' && (confidence === 'high' || confidence === 'medium')) return `From $${price}`;
+    if (!Number.isFinite(price) || price <= 0) return null;
+    if (priceLabel === 'private boat' && confidence === 'high') return `From $${price} · private boat`;
+    if (priceLabel === 'per adult' && (confidence === 'high' || confidence === 'medium')) return `From $${price} per adult`;
     return 'Price on request';
 }
 
@@ -293,6 +304,8 @@ function createTourCard(tour) {
     
     const cleanLoc = cleanLocation(tour.location);
     const priceDisplay = formatPrice(tour.price, tour.priceConfidence, tour.priceLabel);
+    // null => the row has no usable price, so the element itself is omitted.
+    const priceHtml = priceDisplay === null ? '' : `<div class="tour-price">${priceDisplay}</div>`;
     
     const schema = generateTourSchema(tour);
     const schemaJson = JSON.stringify(schema).replace(/<\/script/gi, '<\\/script');
@@ -318,7 +331,7 @@ function createTourCard(tour) {
                 <p class="tour-description">${escapeHtml(truncatedDesc)}</p>
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
-                    <div class="tour-price">${priceDisplay}</div>
+                    ${priceHtml}
                     <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="book-now-btn tour-book-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="text-decoration: none;">Check Availability →</a>
                 </div>
             </div>

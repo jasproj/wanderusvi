@@ -1,0 +1,2647 @@
+{
+  "generator": "scripts-staging/s43-charter-unit-probe.js + S43 adjudication",
+  "probeBase": "2026-08-24",
+  "probeDates": 17,
+  "endpoint": "/api/embed/{shortname}/price-preview/per-item/v2/?item_pks={pk}&include_breakdown=yes&date={d}",
+  "population": "S40 ledger D-485 (group/charter unit) HOLD, status active in tours-data.json @ f2e7179 = 110 rows",
+  "publishRule": "live floor of the confirmed whole-boat tier; tiers matched across dates by NAME, never by id (id carried along only after it was shown stable for all 94)",
+  "gate": {
+    "probed": 110,
+    "published": 94,
+    "dropped": 16,
+    "requests": 510,
+    "requestErrors": 0,
+    "dateValidity": "the endpoint answers with the next availability at or after the requested date; 1030 of 1587 published-row readings fell on the date asked for, so date-validity is recorded per reading, never assumed",
+    "minReadings": 3,
+    "discardRules": [
+      "D-575 zero-priced tiers discarded",
+      "D-505 all-zero readings discarded",
+      "D-483/D-494 ancillary tiers excluded; a Rental token is not ancillary"
+    ]
+  },
+  "droppedRows": [
+    {
+      "pk": 8450,
+      "name": "Full Day Private Jeep Tour St Thomas",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Jeep\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Jeep"
+      ]
+    },
+    {
+      "pk": 212043,
+      "name": "AM 1/2 Day Private Jeep Tour St Thomas",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Jeep\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Jeep"
+      ]
+    },
+    {
+      "pk": 212044,
+      "name": "PM 1/2 Day Private Jeep Tour St. Thomas",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Jeep\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Jeep"
+      ]
+    },
+    {
+      "pk": 212792,
+      "name": "Tropicat - Private Charter",
+      "verdict": "DROP",
+      "reason": "group-unit ladder across readings: [\"Half Day Private Charter\",\"Full Day Private Charter\",\"Sunset Private Charter\"]",
+      "okReadings": 17,
+      "customerTypes": [
+        "Half Day Private Charter",
+        "Full Day Private Charter",
+        "Sunset Private Charter"
+      ]
+    },
+    {
+      "pk": 235969,
+      "name": "Private - Sunset Sail & Snorkel (Sailing Catamaran)",
+      "verdict": "INSUFFICIENT",
+      "reason": "only 2 OK reading(s), need 3",
+      "okReadings": 2,
+      "customerTypes": [
+        "Sunset Sail - 41' Catamaran"
+      ]
+    },
+    {
+      "pk": 334765,
+      "name": "Private St John Tour including Trunk Bay from St. Thomas",
+      "verdict": "DROP",
+      "reason": "group-unit ladder across readings: [\"Private Group (1-3 people)\",\"Private Group (4-6 people)\"]",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Group (1-3 people)",
+        "Private Group (4-6 people)"
+      ]
+    },
+    {
+      "pk": 341213,
+      "name": "1.5 Hour Mini Island Jeep Tour \"St Thomas\"",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Tour - Number of Jeeps\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Tour - Number of Jeeps"
+      ]
+    },
+    {
+      "pk": 341226,
+      "name": "\"St Thomas\" Half Day Jeep Cultural Adventure/Beach",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Tour - Number of Jeeps\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Tour - Number of Jeeps"
+      ]
+    },
+    {
+      "pk": 341232,
+      "name": "Full Day Jeep Cultural Tour,  St. Thomas & Water Island Beach",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Tour - Number of Jeeps\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Tour - Number of Jeeps"
+      ]
+    },
+    {
+      "pk": 411739,
+      "name": "Full Day Private Jeep Tour St John",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Tour\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Tour",
+        "Add an Underwater Scooter",
+        "Add a Go Pro"
+      ]
+    },
+    {
+      "pk": 411764,
+      "name": "PM 1/2 Day Private Jeep Tour St John",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Tour\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Tour",
+        "Add an Underwater Scooter",
+        "Add a Go Pro"
+      ]
+    },
+    {
+      "pk": 439757,
+      "name": "Private Island Lime Out Tour",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Tour\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Tour",
+        "Add an Underwater Scooter",
+        "Add a Go Pro"
+      ]
+    },
+    {
+      "pk": 509348,
+      "name": "Private Parasailing (Departs from Christiansted, St. Croix)",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Parasail Trip\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Parasail Trip"
+      ]
+    },
+    {
+      "pk": 529079,
+      "name": "Children's Botanical Garden in St. Thomas USVI",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Group (3 People)\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Group (3 People)"
+      ]
+    },
+    {
+      "pk": 589096,
+      "name": "Sunset Champagne Charter 50' Luxury Voyage Catamaran",
+      "verdict": "INSUFFICIENT",
+      "reason": "only 0 OK reading(s), need 3",
+      "okReadings": 0,
+      "customerTypes": [
+        "Private Charter - Additional Guests"
+      ]
+    },
+    {
+      "pk": 634849,
+      "name": "St. Thomas Half-Day Private Guided Jeep Tour",
+      "verdict": "UNIT_NOT_VESSEL",
+      "reason": "D-485 group unit but not a boat (tier \"Private Group | St. Thomas\") — needs its own label ruling",
+      "okReadings": 17,
+      "customerTypes": [
+        "Private Group | St. Thomas"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "pk": 27737,
+      "name": "USVI 7.5 Hours Full Day with Captain - Private Your Day Your Way! (35’ Marlin)",
+      "shortname": "boatrentalsvi",
+      "tierName": "Full Day Boat Rental",
+      "okReadings": 17,
+      "dateHonouredReadings": 13,
+      "livePrices": [
+        800
+      ],
+      "storedPriceBefore": 800,
+      "price": 800,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 65000,
+          "singular": "Full Day Boat Rental",
+          "plural": "Full Day Boat Rental",
+          "note": "1-6 Passengers (Maximum 10)",
+          "priceCents": 80000,
+          "price": 800,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 75229,
+      "name": "USVI Half Day Private Charter",
+      "shortname": "charterphoenix",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        865
+      ],
+      "storedPriceBefore": 865,
+      "price": 865,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 165234,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "",
+          "priceCents": 86500,
+          "price": 865,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 75232,
+      "name": "USVI Full Day Private Charter",
+      "shortname": "charterphoenix",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1245
+      ],
+      "storedPriceBefore": 1245,
+      "price": 1245,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 165234,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "",
+          "priceCents": 124500,
+          "price": 1245,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 103534,
+      "name": "Full Day Private Boat Charter - USVI",
+      "shortname": "finntastictours",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 12,
+      "livePrices": [
+        995
+      ],
+      "storedPriceBefore": null,
+      "price": 995,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 219293,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "7 Hour Charter • Up to 11 Guests",
+          "priceCents": 99500,
+          "price": 995,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 103544,
+      "name": "Half Day Private Boat Charter - Snorkeling, Beach Bars & Turtles",
+      "shortname": "finntastictours",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 12,
+      "livePrices": [
+        795
+      ],
+      "storedPriceBefore": null,
+      "price": 795,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 219293,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "4 Hour Charter • Up to 11 Guests",
+          "priceCents": 79500,
+          "price": 795,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 114303,
+      "name": "32' Intrepid with Twin 300 Yamaha Engines (Cruzomian)",
+      "shortname": "sonicchartersstthomas",
+      "tierName": "Full Day Boat Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        1100
+      ],
+      "storedPriceBefore": null,
+      "price": 1100,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 242714,
+          "singular": "Full Day Boat Charter",
+          "plural": "Full Day Boat Charter",
+          "note": "7 Hours • Up to 9 People • All Ages",
+          "priceCents": 110000,
+          "price": 1100,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 118625,
+      "name": "50′ Sea Ray Sundancer 460 - Luxury Boat Charter (New Magic)",
+      "shortname": "sonicchartersstthomas",
+      "tierName": "Full Day Boat Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 8,
+      "livePrices": [
+        2000
+      ],
+      "storedPriceBefore": 50,
+      "price": 2000,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 242714,
+          "singular": "Full Day Boat Charter",
+          "plural": "Full Day Boat Charter",
+          "note": "7 Hours • Up to 12 People • All Ages",
+          "priceCents": 200000,
+          "price": 2000,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 135444,
+      "name": "Full Day Private Charter Aboard M/V Aquarius | USVI",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1495
+      ],
+      "storedPriceBefore": 1495,
+      "price": 1495,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 277007,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Base price up to 6 people • $50 additional per person up to 12 people",
+          "priceCents": 149500,
+          "price": 1495,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 135450,
+      "name": "Half Day Private Charter Aboard M/V Aquarius",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        895
+      ],
+      "storedPriceBefore": 895,
+      "price": 895,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 277007,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Base price up to 6 people • $25 additional per person up to 12 people",
+          "priceCents": 89500,
+          "price": 895,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 135457,
+      "name": "Full Day of Luxury Aboard Sailing Yacht Pisces",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 11,
+      "livePrices": [
+        2095
+      ],
+      "storedPriceBefore": 2095,
+      "price": 2095,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 277007,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "7 Hours l All Ages l Up to 12 Guests",
+          "priceCents": 209500,
+          "price": 2095,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 135461,
+      "name": "Half Day of Luxury Aboard Sailing Yacht Pisces",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1395
+      ],
+      "storedPriceBefore": 1395,
+      "price": 1395,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 277007,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "4 Hours l All Ages l Up to 12 Guests",
+          "priceCents": 139500,
+          "price": 1395,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 171331,
+      "name": "Half Day Aboard MV Poseidon | USVI Beach & Snorkel",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Half Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        995
+      ],
+      "storedPriceBefore": 995,
+      "price": 995,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 336725,
+          "singular": "Half Day Charter",
+          "plural": "Half Day Charter",
+          "note": "Base price up to 6 people • $25 additional per person up to 12 people",
+          "priceCents": 99500,
+          "price": 995,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 179893,
+      "name": "37' Intrepid with Twin 300 HP Yamaha Engines (Izulu)",
+      "shortname": "happyislandcharters",
+      "tierName": "Full day Intrepid charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1050
+      ],
+      "storedPriceBefore": 1050,
+      "price": 1050,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1229961,
+          "singular": "Full day Intrepid charter",
+          "plural": "Full day Intrepid charter",
+          "note": "",
+          "priceCents": 105000,
+          "price": 1050,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 181295,
+      "name": "1/2 Day (4 hours - USVI only) Private Charter -  Luxury Sailing Catamaran",
+      "shortname": "stormypirates",
+      "tierName": "1/2 Day - Sailing Catamaran",
+      "okReadings": 17,
+      "dateHonouredReadings": 13,
+      "livePrices": [
+        1650
+      ],
+      "storedPriceBefore": 1350,
+      "price": 1650,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 681387,
+          "singular": "1/2 Day - Sailing Catamaran",
+          "plural": "1/2 Day - Sailing Catamaran",
+          "note": "",
+          "priceCents": 165000,
+          "price": 1650,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 184337,
+      "name": "Full Day Aboard MV Poseidon | USVI Beach & Snorkel",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Full Day Charter Up to 12 Guests",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        1595
+      ],
+      "storedPriceBefore": 1595,
+      "price": 1595,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 336724,
+          "singular": "Full Day Charter Up to 12 Guests",
+          "plural": "Full Day Charter Up to 12 Guests",
+          "note": "Base price up to 6 people • $50 additional per person up to 12 people",
+          "priceCents": 159500,
+          "price": 1595,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 185836,
+      "name": "Half Day 50' Private Sailing Catamaran | Luxury, Beach & Snorkel",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Half Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        1495
+      ],
+      "storedPriceBefore": null,
+      "price": 1495,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 336725,
+          "singular": "Half Day Charter",
+          "plural": "Half Day Charter",
+          "note": "Base price up to 6 people • $25 additional per person up to 12 people",
+          "priceCents": 149500,
+          "price": 1495,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 185842,
+      "name": "Full Day 50' Private Sailing Catamaran | Luxury, Beach & Snorkel",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Full Day Charter Up to 12 Guests",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        2195
+      ],
+      "storedPriceBefore": null,
+      "price": 2195,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 336724,
+          "singular": "Full Day Charter Up to 12 Guests",
+          "plural": "Full Day Charter Up to 12 Guests",
+          "note": "Base price up to 6 people • $50 additional per person up to 12 people",
+          "priceCents": 219500,
+          "price": 2195,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 190947,
+      "name": "58' Princess Yachts - Luxury Yacht Charter (Enchantment) USVI trips only",
+      "shortname": "sonicchartersstthomas",
+      "tierName": "Full Day Boat Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 9,
+      "livePrices": [
+        2750
+      ],
+      "storedPriceBefore": null,
+      "price": 2750,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 242714,
+          "singular": "Full Day Boat Charter",
+          "plural": "Full Day Boat Charter",
+          "note": "7 Hours • Up to 12 People • All Ages",
+          "priceCents": 275000,
+          "price": 2750,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 194126,
+      "name": "Private Full Day Sailing Charter in the USVI (55' Sailing Yacht)",
+      "shortname": "bluedreamchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        1295
+      ],
+      "storedPriceBefore": 1295,
+      "price": 1295,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 375535,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Base Price including up to 4 people • Boat holds up to 12 people",
+          "priceCents": 129500,
+          "price": 1295,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 194134,
+      "name": "Private Half Day Sail (55' Sailing Yacht)",
+      "shortname": "bluedreamchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        895
+      ],
+      "storedPriceBefore": 895,
+      "price": 895,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 375535,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Base Price including up to 4 people • Boat holds up to 12 people",
+          "priceCents": 89500,
+          "price": 895,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 194135,
+      "name": "Private Sunset Sail (55' Sailing Yacht)",
+      "shortname": "bluedreamchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        895
+      ],
+      "storedPriceBefore": 895,
+      "price": 895,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 375535,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Base Price including up to 4 people • Boat holds up to 12 people",
+          "priceCents": 89500,
+          "price": 895,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 218089,
+      "name": "CAT 5 - Private Charter",
+      "shortname": "calypsocharters",
+      "tierName": "Full Day Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 9,
+      "livePrices": [
+        1350
+      ],
+      "storedPriceBefore": null,
+      "price": 1350,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 407184,
+          "singular": "Full Day Private Charter",
+          "plural": "Full Day Private Charter",
+          "note": "BVI • 8 Hours • All Ages • Covers the cost of up to 8 guests • Add additional passengers below (up to 12 total guests)",
+          "priceCents": 135000,
+          "price": 1350,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 279368,
+      "name": "Sailing Yacht - Full Day Charter",
+      "shortname": "happyislandcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        1600
+      ],
+      "storedPriceBefore": 1500,
+      "price": 1600,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 794062,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "",
+          "priceCents": 160000,
+          "price": 1600,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 306470,
+      "name": "Scout Rental",
+      "shortname": "cruzbaywatersports",
+      "tierName": "Full Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        595
+      ],
+      "storedPriceBefore": 595,
+      "price": 595,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 30666,
+          "singular": "Full Day Charter",
+          "plural": "Full Day Charters",
+          "note": "5 person capacity / 10AM - 4PM",
+          "priceCents": 59500,
+          "price": 595,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 306991,
+      "name": "Sailing Yacht - Sunset Sail",
+      "shortname": "happyislandcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        750
+      ],
+      "storedPriceBefore": 750,
+      "price": 750,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 794062,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "",
+          "priceCents": 75000,
+          "price": 750,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 306996,
+      "name": "Sailing Yacht - Half Day Charter",
+      "shortname": "happyislandcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        750
+      ],
+      "storedPriceBefore": 750,
+      "price": 750,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 794062,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "",
+          "priceCents": 75000,
+          "price": 750,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 346091,
+      "name": "MV Hydra - Full Day Luxury Catamaran",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        1595
+      ],
+      "storedPriceBefore": null,
+      "price": 1595,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 277007,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Maximum 12 Guests",
+          "priceCents": 159500,
+          "price": 1595,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 361018,
+      "name": "Private Sunset Cruise in the U.S. Virgin Islands",
+      "shortname": "finntastictours",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 12,
+      "livePrices": [
+        675
+      ],
+      "storedPriceBefore": 675,
+      "price": 675,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 219293,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "up to 11 guests",
+          "priceCents": 67500,
+          "price": 675,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 413121,
+      "name": "Island Flyer - Full Day Private Boat USVI",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Full Day Charter Up to 12 Guests",
+      "okReadings": 17,
+      "dateHonouredReadings": 7,
+      "livePrices": [
+        1495
+      ],
+      "storedPriceBefore": 1495,
+      "price": 1495,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 336724,
+          "singular": "Full Day Charter Up to 12 Guests",
+          "plural": "Full Day Charter Up to 12 Guests",
+          "note": "7 Hours | Up to 12 People",
+          "priceCents": 149500,
+          "price": 1495,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 424739,
+      "name": "Half Day Adventure",
+      "shortname": "onecaribbeancharter",
+      "tierName": "Half Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        1100
+      ],
+      "storedPriceBefore": 1000,
+      "price": 1100,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 648177,
+          "singular": "Half Day Charter",
+          "plural": "Half Day Charter",
+          "note": "Private 37' Midnight Express - 12 person capacity",
+          "priceCents": 110000,
+          "price": 1100,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 425585,
+      "name": "45′ Lagoon - Luxury Catamaran Sailboat",
+      "shortname": "sonicchartersstthomas",
+      "tierName": "Full Day Boat Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        2000
+      ],
+      "storedPriceBefore": 50,
+      "price": 2000,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 242714,
+          "singular": "Full Day Boat Charter",
+          "plural": "Full Day Boat Charter",
+          "note": "7 Hours • Up to 12 People • All Ages",
+          "priceCents": 200000,
+          "price": 2000,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 429510,
+      "name": "Full Day Private Charter Aboard M/V Aquarius | BVI",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1795
+      ],
+      "storedPriceBefore": 1795,
+      "price": 1795,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 277007,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "8 Hours l All Ages l Up to 12 Guests",
+          "priceCents": 179500,
+          "price": 1795,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 476508,
+      "name": "Private Sunset Night Snorkeling Charter",
+      "shortname": "diveaquamarine",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        800,
+        960
+      ],
+      "storedPriceBefore": 50,
+      "price": 800,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 335305,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "up to 6 people - accommodation for more people or to add divers may be made for additional fees",
+          "priceCents": 80000,
+          "price": 800,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 477902,
+      "name": "Private Sunset/Night Diving Charter",
+      "shortname": "diveaquamarine",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        1150,
+        1380
+      ],
+      "storedPriceBefore": 1150,
+      "price": 1150,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 335305,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "up to 6 divers, up to 15 total people",
+          "priceCents": 115000,
+          "price": 1150,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 512124,
+      "name": "Island Flyer - Half Day Private Boat USVI",
+      "shortname": "seasthedaychartersusvi",
+      "tierName": "Half Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        895
+      ],
+      "storedPriceBefore": 895,
+      "price": 895,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 336725,
+          "singular": "Half Day Charter",
+          "plural": "Half Day Charter",
+          "note": "4 Hours | Up to 12 People",
+          "priceCents": 89500,
+          "price": 895,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 532681,
+      "name": "BVI Full Day Private Boat Charter",
+      "shortname": "finntastictours",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 12,
+      "livePrices": [
+        1450
+      ],
+      "storedPriceBefore": null,
+      "price": 1450,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 219293,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "8 Hour Charter • Up to 11 Guests",
+          "priceCents": 145000,
+          "price": 1450,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 532682,
+      "name": "A Day on Jost - Home of the Painkiller",
+      "shortname": "finntastictours",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 12,
+      "livePrices": [
+        1250
+      ],
+      "storedPriceBefore": null,
+      "price": 1250,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 219293,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "7 Hour Charter • Up to 11 Guests",
+          "priceCents": 125000,
+          "price": 1250,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 556346,
+      "name": "Second Chance-USVI Full Day Trip",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        1350
+      ],
+      "storedPriceBefore": 1350,
+      "price": 1350,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "First 6 passengers inclusive",
+          "priceCents": 135000,
+          "price": 1350,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 556358,
+      "name": "Second Chance-USVI Half Day Trip",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        900
+      ],
+      "storedPriceBefore": 900,
+      "price": 900,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "First 4 passengers inclusive",
+          "priceCents": 90000,
+          "price": 900,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 556360,
+      "name": "Second Chance-BVI Baths Overnight Adventure",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        2500
+      ],
+      "storedPriceBefore": null,
+      "price": 2500,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "First 4 passengers inclusive",
+          "priceCents": 250000,
+          "price": 2500,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 556364,
+      "name": "Second Chance-BVI Jost Van Dyke Day Trip",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        1300
+      ],
+      "storedPriceBefore": null,
+      "price": 1300,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "First 6 passengers inclusive",
+          "priceCents": 130000,
+          "price": 1300,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 556366,
+      "name": "Second Chance-3 Day, 2 night Term Charter Experience",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        6000
+      ],
+      "storedPriceBefore": null,
+      "price": 6000,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "First 2 passengers inclusive",
+          "priceCents": 600000,
+          "price": 6000,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 557375,
+      "name": "USVI Full Day Trip",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        1250
+      ],
+      "storedPriceBefore": 1250,
+      "price": 1250,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "First 5 passengers inclusive",
+          "priceCents": 125000,
+          "price": 1250,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 557393,
+      "name": "USVI Half Day Trip",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        900
+      ],
+      "storedPriceBefore": 900,
+      "price": 900,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "First 5 passengers inclusive",
+          "priceCents": 90000,
+          "price": 900,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 560835,
+      "name": "Second Chance-4 Day, 3 night Term Charter Experience",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        8000
+      ],
+      "storedPriceBefore": 8000,
+      "price": 8000,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "First 2 passengers inclusive",
+          "priceCents": 800000,
+          "price": 8000,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 587804,
+      "name": "Off Da Rock - BVI Private Charter",
+      "shortname": "tridentcharters",
+      "tierName": "Full Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1300,
+        1600
+      ],
+      "storedPriceBefore": 75,
+      "price": 1300,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1039727,
+          "singular": "Full Day Charter",
+          "plural": "Full Day Charters",
+          "note": "8 hours",
+          "priceCents": 130000,
+          "price": 1300,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 587808,
+      "name": "Off Da Rock - USVI Private Charter",
+      "shortname": "tridentcharters",
+      "tierName": "Half Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        850,
+        1000
+      ],
+      "storedPriceBefore": 75,
+      "price": 850,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1039753,
+          "singular": "Half Day Charter",
+          "plural": "Half Day Charters",
+          "note": "4 hours",
+          "priceCents": 85000,
+          "price": 850,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 587811,
+      "name": "Valkyrie - BVI Private Charter",
+      "shortname": "tridentcharters",
+      "tierName": "Full Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 13,
+      "livePrices": [
+        2200,
+        2700
+      ],
+      "storedPriceBefore": 75,
+      "price": 2200,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1039727,
+          "singular": "Full Day Charter",
+          "plural": "Full Day Charters",
+          "note": "8 hours",
+          "priceCents": 220000,
+          "price": 2200,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 587812,
+      "name": "Valkyrie - USVI Private Charter",
+      "shortname": "tridentcharters",
+      "tierName": "Half Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 13,
+      "livePrices": [
+        1100,
+        1350
+      ],
+      "storedPriceBefore": 75,
+      "price": 1100,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1039753,
+          "singular": "Half Day Charter",
+          "plural": "Half Day Charters",
+          "note": "4 hours",
+          "priceCents": 110000,
+          "price": 1100,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 587818,
+      "name": "Stardust - BVI Full Day Private Charter",
+      "shortname": "tridentcharters",
+      "tierName": "Full Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        3500,
+        4200
+      ],
+      "storedPriceBefore": 75,
+      "price": 3500,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1039727,
+          "singular": "Full Day Charter",
+          "plural": "Full Day Charters",
+          "note": "8 hours",
+          "priceCents": 350000,
+          "price": 3500,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 587819,
+      "name": "Stardust - USVI Private Charter",
+      "shortname": "tridentcharters",
+      "tierName": "Half Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        1800,
+        1950
+      ],
+      "storedPriceBefore": 100,
+      "price": 1800,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1039753,
+          "singular": "Half Day Charter",
+          "plural": "Half Day Charters",
+          "note": "4 hours",
+          "priceCents": 180000,
+          "price": 1800,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 589553,
+      "name": "Second Chance-Nanny Cay BVI Overnight",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        2500
+      ],
+      "storedPriceBefore": 2500,
+      "price": 2500,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "First 4 passengers inclusive",
+          "priceCents": 250000,
+          "price": 2500,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 599922,
+      "name": "USVI Half Day",
+      "shortname": "saltyviking",
+      "tierName": "Half Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        1900
+      ],
+      "storedPriceBefore": null,
+      "price": 1900,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1060496,
+          "singular": "Half Day Charter",
+          "plural": "Half Day Charter",
+          "note": "4 Hours of USVI Fun • FUEL INCLUDED • 6 guests included in base price",
+          "priceCents": 190000,
+          "price": 1900,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 599934,
+      "name": "BVI Full Day",
+      "shortname": "saltyviking",
+      "tierName": "Full Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        3100
+      ],
+      "storedPriceBefore": null,
+      "price": 3100,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1060497,
+          "singular": "Full Day Charter",
+          "plural": "Full Day Charter",
+          "note": "8 Hours • FUEL INCLUDED • 6 guests included in base price",
+          "priceCents": 310000,
+          "price": 3100,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 607182,
+      "name": "USVI Full Day Trip - Kindred Spirit II",
+      "shortname": "kindredspiritcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        1550
+      ],
+      "storedPriceBefore": 1550,
+      "price": 1550,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1070070,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Price includes 6 guests.",
+          "priceCents": 155000,
+          "price": 1550,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 607185,
+      "name": "USVI Day Trip with Sunset Sail - Kindred Spirit II",
+      "shortname": "kindredspiritcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        1750
+      ],
+      "storedPriceBefore": 1750,
+      "price": 1750,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1070070,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Price includes 6 guests.",
+          "priceCents": 175000,
+          "price": 1750,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 607193,
+      "name": "Sunset Sail - Kindred Spirit II",
+      "shortname": "kindredspiritcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        900
+      ],
+      "storedPriceBefore": 900,
+      "price": 900,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1070070,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Price includes 6 guests.",
+          "priceCents": 90000,
+          "price": 900,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 607208,
+      "name": "USVI Full Day Trip - Intrepid",
+      "shortname": "kindredspiritcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        1550
+      ],
+      "storedPriceBefore": 1550,
+      "price": 1550,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1070070,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Price includes 6 guests.",
+          "priceCents": 155000,
+          "price": 1550,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 607210,
+      "name": "USVI Day Trip with Sunset Sail - Intrepid",
+      "shortname": "kindredspiritcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        1750
+      ],
+      "storedPriceBefore": 1750,
+      "price": 1750,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1070070,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Price includes 6 guests.",
+          "priceCents": 175000,
+          "price": 1750,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 607218,
+      "name": "Sunset Sail - Intrepid",
+      "shortname": "kindredspiritcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        900
+      ],
+      "storedPriceBefore": 900,
+      "price": 900,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1070070,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Price includes 6 guests.",
+          "priceCents": 90000,
+          "price": 900,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 607228,
+      "name": "BVI Full Day Trip to Jost Van Dyke - Intrepid",
+      "shortname": "kindredspiritcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        2350
+      ],
+      "storedPriceBefore": 2350,
+      "price": 2350,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1070070,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Price includes 6 guests.",
+          "priceCents": 235000,
+          "price": 2350,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 607533,
+      "name": "USVI Full Day",
+      "shortname": "saltyviking",
+      "tierName": "Full Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        2700
+      ],
+      "storedPriceBefore": null,
+      "price": 2700,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1060497,
+          "singular": "Full Day Charter",
+          "plural": "Full Day Charter",
+          "note": "7 Hours • FUEL INCLUDED • 6 guests included in base price",
+          "priceCents": 270000,
+          "price": 2700,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 619185,
+      "name": "Full Day Charter",
+      "shortname": "endlesssummervi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 12,
+      "livePrices": [
+        1095
+      ],
+      "storedPriceBefore": 1095,
+      "price": 1095,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1089134,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 6 Passengers",
+          "priceCents": 109500,
+          "price": 1095,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 619190,
+      "name": "Half Day Charter",
+      "shortname": "endlesssummervi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 12,
+      "livePrices": [
+        695
+      ],
+      "storedPriceBefore": 695,
+      "price": 695,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1089134,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 6 Passengers",
+          "priceCents": 69500,
+          "price": 695,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 624250,
+      "name": "Riptide, Half-Day Fishing",
+      "shortname": "driftcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 9,
+      "livePrices": [
+        1050
+      ],
+      "storedPriceBefore": 1050,
+      "price": 1050,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097282,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 6 People · Minimum Age 4 · Fuel Included",
+          "priceCents": 105000,
+          "price": 1050,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 624259,
+      "name": "Riptide, 3/4 Day Fishing",
+      "shortname": "driftcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 8,
+      "livePrices": [
+        1350
+      ],
+      "storedPriceBefore": 1350,
+      "price": 1350,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097282,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 6 People · Minimum Age 4 · Fuel Included",
+          "priceCents": 135000,
+          "price": 1350,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 624266,
+      "name": "Riptide, Full-Day Fishing",
+      "shortname": "driftcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 8,
+      "livePrices": [
+        1800
+      ],
+      "storedPriceBefore": 1800,
+      "price": 1800,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097282,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 6 People · Minimum Age 4 · Fuel Included",
+          "priceCents": 180000,
+          "price": 1800,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 642301,
+      "name": "Domestic Full Day Tour (USVI)",
+      "shortname": "andbeyondyachtcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        2300
+      ],
+      "storedPriceBefore": 2300,
+      "price": 2300,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1128814,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 12 people per charter",
+          "priceCents": 230000,
+          "price": 2300,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 642304,
+      "name": "Domestic Half Day Tour (USVI)",
+      "shortname": "andbeyondyachtcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1950
+      ],
+      "storedPriceBefore": 1950,
+      "price": 1950,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1128814,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 12 people per charter",
+          "priceCents": 195000,
+          "price": 1950,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 647481,
+      "name": "Reel & Chill - Riptide",
+      "shortname": "driftcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 8,
+      "livePrices": [
+        1800
+      ],
+      "storedPriceBefore": 1800,
+      "price": 1800,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097282,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 6 People · Minimum Age 4 · Fuel Included",
+          "priceCents": 180000,
+          "price": 1800,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 662207,
+      "name": "CIRCLE SAINT JOHN + LIME OUT TACO BOAT",
+      "shortname": "phoenixislandcharters",
+      "tierName": "7-Hour USVI Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1445
+      ],
+      "storedPriceBefore": 1445,
+      "price": 1445,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1160836,
+          "singular": "7-Hour USVI Charter",
+          "plural": "7-Hour USVI Charter",
+          "note": "Maximum 11 People",
+          "priceCents": 144500,
+          "price": 1445,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 662884,
+      "name": "Full-Day USVI All-Inclusive Private Charter",
+      "shortname": "caribeexpressvi",
+      "tierName": "Full-Day USVI Luxury Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        2600
+      ],
+      "storedPriceBefore": 2600,
+      "price": 2600,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1162409,
+          "singular": "Full-Day USVI Luxury Private Charter",
+          "plural": "Full-Day USVI Luxury Private Charter",
+          "note": "36' Aquila • Luxury Power Catamaran • Fuel Included",
+          "priceCents": 260000,
+          "price": 2600,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 665469,
+      "name": "Half Day Charter",
+      "shortname": "topshot",
+      "tierName": "Half Day Charter",
+      "okReadings": 14,
+      "dateHonouredReadings": 13,
+      "livePrices": [
+        775
+      ],
+      "storedPriceBefore": 775,
+      "price": 775,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1166851,
+          "singular": "Half Day Charter",
+          "plural": "Half Day Charters",
+          "note": "Price is for up to 4 passengers",
+          "priceCents": 77500,
+          "price": 775,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 665503,
+      "name": "3/4 Day Charter",
+      "shortname": "topshot",
+      "tierName": "3/4 Day Charter",
+      "okReadings": 13,
+      "dateHonouredReadings": 11,
+      "livePrices": [
+        1100
+      ],
+      "storedPriceBefore": 1100,
+      "price": 1100,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1166852,
+          "singular": "3/4 Day Charter",
+          "plural": "3/4 Day Charters",
+          "note": "Price is for up to 4 passengers",
+          "priceCents": 110000,
+          "price": 1100,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 665505,
+      "name": "Full Day Charter",
+      "shortname": "topshot",
+      "tierName": "Full Day Charter",
+      "okReadings": 13,
+      "dateHonouredReadings": 11,
+      "livePrices": [
+        1400
+      ],
+      "storedPriceBefore": 1400,
+      "price": 1400,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1166853,
+          "singular": "Full Day Charter",
+          "plural": "Full Day Charters",
+          "note": "Price is for up to 4 passengers",
+          "priceCents": 140000,
+          "price": 1400,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 666370,
+      "name": "Kaos Half-Day Fishing",
+      "shortname": "driftcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 8,
+      "livePrices": [
+        900
+      ],
+      "storedPriceBefore": 900,
+      "price": 900,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097282,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 6 People · Minimum Age 4 · Fuel Included",
+          "priceCents": 90000,
+          "price": 900,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 666371,
+      "name": "Kaos, 3/4 Day Fishing",
+      "shortname": "driftcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 8,
+      "livePrices": [
+        1200
+      ],
+      "storedPriceBefore": 1200,
+      "price": 1200,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097282,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "up to 6 people",
+          "priceCents": 120000,
+          "price": 1200,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 666372,
+      "name": "Kaos, Full-Day Fishing",
+      "shortname": "driftcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 6,
+      "livePrices": [
+        1400
+      ],
+      "storedPriceBefore": 1400,
+      "price": 1400,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097282,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "up to 6 people",
+          "priceCents": 140000,
+          "price": 1400,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 666373,
+      "name": "Reel & Chill - Kaos",
+      "shortname": "driftcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 6,
+      "livePrices": [
+        1400
+      ],
+      "storedPriceBefore": 1400,
+      "price": 1400,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097282,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "up to 6 people",
+          "priceCents": 140000,
+          "price": 1400,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 666374,
+      "name": "Kaos, 3/4 Day Fish + Pizza Pi",
+      "shortname": "driftcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        1200
+      ],
+      "storedPriceBefore": 1200,
+      "price": 1200,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097282,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "up to 6 people",
+          "priceCents": 120000,
+          "price": 1200,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 666375,
+      "name": "Riptide, 3/4 Day Fish + Pizza Pi",
+      "shortname": "driftcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 1,
+      "livePrices": [
+        1350
+      ],
+      "storedPriceBefore": 1350,
+      "price": 1350,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1097282,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "up to 6 people",
+          "priceCents": 135000,
+          "price": 1350,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 666565,
+      "name": "FULL DAY FREESTYLE",
+      "shortname": "phoenixislandcharters",
+      "tierName": "7-Hour USVI Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1445
+      ],
+      "storedPriceBefore": 1445,
+      "price": 1445,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1160836,
+          "singular": "7-Hour USVI Charter",
+          "plural": "7-Hour USVI Charter",
+          "note": "",
+          "priceCents": 144500,
+          "price": 1445,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 688793,
+      "name": "Domestic Half Day Tour (BVI)",
+      "shortname": "andbeyondyachtcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1950
+      ],
+      "storedPriceBefore": 1850,
+      "price": 1950,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1128814,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 12 people per charter",
+          "priceCents": 195000,
+          "price": 1950,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 688794,
+      "name": "Domestic Full Day Tour (BVI)",
+      "shortname": "andbeyondyachtcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        2900
+      ],
+      "storedPriceBefore": 2500,
+      "price": 2900,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1128814,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 12 people per charter",
+          "priceCents": 290000,
+          "price": 2900,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 688795,
+      "name": "International Full Day Tour (USVI to BVI)",
+      "shortname": "andbeyondyachtcharters",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        3200
+      ],
+      "storedPriceBefore": 3200,
+      "price": 3200,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1128814,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "Up to 12 people per charter",
+          "priceCents": 320000,
+          "price": 3200,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 691459,
+      "name": "Half Day USVI Power Catamaran",
+      "shortname": "onecaribbeancharter",
+      "tierName": "Half Day Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1950
+      ],
+      "storedPriceBefore": 1950,
+      "price": 1950,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 648177,
+          "singular": "Half Day Charter",
+          "plural": "Half Day Charter",
+          "note": "",
+          "priceCents": 195000,
+          "price": 1950,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 710999,
+      "name": "Half-Day USVI All-Inclusive Private Charter",
+      "shortname": "caribeexpressvi",
+      "tierName": "Half-Day USVI All-Inclusive Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        1600
+      ],
+      "storedPriceBefore": 1600,
+      "price": 1600,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1235290,
+          "singular": "Half-Day USVI All-Inclusive Private Charter",
+          "plural": "Half-Day USVI All-Inclusive Private Charter",
+          "note": "36' Aquila • Luxury Power Catamaran • Fuel Included",
+          "priceCents": 160000,
+          "price": 1600,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 712877,
+      "name": "JOST VAN DYKE BVI (Soggy Dollar • Foxy’s • Sandy Spit • Bubbly Pool)",
+      "shortname": "phoenixislandcharters",
+      "tierName": "8-Hour BVI Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1645
+      ],
+      "storedPriceBefore": 1645,
+      "price": 1645,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1160837,
+          "singular": "8-Hour BVI Charter",
+          "plural": "8-Hour BVI Charters",
+          "note": "",
+          "priceCents": 164500,
+          "price": 1645,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 712879,
+      "name": "NORMAN ISLAND & JOST VAN DYKE BVI (Willy T • The Caves • The Indians • Soggy Dollar)",
+      "shortname": "phoenixislandcharters",
+      "tierName": "8-Hour BVI Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1645
+      ],
+      "storedPriceBefore": 1645,
+      "price": 1645,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1160837,
+          "singular": "8-Hour BVI Charter",
+          "plural": "8-Hour BVI Charters",
+          "note": "",
+          "priceCents": 164500,
+          "price": 1645,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 712904,
+      "name": "VIRGIN GORDA BVI – THE BATHS & BEYOND",
+      "shortname": "phoenixislandcharters",
+      "tierName": "8-Hour BVI Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 15,
+      "livePrices": [
+        1645
+      ],
+      "storedPriceBefore": 1645,
+      "price": 1645,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1160837,
+          "singular": "8-Hour BVI Charter",
+          "plural": "8-Hour BVI Charters",
+          "note": "",
+          "priceCents": 164500,
+          "price": 1645,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 715831,
+      "name": "Reel and Reef Fishing/Snorkel Combo Charter",
+      "shortname": "neptunefishingsupplies",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 14,
+      "livePrices": [
+        1929
+      ],
+      "storedPriceBefore": 1929,
+      "price": 1929,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 860611,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "",
+          "priceCents": 192900,
+          "price": 1929,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 719217,
+      "name": "BVI Luxury Sail Indians",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        2400
+      ],
+      "storedPriceBefore": 2400,
+      "price": 2400,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "",
+          "priceCents": 240000,
+          "price": 2400,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 719228,
+      "name": "USVI Luxury 3 Day/2 night Charter Experience",
+      "shortname": "beachchartersvi",
+      "tierName": "Private Charter",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        7200
+      ],
+      "storedPriceBefore": 7200,
+      "price": 7200,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 987371,
+          "singular": "Private Charter",
+          "plural": "Private Charters",
+          "note": "First 2 passengers inclusive",
+          "priceCents": 720000,
+          "price": 7200,
+          "minPartySize": 1
+        }
+      ]
+    },
+    {
+      "pk": 723549,
+      "name": "Private Sunset Cruise in the USVI",
+      "shortname": "saltykisses1864",
+      "tierName": "Private Group",
+      "okReadings": 17,
+      "dateHonouredReadings": 16,
+      "livePrices": [
+        800
+      ],
+      "storedPriceBefore": 800,
+      "price": 800,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
+      "priceBreakdown": [
+        {
+          "id": 1255982,
+          "singular": "Private Group",
+          "plural": "Private Group",
+          "note": "Up to 9 people - All ages",
+          "priceCents": 80000,
+          "price": 800,
+          "minPartySize": 1
+        }
+      ]
+    }
+  ]
+}

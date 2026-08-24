@@ -29,14 +29,23 @@
             .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
     }
 
-    // Mirrors app.js formatPrice: a price is shown only where the extractor was
-    // confident AND the catalogue confirms it's a per-adult rate, not a whole-
-    // charter figure. Anything else gets the island-page "Check availability"
-    // label rather than an invented number.
+    // Mirrors app.js formatPrice, same three ruled branches:
+    //
+    //   charter (verified)  -> "From $X · private boat"
+    //   per adult           -> "From $X per adult"
+    //   no usable price     -> null, and the caller emits NO price element.
+    //
+    // A whole-charter figure is never shown as a seat price; anything not yet
+    // adjudicated keeps the "Check availability" label rather than an invented
+    // number.
     function priceLabel(t) {
-        var ok = t.priceLabel === 'per adult' && (t.priceConfidence === 'high' || t.priceConfidence === 'medium');
-        if (ok && typeof t.price === 'number' && isFinite(t.price) && t.price > 0) {
-            return 'From $' + t.price;
+        var valid = typeof t.price === 'number' && isFinite(t.price) && t.price > 0;
+        if (!valid) return null;
+        if (t.priceLabel === 'private boat' && t.priceConfidence === 'high') {
+            return 'From $' + t.price + ' · private boat';
+        }
+        if (t.priceLabel === 'per adult' && (t.priceConfidence === 'high' || t.priceConfidence === 'medium')) {
+            return 'From $' + t.price + ' per adult';
         }
         return 'Check availability';
     }
@@ -235,6 +244,9 @@
 
             grid.innerHTML = top.map(function (t) {
                 var name = esc(t.name || (TAG + ' tour'));
+                // null => no usable price, so the element itself is omitted.
+                var priceText = priceLabel(t);
+                var priceHtml = priceText === null ? '' : '<div class="tour-price">' + esc(priceText) + '</div>';
                 // t.bookingUrl is emitted verbatim: it carries the asn=fhdn /
                 // asn-ref / ref affiliate attribution and the real FareHarbor
                 // item pk. Rewriting it would break payout.
@@ -244,7 +256,7 @@
                             '<img src="' + esc(t.image || '/images/hero-photo-1.jpg') + '" ' +
                                  'alt="' + name + '" loading="lazy" width="400" height="200" ' +
                                  'onerror="this.src=\'/images/hero-photo-1.jpg\'">' +
-                            '<div class="tour-price">' + esc(priceLabel(t)) + '</div>' +
+                            priceHtml +
                         '</div>' +
                         '<div class="tour-content">' +
                             '<div class="tour-company">' + esc(t.company || '') + '</div>' +

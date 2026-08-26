@@ -1,0 +1,431 @@
+{
+ "dates": [
+  "2026-09-05",
+  "2026-09-19",
+  "2026-10-03",
+  "2026-10-24"
+ ],
+ "requests": 20,
+ "perPk": {
+  "98818": {
+   "probes": [
+    {
+     "date": "2026-09-05",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-05T18:30:00",
+     "tiers": [
+      {
+       "singular": "Ocean Kayak - Per Person Ticket",
+       "note": "Recommended for beginners | Priced per seat (each Kayak holds two individuals)",
+       "priceCents": 5000
+      },
+      {
+       "singular": "Clear Kayak - Per Person ticket",
+       "note": "Not Recommended for Beginners (each Kayak holds two individuals)",
+       "priceCents": 6000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-09-19",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-28T18:04:00",
+     "tiers": [
+      {
+       "singular": "Ocean Kayak - Per Person Ticket",
+       "note": "Recommended for beginners | Priced per seat (each Kayak holds two individuals)",
+       "priceCents": 5000
+      },
+      {
+       "singular": "Clear Kayak - Per Person ticket",
+       "note": "Not Recommended for Beginners (each Kayak holds two individuals)",
+       "priceCents": 6000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-03",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-05T18:04:00",
+     "tiers": [
+      {
+       "singular": "Ocean Kayak - Per Person Ticket",
+       "note": "Recommended for beginners | Priced per seat (each Kayak holds two individuals)",
+       "priceCents": 5000
+      },
+      {
+       "singular": "Clear Kayak - Per Person ticket",
+       "note": "Not Recommended for Beginners (each Kayak holds two individuals)",
+       "priceCents": 6000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-24",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-27T17:45:00",
+     "tiers": [
+      {
+       "singular": "Ocean Kayak - Per Person Ticket",
+       "note": "Recommended for beginners | Priced per seat (each Kayak holds two individuals)",
+       "priceCents": 5000
+      },
+      {
+       "singular": "Clear Kayak - Per Person ticket",
+       "note": "Not Recommended for Beginners (each Kayak holds two individuals)",
+       "priceCents": 6000
+      }
+     ],
+     "currency": "USD"
+    }
+   ]
+  },
+  "274478": {
+   "probes": [
+    {
+     "date": "2026-09-05",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-05T09:00:00",
+     "tiers": [
+      {
+       "singular": "Half Day Stand Up Paddleboard",
+       "note": "",
+       "priceCents": 7568
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-09-19",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-19T09:00:00",
+     "tiers": [
+      {
+       "singular": "Half Day Stand Up Paddleboard",
+       "note": "",
+       "priceCents": 7568
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-03",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-03T09:00:00",
+     "tiers": [
+      {
+       "singular": "Half Day Stand Up Paddleboard",
+       "note": "",
+       "priceCents": 7568
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-24",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-24T09:00:00",
+     "tiers": [
+      {
+       "singular": "Half Day Stand Up Paddleboard",
+       "note": "",
+       "priceCents": 7568
+      }
+     ],
+     "currency": "USD"
+    }
+   ]
+  },
+  "377266": {
+   "probes": [
+    {
+     "date": "2026-09-05",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-05T09:00:00",
+     "tiers": [
+      {
+       "singular": "Yamaha Jet Ski",
+       "note": "Single or Double Rider - 2024 Models",
+       "priceCents": 14000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-09-19",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-19T09:00:00",
+     "tiers": [
+      {
+       "singular": "Yamaha Jet Ski",
+       "note": "Single or Double Rider - 2024 Models",
+       "priceCents": 14000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-03",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-03T09:00:00",
+     "tiers": [
+      {
+       "singular": "Yamaha Jet Ski",
+       "note": "Single or Double Rider - 2024 Models",
+       "priceCents": 14000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-24",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-24T09:00:00",
+     "tiers": [
+      {
+       "singular": "Yamaha Jet Ski",
+       "note": "Single or Double Rider - 2024 Models",
+       "priceCents": 14000
+      }
+     ],
+     "currency": "USD"
+    }
+   ]
+  },
+  "411764": {
+   "probes": [
+    {
+     "date": "2026-09-05",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-05T13:00:00",
+     "tiers": [
+      {
+       "singular": "Private Tour",
+       "note": "Vehicle Fits 4 People",
+       "priceCents": 32500
+      },
+      {
+       "singular": "Add an Underwater Scooter",
+       "note": "",
+       "priceCents": 9900
+      },
+      {
+       "singular": "Add a Go Pro",
+       "note": "",
+       "priceCents": 3000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-09-19",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-19T13:00:00",
+     "tiers": [
+      {
+       "singular": "Private Tour",
+       "note": "Vehicle Fits 4 People",
+       "priceCents": 32500
+      },
+      {
+       "singular": "Add an Underwater Scooter",
+       "note": "",
+       "priceCents": 9900
+      },
+      {
+       "singular": "Add a Go Pro",
+       "note": "",
+       "priceCents": 3000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-03",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-03T13:00:00",
+     "tiers": [
+      {
+       "singular": "Private Tour",
+       "note": "Vehicle Fits 4 People",
+       "priceCents": 32500
+      },
+      {
+       "singular": "Add an Underwater Scooter",
+       "note": "",
+       "priceCents": 9900
+      },
+      {
+       "singular": "Add a Go Pro",
+       "note": "",
+       "priceCents": 3000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-24",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-24T13:00:00",
+     "tiers": [
+      {
+       "singular": "Private Tour",
+       "note": "Vehicle Fits 4 People",
+       "priceCents": 32500
+      },
+      {
+       "singular": "Add an Underwater Scooter",
+       "note": "",
+       "priceCents": 9900
+      },
+      {
+       "singular": "Add a Go Pro",
+       "note": "",
+       "priceCents": 3000
+      }
+     ],
+     "currency": "USD"
+    }
+   ]
+  },
+  "660734": {
+   "probes": [
+    {
+     "date": "2026-09-05",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-05T08:00:00",
+     "tiers": [
+      {
+       "singular": "Go Fast Full Day BVI Cruise",
+       "note": "Up to 12 Guests",
+       "priceCents": 350000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-09-19",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-19T08:00:00",
+     "tiers": [
+      {
+       "singular": "Go Fast Full Day BVI Cruise",
+       "note": "Up to 12 Guests",
+       "priceCents": 350000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-03",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-03T08:00:00",
+     "tiers": [
+      {
+       "singular": "Go Fast Full Day BVI Cruise",
+       "note": "Up to 12 Guests",
+       "priceCents": 350000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-24",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-24T08:00:00",
+     "tiers": [
+      {
+       "singular": "Go Fast Full Day BVI Cruise",
+       "note": "Up to 12 Guests",
+       "priceCents": 350000
+      }
+     ],
+     "currency": "USD"
+    }
+   ]
+  },
+  "664103": {
+   "probes": [
+    {
+     "date": "2026-09-05",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-05T08:00:00",
+     "tiers": [
+      {
+       "singular": "Standard Full Day Palma Bella III BVI Cruise",
+       "note": "Up to 7 guests • Base price includes 6 Guests",
+       "priceCents": 130000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-09-19",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-09-19T08:00:00",
+     "tiers": [
+      {
+       "singular": "Standard Full Day Palma Bella III BVI Cruise",
+       "note": "Up to 7 guests • Base price includes 6 Guests",
+       "priceCents": 130000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-03",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-03T08:00:00",
+     "tiers": [
+      {
+       "singular": "Standard Full Day Palma Bella III BVI Cruise",
+       "note": "Up to 7 guests • Base price includes 6 Guests",
+       "priceCents": 130000
+      }
+     ],
+     "currency": "USD"
+    },
+    {
+     "date": "2026-10-24",
+     "error": null,
+     "absent": false,
+     "start_at": "2026-10-24T08:00:00",
+     "tiers": [
+      {
+       "singular": "Standard Full Day Palma Bella III BVI Cruise",
+       "note": "Up to 7 guests • Base price includes 6 Guests",
+       "priceCents": 130000
+      }
+     ],
+     "currency": "USD"
+    }
+   ]
+  }
+ }
+}

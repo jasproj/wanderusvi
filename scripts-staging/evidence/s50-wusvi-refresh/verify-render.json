@@ -1,0 +1,155 @@
+{
+ "before": {
+  "rows": 634,
+  "live": 551,
+  "cards": 551,
+  "app_all": {
+   "priceElements": 435,
+   "privateBoat": 100,
+   "perAdult": 148,
+   "priceOnRequest": 187,
+   "checkAvailability": 0,
+   "withUnit": 0,
+   "offers": 148
+  },
+  "app_population": {
+   "priceElements": 170,
+   "privateBoat": 0,
+   "perAdult": 87,
+   "priceOnRequest": 83,
+   "checkAvailability": 0,
+   "withUnit": 0,
+   "offers": 87
+  },
+  "app_outsidePopulationSha": "cffb2f50e9c10ff6",
+  "activity": {
+   "Snorkel": {
+    "cards": 3,
+    "priceElements": 3,
+    "privateBoat": 0,
+    "perAdult": 3,
+    "priceOnRequest": 0,
+    "checkAvailability": 0,
+    "withUnit": 0,
+    "offers": 0
+   },
+   "Kayak": {
+    "cards": 3,
+    "priceElements": 3,
+    "privateBoat": 0,
+    "perAdult": 3,
+    "priceOnRequest": 0,
+    "checkAvailability": 0,
+    "withUnit": 0,
+    "offers": 0
+   },
+   "Jet Ski Tour": {
+    "cards": 2,
+    "priceElements": 2,
+    "privateBoat": 0,
+    "perAdult": 1,
+    "priceOnRequest": 0,
+    "checkAvailability": 1,
+    "withUnit": 0,
+    "offers": 0
+   },
+   "Fishing": {
+    "cards": 3,
+    "priceElements": 3,
+    "privateBoat": 3,
+    "perAdult": 0,
+    "priceOnRequest": 0,
+    "checkAvailability": 0,
+    "withUnit": 0,
+    "offers": 0
+   },
+   "Zipline": {
+    "cards": 1,
+    "priceElements": 0,
+    "privateBoat": 0,
+    "perAdult": 0,
+    "priceOnRequest": 0,
+    "checkAvailability": 0,
+    "withUnit": 0,
+    "offers": 0
+   }
+  }
+ },
+ "after": {
+  "rows": 634,
+  "live": 551,
+  "cards": 551,
+  "app_all": {
+   "priceElements": 437,
+   "privateBoat": 112,
+   "perAdult": 123,
+   "priceOnRequest": 202,
+   "checkAvailability": 0,
+   "withUnit": 23,
+   "offers": 123
+  },
+  "app_population": {
+   "priceElements": 172,
+   "privateBoat": 12,
+   "perAdult": 62,
+   "priceOnRequest": 98,
+   "checkAvailability": 0,
+   "withUnit": 23,
+   "offers": 62
+  },
+  "app_outsidePopulationSha": "cffb2f50e9c10ff6",
+  "activity": {
+   "Snorkel": {
+    "cards": 3,
+    "priceElements": 3,
+    "privateBoat": 0,
+    "perAdult": 3,
+    "priceOnRequest": 0,
+    "checkAvailability": 0,
+    "withUnit": 0,
+    "offers": 0
+   },
+   "Kayak": {
+    "cards": 3,
+    "priceElements": 3,
+    "privateBoat": 0,
+    "perAdult": 3,
+    "priceOnRequest": 0,
+    "checkAvailability": 0,
+    "withUnit": 0,
+    "offers": 0
+   },
+   "Jet Ski Tour": {
+    "cards": 2,
+    "priceElements": 2,
+    "privateBoat": 0,
+    "perAdult": 1,
+    "priceOnRequest": 0,
+    "checkAvailability": 1,
+    "withUnit": 0,
+    "offers": 0
+   },
+   "Fishing": {
+    "cards": 3,
+    "priceElements": 3,
+    "privateBoat": 3,
+    "perAdult": 0,
+    "priceOnRequest": 0,
+    "checkAvailability": 0,
+    "withUnit": 0,
+    "offers": 0
+   },
+   "Zipline": {
+    "cards": 1,
+    "priceElements": 0,
+    "privateBoat": 0,
+    "perAdult": 0,
+    "priceOnRequest": 0,
+    "checkAvailability": 0,
+    "withUnit": 0,
+    "offers": 0
+   }
+  }
+ },
+ "outsidePopulationIdentical": true
+}

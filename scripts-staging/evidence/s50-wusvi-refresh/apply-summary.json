@@ -1,0 +1,6845 @@
+{
+ "stampedAt": "2026-08-26T00:31:18.695Z",
+ "population": 267,
+ "rowsChanged": 267,
+ "untouchedInPop": 0,
+ "residuePriceSourceRemoved": 19,
+ "disposition": {
+  "D-624:unchanged": 39,
+  "D-621:unchanged": 5,
+  "zero_price": 20,
+  "D-614:repriced": 5,
+  "D-614:unchanged": 4,
+  "UNSAMPLED": 120,
+  "D-621:repriced": 8,
+  "D-624:repriced": 23,
+  "HELD:mixed_verdict": 11,
+  "HELD:d482_ambiguous": 22,
+  "HELD:d484_no_unit": 5,
+  "HELD:no_base_tier": 4,
+  "HELD:d484_unit_conflict": 1
+ },
+ "sha256": {
+  "before": "df190a9002a348e5f9201a1e0fdec9040446785755f1068ea550d4a214dd9b40",
+  "after": "51d698d7f74af235e8acb69590bd50170a834731301c097b4cdbb59463c6fba3"
+ },
+ "summary": [
+  {
+   "pk": 2101,
+   "name": "Turtle Cove Catamaran Snorkel & Sail Adventure at Little Buck Island St. Thomas",
+   "old": 109,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13 and older",
+     "price": 109,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 2 and under",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 109,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 2102,
+   "name": "Sunset Sail with Cocktails and Appetizers",
+   "old": 85,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13 and older",
+     "price": 85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 40,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 2 and under",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 85,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 259438,
+   "name": "Glow Boats LED Night Kayak from The Marriott Frenchman's Cove, USVI",
+   "old": 65,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+ | Max weight 450 lbs. per kayak (2 guests per double-seated kayak)",
+     "price": 65,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 45,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 2 and Under",
+     "price": 0,
+     "min": 2,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 65,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 259453,
+   "name": "Turtle Cove Catamaran Snorkel & Sail Adventure to Little Buck Island",
+   "old": 109,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 109,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 2 and Under",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 109,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 292330,
+   "name": "Full Day Aboard Sailing Catamaran SY Mazu or SY Neptune",
+   "old": 1495,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Full Day Charter",
+     "note": "Departure: Red Hook + St John + Lovango",
+     "price": 1495,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:unchanged",
+   "rule": "D-621",
+   "new": 1495,
+   "label": "private boat",
+   "tier": "Full Day Charter",
+   "unit": "Full Day Charter",
+   "conf": "high"
+  },
+  {
+   "pk": 289236,
+   "name": "Luxury Private Airport Transfer",
+   "old": 75,
+   "oldLabel": "starting at",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "tiers": [
+    {
+     "singular": "Transfer from Cyril E. King Airport to East End",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Transfer from East End to Cyril E. King Airport",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Transfer from Cyril E. King Airport to Downtown/Northside",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Transfer from Downtown/Northside to Cyril E. King Airport",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 266857,
+   "name": "Circle St. John & Food Boat Tour (USVI only)",
+   "old": 220,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "",
+     "price": 220,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 220,
+   "label": "per adult",
+   "tier": "Person",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 30072,
+   "name": "Private Tour Packages",
+   "old": 70,
+   "oldLabel": "per person",
+   "oldConf": "high",
+   "s40Dead": true,
+   "tiers": [
+    {
+     "singular": "Private Tour Package",
+     "note": "Kids 2 years and under are free to utilize our services.",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 197271,
+   "name": "National Park Snorkeling Excursion - 2 Locations",
+   "old": 75,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult - St. Thomas Pickup",
+     "note": "Ages 11+",
+     "price": 75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - St. Thomas Pickup",
+     "note": "Ages 3 to 10",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult - St. John Pickup",
+     "note": "Ages 11+",
+     "price": 75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - St. John Pickup",
+     "note": "Ages 3 to 10",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult - Crown Bay Cruise Ship Dock (taxi included)",
+     "note": "Ages 11+",
+     "price": 107,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Crown Bay Cruise Ship Dock (taxi included)",
+     "note": "Ages 3 to 10",
+     "price": 87,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult - Havensight Cruise Ship Dock (taxi included)",
+     "note": "Ages 11+",
+     "price": 107,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Havensight Cruise Ship Dock (taxi included)",
+     "note": "Ages 3 to 10",
+     "price": 87,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 75,
+   "label": "per adult",
+   "tier": "Adult - St. Thomas Pickup",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 340838,
+   "name": "Private (37' Axopar's)",
+   "old": 1300,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Six Hour Private Charter (USVI only trip)",
+     "note": "Price includes 6 guests",
+     "price": 1400,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Eight Hour Private Charter (USVI only trip)",
+     "note": "Price includes 6 guests",
+     "price": 1550,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Eight Hour Private Charter (BVI trip)",
+     "note": "Price includes 6 guests",
+     "price": 1800,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-614:repriced",
+   "rule": "D-614",
+   "new": 1400,
+   "label": "private boat",
+   "tier": "Six Hour Private Charter (USVI only trip)",
+   "unit": "Six Hour Private Charter (USVI only trip)",
+   "conf": "high"
+  },
+  {
+   "pk": 161648,
+   "name": "Full Day (6-8 hours) Private - 27' Hydra Sport",
+   "old": 1000,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Six Hour Private Charter (USVI only trip)",
+     "note": "Max 6 people - Includes: Captain & a cooler full of ice cold Water, Soda & Beer",
+     "price": 1000,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Eight Hour Private Charter (USVI only trip)",
+     "note": "Max 6 people - Includes: Captain & a cooler full of ice cold Water, Soda & Beer",
+     "price": 1150,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-614:unchanged",
+   "rule": "D-614",
+   "new": 1000,
+   "label": "private boat",
+   "tier": "Six Hour Private Charter (USVI only trip)",
+   "unit": "Six Hour Private Charter (USVI only trip)",
+   "conf": "high"
+  },
+  {
+   "pk": 601988,
+   "name": "Sail Snorkel Mid-Day 12:30pm to Sunset",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 602579,
+   "name": "Sail Snorkel - Half Day Morning 8am",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 266651,
+   "name": "Private Charters & Weddings",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 30022,
+   "name": "Package #1: Sightseeing Excursion",
+   "old": 45,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 3+",
+     "price": 45,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child 2 years and under",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 45,
+   "label": "per adult",
+   "tier": "Person",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 181500,
+   "name": "1/2 Day (4 hours) Private - 27' Hydra Sport",
+   "old": 800,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "1/2 day (4 hours) Buccaneer (USVI only)",
+     "note": "USVI AM trip only - (can not go to the BVI)",
+     "price": 800,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:unchanged",
+   "rule": "D-621",
+   "new": 800,
+   "label": "1/2 day (4 hours) Buccaneer (USVI only)",
+   "tier": "1/2 day (4 hours) Buccaneer (USVI only)",
+   "unit": "1/2 day (4 hours) Buccaneer (USVI only)",
+   "conf": "high"
+  },
+  {
+   "pk": 270804,
+   "name": "Sunset Sail",
+   "old": 85,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 40,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 85,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 194484,
+   "name": "Kayak & Snorkel with Sea Turtles, National Park, St. John",
+   "old": 119,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Adults 10+",
+     "price": 119,
+     "min": 2,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 119,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 270790,
+   "name": "SUNSET & Harbor Lights Dinner Sail",
+   "old": 109,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 109,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 109,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 190946,
+   "name": "37' Intrepid with Triple 350 Yamaha Engines (Max'd Out/ Carried Away)",
+   "old": 200,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Full Day Boat Charter",
+     "note": "7 Hours • Up to 12 People • All Ages",
+     "price": 1350,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 1350,
+   "label": "private boat",
+   "tier": "Full Day Boat Charter",
+   "unit": "Full Day Boat Charter",
+   "conf": "high"
+  },
+  {
+   "pk": 72784,
+   "name": "Cocktail Sunset Cruise from Sapphire Beach Resort",
+   "old": 110,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "For ages 13+",
+     "price": 110,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 75,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Toddler",
+     "note": "baby to 2 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 110,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 191573,
+   "name": "Ghosts of Piracy Past",
+   "old": 175,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 12+",
+     "price": 175,
+     "min": 6,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 175,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 194391,
+   "name": "Mangrove Best of Kayak, Hike & Snorkel Tour 5 Hours -  St. Thomas",
+   "old": 199,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Six hours including tour, picnic & transport • Ages 13+",
+     "price": 199,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Six hours including tour, picnic & transport • Child Ages: 7-12",
+     "price": 139,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth",
+     "note": "Six hours including tour, picnic & transport • Child Ages: 2 - 6",
+     "price": 85,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 199,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 601985,
+   "name": "Customized Sail & Snorkel Charter",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 602576,
+   "name": "St John or St Thomas Jeep Tour - Full Day",
+   "old": 595,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 595,
+   "probeErrors": []
+  },
+  {
+   "pk": 608195,
+   "name": "Midday Snorkel Tour from Margaritaville Resort",
+   "old": 125,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 3+",
+     "price": 125,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 125,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 8232,
+   "name": "Sea Lion Swim",
+   "old": 143,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Visitor",
+     "note": "Ages 7+ | Children ages 7-9 must be accompanied by a participating adult (1 child per adult)",
+     "price": 182.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Resident",
+     "note": "Ages 7+ | Children ages 7-9 must be accompanied by a participating adult (1 child per adult) | valid local ID must be presented",
+     "price": 143,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Member",
+     "note": "A valid membership code is required in order to complete the booking.",
+     "price": 143,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 182.5,
+   "label": "per adult",
+   "tier": "Visitor",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 8234,
+   "name": "Sea Lion Encounter",
+   "old": 119,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Visitor",
+     "note": "Ages 10+ | Select one participating adult for each child under age 10 (1 child per adult)",
+     "price": 119,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Resident",
+     "note": "Ages 10+ | Select one participating adult for each child under age 10 (1 child per adult) | A valid local ID must be presented a",
+     "price": 107.1,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Accompanied Child",
+     "note": "Ages 0-9 must be accompanied by a participating adult (1 adult per child)",
+     "price": 71.4,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Member",
+     "note": "A valid membership code is required in order to complete the booking.",
+     "price": 107.1,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 71.4,
+   "label": "Accompanied Child"
+  },
+  {
+   "pk": 194410,
+   "name": "Night Kayak Tour",
+   "old": 69,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 69,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 7 - 12",
+     "price": 49,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 69,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 194395,
+   "name": "Cas Cay Kayak, Hike & Snorkel Adventure Tour 3 Hours - St. Thomas",
+   "old": 139,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Three hour tour + round trip transport  • Ages 13+",
+     "price": 139,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Three hour tour + round trip transport  • Child Ages: 7-12",
+     "price": 109,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth",
+     "note": "Three hour free tour + $40 round trip transport • Child Ages: 2 - 6",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 139,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 194404,
+   "name": "Mangrove Adventure Kayak & Snorkel Tour 2.5 Hours - St. Thomas",
+   "old": 129,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "2 1/2 hour tour + round trip transport  • Ages 13+",
+     "price": 129,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "2 1/2 hour tour + round trip transport • Child Ages: 7-12",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth",
+     "note": "2 1/2 hour tour + round trip transport • Child Ages: 2 - 6",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 129,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 414427,
+   "name": "USVI Private Half Day",
+   "old": 899,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Includes Up To 6 Guests",
+     "note": "+ Fees",
+     "price": 1049.99,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Additional Passenger",
+     "note": "Priced per person",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 87.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 95.45,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 105,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 116.67,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 131.25,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 150,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 175,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 210,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 262.5,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 350,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 525,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult",
+     "note": "API",
+     "price": 1050,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 50,
+   "label": "Additional Passenger"
+  },
+  {
+   "pk": 601987,
+   "name": "St Thomas Jeep Tour Half Day",
+   "old": 449,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 449,
+   "probeErrors": []
+  },
+  {
+   "pk": 162048,
+   "name": "Bioluminescent Bay Kayak Tour",
+   "old": 75,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult - Transparent Sea Thru Kayak",
+     "note": "Ages 18+ | Max Weight: 235 lbs per individual, 385 lbs combined",
+     "price": 75.68,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Transparent Sea Thru Kayak",
+     "note": "Ages 8-17 | 1 Child per 1 Adult",
+     "price": 43.25,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult - Sit on Top Ocean Kayak",
+     "note": "Ages 18+ | Max Weight: 350 lbs per individual; 500 lbs combined",
+     "price": 59.47,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child -  Sit on Top Ocean Kayak",
+     "note": "Ages 8-17 | 1 Child per 1 Adult",
+     "price": 32.44,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 32.44,
+   "label": "Child -  Sit on Top Ocean Kayak"
+  },
+  {
+   "pk": 170950,
+   "name": "Rescue Diver Certification",
+   "old": 150,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": 150,
+   "probeErrors": []
+  },
+  {
+   "pk": 194495,
+   "name": "Kayak & SUP Rentals - St. John",
+   "old": 200,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Stand Up Paddleboard Rental - 1 Week",
+     "note": "",
+     "price": 200,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Double Kayak Rental - 1 Week",
+     "note": "",
+     "price": 250,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Single Kayak Rental - 1 Week",
+     "note": "",
+     "price": 220,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Snorkel Gear Rental - 1 week",
+     "note": "Mesh Backpack: mask, snorkel, fins, inflatable life jacket, defogger, map, fish ID card",
+     "price": 55,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Snorkel Gear Rentals - 1 day",
+     "note": "",
+     "price": 12,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 12,
+   "label": "Snorkel Gear Rentals - 1 day"
+  },
+  {
+   "pk": 211109,
+   "name": "East End Stand Up Paddle Board Excursion",
+   "old": 110,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 110,
+   "probeErrors": []
+  },
+  {
+   "pk": 671870,
+   "name": "Sunset Kayak Tour – Golden Hour Paddle from Cruz Bay, St. John",
+   "old": 49,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 49,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 7 - 12",
+     "price": 39,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth",
+     "note": "Ages 2 - 6",
+     "price": 39,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 49,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 8237,
+   "name": "Shark Encounter",
+   "old": 64,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Visitor",
+     "note": "",
+     "price": 64,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Resident",
+     "note": "A valid local ID must be presented at check in",
+     "price": 57.6,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Member",
+     "note": "A valid membership code is required in order to complete the booking.",
+     "price": 57.6,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 57.6,
+   "label": "Resident"
+  },
+  {
+   "pk": 211099,
+   "name": "East End Kayaking Excursion",
+   "old": 110,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 110,
+   "probeErrors": []
+  },
+  {
+   "pk": 274479,
+   "name": "Kayak Rental - Sit On Top Ocean Kayak",
+   "old": 64,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Half Day Single Sit On Top Ocean Kayak",
+     "note": "",
+     "price": 64.87,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Half Day Tandem Sit On Top Ocean Kayak",
+     "note": "",
+     "price": 86.5,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-614:repriced",
+   "rule": "D-614",
+   "new": 64.87,
+   "label": "Half Day Single Sit On Top Ocean Kayak",
+   "tier": "Half Day Single Sit On Top Ocean Kayak",
+   "unit": "Half Day Single Sit On Top Ocean Kayak",
+   "conf": "high"
+  },
+  {
+   "pk": 416942,
+   "name": "Private Wedding Transportation from Crown Bay Cruise Port",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 416943,
+   "name": "Private Wedding Transportation from Havensight Cruise Port",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 3+ Pricing is for a round trip",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 2 and under",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 651635,
+   "name": "Best of St. John: Kayak, Snorkel and Picnic Adventure",
+   "old": 159,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 159,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 10-12",
+     "price": 129,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 159,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 211118,
+   "name": "Hiking Excursion - Salt Pond and Drunk Bay",
+   "old": 95,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 95,
+   "probeErrors": []
+  },
+  {
+   "pk": 211131,
+   "name": "Hiking Excursion - Brown Bay",
+   "old": 95,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 95,
+   "probeErrors": []
+  },
+  {
+   "pk": 558582,
+   "name": "Pizza Boat Afternoon",
+   "old": 750,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "32'  Intrepid Boat (32 ft.)",
+     "note": "Holds up to 8 people!",
+     "price": 750,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "40 Ft. Intrepid Boat",
+     "note": "Holds up to 12 people!",
+     "price": 850,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-614:unchanged",
+   "rule": "D-614",
+   "new": 750,
+   "label": "private boat",
+   "tier": "32'  Intrepid Boat (32 ft.)",
+   "unit": "32'  Intrepid Boat (32 ft.)",
+   "conf": "high"
+  },
+  {
+   "pk": 170949,
+   "name": "Advanced Open Water Diver Certification",
+   "old": 200,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Diver",
+     "note": "Ages 12+ • Requires Open Water Certification - Includes 5 Open Water Adventure Dives",
+     "price": 618.75,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 618.75,
+   "label": "per adult",
+   "tier": "Diver",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 369332,
+   "name": "Medline 9",
+   "old": 1250,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Full Day Rental",
+     "note": "8 Hours",
+     "price": 1250,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:unchanged",
+   "rule": "D-621",
+   "new": 1250,
+   "label": "Full Day Rental",
+   "tier": "Full Day Rental",
+   "unit": "Full Day Rental",
+   "conf": "high"
+  },
+  {
+   "pk": 421957,
+   "name": "Half Day Private Charter",
+   "old": 277,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "Base Rate + ( PP Fee for full and half day charters)",
+     "price": 995,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 995,
+   "label": "private boat",
+   "tier": "Private Charter",
+   "unit": "per boat, up to 20 passengers",
+   "conf": "high"
+  },
+  {
+   "pk": 442936,
+   "name": "New Seasons Watersport Drone Photoshoots- St.Thomas",
+   "old": 190,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": 190,
+   "probeErrors": []
+  },
+  {
+   "pk": 484579,
+   "name": "Sailing Adventures (Full & Half Day) in  the Virgin Islands",
+   "old": 225,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": 225,
+   "probeErrors": []
+  },
+  {
+   "pk": 484583,
+   "name": "Multi-night Sailing Adventures in the U.S. Virgin Islands and British Virgin Islands",
+   "old": 11770,
+   "oldLabel": "charter",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 11770,
+   "probeErrors": []
+  },
+  {
+   "pk": 484584,
+   "name": "Sunset Sailing Adventures in St. Thomas and St. John",
+   "old": 199,
+   "oldLabel": "per person",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 199,
+   "probeErrors": []
+  },
+  {
+   "pk": 662539,
+   "name": "Night Snorkel Adventure",
+   "old": 300,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "Includes up to 4 people per group",
+     "price": 300,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Person",
+     "note": "Add more passengers!",
+     "price": 75,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 75,
+   "label": "Person"
+  },
+  {
+   "pk": 662582,
+   "name": "Beach Break in St. Thomas",
+   "old": 300,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Group",
+     "note": "Includes up to 4 people per group",
+     "price": 300,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Person",
+     "note": "Add more passengers!",
+     "price": 75,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 75,
+   "label": "Person"
+  },
+  {
+   "pk": 662601,
+   "name": "Island Jeep Excursion",
+   "old": 500,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Jeep",
+     "note": "Fits up to 4 passengers",
+     "price": 500,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:unchanged",
+   "rule": "D-621",
+   "new": 500,
+   "label": "Jeep",
+   "tier": "Jeep",
+   "unit": "Jeep",
+   "conf": "high"
+  },
+  {
+   "pk": 667405,
+   "name": "Jeep Tour & Sail Snorkel Combo",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 344830,
+   "name": "Sunset Cruise - 37' Axopar",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 426719,
+   "name": "Snorkel with Sea Turtles - St. John",
+   "old": 99,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 99,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult - Round trip",
+     "note": "Ages 13+ • Round trip taxi from & to Cruz Bay",
+     "price": 139,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 7 - 12",
+     "price": 59,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 7 - 12 • Round trip",
+     "price": 99,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 99,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 194491,
+   "name": "St. John Eco Hike & Snorkel with Sea Turtles",
+   "old": 99,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 99,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 7 - 12",
+     "price": 69,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 99,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 255689,
+   "name": "Magic Portal Treasure Hunt",
+   "old": 109,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 11+",
+     "price": 109,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 4-10",
+     "price": 99,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Young Children",
+     "note": "Ages 3 and Under",
+     "price": 0,
+     "min": 2,
+     "cls": "zero"
+    },
+    {
+     "singular": "Local Resident - Adult",
+     "note": "Ages 11+",
+     "price": 99,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Local Resident - Child",
+     "note": "10 and under",
+     "price": 89,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Local Resident - Infant",
+     "note": "Ages 3 and Under",
+     "price": 0,
+     "min": 2,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 109,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 281741,
+   "name": "National Park Kayak Tour",
+   "old": 64,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 64.87,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-17",
+     "price": 32.44,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 64.87,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 282247,
+   "name": "Full Size SUV",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "3 Day",
+     "note": "",
+     "price": 330,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "4 Day",
+     "note": "",
+     "price": 440,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "5 Day",
+     "note": "",
+     "price": 550,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "6 Day",
+     "note": "",
+     "price": 660,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "7 Day",
+     "note": "",
+     "price": 770,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "8 Day",
+     "note": "",
+     "price": 880,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "9 Day",
+     "note": "",
+     "price": 990,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "10 Day",
+     "note": "",
+     "price": 1090,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "11 Day",
+     "note": "",
+     "price": 1200,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "12 Day",
+     "note": "",
+     "price": 1310,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "13 Day",
+     "note": "",
+     "price": 1420,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "14 Day",
+     "note": "",
+     "price": 1530,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "15 Day",
+     "note": "",
+     "price": 1640,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "16 Day",
+     "note": "",
+     "price": 1750,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "17 Day",
+     "note": "",
+     "price": 1860,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "18 Day",
+     "note": "",
+     "price": 1970,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "19 Day",
+     "note": "",
+     "price": 2080,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "20 Day",
+     "note": "",
+     "price": 2190,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "21 Day",
+     "note": "",
+     "price": 2300,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "22 Day",
+     "note": "",
+     "price": 2410,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "23 Day",
+     "note": "",
+     "price": 2520,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "24 Day",
+     "note": "",
+     "price": 2630,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "25 Day",
+     "note": "",
+     "price": 2740,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "26 Day",
+     "note": "",
+     "price": 2850,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "27 Day",
+     "note": "",
+     "price": 2960,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "28 Day",
+     "note": "",
+     "price": 3070,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "29 Day",
+     "note": "",
+     "price": 3180,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "30 Day",
+     "note": "",
+     "price": 3290,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "31 Day",
+     "note": "",
+     "price": 3400,
+     "min": 1,
+     "cls": "base_implicit"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d484_no_unit",
+   "new": 330,
+   "label": "3 Day"
+  },
+  {
+   "pk": 334632,
+   "name": "Round-Trip Transportation to Coral World Park and Coki Beach",
+   "old": 50,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "Adults 5-15 Pick Up From West Indian Dock and Crown Bay Dock",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults",
+     "note": "Adults 5-15 Selected Hotels and Meet-Up",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "15+ Groups call 1-800-679-6501",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Child Price",
+     "note": "(Ages from 3-11)  Pick Up From Selected Hotels",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child Price",
+     "note": "(Ages from 3-11) Pick Up From West Indian Dock and Crown Bay Dock",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "(Ages from 0-2) Pick Up From Selected Hotels",
+     "price": 7.8,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "(Ages from 0-2) Pick Up From West Indian Dock and Crown Bay Dock",
+     "price": 12.66,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 50,
+   "label": "per adult",
+   "tier": "Adults",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 359074,
+   "name": "LED Moonlight Tour",
+   "old": 75,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult - Transparent Sea Thru Kayak",
+     "note": "Ages 18+ | Max Weight: 235 lbs per individual, 385 lbs combined",
+     "price": 75.68,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Transparent Sea Thru Kayak",
+     "note": "Ages 8-17 | 1 Child per 1 Adult",
+     "price": 43.25,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 75.68,
+   "label": "per adult",
+   "tier": "Adult - Transparent Sea Thru Kayak",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 591534,
+   "name": "Day Trip  USVI",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 170944,
+   "name": "Open Water Dive Certification",
+   "old": 400,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": 400,
+   "probeErrors": []
+  },
+  {
+   "pk": 194408,
+   "name": "Sunset Kayak Tour - St. Thomas",
+   "old": 99,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 99,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 7 - 12",
+     "price": 89,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 99,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 584436,
+   "name": "Resort Beach Day Pass",
+   "old": 60,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "13+",
+     "price": 60,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "3-12",
+     "price": 40,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "0-2",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 60,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 615474,
+   "name": "Elopement & Engagement Photography",
+   "old": 750,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "One Hour Photo Session",
+     "note": "",
+     "price": 750,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "Two Hour Photo Session",
+     "note": "",
+     "price": 1500,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "Three Hour Photo Session",
+     "note": "",
+     "price": 2250,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "Four Hour Photo Session",
+     "note": "",
+     "price": 3000,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "Five Hour Photo Session",
+     "note": "",
+     "price": 3750,
+     "min": 1,
+     "cls": "base_implicit"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d484_no_unit",
+   "new": 750,
+   "label": "One Hour Photo Session"
+  },
+  {
+   "pk": 615491,
+   "name": "Family & Couples Photoshoots",
+   "old": 750,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "One Hour Photo Session",
+     "note": "",
+     "price": 750,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "Two Hour Photo Session",
+     "note": "",
+     "price": 1500,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "Three Hour Photo Session",
+     "note": "",
+     "price": 2250,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "Four Hour Photo Session",
+     "note": "",
+     "price": 3000,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "Five Hour Photo Session",
+     "note": "",
+     "price": 3750,
+     "min": 1,
+     "cls": "base_implicit"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d484_no_unit",
+   "new": 750,
+   "label": "One Hour Photo Session"
+  },
+  {
+   "pk": 648780,
+   "name": "Half Day Lime Out Taco Trip",
+   "old": 850,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "32'  Intrepid Boat (32 ft.)",
+     "note": "Holds up to 8 people!",
+     "price": 895,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Innovation 2",
+     "note": "Holds up to 10 people",
+     "price": 895,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "40 Ft. Intrepid Boat",
+     "note": "Holds up to 12 people!",
+     "price": 1095,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-614:repriced",
+   "rule": "D-614",
+   "new": 895,
+   "label": "private boat",
+   "tier": "32'  Intrepid Boat (32 ft.)",
+   "unit": "32'  Intrepid Boat (32 ft.)",
+   "conf": "high"
+  },
+  {
+   "pk": 170656,
+   "name": "Morning 2-Tank Scuba Dive",
+   "old": 271,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Diver",
+     "note": "2 Dives • All Gear Incl • Certification Required",
+     "price": 160,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Passenger",
+     "note": "Stays Onboard",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 65,
+   "label": "Passenger"
+  },
+  {
+   "pk": 194418,
+   "name": "Explore on Your Own – Mangrove Lagoon",
+   "old": 69,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+ • Full Day",
+     "price": 109,
+     "min": 4,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 7 - 12 • Full Day",
+     "price": 79,
+     "min": 4,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth",
+     "note": "Ages 2 - 6 • Free",
+     "price": 0,
+     "min": 4,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 109,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 672351,
+   "name": "Private Hourly Chauffeuring",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private SUV",
+     "note": "Price is per Hour | Up to 6 Passengers",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Van",
+     "note": "Price is per Hour | Up to 14 Passengers",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 10995,
+   "name": "Days End Sunset Sail",
+   "old": 69,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 89,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 49,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 89,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "",
+     "price": 59,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 49,
+   "label": "Child"
+  },
+  {
+   "pk": 334293,
+   "name": "The Salty Piracy Adventure",
+   "old": 349,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Land and Sea Treasure Hunter",
+     "note": "Both teens & adults",
+     "price": 349,
+     "min": 1,
+     "cls": "base_implicit"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d484_no_unit",
+   "new": 349,
+   "label": "Land and Sea Treasure Hunter"
+  },
+  {
+   "pk": 341630,
+   "name": "St John Island Sightseeing Tour - West Indian Dock(Cruise Ships)",
+   "old": 84,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult Price (4 to 10 Pax)",
+     "note": "Ages 12+ years old",
+     "price": 80,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Price (11 to 15 pax)",
+     "note": "15+ Groups call 1-800-679-6501",
+     "price": 78,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 78,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0 to 2 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 78,
+   "label": "Adult Price (11 to 15 pax)"
+  },
+  {
+   "pk": 76469,
+   "name": "Island Buddy Full Day Surf & Turf Excursion",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 211126,
+   "name": "Hiking and Snorkeling Excursion - Waterlemon Cay",
+   "old": 95,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 95,
+   "probeErrors": []
+  },
+  {
+   "pk": 239155,
+   "name": "Do It All Trip: Snorkel, Pizza and Sunset",
+   "old": 99,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult - St. Thomas Pickup",
+     "note": "Ages 11+",
+     "price": 99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - St. Thomas Pickup",
+     "note": "Ages 3 to 10",
+     "price": 69,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult - St. John Pickup",
+     "note": "Ages 11+",
+     "price": 99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - St. John Pickup",
+     "note": "Ages 3 to 10",
+     "price": 69,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 99,
+   "label": "per adult",
+   "tier": "Adult - St. Thomas Pickup",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 289101,
+   "name": "St James Snorkel and Pizza Party",
+   "old": 75,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult - St. Thomas Pickup",
+     "note": "Ages 11+",
+     "price": 75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - St. Thomas Pickup",
+     "note": "Ages 3 to 10",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult - St. John Pickup",
+     "note": "Ages 11+",
+     "price": 75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - St. John Pickup",
+     "note": "Ages 3 to 10",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult - Crown Bay Cruise Ship Dock (taxi included)",
+     "note": "Ages 11+",
+     "price": 107,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Crown Bay Cruise Ship Dock (taxi included)",
+     "note": "Ages 3 to 10",
+     "price": 87,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult - Havensight Cruise Ship Dock (taxi included)",
+     "note": "Ages 11+",
+     "price": 107,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child - Havensight Cruise Ship Dock (taxi included)",
+     "note": "Ages 3 to 10",
+     "price": 87,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 75,
+   "label": "per adult",
+   "tier": "Adult - St. Thomas Pickup",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 411756,
+   "name": "AM 1/2 Day Private Jeep Tour St John",
+   "old": 325,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Tour",
+     "note": "Vehicle Fits 4 People",
+     "price": 325,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Add an Underwater Scooter",
+     "note": "",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Add a Go Pro",
+     "note": "",
+     "price": 30,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-621:unchanged",
+   "rule": "D-621",
+   "new": 325,
+   "label": "Private Tour",
+   "tier": "Private Tour",
+   "unit": "Private Tour",
+   "conf": "high"
+  },
+  {
+   "pk": 483423,
+   "name": "Private Charter - AM",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 108035,
+   "name": "Full Day Charter",
+   "old": 75,
+   "oldLabel": "per person",
+   "oldConf": "high",
+   "s40Dead": true,
+   "tiers": [
+    {
+     "singular": "Private Charter - 40 Foot Deep Impact",
+     "note": "Starting at $1400 • outta line • *$200 captain fee not included*",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Private Charter - 35 Foot Scarab",
+     "note": "Starting at $900 • over the line and top of the line • *$200 captain fee not included*",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 284524,
+   "name": "Glass Bottom Kayak Tour of Salt River Bay",
+   "old": 64,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 64.87,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-17",
+     "price": 32.44,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 64.87,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 334622,
+   "name": "St. Thomas and St. John Two Day Tour",
+   "old": 146,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult 3-6",
+     "note": "",
+     "price": 146.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult 2-2",
+     "note": "",
+     "price": 148.49,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult 7-15",
+     "note": "",
+     "price": 131.61,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 131.61,
+   "label": "Adult 7-15"
+  },
+  {
+   "pk": 334660,
+   "name": "Half-Day Excursion to Trunk Bay Beach from St. Thomas Hotels or Meet-up",
+   "old": 77,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult From St. Thomas Hotels",
+     "note": "Adult 4-4",
+     "price": 70,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult From St. Thomas Hotels",
+     "note": "Adult 5-15",
+     "price": 70,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 68,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0 to 2 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 70,
+   "label": "per adult",
+   "tier": "Adult From St. Thomas Hotels",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 334774,
+   "name": "Private St John Tour including Trunk Bay from St. John",
+   "old": 527,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Group (4-6 people)",
+     "note": "",
+     "price": 527.5,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 527.5,
+   "label": "Private Group (4-6 people)",
+   "tier": "Private Group (4-6 people)",
+   "unit": "Private Group (4-6 people)",
+   "conf": "high"
+  },
+  {
+   "pk": 334803,
+   "name": "Private St Thomas Tour with Beach and Downtown Shopping",
+   "old": 700,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Group of 1–5 Adults",
+     "note": "",
+     "price": 500,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 6–10 Adults",
+     "note": "",
+     "price": 700,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group of 11–15 Adults",
+     "note": "",
+     "price": 900,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-614:repriced",
+   "rule": "D-614",
+   "new": 500,
+   "label": "Group of 1–5 Adults",
+   "tier": "Group of 1–5 Adults",
+   "unit": "Group of 1–5 Adults",
+   "conf": "high"
+  },
+  {
+   "pk": 334968,
+   "name": "St Croix Private Airport Round-Trip Pick Up",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "The Buccaneer Hotel",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Frederiksted Hotels / The Fred",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Christiansted Hotels",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Cane Bay Hotel",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Carambola Hotel",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Divi Carina Bay",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Sandcastle",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Palm at Pelican Cove Hotel",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Club Comanche Hotel",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Hotel on The Cay",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Tamarind Reef Resort",
+     "note": "Select 1",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 421802,
+   "name": "Full Day Private Charter",
+   "old": 200,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Charter Full day",
+     "note": "base rate + pp fee based on select activities",
+     "price": 1800,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 1800,
+   "label": "private boat",
+   "tier": "Private Charter Full day",
+   "unit": "Private Charter Full day",
+   "conf": "high"
+  },
+  {
+   "pk": 448258,
+   "name": "Economy",
+   "old": 177,
+   "oldLabel": "3 Day",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 177,
+   "probeErrors": []
+  },
+  {
+   "pk": 601021,
+   "name": "Hike the Caledonia Ghut",
+   "old": 50,
+   "oldLabel": "starting at",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 635223,
+   "name": "Pizza Pi Party- Snorkel & Sunset Cruise",
+   "old": 165,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "For ages 13+",
+     "price": 165,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 105,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Toddler",
+     "note": "baby to 2 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 165,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 334589,
+   "name": "St John Island and Trunk Bay Beach Tour - Meet-up in St. John (Cruz Bay)",
+   "old": 63,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult Price (4 to 4 Pax)",
+     "note": "Ages 12+ years old",
+     "price": 63,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Price (5 to 15 Pax)",
+     "note": "15+ Groups call 1-800-679-6501",
+     "price": 58,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 53,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0 to 2 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 53,
+   "label": "Child Price"
+  },
+  {
+   "pk": 336074,
+   "name": "Half-Day Excursion to Trunk Bay Beach From St. John Cruz Bay Dock",
+   "old": 35,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "",
+     "price": 35.46,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 30.4,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "ages 0 to 2 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 35.46,
+   "label": "per adult",
+   "tier": "Adults",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 341844,
+   "name": "Budget Magens Bay Beach",
+   "old": 224,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "15+ Groups call 1-800-679-6501",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Group Package (up to 6 pax)",
+     "note": "Choose this option if you have",
+     "price": 224.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group Package (7 to 10 Pax)",
+     "note": "From Selected Hotels",
+     "price": 299.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group Package (11 - 15 pax)",
+     "note": "From Selected Hotels",
+     "price": 493.42,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "no_base_tier",
+   "new": 224.99,
+   "label": "Group Package (up to 6 pax)"
+  },
+  {
+   "pk": 529773,
+   "name": "St Croix Private Airport One-Way Pick Up",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "The Buccaneer Hotel",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Cane Bay Hotel",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Frederiksted Hotels / The Fred",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Christiansted Hotels",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Carambola Hotel",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Divi Carina Bay",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Sandcastle",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Palm at Pelican Cove Hotel",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Club Comanche Hotel",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Hotel on The Cay",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Tamarind Reef Resort",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 601328,
+   "name": "Destination Kayak",
+   "old": 50,
+   "oldLabel": "per person",
+   "oldConf": "high",
+   "s40Dead": true,
+   "tiers": [
+    {
+     "singular": "Ocean Kayak - Per Person Ticket",
+     "note": "Recommended for beginners | Priced per seat (each Kayak holds two individuals)",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 334764,
+   "name": "St Croix Island Tour Meet-up at Christiansted",
+   "old": 76,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "Groups with 3 to 4 guests",
+     "price": 76,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults",
+     "note": "Guests with 5 to 15 guests",
+     "price": 83.89,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 76,
+   "label": "per adult",
+   "tier": "Adults",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 57772,
+   "name": "PiZZA Pi Snorkel Sail",
+   "old": 109,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 129,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 69,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 129,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "",
+     "price": 89,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 129,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 413523,
+   "name": "Private Ground Transfers",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Ground Transfer",
+     "note": "Min 4 Passengers • 10 to 60 minutes depending on destination",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 498637,
+   "name": "VI Captained Charter - Catamaran (7 Days)",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "",
+     "price": 11872,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 11872,
+   "label": "private boat",
+   "tier": "Private Charter",
+   "unit": "Private Charter",
+   "conf": "high"
+  },
+  {
+   "pk": 622183,
+   "name": "Black Jeep Wrangler Sport 4x4",
+   "old": 150,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 150,
+   "probeErrors": []
+  },
+  {
+   "pk": 622387,
+   "name": "Blue Honda HRV (Mid Size)",
+   "old": 85,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 85,
+   "probeErrors": []
+  },
+  {
+   "pk": 622389,
+   "name": "White Toyota Corolla (Sedan)",
+   "old": 75,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 75,
+   "probeErrors": []
+  },
+  {
+   "pk": 622391,
+   "name": "Black Toyota Corolla (Sedan)",
+   "old": 75,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 75,
+   "probeErrors": []
+  },
+  {
+   "pk": 622393,
+   "name": "Red Toyota Sienna (Mini Van)",
+   "old": 120,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 120,
+   "probeErrors": []
+  },
+  {
+   "pk": 622395,
+   "name": "Red Toyota CHR (Compact)",
+   "old": 85,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 85,
+   "probeErrors": []
+  },
+  {
+   "pk": 622399,
+   "name": "Silver Toyota Corolla (Sedan)",
+   "old": 75,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 75,
+   "probeErrors": []
+  },
+  {
+   "pk": 622401,
+   "name": "Yacht Charter",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 630592,
+   "name": "Night Time UTV Tour",
+   "old": 500,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "You Drive",
+     "note": "Price is per UTV Driver",
+     "price": 500,
+     "min": 1,
+     "cls": "base_implicit"
+    },
+    {
+     "singular": "Be Driven",
+     "note": "Price is per UTV",
+     "price": 400,
+     "min": 1,
+     "cls": "base_implicit"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d484_no_unit",
+   "new": 400,
+   "label": "Be Driven"
+  },
+  {
+   "pk": 353816,
+   "name": "Stand-Up Paddleboard Rentals - St. Thomas",
+   "old": 69,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 109,
+     "min": 4,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 109,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 519046,
+   "name": "Travel From The USVI To British Virgin Islands",
+   "old": 45,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": 45,
+   "probeErrors": []
+  },
+  {
+   "pk": 519070,
+   "name": "Travel From The BVI To US Virgin Islands",
+   "old": 55,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": 55,
+   "probeErrors": []
+  },
+  {
+   "pk": 621994,
+   "name": "Hiking at Mermaid's Chair & Snorkeling at Sandy Bay Beach Tour (Easy)",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 622002,
+   "name": "Hiking & Snorkeling Tour at Santa Maria Beach (Moderate)",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 688676,
+   "name": "Kayak Hurricane Hole – Self-Guided Kayak & Snorkel Experience",
+   "old": 119,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+ • Full Day",
+     "price": 119,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 7 - 12 • Full Day",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 119,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 170676,
+   "name": "Bubblemaker",
+   "old": 280,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 280,
+   "probeErrors": []
+  },
+  {
+   "pk": 585279,
+   "name": "St John Island and Trunk Bay Beach Tour From The Westin St. John",
+   "old": 65,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult Price (4 to 4 Pax)",
+     "note": "Ages 12+ years old",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Price (5 to 15 Pax)",
+     "note": "15+ Groups call 1-800-679-6501",
+     "price": 60,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0 to 2 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 55,
+   "label": "Child Price"
+  },
+  {
+   "pk": 585280,
+   "name": "St John Island and Trunk Bay Beach Tour From St. John Dock Nearby Hotels",
+   "old": 65,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult Price (4 to 4 Pax)",
+     "note": "Ages 12+ years old",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Price (5 to 15 Pax)",
+     "note": "15+ Groups call 1-800-679-6501",
+     "price": 60,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 55,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 55,
+   "label": "Child Price"
+  },
+  {
+   "pk": 585601,
+   "name": "St John Island Sightseeing Tour From St. John Dock Nearby Hotels",
+   "old": 50,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "Special Arrangement for 1 person (join a group)",
+     "price": 50,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Price (4 to 10 Pax)",
+     "note": "Ages 12+ years old",
+     "price": 55,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Price (11 to 15 pax)",
+     "note": "15+ Groups call 1-800-679-6501",
+     "price": 50,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 50,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 50,
+   "label": "per adult",
+   "tier": "Adults",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 622009,
+   "name": "Hiking & Snorkeling Tour at Brewers Bay (Advanced)",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 660757,
+   "name": "36' (Last Call) Aquila Power Cat",
+   "old": 850,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Luxury Full Day BVI Cruise",
+     "note": "Up to 12 guests",
+     "price": 2500,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 2500,
+   "label": "private boat",
+   "tier": "Luxury Full Day BVI Cruise",
+   "unit": "Luxury Full Day BVI Cruise",
+   "conf": "high"
+  },
+  {
+   "pk": 10966,
+   "name": "Discover Jost Van Dyke - British Virgin Islands",
+   "old": 179,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 199,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 0 - 12",
+     "price": 149,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 199,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 199,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 586128,
+   "name": "Half-Day Excursion to Trunk Bay Beach From The Westin Villa St. John",
+   "old": 40,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "",
+     "price": 40.28,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 36.98,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 40.28,
+   "label": "per adult",
+   "tier": "Adults",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 586129,
+   "name": "Half-Day Excursion to Trunk Bay Beach from St. John Cruz Bay Dock Nearby Hotels",
+   "old": 38,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "",
+     "price": 45,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 43,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 45,
+   "label": "per adult",
+   "tier": "Adults",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 605308,
+   "name": "Coastal Kayaking Package Tour",
+   "old": 156,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult - Coastal Kayak Tour",
+     "note": "Ages 13 and up with prior experience",
+     "price": 156.77,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 156.77,
+   "label": "per adult",
+   "tier": "Adult - Coastal Kayak Tour",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 11999,
+   "name": "Days End Sunset Sail",
+   "old": 99,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 119,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 79,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 119,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 119,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 98820,
+   "name": "Moonlight Kayak Trip",
+   "old": 50,
+   "oldLabel": "starting at",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 50,
+   "probeErrors": []
+  },
+  {
+   "pk": 353281,
+   "name": "Lime Out Snorkel Sail",
+   "old": 139,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 159,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 89,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 159,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 159,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 519075,
+   "name": "Travel Between The US Virgin Islands",
+   "old": 75,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": 75,
+   "probeErrors": []
+  },
+  {
+   "pk": 590716,
+   "name": "Booze & Boos Pub Crawl Christiansted",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 10949,
+   "name": "Discover The Baths of Virgin Gorda - British Virgin Islands",
+   "old": 179,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 179,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 0 - 12",
+     "price": 129,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 199,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 129,
+   "label": "Child"
+  },
+  {
+   "pk": 11995,
+   "name": "Discover Jost Van Dyke - British Virgin Islands",
+   "old": 199,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 219,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 0 - 12",
+     "price": 169,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 219,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 169,
+   "label": "Child"
+  },
+  {
+   "pk": 276276,
+   "name": "Lime Out Snorkel Sail",
+   "old": 129,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 149,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 89,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 149,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 149,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 558412,
+   "name": "St. Thomas Island Tour with Mountain Top & Magens Bay Beach - Crown Bay & West Indian Dock",
+   "old": 45,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult (pricing for 2-10 pax)",
+     "note": "Adult (pricing for 2-10 pax)",
+     "price": 72,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult (Pricing for 11 - 15 pax)",
+     "note": "Adult (Pricing for 11 - 15 pax)",
+     "price": 67,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 67,
+   "label": "Adult (Pricing for 11 - 15 pax)"
+  },
+  {
+   "pk": 558413,
+   "name": "St. Thomas Island Tour with Mountain Top & Magens Bay Beach - Hotels",
+   "old": 65,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Infant",
+     "note": "Ages 0 to 2 years old",
+     "price": 30,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult 2-3",
+     "note": "",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult 4-15",
+     "note": "",
+     "price": 58,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 30,
+   "label": "Infant"
+  },
+  {
+   "pk": 559118,
+   "name": "St John Island Sightseeing Tour - Crown Bay Dock (Cruise Ships)",
+   "old": 89,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult Price (4 to 10 Pax)",
+     "note": "Ages 12+ years old",
+     "price": 89,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Price (11 to 15 pax)",
+     "note": "15+ Groups call 1-800-679-6501",
+     "price": 84,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 84,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 84,
+   "label": "Adult Price (11 to 15 pax)"
+  },
+  {
+   "pk": 211096,
+   "name": "Snorkel Gear Rental",
+   "old": 20,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Full Day",
+     "note": "6 Hours",
+     "price": 20,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Weekly",
+     "note": "7 Days",
+     "price": 100,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Snorkel Gear- Mask/Snorkel Only",
+     "note": "Full Day Only",
+     "price": 15,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-614:repriced",
+   "rule": "D-614",
+   "new": 15,
+   "label": "Snorkel Gear- Mask/Snorkel Only",
+   "tier": "Snorkel Gear- Mask/Snorkel Only",
+   "unit": "Snorkel Gear- Mask/Snorkel Only",
+   "conf": "high"
+  },
+  {
+   "pk": 328502,
+   "name": "Bad Kitty - Friday FUNday in the BVI",
+   "old": 200,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 200,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 200,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 616139,
+   "name": "Water Taxi - Innovation 2",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Innovation 2",
+     "note": "Holds up to 10 people",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 642428,
+   "name": "Hartmann & Palmer Seamaster 46' - Virgin Islands",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 671029,
+   "name": "Cruise Ship Port Shuttle to St John Ferry",
+   "old": 25,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Child Price",
+     "note": "Crown Bay Cruise Ship Port - Round Trip",
+     "price": 45,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult 4-15",
+     "note": "Crown Bay Cruise Ship Port - Round Trip",
+     "price": 48.75,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 45,
+   "label": "Child Price"
+  },
+  {
+   "pk": 12001,
+   "name": "Discover The Baths of Virgin Gorda - British Virgin Islands",
+   "old": 199,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 219,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 0 - 12",
+     "price": 169,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 219,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 219,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 109394,
+   "name": "Dinghys",
+   "old": 245,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Full Day: Dinghy 25HP",
+     "note": "7 hours",
+     "price": 295,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Half Day: Dinghy 25HP",
+     "note": "3.5 Hours",
+     "price": 245,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-614:unchanged",
+   "rule": "D-614",
+   "new": 245,
+   "label": "private boat",
+   "tier": "Half Day: Dinghy 25HP",
+   "unit": "Half Day: Dinghy 25HP",
+   "conf": "high"
+  },
+  {
+   "pk": 143803,
+   "name": "Private - Sunset Snorkel Cruise (42' Power boat)",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 211116,
+   "name": "Snorkel Excursion Starting at Princess Bay",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 212562,
+   "name": "Bad Kitty - Best of the British Virgin Islands",
+   "old": 225,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 12+",
+     "price": 225,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 2-11",
+     "price": 195,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 2 Years Old",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 225,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 509655,
+   "name": "Shared \"Triangle Trip\" ; Indians, Norman Island, and Jost van Dyke",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 519998,
+   "name": "Underwater Scooter Rental",
+   "old": 200,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "One Day Rental",
+     "note": "",
+     "price": 200,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Two Days Rental",
+     "note": "",
+     "price": 250,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Three Days Rental",
+     "note": "",
+     "price": 375,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Four Days Rental",
+     "note": "",
+     "price": 500,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Five Days Rental",
+     "note": "",
+     "price": 625,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Six Days Rental",
+     "note": "",
+     "price": 750,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Seven Days Rental",
+     "note": "",
+     "price": 600,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-614:unchanged",
+   "rule": "D-614",
+   "new": 200,
+   "label": "One Day Rental",
+   "tier": "One Day Rental",
+   "unit": "One Day Rental",
+   "conf": "high"
+  },
+  {
+   "pk": 589442,
+   "name": "Island Eco Farm Tour with Local Treats and Sapphire Beach Time",
+   "old": 68,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "Cruise ship Pick-up 4-15 pax",
+     "price": 85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults",
+     "note": "St. Thomas Hotel Pick-up 4-15 pax",
+     "price": 85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 62,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult - Wenner Farm Meet-up (Farm Tour only - No Beach)",
+     "note": "Adults",
+     "price": 19.76,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "10+ Groups call 1-800-679-6501",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Children - Wenner Farm Meet-up (Farm Tour only - No Beach)",
+     "note": "Ages 3 to 13 years old",
+     "price": 14.82,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 14.82,
+   "label": "Children - Wenner Farm Meet-up (Farm Tour only - No Beach)"
+  },
+  {
+   "pk": 628803,
+   "name": "Island Chocolate Experience with Tasting",
+   "old": 82,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Pickup Pier Tasting (Adult)",
+     "note": "",
+     "price": 68.24,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Pickup Pier Tasting (Child)",
+     "note": "",
+     "price": 56.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Meet Up Chocolate Tasting (Adult)",
+     "note": "",
+     "price": 32.24,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Meet Up Chocolate Tasting (Child)",
+     "note": "",
+     "price": 27.74,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 27.74,
+   "label": "Meet Up Chocolate Tasting (Child)"
+  },
+  {
+   "pk": 681082,
+   "name": "Frederiksted Cruise Ship Port Shuttle to Christiansted",
+   "old": 20,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "Cruise Port Shuttle One Way",
+     "price": 20.25,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults",
+     "note": "Cruise Ship Roundtrip Shuttle",
+     "price": 37.49,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Cruise Port Shuttle One Way",
+     "price": 20.25,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Cruise Ship Roundtrip Shuttle",
+     "price": 37.49,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 20.25,
+   "label": "per adult",
+   "tier": "Adults",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 11996,
+   "name": "Dinner Sail to St. John",
+   "old": 119,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 139,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 89,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 139,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 89,
+   "label": "Child"
+  },
+  {
+   "pk": 211114,
+   "name": "Snorkel Excursion Starting at Haulover",
+   "old": 75,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 75,
+   "probeErrors": []
+  },
+  {
+   "pk": 334596,
+   "name": "St John Island and Trunk Bay Beach Tour - St. Thomas Hotels or Meet-Up",
+   "old": 93,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult (Groups of 4-10)",
+     "note": "",
+     "price": 93,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult (Groups of 11-15)",
+     "note": "",
+     "price": 88,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child (Group of 1-13)",
+     "note": "Groups of children ages 11 and under",
+     "price": 83,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0 to 2 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 83,
+   "label": "Child (Group of 1-13)"
+  },
+  {
+   "pk": 538166,
+   "name": "Half-Day Excursion to Trunk Bay Beach from St. Thomas - West Indian Dock",
+   "old": 77,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "",
+     "price": 70,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 68,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 70,
+   "label": "per adult",
+   "tier": "Adults",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 538168,
+   "name": "St John Island Sightseeing Tour from St. John Cruz Bay Dock",
+   "old": 50,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult Price (4 to 10 Pax)",
+     "note": "Ages 12+ years old",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Price (11 to 15 pax)",
+     "note": "15+ Groups call 1-800-679-6501",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 45,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0 to 2 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 50,
+   "label": "per adult",
+   "tier": "Adult Price (4 to 10 Pax)",
+   "unit": "per person, Adult Price (4 to 10 Pax)",
+   "conf": "high"
+  },
+  {
+   "pk": 538171,
+   "name": "St John Island and Trunk Bay Beach Tour Pick-up From West Indian Dock",
+   "old": 90,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult Price (4 to 4 Pax)",
+     "note": "Ages 12+ years old",
+     "price": 90,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Price (5 to 15 Pax)",
+     "note": "15+ Groups call 1-800-679-6501",
+     "price": 85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 80,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0 to 2 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 80,
+   "label": "Child Price"
+  },
+  {
+   "pk": 559117,
+   "name": "Half-Day Excursion to Trunk Bay Beach from St. Thomas - Crown Bay Dock",
+   "old": 82,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "",
+     "price": 75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 73,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 75,
+   "label": "per adult",
+   "tier": "Adults",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 559119,
+   "name": "St John Island and Trunk Bay Beach Tour - CrownBay",
+   "old": 95,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult Price (4 to 4 Pax)",
+     "note": "Ages 12+ years old",
+     "price": 95,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Price (5 to 15 Pax)",
+     "note": "15+ Groups call 1-800-679-6501",
+     "price": 90,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Price",
+     "note": "Ages 3 to 13 years old",
+     "price": 85,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 85,
+   "label": "Child Price"
+  },
+  {
+   "pk": 586139,
+   "name": "St Croix Island Tour Pick up at Selected Hotels Near Chistiansted",
+   "old": 90,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "Groups with 3 to 6 guests",
+     "price": 90,
+     "min": 3,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults",
+     "note": "Groups with 7 to 10 guests",
+     "price": 85,
+     "min": 3,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 85,
+   "label": "Adults"
+  },
+  {
+   "pk": 337950,
+   "name": "Private - Sunset Snorkel Cruise (27' Power Boat)",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 358083,
+   "name": "Budget Trunk Bay with Scenic Stops",
+   "old": 38,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Child Price",
+     "note": "Pick-up at The Westin St. John",
+     "price": 36,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child Price",
+     "note": "St. John Dock Nearby Hotels",
+     "price": 42.58,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child Price",
+     "note": "St. Thomas Selected Hotels",
+     "price": 67,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adults 4-15",
+     "note": "Pick-up at The Westin St. John",
+     "price": 38,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults 4-15",
+     "note": "St. John Dock Nearby Hotels",
+     "price": 43.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults 4-15",
+     "note": "St. Thomas Selected Hotels",
+     "price": 69,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 38,
+   "label": "per adult",
+   "tier": "Adults 4-15",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 424879,
+   "name": "Days End Sunset Sail",
+   "old": 59,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 79,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 49,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 49,
+   "label": "Child"
+  },
+  {
+   "pk": 521254,
+   "name": "Discover Jost Van Dyke",
+   "old": 1200,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 1200,
+   "probeErrors": []
+  },
+  {
+   "pk": 10975,
+   "name": "Picnic Snorkel Sail",
+   "old": 129,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 129,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 89,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 129,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 268925,
+   "name": "Maho Bay Turtle Snorkel Sail",
+   "old": 139,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 159,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 159,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 99,
+   "label": "Child"
+  },
+  {
+   "pk": 416907,
+   "name": "LATE NIGHT Bioluminescent Kayak Trip",
+   "old": 50,
+   "oldLabel": "starting at",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 50,
+   "probeErrors": []
+  },
+  {
+   "pk": 424877,
+   "name": "Pizza Pi Snorkel",
+   "old": 129,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 129,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 89,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 129,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 487206,
+   "name": "2-Hour Sailing and Exploring Adventure in St. Augustine.  (Private 1/2 day and full-day charters are available as well)",
+   "old": 175,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 175,
+   "probeErrors": []
+  },
+  {
+   "pk": 487208,
+   "name": "Multi-night Sailing Adventure in St. Augustine, Cumberland Island, and Amelia Island",
+   "old": 6995,
+   "oldLabel": "charter",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 6995,
+   "probeErrors": []
+  },
+  {
+   "pk": 510184,
+   "name": "High Speed Jet Boat Tour- Havensight (Cruise Ship Dock) Location",
+   "old": 65,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 12 & Under",
+     "price": 60,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 65,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 539666,
+   "name": "Private Parasailing (Departs from Havensight, St. Thomas)",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Parasailor - Depart from St. Thomas",
+     "note": "For ages 6 and older",
+     "price": 120,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Guaranteed Observer",
+     "note": "",
+     "price": 70,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 120,
+   "label": "Parasailor - Depart from St. Thomas",
+   "tier": "Parasailor - Depart from St. Thomas",
+   "unit": "Parasailor - Depart from St. Thomas",
+   "conf": "high"
+  },
+  {
+   "pk": 554947,
+   "name": "Coral Reef Week kayaking",
+   "old": 60,
+   "oldLabel": "unknown",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 60,
+   "probeErrors": []
+  },
+  {
+   "pk": 75237,
+   "name": "Island Buddy Full Day Surf & Turf Excursion",
+   "old": 200,
+   "oldLabel": "per person",
+   "oldConf": "high",
+   "s40Dead": true,
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "4 people minimum, 7 people Maximum",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 587820,
+   "name": "Stardust - USVI Private Sunset Cruise",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 632923,
+   "name": "50 ft Sea Rey Epic I",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Seven-Day Yacht Charter (Up to 6 Guests)",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 635962,
+   "name": "Turtles & Tacos at Lime Out",
+   "old": 159,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 149,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 149,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 262055,
+   "name": "Private Luxury Excursions on Magic Moments",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 587814,
+   "name": "Valkyrie - USVI Private Sunset Cruise",
+   "old": 75,
+   "oldLabel": "per person",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 75,
+   "probeErrors": []
+  },
+  {
+   "pk": 619238,
+   "name": "History, Culture & Flavors of St. Croix Walking Tour",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 622841,
+   "name": "Budget Trunk Bay with Scenic Stops (Docks)",
+   "old": 38,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Child Price",
+     "note": "Meet-Up in St. John (Cruz Bay)",
+     "price": 37.58,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child Price",
+     "note": "St. John Dock Nearby Hotels",
+     "price": 42.58,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child Price",
+     "note": "St. Thomas Cruise Ship Docks",
+     "price": 70,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adults 4-15",
+     "note": "Meet-Up in St. John (Cruz Bay)",
+     "price": 38.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults 4-15",
+     "note": "St. John Dock Nearby Hotels",
+     "price": 43.75,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults 4-15",
+     "note": "St. Thomas Cruise Ship Docks",
+     "price": 74.2,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "D-624:repriced",
+   "rule": "D-624",
+   "new": 38.75,
+   "label": "per adult",
+   "tier": "Adults 4-15",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 377253,
+   "name": "Best of St. John Sail - Sail, Snorkel & Shop",
+   "old": 159,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 119,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 79,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 139,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "",
+     "price": 99,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 79,
+   "label": "Child"
+  },
+  {
+   "pk": 424875,
+   "name": "Buck Island Snorkel Sail",
+   "old": 99,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 119,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 79,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "mixed_verdict",
+   "new": 79,
+   "label": "Child"
+  },
+  {
+   "pk": 490938,
+   "name": "TRAIL RUSH UTV Adventure (90 MINS.)",
+   "old": 125,
+   "oldLabel": "unknown",
+   "oldConf": "low",
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": 125,
+   "probeErrors": []
+  },
+  {
+   "pk": 589438,
+   "name": "Flavors: Cultural Cooking Class, St Thomas, USVI, USA",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 71433,
+   "name": "Guided Tour",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 424878,
+   "name": "Best of St. John - Sail | Snorkel | Shop",
+   "old": 119,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "",
+     "price": 119,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 12",
+     "price": 89,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Under 3 years old",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "D-624:unchanged",
+   "rule": "D-624",
+   "new": 119,
+   "label": "per adult",
+   "tier": "Adult",
+   "unit": null,
+   "conf": "high"
+  },
+  {
+   "pk": 667020,
+   "name": "Jeanneau 47 - Virgin Islands",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 194130,
+   "name": "Private Full Day Sail in the BVI",
+   "old": 1395,
+   "oldLabel": "starting at",
+   "oldConf": "medium",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 1395,
+   "probeErrors": []
+  },
+  {
+   "pk": 341846,
+   "name": "Nature and Sightseeing Tour at Phantasea Tropical Botanical Garden",
+   "old": 42,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "For 5 to 6 Adults",
+     "price": 42.55,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults",
+     "note": "For 7 to 10 Adults",
+     "price": 41.03,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults",
+     "note": "Minimum of 4 to 4 Adults",
+     "price": 47.11,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult Ticket",
+     "note": "Ticket only",
+     "price": 12,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Ticket",
+     "note": "Ticket only",
+     "price": 10,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 10,
+   "label": "Child Ticket"
+  },
+  {
+   "pk": 344761,
+   "name": "Rainbow Beach with Round-trip Transportation in St. Croix (Self Guided Tour)",
+   "old": 30,
+   "oldLabel": "per adult",
+   "oldConf": "high",
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "From Cruise Ship 4-4",
+     "price": 30,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults",
+     "note": "From Cruise Ship 5-10",
+     "price": 25,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults",
+     "note": "from Frederiksted 4-4",
+     "price": 30,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults",
+     "note": "from Frederiksted 5-10",
+     "price": 25,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d482_ambiguous",
+   "new": 25,
+   "label": "Adults"
+  },
+  {
+   "pk": 399480,
+   "name": "Everything Maho Bay Pass",
+   "old": 125,
+   "oldLabel": "Person",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 125,
+   "probeErrors": []
+  },
+  {
+   "pk": 276913,
+   "name": "A Trip to LimeOut",
+   "old": 195,
+   "oldLabel": "Adult",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 195,
+   "probeErrors": []
+  },
+  {
+   "pk": 399468,
+   "name": "Water Sports Day Pass",
+   "old": 89,
+   "oldLabel": "Person",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 89,
+   "probeErrors": []
+  },
+  {
+   "pk": 399477,
+   "name": "Beach Gear Day Pass",
+   "old": 39,
+   "oldLabel": "Person",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 39,
+   "probeErrors": []
+  },
+  {
+   "pk": 731034,
+   "name": "Exclusive 4th of July St John Fireworks Yacht Charter Aboard 50' Luxury Catamaran",
+   "old": 250,
+   "oldLabel": "Person",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 250,
+   "probeErrors": []
+  },
+  {
+   "pk": 720341,
+   "name": "USVI Half Day Trip",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "First 5 passengers inclusive",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 720352,
+   "name": "BVI Full Day Trip",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "First 6 passengers inclusive",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 170940,
+   "name": "Scuba Diver Certification",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 221392,
+   "name": "Pizza PI Sunset Cruise",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 236042,
+   "name": "Private Charter",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 450343,
+   "name": "St. Thomas -> St. John",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Water Taxi",
+     "note": "Up to 12 People",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 450354,
+   "name": "St. Thomas -> BVI",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Water Taxi",
+     "note": "Up to 12 People",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 521251,
+   "name": "Discover Jost Van Dyke",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 653575,
+   "name": "Second Chance-USVI Full Day Trip-Public",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 653593,
+   "name": "Second Chance-Wedding Day Charter",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 423603,
+   "name": "Bioluminescent Kayak and Bonfire",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 443551,
+   "name": "Water Taxi Opulence",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 445669,
+   "name": "Water Taxi Legacy One",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 718756,
+   "name": "USVI Luxury Half Day Sail",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 271749,
+   "name": "Dinner Sail to Lovango",
+   "old": 99,
+   "oldLabel": "Adult",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 99,
+   "probeErrors": []
+  },
+  {
+   "pk": 231376,
+   "name": "Island Power Adventure",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 163387,
+   "name": "CPR",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 172853,
+   "name": "Mt. Eagle",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 458346,
+   "name": "Hull Bay Farm & Beach Experience with Lunch",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 458352,
+   "name": "Downtown Cultural Walking Tour with Local Treats",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 505196,
+   "name": "Pre-Dawn Bioluminescent Kayak",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 407382,
+   "name": "IDC Course",
+   "old": 4849,
+   "oldLabel": "IDC Student",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 4849,
+   "probeErrors": []
+  },
+  {
+   "pk": 578839,
+   "name": "Dive Master Course",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 552940,
+   "name": "Hobie Cat Ride Along",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 560048,
+   "name": "Brewers Bay Hike",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 545175,
+   "name": "Carnival Drinks",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 341008,
+   "name": "Christiansted Sunset Sail",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 526262,
+   "name": "Private Hourly Chauffering",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 560111,
+   "name": "Ram Head Trail",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 560124,
+   "name": "Petroglyph Trail",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 12128,
+   "name": "New Years Eve St. John Sail",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 271721,
+   "name": "Lovango Snorkel Sail",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 12127,
+   "name": "4th of July Firework Cruise",
+   "old": 189.95,
+   "oldLabel": "Adult",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 189.95,
+   "probeErrors": []
+  },
+  {
+   "pk": 23304,
+   "name": "4th of July Firework Cruise",
+   "old": 159,
+   "oldLabel": "Adult",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 159,
+   "probeErrors": []
+  },
+  {
+   "pk": 428052,
+   "name": "Sea Trek Helmet Dive",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 11864,
+   "name": "Snorkel and Beach Rentals",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 268609,
+   "name": "Island Chaser Private Yacht Charters",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 438194,
+   "name": "Private High Speed Jet Boat Tour",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "Up to 21 passengers",
+     "price": 840,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "D-621:repriced",
+   "rule": "D-621",
+   "new": 840,
+   "label": "private boat",
+   "tier": "Private Charter",
+   "unit": "Private Charter",
+   "conf": "high"
+  },
+  {
+   "pk": 483402,
+   "name": "Private Island UTV Tour - No Shared Groups",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 490993,
+   "name": "AGA - Coral World General Admission",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 667058,
+   "name": "Try Scuba Diving",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 490987,
+   "name": "AGA - Zipline Tour",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 628556,
+   "name": "Food Fair Water Taxi",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 667051,
+   "name": "Guided Shore Dives at Coki Beach",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 728250,
+   "name": "Full Day Powerboat Adventure – Public Trip",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 251910,
+   "name": "St. John Night SUP",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 324457,
+   "name": "Salt River Bay SUP Tour",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 337310,
+   "name": "Coki Beach & Snorkel",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 343591,
+   "name": "Bioluminescent Bay Stand Up Paddleboard Tour",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 351538,
+   "name": "End-of-Season Students & Families Sail",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 358030,
+   "name": "Silent Party at Muse",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 432765,
+   "name": "World Ocean School Gala",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 489157,
+   "name": "VI ASA Combo Course Week- Monohull",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Cabin for 1 Student",
+     "note": "",
+     "price": 3814.94,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "2 Students in a Private Cabin",
+     "note": "Pricing is per person",
+     "price": 3655.94,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "1 Student and 1 Non-Student in a Private Cabin",
+     "note": "Pricing is per person",
+     "price": 2887.44,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "no_base_tier",
+   "new": 2887.44,
+   "label": "1 Student and 1 Non-Student in a Private Cabin"
+  },
+  {
+   "pk": 491881,
+   "name": "VI ASA Single Course Week - Monohull",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Cabin for 1 Student",
+     "note": "",
+     "price": 3814.94,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "2 Students in a Private Cabin",
+     "note": "",
+     "price": 3655.94,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "1 Student and 1 Non-Student in a Private Cabin",
+     "note": "Price is Per Person",
+     "price": 2887.44,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "no_base_tier",
+   "new": 2887.44,
+   "label": "1 Student and 1 Non-Student in a Private Cabin"
+  },
+  {
+   "pk": 574927,
+   "name": "VI ASA Single Course Week - Catamaran",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 575294,
+   "name": "VI ASA Combo Course Week- Catamaran",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Cabin for 1 Student",
+     "note": "",
+     "price": 4344.94,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "2 Students in a Private Cabin",
+     "note": "Pricing is per person",
+     "price": 4187,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "1 Student and 1 Non-Student in a Private Cabin",
+     "note": "Pricing is per person",
+     "price": 3418.5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "no_base_tier",
+   "new": 3418.5,
+   "label": "1 Student and 1 Non-Student in a Private Cabin"
+  },
+  {
+   "pk": 195725,
+   "name": "Private Sailing Lessons",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 622015,
+   "name": "Frenchman's Reef 4th of July Fireworks",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 387127,
+   "name": "Vessel Haul-Out",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "zero_price",
+   "new": null
+  },
+  {
+   "pk": 489164,
+   "name": "VI Captained Charter - Monohull  (7 Days)",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "For up to 6 People | Pricing is per person",
+     "price": 10174.94,
+     "min": 1,
+     "cls": "conflict"
+    }
+   ],
+   "disposition": "HELD",
+   "hold": "d484_unit_conflict",
+   "new": 10174.94,
+   "label": "Private Charter"
+  },
+  {
+   "pk": 489595,
+   "name": "Bareboat Charter - 7 Days",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 488909,
+   "name": "AGA - Buck Island Snorkel Sail",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 629937,
+   "name": "Food Fair Water Taxi Return Leg",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 528184,
+   "name": "St. Thomas Airport Transfers",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 483293,
+   "name": "Beach Day Pass",
+   "old": null,
+   "oldLabel": null,
+   "oldConf": null,
+   "s40Dead": false,
+   "disposition": "UNSAMPLED",
+   "new": null,
+   "probeErrors": []
+  },
+  {
+   "pk": 664660,
+   "name": "Royal - St. John Cinnamon Bay",
+   "old": 108,
+   "oldLabel": "Adult",
+   "oldConf": "high",
+   "s40Dead": true,
+   "disposition": "UNSAMPLED",
+   "new": 108,
+   "probeErrors": []
+  }
+ ]
+}

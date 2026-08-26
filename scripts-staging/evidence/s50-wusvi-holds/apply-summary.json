@@ -1,0 +1,616 @@
+{
+ "stampedAt": "2026-08-26T14:09:11.660Z",
+ "rowsChanged": 43,
+ "disposition": {
+  "s48-R1:published": 14,
+  "D-625:published": 2,
+  "D-621:published": 2,
+  "D-621:badged": 6,
+  "D-614:badged": 4,
+  "D-624:published": 5,
+  "R-season:published": 8,
+  "HELD": 2
+ },
+ "sha256": {
+  "before": "e2a4c91d3f1786ef0d982a84d5e6c98c69e22186874c5ba58f5b78e75e23a9f4",
+  "after": "479f7e4eb855b970945db8afe80485576438dc746d9f1cfa90b391c8b69b4ed6"
+ },
+ "summary": [
+  {
+   "pk": 334589,
+   "name": "St John Island and Trunk Bay Beach Tour - Meet-up in St. John (Cruz Bay)",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 53,
+    "label": "Child Price"
+   },
+   "new": 58,
+   "label": "per adult",
+   "unit": "per person, Adult Price (5 to 15 Pax)",
+   "tier": "Adult Price (5 to 15 Pax)",
+   "renders": "price"
+  },
+  {
+   "pk": 334596,
+   "name": "St John Island and Trunk Bay Beach Tour - St. Thomas Hotels or Meet-Up",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 83,
+    "label": "Child (Group of 1-13)"
+   },
+   "new": 88,
+   "label": "per adult",
+   "unit": "per person, Adult (Groups of 11-15)",
+   "tier": "Adult (Groups of 11-15)",
+   "renders": "price"
+  },
+  {
+   "pk": 334622,
+   "name": "St. Thomas and St. John Two Day Tour",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 131.61,
+    "label": "Adult 7-15"
+   },
+   "new": 131.61,
+   "label": "per adult",
+   "unit": "per person, Adult 7-15",
+   "tier": "Adult 7-15",
+   "renders": "price"
+  },
+  {
+   "pk": 341630,
+   "name": "St John Island Sightseeing Tour - West Indian Dock(Cruise Ships)",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 78,
+    "label": "Adult Price (11 to 15 pax)"
+   },
+   "new": 78,
+   "label": "per adult",
+   "unit": "per person, Adult Price (11 to 15 pax)",
+   "tier": "Adult Price (11 to 15 pax)",
+   "renders": "price"
+  },
+  {
+   "pk": 538171,
+   "name": "St John Island and Trunk Bay Beach Tour Pick-up From West Indian Dock",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 80,
+    "label": "Child Price"
+   },
+   "new": 85,
+   "label": "per adult",
+   "unit": "per person, Adult Price (5 to 15 Pax)",
+   "tier": "Adult Price (5 to 15 Pax)",
+   "renders": "price"
+  },
+  {
+   "pk": 558412,
+   "name": "St. Thomas Island Tour with Mountain Top & Magens Bay Beach - Crown Bay & West Indian Dock",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 67,
+    "label": "Adult (Pricing for 11 - 15 pax)"
+   },
+   "new": 67,
+   "label": "per adult",
+   "unit": "per person, Adult (Pricing for 11 - 15 pax)",
+   "tier": "Adult (Pricing for 11 - 15 pax)",
+   "renders": "price"
+  },
+  {
+   "pk": 558413,
+   "name": "St. Thomas Island Tour with Mountain Top & Magens Bay Beach - Hotels",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 30,
+    "label": "Infant"
+   },
+   "new": 58,
+   "label": "per adult",
+   "unit": "per person, Adult 4-15",
+   "tier": "Adult 4-15",
+   "renders": "price"
+  },
+  {
+   "pk": 559118,
+   "name": "St John Island Sightseeing Tour - Crown Bay Dock (Cruise Ships)",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 84,
+    "label": "Adult Price (11 to 15 pax)"
+   },
+   "new": 84,
+   "label": "per adult",
+   "unit": "per person, Adult Price (11 to 15 pax)",
+   "tier": "Adult Price (11 to 15 pax)",
+   "renders": "price"
+  },
+  {
+   "pk": 559119,
+   "name": "St John Island and Trunk Bay Beach Tour - CrownBay",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 85,
+    "label": "Child Price"
+   },
+   "new": 90,
+   "label": "per adult",
+   "unit": "per person, Adult Price (5 to 15 Pax)",
+   "tier": "Adult Price (5 to 15 Pax)",
+   "renders": "price"
+  },
+  {
+   "pk": 585279,
+   "name": "St John Island and Trunk Bay Beach Tour From The Westin St. John",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 55,
+    "label": "Child Price"
+   },
+   "new": 60,
+   "label": "per adult",
+   "unit": "per person, Adult Price (5 to 15 Pax)",
+   "tier": "Adult Price (5 to 15 Pax)",
+   "renders": "price"
+  },
+  {
+   "pk": 585280,
+   "name": "St John Island and Trunk Bay Beach Tour From St. John Dock Nearby Hotels",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 55,
+    "label": "Child Price"
+   },
+   "new": 60,
+   "label": "per adult",
+   "unit": "per person, Adult Price (5 to 15 Pax)",
+   "tier": "Adult Price (5 to 15 Pax)",
+   "renders": "price"
+  },
+  {
+   "pk": 344761,
+   "name": "Rainbow Beach with Round-trip Transportation in St. Croix (Self Guided Tour)",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 25,
+    "label": "Adults"
+   },
+   "new": 25,
+   "label": "per adult",
+   "unit": "per person, Adults (5-10)",
+   "tier": "Adults",
+   "renders": "price"
+  },
+  {
+   "pk": 586139,
+   "name": "St Croix Island Tour Pick up at Selected Hotels Near Chistiansted",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 85,
+    "label": "Adults"
+   },
+   "new": 85,
+   "label": "per adult",
+   "unit": "per person, Adults (Groups with 7 to 10 guests)",
+   "tier": "Adults",
+   "renders": "price"
+  },
+  {
+   "pk": 162048,
+   "name": "Bioluminescent Bay Kayak Tour",
+   "disposition": "D-625",
+   "old": {
+    "price": 32.44,
+    "label": "Child -  Sit on Top Ocean Kayak"
+   },
+   "new": 59.47,
+   "label": "per adult",
+   "unit": "Adult - Sit on Top Ocean Kayak",
+   "tier": "Adult - Sit on Top Ocean Kayak",
+   "renders": "price"
+  },
+  {
+   "pk": 628803,
+   "name": "Island Chocolate Experience with Tasting",
+   "disposition": "D-625",
+   "old": {
+    "price": 27.74,
+    "label": "Meet Up Chocolate Tasting (Child)"
+   },
+   "new": 32.24,
+   "label": "per adult",
+   "unit": "Meet Up Chocolate Tasting (Adult)",
+   "tier": "Meet Up Chocolate Tasting (Adult)",
+   "renders": "price"
+  },
+  {
+   "pk": 414427,
+   "name": "USVI Private Half Day",
+   "disposition": "D-621",
+   "old": {
+    "price": 50,
+    "label": "Additional Passenger"
+   },
+   "new": 1049.99,
+   "label": "private boat",
+   "unit": "per boat, up to 6 guests",
+   "tier": "Includes Up To 6 Guests",
+   "renders": "price"
+  },
+  {
+   "pk": 630592,
+   "name": "Night Time UTV Tour",
+   "disposition": "D-621",
+   "old": {
+    "price": 400,
+    "label": "Be Driven"
+   },
+   "new": 400,
+   "label": "Be Driven",
+   "unit": "per UTV",
+   "tier": "Be Driven",
+   "renders": "badge only"
+  },
+  {
+   "pk": 341844,
+   "name": "Budget Magens Bay Beach",
+   "disposition": "D-614",
+   "old": {
+    "price": 224.99,
+    "label": "Group Package (up to 6 pax)"
+   },
+   "new": 224.99,
+   "label": "Group Package (up to 6 pax)",
+   "unit": "per group, up to 6 pax",
+   "tier": "Group Package (up to 6 pax)",
+   "renders": "badge only"
+  },
+  {
+   "pk": 334293,
+   "name": "The Salty Piracy Adventure",
+   "disposition": "D-624",
+   "old": {
+    "price": 349,
+    "label": "Land and Sea Treasure Hunter"
+   },
+   "new": 349,
+   "label": "per adult",
+   "unit": "Land and Sea Treasure Hunter",
+   "tier": "Land and Sea Treasure Hunter",
+   "renders": "price"
+  },
+  {
+   "pk": 8234,
+   "name": "Sea Lion Encounter",
+   "disposition": "D-624",
+   "old": {
+    "price": 71.4,
+    "label": "Accompanied Child"
+   },
+   "new": 119,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Visitor",
+   "renders": "price"
+  },
+  {
+   "pk": 8237,
+   "name": "Shark Encounter",
+   "disposition": "D-624",
+   "old": {
+    "price": 57.6,
+    "label": "Resident"
+   },
+   "new": 64,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Visitor",
+   "renders": "price"
+  },
+  {
+   "pk": 10949,
+   "name": "Discover The Baths of Virgin Gorda - British Virgin Islands",
+   "disposition": "R-season",
+   "old": {
+    "price": 129,
+    "label": "Child"
+   },
+   "new": 179,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Adult",
+   "renders": "price"
+  },
+  {
+   "pk": 10995,
+   "name": "Days End Sunset Sail",
+   "disposition": "R-season",
+   "old": {
+    "price": 49,
+    "label": "Child"
+   },
+   "new": 69,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Adult",
+   "renders": "price"
+  },
+  {
+   "pk": 11995,
+   "name": "Discover Jost Van Dyke - British Virgin Islands",
+   "disposition": "R-season",
+   "old": {
+    "price": 169,
+    "label": "Child"
+   },
+   "new": 199,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Adult",
+   "renders": "price"
+  },
+  {
+   "pk": 11996,
+   "name": "Dinner Sail to St. John",
+   "disposition": "R-season",
+   "old": {
+    "price": 89,
+    "label": "Child"
+   },
+   "new": 119,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Adult",
+   "renders": "price"
+  },
+  {
+   "pk": 268925,
+   "name": "Maho Bay Turtle Snorkel Sail",
+   "disposition": "R-season",
+   "old": {
+    "price": 99,
+    "label": "Child"
+   },
+   "new": 139,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Adult",
+   "renders": "price"
+  },
+  {
+   "pk": 377253,
+   "name": "Best of St. John Sail - Sail, Snorkel & Shop",
+   "disposition": "R-season",
+   "old": {
+    "price": 79,
+    "label": "Child"
+   },
+   "new": 119,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Adult",
+   "renders": "price"
+  },
+  {
+   "pk": 424875,
+   "name": "Buck Island Snorkel Sail",
+   "disposition": "R-season",
+   "old": {
+    "price": 79,
+    "label": "Child"
+   },
+   "new": 99,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Adult",
+   "renders": "price"
+  },
+  {
+   "pk": 424879,
+   "name": "Days End Sunset Sail",
+   "disposition": "R-season",
+   "old": {
+    "price": 49,
+    "label": "Child"
+   },
+   "new": 59,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Adult",
+   "renders": "price"
+  },
+  {
+   "pk": 671029,
+   "name": "Cruise Ship Port Shuttle to St John Ferry",
+   "disposition": "HELD",
+   "hold": "alternating_pattern",
+   "old": {
+    "price": 45,
+    "label": "Child Price"
+   },
+   "new": 45
+  },
+  {
+   "pk": 170656,
+   "name": "Morning 2-Tank Scuba Dive",
+   "disposition": "D-624",
+   "old": {
+    "price": 65,
+    "label": "Passenger"
+   },
+   "new": 160,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Diver",
+   "renders": "price"
+  },
+  {
+   "pk": 341846,
+   "name": "Nature and Sightseeing Tour at Phantasea Tropical Botanical Garden",
+   "disposition": "s48-R1",
+   "old": {
+    "price": 10,
+    "label": "Child Ticket"
+   },
+   "new": 41.03,
+   "label": "per adult",
+   "unit": "per person, Adults (7 to 10 Adults)",
+   "tier": "Adults",
+   "renders": "price"
+  },
+  {
+   "pk": 589442,
+   "name": "Island Eco Farm Tour with Local Treats and Sapphire Beach Time",
+   "disposition": "D-624",
+   "old": {
+    "price": 14.82,
+    "label": "Children - Wenner Farm Meet-up (Farm Tour only - No Beach)"
+   },
+   "new": 85,
+   "label": "per adult",
+   "unit": null,
+   "tier": "Adults",
+   "renders": "price"
+  },
+  {
+   "pk": 662539,
+   "name": "Night Snorkel Adventure",
+   "disposition": "D-621",
+   "old": {
+    "price": 75,
+    "label": "Person"
+   },
+   "new": 300,
+   "label": "Group",
+   "unit": "per group, up to 4 people",
+   "tier": "Group",
+   "renders": "badge only"
+  },
+  {
+   "pk": 662582,
+   "name": "Beach Break in St. Thomas",
+   "disposition": "D-621",
+   "old": {
+    "price": 75,
+    "label": "Person"
+   },
+   "new": 300,
+   "label": "Group",
+   "unit": "per group, up to 4 people",
+   "tier": "Group",
+   "renders": "badge only"
+  },
+  {
+   "pk": 282247,
+   "name": "Full Size SUV",
+   "disposition": "D-614",
+   "old": {
+    "price": 330,
+    "label": "3 Day"
+   },
+   "new": 330,
+   "label": "3 Day",
+   "unit": "per vehicle, 3 days",
+   "tier": "3 Day",
+   "renders": "badge only"
+  },
+  {
+   "pk": 615474,
+   "name": "Elopement & Engagement Photography",
+   "disposition": "D-614",
+   "old": {
+    "price": 750,
+    "label": "One Hour Photo Session"
+   },
+   "new": 750,
+   "label": "One Hour Photo Session",
+   "unit": "per session, 1 hour",
+   "tier": "One Hour Photo Session",
+   "renders": "badge only"
+  },
+  {
+   "pk": 615491,
+   "name": "Family & Couples Photoshoots",
+   "disposition": "D-614",
+   "old": {
+    "price": 750,
+    "label": "One Hour Photo Session"
+   },
+   "new": 750,
+   "label": "One Hour Photo Session",
+   "unit": "per session, 1 hour",
+   "tier": "One Hour Photo Session",
+   "renders": "badge only"
+  },
+  {
+   "pk": 489164,
+   "name": "VI Captained Charter - Monohull  (7 Days)",
+   "disposition": "D-621",
+   "old": {
+    "price": 10174.94,
+    "label": "Private Charter"
+   },
+   "new": 10174.94,
+   "label": "private boat",
+   "unit": "per boat, up to 6 people, 7 days",
+   "tier": "Private Charter",
+   "renders": "price"
+  },
+  {
+   "pk": 489157,
+   "name": "VI ASA Combo Course Week- Monohull",
+   "disposition": "D-621",
+   "old": {
+    "price": 2887.44,
+    "label": "1 Student and 1 Non-Student in a Private Cabin"
+   },
+   "new": 3814.94,
+   "label": "Private Cabin for 1 Student",
+   "unit": "private cabin, 1 student",
+   "tier": "Private Cabin for 1 Student",
+   "renders": "badge only"
+  },
+  {
+   "pk": 491881,
+   "name": "VI ASA Single Course Week - Monohull",
+   "disposition": "D-621",
+   "old": {
+    "price": 2887.44,
+    "label": "1 Student and 1 Non-Student in a Private Cabin"
+   },
+   "new": 3814.94,
+   "label": "Private Cabin for 1 Student",
+   "unit": "private cabin, 1 student",
+   "tier": "Private Cabin for 1 Student",
+   "renders": "badge only"
+  },
+  {
+   "pk": 575294,
+   "name": "VI ASA Combo Course Week- Catamaran",
+   "disposition": "D-621",
+   "old": {
+    "price": 3418.5,
+    "label": "1 Student and 1 Non-Student in a Private Cabin"
+   },
+   "new": 4344.94,
+   "label": "Private Cabin for 1 Student",
+   "unit": "private cabin, 1 student",
+   "tier": "Private Cabin for 1 Student",
+   "renders": "badge only"
+  },
+  {
+   "pk": 194495,
+   "name": "Kayak & SUP Rentals - St. John",
+   "disposition": "HELD",
+   "hold": "multi_product_rental",
+   "old": {
+    "price": 12,
+    "label": "Snorkel Gear Rentals - 1 day"
+   },
+   "new": 12
+  }
+ ]
+}

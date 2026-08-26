@@ -5938,9 +5938,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/Virgin Islands/St Thomas",
       "island": "st-thomas",
-      "price": 71.4,
-      "priceLabel": "Accompanied Child",
-      "priceConfidence": "low",
+      "price": 119,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 72,
       "currency": "USD",
       "duration": "50 minutes",
@@ -5977,9 +5977,9 @@
       "_unknownFields": {
         "durationMinutes": 50
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -6055,8 +6055,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Visitor\" reads [119, 'absent'] across 4 sampled dates; floor $71.4 stamped unpublished; would have been D-624; ladder Visitor $119 / Resident $107.1 / Accompanied Child $71.4 / Member $107.1; 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-zero-base: \"Visitor\" $119 on 2026-09-05 and 2026-09-19; 2026-10-03 and 2026-10-24 read Visitor $0 (closed date, not a price — excluded); Resident/Member/Accompanied Child never anchor; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "118625",
@@ -7376,9 +7376,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/Saint Thomas/Estate Bovoni",
       "island": "st-thomas",
-      "price": 50,
-      "priceLabel": "Additional Passenger",
-      "priceConfidence": "low",
+      "price": 1049.99,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 70,
       "currency": "USD",
       "duration": "210 minutes",
@@ -7425,11 +7425,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851214",
       "_unknownFields": {
-        "durationMinutes": 210
+        "durationMinutes": 210,
+        "priceUnit": "per boat, up to 6 guests"
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -7675,8 +7676,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Includes Up To 6 Guests\" $1049.99 ≠ discount-exclusion pick \"Adult\" $87.5; floor $50 stamped unpublished; ladder Includes Up To 6 Guests $1049.99 / Additional Passenger $50 / Adult $87.5 / Adult $95.45 / Adult $105 / Adult $116.67 / Adult $131.25 / Adult $150 / Adult $175 / Adult $210 / Adult $262.5 / Adult $350 / Adult $525 / Adult $1050; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-621 whole-party tier: \"Includes Up To 6 Guests\" $1049.99 (+ Fees) anchors as private boat, unit \"per boat, up to 6 guests\" (label quoted); the 12 \"Adult [API]\" tiers are the whole fare divided by headcount ($1050/n) — derived, never anchor; \"Additional Passenger\" $50 is an add-on; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "601987",
@@ -7821,9 +7822,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Croix/Salt River",
       "island": "st-croix",
-      "price": 32.44,
-      "priceLabel": "Child -  Sit on Top Ocean Kayak",
-      "priceConfidence": "low",
+      "price": 59.47,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 69,
       "currency": "USD",
       "duration": null,
@@ -7854,9 +7855,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851223",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -7932,8 +7933,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult - Transparent Sea Thru Kayak\" $75.68 ≠ discount-exclusion pick \"Adult - Sit on Top Ocean Kayak\" $59.47; floor $32.44 stamped unpublished; ladder Adult - Transparent Sea Thru Kayak $75.68 / Child - Transparent Sea Thru Kayak $43.25 / Adult - Sit on Top Ocean Kayak $59.47 / Child -  Sit on Top Ocean Kayak $32.44; 4/4 dated readings (2 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-625 cheapest of 2 base tiers: \"Adult - Sit on Top Ocean Kayak\" $59.47 anchors, unit names the variant (Transparent Sea Thru Kayak $75.68 is the dearer variant); evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "Adult - Sit on Top Ocean Kayak"
+      }
     },
     {
       "id": "170950",
@@ -8117,9 +8121,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851233",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -8212,8 +8216,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Stand Up Paddleboard Rental - 1 Week\" $200 ≠ discount-exclusion pick \"Single Kayak Rental - 1 Week\" $220; floor $12 stamped unpublished; ladder Stand Up Paddleboard Rental - 1 Week $200 / Double Kayak Rental - 1 Week $250 / Single Kayak Rental - 1 Week $220 / Snorkel Gear Rental - 1 week $55 / Snorkel Gear Rentals - 1 day $12; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "multi_product_rental",
+      "priceBasis": "HELD (multi-product rental ladder): five products in one item (Stand Up Paddleboard 1 Week $200 / Double Kayak 1 Week $250 / Single Kayak 1 Week $220 / Snorkel Gear 1 week $55 / Snorkel Gear 1 day $12) — no single unit is the price; floor $12 stamped unpublished; candidate for a per-product split; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "211109",
@@ -8886,9 +8890,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/Virgin Islands/St Thomas",
       "island": "st-thomas",
-      "price": 57.6,
-      "priceLabel": "Resident",
-      "priceConfidence": "low",
+      "price": 64,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 68,
       "currency": "USD",
       "duration": "45 minutes",
@@ -8920,9 +8924,9 @@
       "_unknownFields": {
         "durationMinutes": 45
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -8981,8 +8985,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Visitor\" reads [64, 'absent'] across 4 sampled dates; floor $57.6 stamped unpublished; would have been D-624; ladder Visitor $64 / Resident $57.6 / Member $57.6; 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-zero-base: \"Visitor\" $64 on 2026-09-05 and 2026-09-19; later dates read $0 (closed date — excluded); Resident/Member never anchor; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "98822",
@@ -11423,9 +11427,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
-      "price": 75,
-      "priceLabel": "Person",
-      "priceConfidence": "low",
+      "price": 300,
+      "priceLabel": "Group",
+      "priceConfidence": "high",
       "qualityScore": 65,
       "currency": "USD",
       "duration": "60 minutes",
@@ -11455,11 +11459,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851375",
       "_unknownFields": {
-        "durationMinutes": 60
+        "durationMinutes": 60,
+        "priceUnit": "per group, up to 4 people"
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -11501,8 +11506,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Group\" $300 ≠ discount-exclusion pick \"Person\" $75; floor $75 stamped unpublished; ladder Group $300 / Person $75; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-621 whole-party tier: \"Group\" $300 anchors, unit \"per group, up to 4 people\" (note quoted: \"Includes up to 4 people per group\"); \"Person\" $75 (note \"Add more passengers!\") is an add-on and never anchors; vessel status not established — label stays non-gate, renders Price on request + unit; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "662546",
@@ -11601,9 +11606,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
-      "price": 75,
-      "priceLabel": "Person",
-      "priceConfidence": "low",
+      "price": 300,
+      "priceLabel": "Group",
+      "priceConfidence": "high",
       "qualityScore": 65,
       "currency": "USD",
       "duration": null,
@@ -11637,9 +11642,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851385",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -11681,8 +11686,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Group\" $300 ≠ discount-exclusion pick \"Person\" $75; floor $75 stamped unpublished; ladder Group $300 / Person $75; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-621 whole-party tier: \"Group\" $300 anchors, unit \"per group, up to 4 people\" (note quoted: \"Includes up to 4 people per group\"); \"Person\" $75 (note \"Add more passengers!\") is an add-on and never anchors; vessel status not established — label stays non-gate, renders Price on request + unit; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per group, up to 4 people"
+      }
     },
     {
       "id": "662593",
@@ -12927,7 +12935,7 @@
       "island": "st-thomas",
       "price": 330,
       "priceLabel": "3 Day",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 63,
       "currency": "USD",
       "duration": null,
@@ -12959,10 +12967,10 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851444",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
-      "priceEnrichmentStatus": "d484_no_unit",
-      "priceSource": "s50-wusvi-refresh",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s50-wusvi-holds",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -13463,7 +13471,10 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (D-484 no asserted person unit): ladder 3 Day $330 / 4 Day $440 / 5 Day $550 / 6 Day $660 / 7 Day $770 / 8 Day $880 / 9 Day $990 / 10 Day $1090 / 11 Day $1200 / 12 Day $1310 / 13 Day $1420 / 14 Day $1530 / 15 Day $1640 / 16 Day $1750 / 17 Day $1860 / 18 Day $1970 / 19 Day $2080 / 20 Day $2190 / 21 Day $2300 / 22 Day $2410 / 23 Day $2520 / 24 Day $2630 / 25 Day $2740 / 26 Day $2850 / 27 Day $2960 / 28 Day $3070 / 29 Day $3180 / 30 Day $3290 / 31 Day $3400 names no adult/base or party tier — \"3 Day\", \"4 Day\", \"5 Day\", \"6 Day\" … is a duration/thing token, not a unit; floor $330 (3 Day) stamped unpublished pending a ruling; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "RELEASED D-614 duration-ladder floor (s50 ruling): \"3 Day\" $330 anchors, unit \"per vehicle, 3 days\"; ladder runs to 31 Day $3400 (~$110/day); a rental duration is not a fare — label stays non-gate, renders Price on request + unit; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per vehicle, 3 days"
+      }
     },
     {
       "id": "334632",
@@ -14370,7 +14381,7 @@
       "island": "st-thomas",
       "price": 750,
       "priceLabel": "One Hour Photo Session",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 62,
       "currency": "USD",
       "duration": null,
@@ -14407,9 +14418,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851484",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -14502,8 +14513,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d484_no_unit",
-      "priceBasis": "HELD (D-484 no asserted person unit): ladder One Hour Photo Session $750 / Two Hour Photo Session $1500 / Three Hour Photo Session $2250 / Four Hour Photo Session $3000 / Five Hour Photo Session $3750 names no adult/base or party tier — \"One Hour Photo Session\", \"Two Hour Photo Session\", \"Three Hour Photo Session\", \"Four Hour Photo Session\" … is a duration/thing token, not a unit; floor $750 (One Hour Photo Session) stamped unpublished pending a ruling; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-614 duration-ladder floor (s50 ruling): \"One Hour Photo Session\" $750 anchors, unit \"per session, 1 hour\"; ladder to Five Hour $3750; not a fare — label stays non-gate, renders Price on request + unit; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per session, 1 hour"
+      }
     },
     {
       "id": "615491",
@@ -14516,7 +14530,7 @@
       "island": "st-thomas",
       "price": 750,
       "priceLabel": "One Hour Photo Session",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 62,
       "currency": "USD",
       "duration": null,
@@ -14553,9 +14567,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851487",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -14648,8 +14662,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d484_no_unit",
-      "priceBasis": "HELD (D-484 no asserted person unit): ladder One Hour Photo Session $750 / Two Hour Photo Session $1500 / Three Hour Photo Session $2250 / Four Hour Photo Session $3000 / Five Hour Photo Session $3750 names no adult/base or party tier — \"One Hour Photo Session\", \"Two Hour Photo Session\", \"Three Hour Photo Session\", \"Four Hour Photo Session\" … is a duration/thing token, not a unit; floor $750 (One Hour Photo Session) stamped unpublished pending a ruling; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-614 duration-ladder floor (s50 ruling): \"One Hour Photo Session\" $750 anchors, unit \"per session, 1 hour\"; ladder to Five Hour $3750; not a fare — label stays non-gate, renders Price on request + unit; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per session, 1 hour"
+      }
     },
     {
       "id": "648780",
@@ -14825,9 +14842,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/VI/St Thomas",
       "island": "st-thomas",
-      "price": 65,
-      "priceLabel": "Passenger",
-      "priceConfidence": "low",
+      "price": 160,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 61,
       "currency": "USD",
       "duration": null,
@@ -14859,9 +14876,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851496",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -14903,8 +14920,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Diver\" $160 ≠ discount-exclusion pick \"Passenger\" $65; floor $65 stamped unpublished; ladder Diver $160 / Passenger $65; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-passenger: \"Diver\" $160 anchors; \"Passenger\" $65 (note \"Stays Onboard\") is a non-participant tier and never anchors; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "194418",
@@ -15368,9 +15385,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. John/Cruz Bay",
       "island": "st-john",
-      "price": 49,
-      "priceLabel": "Child",
-      "priceConfidence": "low",
+      "price": 69,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 60,
       "currency": "USD",
       "duration": "90 minutes",
@@ -15414,9 +15431,9 @@
       "_unknownFields": {
         "durationMinutes": 90
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -15509,8 +15526,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Adult\" reads [69, 89] across 4 sampled dates; floor $49 stamped unpublished; would have been D-624; ladder Adult $89 / Child $49 / Adult $89 / Child $59; 4/4 dated readings (1 date-valid), 2 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-season (seasonal-step floor): \"Adult\" reads 69 / 89 / 89 / 89 across the 4 dated probes; cross-date floor $69 anchors as From (date-valid on 2026-09-05, the first probe date); majority reading $89 applies later in the window; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "194434",
@@ -15575,8 +15592,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Lovenlund",
       "island": "st-thomas",
       "price": 349,
-      "priceLabel": "Land and Sea Treasure Hunter",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 60,
       "currency": "USD",
       "duration": null,
@@ -15624,9 +15641,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851527",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -15651,8 +15668,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d484_no_unit",
-      "priceBasis": "HELD (D-484 no asserted person unit): ladder Land and Sea Treasure Hunter $349 names no adult/base or party tier — \"Land and Sea Treasure Hunter\" is a duration/thing token, not a unit; floor $349 (Land and Sea Treasure Hunter) stamped unpublished pending a ruling; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 via s49 note sanction: sole tier \"Land and Sea Treasure Hunter\" $349, note \"Both teens & adults\" names a person audience → per adult; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "Land and Sea Treasure Hunter"
+      }
     },
     {
       "id": "341630",
@@ -15664,8 +15684,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Nazareth",
       "island": "st-thomas",
       "price": 78,
-      "priceLabel": "Adult Price (11 to 15 pax)",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 60,
       "currency": "USD",
       "duration": null,
@@ -15706,9 +15726,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851530",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -15784,8 +15804,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult Price (4 to 10 Pax)\" $80 ≠ discount-exclusion pick \"Adult Price (11 to 15 pax)\" $78; floor $78 stamped unpublished; ladder Adult Price (4 to 10 Pax) $80 / Adult Price (11 to 15 pax) $78 / Child Price $78; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult Price (11 to 15 pax)\" $78 per person anchors; unit \"per person, Adult Price (11 to 15 pax)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adult Price (11 to 15 pax)"
+      }
     },
     {
       "id": "411764",
@@ -17131,8 +17154,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Nazareth",
       "island": "st-thomas",
       "price": 131.61,
-      "priceLabel": "Adult 7-15",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 58,
       "currency": "USD",
       "duration": null,
@@ -17169,9 +17192,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851589",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -17230,8 +17253,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult 3-6\" $146.99 ≠ discount-exclusion pick \"Adult 7-15\" $131.61; floor $131.61 stamped unpublished; ladder Adult 3-6 $146.99 / Adult 2-2 $148.49 / Adult 7-15 $131.61; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult 7-15\" $131.61 per person anchors; unit \"per person, Adult 7-15\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adult 7-15"
+      }
     },
     {
       "id": "334660",
@@ -19904,9 +19930,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Nazareth",
       "island": "st-thomas",
-      "price": 53,
-      "priceLabel": "Child Price",
-      "priceConfidence": "low",
+      "price": 58,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 57,
       "currency": "USD",
       "duration": null,
@@ -19943,9 +19969,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851652",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -20021,8 +20047,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult Price (4 to 4 Pax)\" $63 ≠ discount-exclusion pick \"Adult Price (5 to 15 Pax)\" $58; floor $53 stamped unpublished; ladder Adult Price (4 to 4 Pax) $63 / Adult Price (5 to 15 Pax) $58 / Child Price $53; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult Price (5 to 15 Pax)\" $58 per person anchors; unit \"per person, Adult Price (5 to 15 Pax)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adult Price (5 to 15 Pax)"
+      }
     },
     {
       "id": "336074",
@@ -20146,7 +20175,7 @@
       "island": "st-thomas",
       "price": 224.99,
       "priceLabel": "Group Package (up to 6 pax)",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 57,
       "currency": "USD",
       "duration": null,
@@ -20182,9 +20211,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851659",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -20260,8 +20289,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "no_base_tier",
-      "priceBasis": "HELD (no adult/base tier): live ladder Group Package (up to 6 pax) $224.99 / Group Package (7 to 10 Pax) $299.99 / Group Package (11 - 15 pax) $493.42 has no anchorable tier (Group Package (up to 6 pax) [never], Group Package (7 to 10 Pax) [never], Group Package (11 - 15 pax) [never]); floor $224.99 (Group Package (up to 6 pax)) stamped unpublished pending a ruling; 4/4 dated readings (2 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-614 rising party-total ladder floor: \"Group Package (up to 6 pax)\" $224.99 anchors (7-10 pax $299.99, 11-15 pax $493.42), unit \"per group, up to 6 pax\" (label quoted); \"package\" here is a banded party tier, not a bundle; not a vessel — gate renders Price on request + unit; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per group, up to 6 pax"
+      }
     },
     {
       "id": "494820",
@@ -22646,7 +22678,7 @@
       "island": "st-thomas",
       "price": 400,
       "priceLabel": "Be Driven",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 55,
       "currency": "USD",
       "duration": "240 minutes",
@@ -22676,11 +22708,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851775",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceUnit": "per UTV"
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -22722,8 +22755,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d484_no_unit",
-      "priceBasis": "HELD (D-484 no asserted person unit): ladder You Drive $500 / Be Driven $400 names no adult/base or party tier — \"You Drive\", \"Be Driven\" is a duration/thing token, not a unit; floor $400 (Be Driven) stamped unpublished pending a ruling; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-621 whole-unit tier: \"Be Driven\" $400 anchors, unit \"per UTV\" (note quoted: \"Price is per UTV\"); \"You Drive\" $500 is per UTV driver; not a vessel — label verbatim, gate renders Price on request + unit; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "694447",
@@ -24349,9 +24382,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
-      "price": 55,
-      "priceLabel": "Child Price",
-      "priceConfidence": "low",
+      "price": 60,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 53,
       "currency": "USD",
       "duration": "240 minutes",
@@ -24387,11 +24420,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851863",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceUnit": "per person, Adult Price (5 to 15 Pax)"
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -24467,8 +24501,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult Price (4 to 4 Pax)\" $65 ≠ discount-exclusion pick \"Adult Price (5 to 15 Pax)\" $60; floor $55 stamped unpublished; ladder Adult Price (4 to 4 Pax) $65 / Adult Price (5 to 15 Pax) $60 / Child Price $55; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult Price (5 to 15 Pax)\" $60 per person anchors; unit \"per person, Adult Price (5 to 15 Pax)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "585280",
@@ -24479,9 +24513,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
-      "price": 55,
-      "priceLabel": "Child Price",
-      "priceConfidence": "low",
+      "price": 60,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 53,
       "currency": "USD",
       "duration": "240 minutes",
@@ -24526,11 +24560,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851868",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceUnit": "per person, Adult Price (5 to 15 Pax)"
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -24589,8 +24624,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult Price (4 to 4 Pax)\" $65 ≠ discount-exclusion pick \"Adult Price (5 to 15 Pax)\" $60; floor $55 stamped unpublished; ladder Adult Price (4 to 4 Pax) $65 / Adult Price (5 to 15 Pax) $60 / Child Price $55; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult Price (5 to 15 Pax)\" $60 per person anchors; unit \"per person, Adult Price (5 to 15 Pax)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "585601",
@@ -27015,9 +27050,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. John/Cruz Bay",
       "island": "st-john",
-      "price": 129,
-      "priceLabel": "Child",
-      "priceConfidence": "low",
+      "price": 179,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 50,
       "currency": "USD",
       "duration": "510 minutes",
@@ -27058,9 +27093,9 @@
       "_unknownFields": {
         "durationMinutes": 510
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -27119,8 +27154,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Adult\" reads [179, 199] across 4 sampled dates; floor $129 stamped unpublished; would have been D-624; ladder Adult $179 / Child $129 / Adult $199; 4/4 dated readings (0 date-valid), 3 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-season (seasonal-step floor): \"Adult\" reads 179 / 179 / 199 / 199 across the 4 dated probes; cross-date floor $179 anchors as From (date-valid on 2026-09-05, the first probe date); majority reading $199 applies later in the window; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "11995",
@@ -27131,9 +27166,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. John/Cruz Bay",
       "island": "st-john",
-      "price": 169,
-      "priceLabel": "Child",
-      "priceConfidence": "low",
+      "price": 199,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 50,
       "currency": "USD",
       "duration": "480 minutes",
@@ -27175,9 +27210,9 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -27236,8 +27271,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Adult\" reads [199, 219] across 4 sampled dates; floor $169 stamped unpublished; would have been D-624; ladder Adult $219 / Child $169 / Adult $219; 4/4 dated readings (1 date-valid), 2 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-season (seasonal-step floor): \"Adult\" reads 199 / 219 / 219 / 219 across the 4 dated probes; cross-date floor $199 anchors as From (date-valid on 2026-09-05, the first probe date); majority reading $219 applies later in the window; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "27737",
@@ -27450,8 +27485,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
       "price": 67,
-      "priceLabel": "Adult (Pricing for 11 - 15 pax)",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 50,
       "currency": "USD",
       "duration": null,
@@ -27490,9 +27525,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852003",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -27534,8 +27569,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult (pricing for 2-10 pax)\" $72 ≠ discount-exclusion pick \"Adult (Pricing for 11 - 15 pax)\" $67; floor $67 stamped unpublished; ladder Adult (pricing for 2-10 pax) $72 / Adult (Pricing for 11 - 15 pax) $67; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult (Pricing for 11 - 15 pax)\" $67 per person anchors; unit \"per person, Adult (Pricing for 11 - 15 pax)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adult (Pricing for 11 - 15 pax)"
+      }
     },
     {
       "id": "558413",
@@ -27546,9 +27584,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
-      "price": 30,
-      "priceLabel": "Infant",
-      "priceConfidence": "low",
+      "price": 58,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 50,
       "currency": "USD",
       "duration": null,
@@ -27587,9 +27625,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852006",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -27648,8 +27686,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult 2-3\" $65 ≠ discount-exclusion pick \"Adult 4-15\" $58; floor $30 stamped unpublished; ladder Infant $30 / Adult 2-3 $65 / Adult 4-15 $58; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult 4-15\" $58 per person anchors; unit \"per person, Adult 4-15\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adult 4-15"
+      }
     },
     {
       "id": "559118",
@@ -27661,8 +27702,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
       "price": 84,
-      "priceLabel": "Adult Price (11 to 15 pax)",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 50,
       "currency": "USD",
       "duration": null,
@@ -27699,9 +27740,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852008",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -27760,8 +27801,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult Price (4 to 10 Pax)\" $89 ≠ discount-exclusion pick \"Adult Price (11 to 15 pax)\" $84; floor $84 stamped unpublished; ladder Adult Price (4 to 10 Pax) $89 / Adult Price (11 to 15 pax) $84 / Child Price $84; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult Price (11 to 15 pax)\" $84 per person anchors; unit \"per person, Adult Price (11 to 15 pax)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adult Price (11 to 15 pax)"
+      }
     },
     {
       "id": "634849",
@@ -28708,9 +28752,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852060",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -28752,8 +28796,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Adult 4-15\" reads [25, 48.75] across 4 sampled dates; floor $45 stamped unpublished; would have been D-624; ladder Child Price $45 / Adult 4-15 $48.75; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "alternating_pattern",
+      "priceBasis": "HELD (alternating pattern not understood): \"Adult 4-15\" reads $48.75 / $25 / $48.75 / $25 and \"Child Price\" $45 / $21 / $45 / $21 on the 4 dated probes — not a seasonal step, alternates by date; floor $25 stamped unpublished pending an operator reading; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "700689",
@@ -29814,9 +29858,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
-      "price": 14.82,
-      "priceLabel": "Children - Wenner Farm Meet-up (Farm Tour only - No Beach)",
-      "priceConfidence": "low",
+      "price": 85,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 48,
       "currency": "USD",
       "duration": "240 minutes",
@@ -29854,9 +29898,9 @@
       "_unknownFields": {
         "durationMinutes": 240
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -29966,8 +30010,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adults\" $85 ≠ discount-exclusion pick \"Adult - Wenner Farm Meet-up (Farm Tour only - No Beach)\" $19.76; floor $14.82 stamped unpublished; ladder Adults $85 / Adults $85 / Child Price $62 / Adult - Wenner Farm Meet-up (Farm Tour only - No Beach) $19.76 / Children - Wenner Farm Meet-up (Farm Tour only - No Beach) $14.82; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-omitted: \"Adults\" $85 (cruise-ship and hotel pick-up, 4-15 pax) anchors; \"Adult - Wenner Farm Meet-up (Farm Tour only - No Beach)\" $19.76 omits the Sapphire Beach component of the named product and never anchors; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "628803",
@@ -29978,9 +30022,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
-      "price": 27.74,
-      "priceLabel": "Meet Up Chocolate Tasting (Child)",
-      "priceConfidence": "low",
+      "price": 32.24,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 48,
       "currency": "USD",
       "duration": "60 minutes",
@@ -30025,11 +30069,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852113",
       "_unknownFields": {
-        "durationMinutes": 60
+        "durationMinutes": 60,
+        "priceUnit": "Meet Up Chocolate Tasting (Adult)"
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -30105,8 +30150,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Pickup Pier Tasting (Adult)\" $68.24 ≠ discount-exclusion pick \"Meet Up Chocolate Tasting (Adult)\" $32.24; floor $27.74 stamped unpublished; ladder Pickup Pier Tasting (Adult) $68.24 / Pickup Pier Tasting (Child) $56.99 / Meet Up Chocolate Tasting (Adult) $32.24 / Meet Up Chocolate Tasting (Child) $27.74; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-625 cheapest of 2 base tiers: \"Meet Up Chocolate Tasting (Adult)\" $32.24 anchors, unit names the variant (Pickup Pier Tasting $68.24 is the dearer variant); evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "628828",
@@ -30561,9 +30606,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. John/Cruz Bay",
       "island": "st-john",
-      "price": 89,
-      "priceLabel": "Child",
-      "priceConfidence": "low",
+      "price": 119,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 47,
       "currency": "USD",
       "duration": "300 minutes",
@@ -30606,9 +30651,9 @@
       "_unknownFields": {
         "durationMinutes": 300
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -30701,8 +30746,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Adult\" reads [119, 139] across 4 sampled dates; floor $89 stamped unpublished; would have been D-624; ladder Adult $139 / Child $89 / Adult $139 / Child $99; 4/4 dated readings (0 date-valid), 3 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-season (seasonal-step floor): \"Adult\" reads 119 / 139 / 139 / 139 across the 4 dated probes; cross-date floor $119 anchors as From (date-valid on 2026-09-05, the first probe date); majority reading $139 applies later in the window; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "211114",
@@ -30768,9 +30813,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Nazareth",
       "island": "st-thomas",
-      "price": 83,
-      "priceLabel": "Child (Group of 1-13)",
-      "priceConfidence": "low",
+      "price": 88,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 47,
       "currency": "USD",
       "duration": null,
@@ -30804,9 +30849,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852171",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -30882,8 +30927,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult (Groups of 4-10)\" $93 ≠ discount-exclusion pick \"Adult (Groups of 11-15)\" $88; floor $83 stamped unpublished; ladder Adult (Groups of 4-10) $93 / Adult (Groups of 11-15) $88 / Child (Group of 1-13) $83; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult (Groups of 11-15)\" $88 per person anchors; unit \"per person, Adult (Groups of 11-15)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adult (Groups of 11-15)"
+      }
     },
     {
       "id": "508279",
@@ -31188,9 +31236,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
-      "price": 80,
-      "priceLabel": "Child Price",
-      "priceConfidence": "low",
+      "price": 85,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 47,
       "currency": "USD",
       "duration": null,
@@ -31227,9 +31275,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852258",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -31305,8 +31353,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult Price (4 to 4 Pax)\" $90 ≠ discount-exclusion pick \"Adult Price (5 to 15 Pax)\" $85; floor $80 stamped unpublished; ladder Adult Price (4 to 4 Pax) $90 / Adult Price (5 to 15 Pax) $85 / Child Price $80; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult Price (5 to 15 Pax)\" $85 per person anchors; unit \"per person, Adult Price (5 to 15 Pax)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adult Price (5 to 15 Pax)"
+      }
     },
     {
       "id": "559117",
@@ -31411,9 +31462,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
-      "price": 85,
-      "priceLabel": "Child Price",
-      "priceConfidence": "low",
+      "price": 90,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 47,
       "currency": "USD",
       "duration": null,
@@ -31449,9 +31500,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852280",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -31510,8 +31561,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adult Price (4 to 4 Pax)\" $95 ≠ discount-exclusion pick \"Adult Price (5 to 15 Pax)\" $90; floor $85 stamped unpublished; ladder Adult Price (4 to 4 Pax) $95 / Adult Price (5 to 15 Pax) $90 / Child Price $85; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adult Price (5 to 15 Pax)\" $90 per person anchors; unit \"per person, Adult Price (5 to 15 Pax)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adult Price (5 to 15 Pax)"
+      }
     },
     {
       "id": "564312",
@@ -31574,8 +31628,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
       "price": 85,
-      "priceLabel": "Adults",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 47,
       "currency": "USD",
       "duration": null,
@@ -31610,9 +31664,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852287",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -31654,8 +31708,11 @@
           "minPartySize": 3
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adults\" $90 ≠ discount-exclusion pick \"Adults\" $85; floor $85 stamped unpublished; ladder Adults $90 / Adults $85; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adults\" $85 per person anchors; unit \"per person, Adults (Groups with 7 to 10 guests)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adults (Groups with 7 to 10 guests)"
+      }
     },
     {
       "id": "666374",
@@ -31952,9 +32009,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
-      "price": 49,
-      "priceLabel": "Child",
-      "priceConfidence": "low",
+      "price": 59,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 46,
       "currency": "USD",
       "duration": "90 minutes",
@@ -31991,9 +32048,9 @@
       "_unknownFields": {
         "durationMinutes": 90
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -32052,8 +32109,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Adult\" reads [59, 79] across 4 sampled dates; floor $49 stamped unpublished; would have been D-624; ladder Adult $79 / Child $49; 4/4 dated readings (3 date-valid), 2 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-season (seasonal-step floor): \"Adult\" reads 59 / 79 / 79 / 79 across the 4 dated probes; cross-date floor $59 anchors as From (date-valid on 2026-09-05, the first probe date); majority reading $79 applies later in the window; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "521254",
@@ -32806,9 +32863,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. John/Cruz Bay",
       "island": "st-john",
-      "price": 99,
-      "priceLabel": "Child",
-      "priceConfidence": "low",
+      "price": 139,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 45,
       "currency": "USD",
       "duration": "360 minutes",
@@ -32850,9 +32907,9 @@
       "_unknownFields": {
         "durationMinutes": 360
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -32928,8 +32985,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Adult\" reads [139, 159] across 4 sampled dates; floor $99 stamped unpublished; would have been D-624; ladder Adult $159 / Child $99 / Adult $159; 4/4 dated readings (1 date-valid), 2 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-season (seasonal-step floor): \"Adult\" reads 139 / 159 / 159 / 159 across the 4 dated probes; cross-date floor $139 anchors as From (date-valid on 2026-09-05, the first probe date); majority reading $159 applies later in the window; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "316901",
@@ -35704,9 +35761,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. John/Cruz Bay",
       "island": "st-john",
-      "price": 79,
-      "priceLabel": "Child",
-      "priceConfidence": "low",
+      "price": 119,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 42,
       "currency": "USD",
       "duration": "360 minutes",
@@ -35748,9 +35805,9 @@
       "_unknownFields": {
         "durationMinutes": 360
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -35843,8 +35900,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Adult\" reads [119, 139] across 4 sampled dates; floor $79 stamped unpublished; would have been D-624; ladder Adult $119 / Child $79 / Adult $139 / Child $99; 4/4 dated readings (4 date-valid), 3 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-season (seasonal-step floor): \"Adult\" reads 119 / 119 / 139 / 139 across the 4 dated probes; cross-date floor $119 anchors as From (date-valid on 2026-09-05, the first probe date); majority reading $139 applies later in the window; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "424875",
@@ -35855,9 +35912,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas",
       "island": "st-thomas",
-      "price": 79,
-      "priceLabel": "Child",
-      "priceConfidence": "low",
+      "price": 99,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 42,
       "currency": "USD",
       "duration": "300 minutes",
@@ -35893,9 +35950,9 @@
       "_unknownFields": {
         "durationMinutes": 300
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -35954,8 +36011,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "mixed_verdict",
-      "priceBasis": "HELD (mixed verdict across dates): anchor \"Adult\" reads [119, 99] across 4 sampled dates; floor $79 stamped unpublished; would have been D-624; ladder Adult $119 / Child $79; 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED D-624 under R-season (seasonal-step floor): \"Adult\" reads 99 / 119 / 119 / 119 across the 4 dated probes; cross-date floor $99 anchors as From (date-valid on 2026-09-05, the first probe date); majority reading $119 applies later in the window; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "437222",
@@ -36931,9 +36988,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Nazareth",
       "island": "st-thomas",
-      "price": 10,
-      "priceLabel": "Child Ticket",
-      "priceConfidence": "low",
+      "price": 41.03,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 40,
       "currency": "USD",
       "duration": "120 minutes",
@@ -36973,11 +37030,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852548",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "priceUnit": "per person, Adults (7 to 10 Adults)"
       },
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -37070,8 +37128,8 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adults\" $42.55 ≠ discount-exclusion pick \"Adult Ticket\" $12; floor $10 stamped unpublished; ladder Adults $42.55 / Adults $41.03 / Adults $47.11 / Adult Ticket $12 / Child Ticket $10; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder under R-omitted: \"Adults [For 7 to 10 Adults]\" $41.03 is the largest band and anchors, unit \"per person, Adults (7 to 10 Adults)\" (note quoted); \"Adult Ticket [Ticket only]\" $12 omits the transport component of the named product and never anchors; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)"
     },
     {
       "id": "344761",
@@ -37083,8 +37141,8 @@
       "location": "U.S. Virgin Islands/St. Thomas/Nazareth",
       "island": "st-thomas",
       "price": 25,
-      "priceLabel": "Adults",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 40,
       "currency": "USD",
       "duration": null,
@@ -37125,9 +37183,9 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.852551",
-      "priceSource": "s50-wusvi-refresh",
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
+      "priceSource": "s50-wusvi-holds",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -37203,8 +37261,11 @@
           "minPartySize": 1
         }
       ],
-      "priceEnrichmentStatus": "d482_ambiguous",
-      "priceBasis": "HELD (D-482 ambiguous full-fare set): position-0 eligible tier \"Adults\" $30 ≠ discount-exclusion pick \"Adults\" $25; floor $25 stamped unpublished; ladder Adults $30 / Adults $25 / Adults $30 / Adults $25; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "RELEASED s48-R1 falling per-head ladder: largest band \"Adults\" $25 per person anchors; unit \"per person, Adults (5-10)\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per person, Adults (5-10)"
+      }
     },
     {
       "id": "691459",
@@ -46385,9 +46446,9 @@
       "category": "",
       "location": "",
       "island": "st-john",
-      "price": 2887.44,
-      "priceLabel": "1 Student and 1 Non-Student in a Private Cabin",
-      "priceConfidence": "low",
+      "price": 3814.94,
+      "priceLabel": "Private Cabin for 1 Student",
+      "priceConfidence": "high",
       "qualityScore": 19,
       "currency": "USD",
       "duration": "",
@@ -46415,10 +46476,10 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.853193",
       "needsEnrichment": true,
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
-      "priceEnrichmentStatus": "no_base_tier",
-      "priceSource": "s50-wusvi-refresh",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s50-wusvi-holds",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -46477,7 +46538,10 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (no adult/base tier): live ladder Private Cabin for 1 Student $3814.94 / 2 Students in a Private Cabin $3655.94 / 1 Student and 1 Non-Student in a Private Cabin $2887.44 has no anchorable tier (Private Cabin for 1 Student [never], 2 Students in a Private Cabin [never], 1 Student and 1 Non-Student in a Private Cabin [never]); floor $2887.44 (1 Student and 1 Non-Student in a Private Cabin) stamped unpublished pending a ruling; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "RELEASED (s50 ruling, student-class product): \"Private Cabin for 1 Student\" $3814.94 is the single-occupancy fare and anchors, unit \"private cabin, 1 student\"; shared-cabin per-person tiers do not anchor; \"student\" is the whole audience of a sailing-school week, so the never-class does not apply; label stays non-gate, renders Price on request + unit; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "private cabin, 1 student"
+      }
     },
     {
       "id": "491881",
@@ -46488,9 +46552,9 @@
       "category": "",
       "location": "",
       "island": "st-john",
-      "price": 2887.44,
-      "priceLabel": "1 Student and 1 Non-Student in a Private Cabin",
-      "priceConfidence": "low",
+      "price": 3814.94,
+      "priceLabel": "Private Cabin for 1 Student",
+      "priceConfidence": "high",
       "qualityScore": 19,
       "currency": "USD",
       "duration": "",
@@ -46517,10 +46581,10 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.853196",
       "needsEnrichment": true,
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
-      "priceEnrichmentStatus": "no_base_tier",
-      "priceSource": "s50-wusvi-refresh",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s50-wusvi-holds",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -46579,7 +46643,10 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (no adult/base tier): live ladder Private Cabin for 1 Student $3814.94 / 2 Students in a Private Cabin $3655.94 / 1 Student and 1 Non-Student in a Private Cabin $2887.44 has no anchorable tier (Private Cabin for 1 Student [never], 2 Students in a Private Cabin [never], 1 Student and 1 Non-Student in a Private Cabin [never]); floor $2887.44 (1 Student and 1 Non-Student in a Private Cabin) stamped unpublished pending a ruling; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "RELEASED (s50 ruling, student-class product): \"Private Cabin for 1 Student\" $3814.94 is the single-occupancy fare and anchors, unit \"private cabin, 1 student\"; shared-cabin per-person tiers do not anchor; \"student\" is the whole audience of a sailing-school week, so the never-class does not apply; label stays non-gate, renders Price on request + unit; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "private cabin, 1 student"
+      }
     },
     {
       "id": "574927",
@@ -46636,9 +46703,9 @@
       "category": "",
       "location": "",
       "island": "st-john",
-      "price": 3418.5,
-      "priceLabel": "1 Student and 1 Non-Student in a Private Cabin",
-      "priceConfidence": "low",
+      "price": 4344.94,
+      "priceLabel": "Private Cabin for 1 Student",
+      "priceConfidence": "high",
       "qualityScore": 19,
       "currency": "USD",
       "duration": "",
@@ -46665,10 +46732,10 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.853203",
       "needsEnrichment": true,
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
-      "priceEnrichmentStatus": "no_base_tier",
-      "priceSource": "s50-wusvi-refresh",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s50-wusvi-holds",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -46727,7 +46794,10 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (no adult/base tier): live ladder Private Cabin for 1 Student $4344.94 / 2 Students in a Private Cabin $4187 / 1 Student and 1 Non-Student in a Private Cabin $3418.5 has no anchorable tier (Private Cabin for 1 Student [never], 2 Students in a Private Cabin [never], 1 Student and 1 Non-Student in a Private Cabin [never]); floor $3418.5 (1 Student and 1 Non-Student in a Private Cabin) stamped unpublished pending a ruling; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "RELEASED (s50 ruling, student-class product): \"Private Cabin for 1 Student\" $4344.94 is the single-occupancy fare and anchors, unit \"private cabin, 1 student\"; shared-cabin per-person tiers do not anchor; \"student\" is the whole audience of a sailing-school week, so the never-class does not apply; label stays non-gate, renders Price on request + unit; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "private cabin, 1 student"
+      }
     },
     {
       "id": "195725",
@@ -47028,8 +47098,8 @@
       "location": "",
       "island": "st-john",
       "price": 10174.94,
-      "priceLabel": "Private Charter",
-      "priceConfidence": "low",
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 14,
       "currency": "USD",
       "duration": "",
@@ -47054,10 +47124,10 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.853222",
       "needsEnrichment": true,
-      "priceEnrichmentSource": "s50-wusvi-refresh-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T00:31:18.695Z",
-      "priceEnrichmentStatus": "d484_unit_conflict",
-      "priceSource": "s50-wusvi-refresh",
+      "priceEnrichmentSource": "s50-wusvi-holds-ruling",
+      "priceEnrichmentAt": "2026-08-26T14:09:11.660Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s50-wusvi-holds",
       "priceVerifiedAt": "2026-08-26",
       "priceBreakdown": [
         {
@@ -47082,7 +47152,10 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "HELD (D-484 unit conflict): tier(s) \"Private Charter\" $10174.94 (note: For up to 6 People | Pricing is per person) carry a party-shaped label with a per-person note — two units asserted at once; floor $10174.94 stamped unpublished pending a ruling; ladder Private Charter $10174.94; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "RELEASED D-621 whole-boat (s50 ruling on the note contradiction): sole tier \"Private Charter\" $10174.94, note \"For up to 6 People | Pricing is per person\" asserts two units at once; read as the whole boat — $10,174.94 × 6 = $61,050/week is implausible for a captained monohull, and the sibling 498637 (VI Captained Charter - Catamaran, 7 Days, no note) reads $11,872 whole-boat; unit \"per boat, up to 6 people, 7 days\"; evidence: #148 probe, 4 dated readings 2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24 (s50-wusvi-refresh/probe.json); ruled 2026-08-26 (s50 holds packet)",
+      "_unknownFields": {
+        "priceUnit": "per boat, up to 6 people, 7 days"
+      }
     },
     {
       "id": "489595",

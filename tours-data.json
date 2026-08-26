@@ -9164,9 +9164,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Croix/Salt River",
       "island": "st-croix",
-      "price": null,
-      "priceLabel": "starting at",
-      "priceConfidence": "",
+      "price": 75.68,
+      "priceLabel": "Half Day Stand Up Paddleboard",
+      "priceConfidence": "high",
       "qualityScore": 68,
       "currency": "USD",
       "duration": null,
@@ -9199,7 +9199,36 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.851283"
+      "lastUpdated": "2026-05-27T13:49:49.851283",
+      "priceBreakdown": [
+        {
+          "id": 510862,
+          "singular": "Half Day Stand Up Paddleboard",
+          "plural": "Half Day Stand Up Paddleboard",
+          "note": "",
+          "priceCents": 7568,
+          "price": 75.68,
+          "minPartySize": 1
+        }
+      ],
+      "priceTiers": [
+        {
+          "singular": "Half Day Stand Up Paddleboard",
+          "plural": "Half Day Stand Up Paddleboard",
+          "note": "",
+          "priceCents": 7568,
+          "price": 75.68,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": true,
+      "priceIncludesTaxes": false,
+      "priceSource": "s50-wusvi-cards",
+      "priceEnrichmentSource": "s50-wusvi-cards-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-26T00:38:09.492Z",
+      "priceEnrichmentStatus": "high",
+      "priceVerifiedAt": "2026-08-26",
+      "priceBasis": "single-tier product (s50 card ruling): sole tier \"Half Day Stand Up Paddleboard\" $75.68 anchors, label verbatim (rental unit, not per-person — the gate does not render it as a seat price); stored null retracted; 4/4 dated readings 2026-09-05/09-19/10-03/10-24 identical (evidence/s50-wusvi-refresh/static-probe.json) + full tier object 2026-09-05; live USD, prices include booking fees"
     },
     {
       "id": "274479",
@@ -15767,9 +15796,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. John/Cruz Bay",
       "island": "st-john",
-      "price": null,
-      "priceLabel": "unknown",
-      "priceConfidence": "",
+      "price": 325,
+      "priceLabel": "Private Tour",
+      "priceConfidence": "high",
       "qualityScore": 60,
       "currency": "USD",
       "duration": null,
@@ -15805,7 +15834,73 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:49:49.851532"
+      "lastUpdated": "2026-05-27T13:49:49.851532",
+      "priceBreakdown": [
+        {
+          "id": 742925,
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Vehicle Fits 4 People",
+          "priceCents": 32500,
+          "price": 325,
+          "minPartySize": 1
+        },
+        {
+          "id": 946782,
+          "singular": "Add an Underwater Scooter",
+          "plural": "Add Underwater Scooters",
+          "note": "",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "id": 946783,
+          "singular": "Add a Go Pro",
+          "plural": "Add Go Pros",
+          "note": "",
+          "priceCents": 3000,
+          "price": 30,
+          "minPartySize": 1
+        }
+      ],
+      "priceTiers": [
+        {
+          "singular": "Private Tour",
+          "plural": "Private Tour",
+          "note": "Vehicle Fits 4 People",
+          "priceCents": 32500,
+          "price": 325,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Add an Underwater Scooter",
+          "plural": "Add Underwater Scooters",
+          "note": "",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Add a Go Pro",
+          "plural": "Add Go Pros",
+          "note": "",
+          "priceCents": 3000,
+          "price": 30,
+          "minPartySize": 1
+        }
+      ],
+      "priceIncludesBookingFees": false,
+      "priceIncludesTaxes": false,
+      "priceSource": "s50-wusvi-cards",
+      "priceEnrichmentSource": "s50-wusvi-cards-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-26T00:38:09.492Z",
+      "priceEnrichmentStatus": "high",
+      "priceVerifiedAt": "2026-08-26",
+      "priceBasis": "D-621 whole-party tier (s50 card ruling): tier \"Private Tour\" $325 anchors, unit \"per jeep, up to 4 people\" (note quoted: \"Vehicle Fits 4 People\"); add-on tiers Add an Underwater Scooter $99 / Add a Go Pro $30 do not anchor; not a vessel (#144 UNIT_NOT_VESSEL) so the gate does not render it as a seat price; stored null retracted; 4/4 dated readings 2026-09-05/09-19/10-03/10-24 identical (evidence/s50-wusvi-refresh/static-probe.json) + full tier object 2026-09-05; live USD",
+      "_unknownFields": {
+        "priceUnit": "per jeep, up to 4 people"
+      }
     },
     {
       "id": "424579",

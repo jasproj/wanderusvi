@@ -1,0 +1,54 @@
+{
+ "411764": {
+  "shortname": "islandbuddy-stj",
+  "date": "2026-09-05",
+  "start_at": "2026-09-05T13:00:00",
+  "currency": "USD",
+  "fees": false,
+  "taxes": false,
+  "customer_types": [
+   {
+    "id": 742925,
+    "singular": "Private Tour",
+    "plural": "Private Tour",
+    "note": "Vehicle Fits 4 People",
+    "price": 32500,
+    "min_party_size": 1
+   },
+   {
+    "id": 946782,
+    "singular": "Add an Underwater Scooter",
+    "plural": "Add Underwater Scooters",
+    "note": "",
+    "price": 9900,
+    "min_party_size": 1
+   },
+   {
+    "id": 946783,
+    "singular": "Add a Go Pro",
+    "plural": "Add Go Pros",
+    "note": "",
+    "price": 3000,
+    "min_party_size": 1
+   }
+  ]
+ },
+ "274478": {
+  "shortname": "seathrukayaksstcroix",
+  "date": "2026-09-05",
+  "start_at": "2026-09-05T09:00:00",
+  "currency": "USD",
+  "fees": true,
+  "taxes": false,
+  "customer_types": [
+   {
+    "id": 510862,
+    "singular": "Half Day Stand Up Paddleboard",
+    "plural": "Half Day Stand Up Paddleboard",
+    "note": "",
+    "price": 7568,
+    "min_party_size": 1
+   }
+  ]
+ }
+}

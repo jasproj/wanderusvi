@@ -1,0 +1,184 @@
+{
+ "stampedAt": "2026-08-26T00:38:09.492Z",
+ "cards": [
+  {
+   "file": "st-thomas.html",
+   "line": 214,
+   "before": "<div class=\"tour-price\">From $140</div>",
+   "after": "<div class=\"tour-price\">From $140<small>per jet ski</small></div>",
+   "onDisk": true,
+   "figure": "140",
+   "onDiskCheck": "article-scoped: price element of the card with this pk equals `after` (see README)"
+  },
+  {
+   "file": "st-thomas.html",
+   "line": 370,
+   "before": "<div class=\"tour-price\">From $1495</div>",
+   "after": "<div class=\"tour-price\">From $1495<small>private boat</small></div>",
+   "onDisk": true,
+   "figure": "1495",
+   "onDiskCheck": "article-scoped: price element of the card with this pk equals `after` (see README)"
+  },
+  {
+   "file": "st-thomas.html",
+   "line": 394,
+   "before": "<div class=\"tour-price\">From $75</div>",
+   "after": "<div class=\"tour-price\">Check availability</div>",
+   "onDisk": true,
+   "figure": null,
+   "onDiskCheck": "article-scoped: price element of the card with this pk equals `after` (see README)"
+  },
+  {
+   "file": "st-john.html",
+   "line": 238,
+   "before": "<div class=\"tour-price\">$3500</div>",
+   "after": "<div class=\"tour-price\">$3500<small>per boat \u00b7 Go Fast Full Day BVI Cruise</small></div>",
+   "onDisk": true,
+   "figure": "3500",
+   "onDiskCheck": "article-scoped: price element of the card with this pk equals `after` (see README)"
+  },
+  {
+   "file": "st-john.html",
+   "line": 250,
+   "before": "<div class=\"tour-price\">$1300</div>",
+   "after": "<div class=\"tour-price\">$995</div>",
+   "onDisk": true,
+   "figure": "995",
+   "onDiskCheck": "article-scoped: price element of the card with this pk equals `after` (see README)"
+  },
+  {
+   "file": "st-john.html",
+   "line": 286,
+   "before": "<div class=\"tour-price\">From $1250</div>",
+   "after": "<div class=\"tour-price\">From $1250<small>per rental</small></div>",
+   "onDisk": true,
+   "figure": "1250",
+   "onDiskCheck": "article-scoped: price element of the card with this pk equals `after` (see README)"
+  },
+  {
+   "file": "st-john.html",
+   "line": 346,
+   "before": "<div class=\"tour-price\">From $79</div>",
+   "after": "<div class=\"tour-price\">From $69</div>",
+   "onDisk": true,
+   "figure": "69",
+   "onDiskCheck": "article-scoped: price element of the card with this pk equals `after` (see README)"
+  },
+  {
+   "file": "st-john.html",
+   "line": 370,
+   "before": "<div class=\"tour-price\">From $325</div>",
+   "after": "<div class=\"tour-price\">From $325<small>per jeep \u00b7 up to 4 people</small></div>",
+   "onDisk": true,
+   "figure": "325",
+   "onDiskCheck": "article-scoped: price element of the card with this pk equals `after` (see README)"
+  },
+  {
+   "file": "st-croix.html",
+   "line": 315,
+   "before": "<div class=\"tour-price\">From $50</div>",
+   "after": "<div class=\"tour-price\">Check availability</div>",
+   "onDisk": true,
+   "figure": null,
+   "onDiskCheck": "article-scoped: price element of the card with this pk equals `after` (see README)"
+  },
+  {
+   "file": "st-croix.html",
+   "line": 327,
+   "before": "<div class=\"tour-price\">From $50</div>",
+   "after": "<div class=\"tour-price\">Check availability</div>",
+   "onDisk": true,
+   "figure": null,
+   "onDiskCheck": "article-scoped: price element of the card with this pk equals `after` (see README)"
+  },
+  {
+   "pk": 411764,
+   "price": 325,
+   "spelling": "int",
+   "liveCents": 32500,
+   "agree": true,
+   "label": "Private Tour",
+   "unit": "per jeep, up to 4 people",
+   "conf": "high",
+   "priceSource": "s50-wusvi-cards",
+   "priceEnrichmentAt": "2026-08-26T00:38:09.492Z"
+  },
+  {
+   "pk": 274478,
+   "price": 75.68,
+   "spelling": "float",
+   "liveCents": 7568,
+   "agree": true,
+   "label": "Half Day Stand Up Paddleboard",
+   "unit": null,
+   "conf": "high",
+   "priceSource": "s50-wusvi-cards",
+   "priceEnrichmentAt": "2026-08-26T00:38:09.492Z"
+  }
+ ],
+ "staticFiguresAgreeWithLive": true,
+ "rowsChanged": [
+  274478,
+  411764
+ ],
+ "sha256": {
+  "before": "51d698d7f74af235e8acb69590bd50170a834731301c097b4cdbb59463c6fba3",
+  "after": "e2a4c91d3f1786ef0d982a84d5e6c98c69e22186874c5ba58f5b78e75e23a9f4"
+ },
+ "staticPages": {
+  "st-thomas.html": {
+   "priceElementsBefore": 21,
+   "priceElementsAfter": 21,
+   "smallBefore": 0,
+   "smallAfter": 2,
+   "checkAvailBefore": 1,
+   "checkAvailAfter": 2,
+   "diffLines": 9,
+   "cardLinesReplaced": 3,
+   "cssRuleAdded": 1
+  },
+  "st-john.html": {
+   "priceElementsBefore": 18,
+   "priceElementsAfter": 18,
+   "smallBefore": 0,
+   "smallAfter": 3,
+   "checkAvailBefore": 3,
+   "checkAvailAfter": 3,
+   "diffLines": 13,
+   "cardLinesReplaced": 5,
+   "cssRuleAdded": 1
+  },
+  "st-croix.html": {
+   "priceElementsBefore": 18,
+   "priceElementsAfter": 18,
+   "smallBefore": 0,
+   "smallAfter": 0,
+   "checkAvailBefore": 3,
+   "checkAvailAfter": 5,
+   "diffLines": 7,
+   "cardLinesReplaced": 2,
+   "cssRuleAdded": 1
+  }
+ },
+ "dynamic": {
+  "before": {
+   "priceElements": 437,
+   "privateBoat": 112,
+   "perAdult": 123,
+   "priceOnRequest": 202,
+   "checkAvailability": 0,
+   "withUnit": 23,
+   "offers": 123
+  },
+  "after": {
+   "priceElements": 439,
+   "privateBoat": 112,
+   "perAdult": 123,
+   "priceOnRequest": 204,
+   "checkAvailability": 0,
+   "withUnit": 24,
+   "offers": 123
+  }
+ },
+ "allCardsAsRuled": true
+}

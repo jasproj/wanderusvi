@@ -1,0 +1,118 @@
+{
+ "fixturePk": 2101,
+ "live": 551,
+ "app": {
+  "without": {
+   "cards_before": 551,
+   "cards_after": 551,
+   "price_before": 435,
+   "price_after": 435,
+   "small_before": 0,
+   "small_after": 0,
+   "identical": true,
+   "fixtureBadge_after": null
+  },
+  "with": {
+   "cards_before": 551,
+   "cards_after": 551,
+   "price_before": 435,
+   "price_after": 435,
+   "small_before": 0,
+   "small_after": 1,
+   "identical": false,
+   "fixtureBadge_after": "<div class=\"tour-price\">From $109 per adult<small>per adult · up to 6 guests</small></div>"
+  }
+ },
+ "activity": {
+  "Snorkel/without": {
+   "cards_before": 3,
+   "cards_after": 3,
+   "price_before": 3,
+   "price_after": 3,
+   "small_after": 0,
+   "identical": true,
+   "fixtureBadge_after": null
+  },
+  "Snorkel/with": {
+   "cards_before": 3,
+   "cards_after": 3,
+   "price_before": 3,
+   "price_after": 3,
+   "small_after": 1,
+   "identical": false,
+   "fixtureBadge_after": "<div class=\"tour-price\">From $109 per adult<small>per adult · up to 6 guests</small></div>"
+  },
+  "Kayak/without": {
+   "cards_before": 3,
+   "cards_after": 3,
+   "price_before": 3,
+   "price_after": 3,
+   "small_after": 0,
+   "identical": true,
+   "fixtureBadge_after": null
+  },
+  "Kayak/with": {
+   "cards_before": 3,
+   "cards_after": 3,
+   "price_before": 3,
+   "price_after": 3,
+   "small_after": 0,
+   "identical": true,
+   "fixtureBadge_after": null
+  },
+  "Jet Ski Tour/without": {
+   "cards_before": 2,
+   "cards_after": 2,
+   "price_before": 2,
+   "price_after": 2,
+   "small_after": 0,
+   "identical": true,
+   "fixtureBadge_after": null
+  },
+  "Jet Ski Tour/with": {
+   "cards_before": 2,
+   "cards_after": 2,
+   "price_before": 2,
+   "price_after": 2,
+   "small_after": 0,
+   "identical": true,
+   "fixtureBadge_after": null
+  },
+  "Fishing/without": {
+   "cards_before": 3,
+   "cards_after": 3,
+   "price_before": 3,
+   "price_after": 3,
+   "small_after": 0,
+   "identical": true,
+   "fixtureBadge_after": null
+  },
+  "Fishing/with": {
+   "cards_before": 3,
+   "cards_after": 3,
+   "price_before": 3,
+   "price_after": 3,
+   "small_after": 0,
+   "identical": true,
+   "fixtureBadge_after": null
+  },
+  "Zipline/without": {
+   "cards_before": 1,
+   "cards_after": 1,
+   "price_before": 0,
+   "price_after": 0,
+   "small_after": 0,
+   "identical": true,
+   "fixtureBadge_after": null
+  },
+  "Zipline/with": {
+   "cards_before": 1,
+   "cards_after": 1,
+   "price_before": 0,
+   "price_after": 0,
+   "small_after": 0,
+   "identical": true,
+   "fixtureBadge_after": null
+  }
+ }
+}

@@ -50,6 +50,15 @@
         return 'Check availability';
     }
 
+    // Pricing unit for the card badge. Same mechanism as app.js priceUnit()
+    // (ported from wanderengland/app.js): driven ONLY by the explicit
+    // _unknownFields.priceUnit string, never inferred from priceLabel words.
+    // Empty for rows without one, so their cards render byte-identically.
+    function priceUnit(t) {
+        var u = (t._unknownFields || {}).priceUnit;
+        return (typeof u === 'string' && u.trim()) ? u.trim() : '';
+    }
+
     function truncate(s, n) {
         s = String(s == null ? '' : s).replace(/\s+/g, ' ').trim();
         return s.length > n ? s.slice(0, n - 1) + '…' : s;
@@ -246,7 +255,9 @@
                 var name = esc(t.name || (TAG + ' tour'));
                 // null => no usable price, so the element itself is omitted.
                 var priceText = priceLabel(t);
-                var priceHtml = priceText === null ? '' : '<div class="tour-price">' + esc(priceText) + '</div>';
+                var unit = priceUnit(t);
+                var unitHtml = unit ? '<small>' + esc(unit) + '</small>' : '';
+                var priceHtml = priceText === null ? '' : '<div class="tour-price">' + esc(priceText) + unitHtml + '</div>';
                 // t.bookingUrl is emitted verbatim: it carries the asn=fhdn /
                 // asn-ref / ref affiliate attribution and the real FareHarbor
                 // item pk. Rewriting it would break payout.

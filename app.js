@@ -232,6 +232,21 @@ function formatPrice(price, confidence, priceLabel) {
     return 'Price on request';
 }
 
+// Pricing unit for the card badge — "per group", "whole boat · up to 6 guests".
+// Ported verbatim from wanderengland/app.js priceUnit() (WENG, itself from
+// wanderamsterdam #91 via keywestsandbartours / wandernewzealand #108): driven
+// ONLY by the explicit _unknownFields.priceUnit string — no inference from
+// priceLabel words. Empty for every row that does not carry one, so those cards
+// render exactly as they did before this existed. formatPrice() and its
+// label-clause gate are left alone: it answers "what is the number", this
+// answers "what does the number buy". The unit is appended inside the same
+// .tour-price element, so a row the gate suppresses (priceHtml === '') never
+// emits a unit either.
+function priceUnit(tour) {
+    const u = (tour._unknownFields || {}).priceUnit;
+    return (typeof u === "string" && u.trim()) ? u.trim() : "";
+}
+
 function cleanLocation(location = '') {
     return location
         .replace(/^United States\/U\.?S\.? Virgin Islands\//, '')
@@ -304,8 +319,10 @@ function createTourCard(tour) {
     
     const cleanLoc = cleanLocation(tour.location);
     const priceDisplay = formatPrice(tour.price, tour.priceConfidence, tour.priceLabel);
+    const unit = priceUnit(tour);
+    const unitHtml = unit ? `<small>${escapeHtml(unit)}</small>` : '';
     // null => the row has no usable price, so the element itself is omitted.
-    const priceHtml = priceDisplay === null ? '' : `<div class="tour-price">${priceDisplay}</div>`;
+    const priceHtml = priceDisplay === null ? '' : `<div class="tour-price">${priceDisplay}${unitHtml}</div>`;
     
     const schema = generateTourSchema(tour);
     const schemaJson = JSON.stringify(schema).replace(/<\/script/gi, '<\\/script');

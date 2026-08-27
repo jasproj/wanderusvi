@@ -260,8 +260,65 @@ function scoreLabel(score) {
     return '';
 }
 
+// --- s53 schema unit gate ---------------------------------------------------
+// A bare Offer.price is read as per-person by the Bing/ChatGPT/Copilot
+// ecosystem, so a whole-boat charter emitted bare misquotes the fare (a
+// $1,650 boat read as $1,650/person). Ruled s52 (network decision): the gate
+// has THREE states, derived from the row's own evidence — priceLabel,
+// _unknownFields.priceUnit (the exact string the card renders, via
+// priceUnit() above), and the anchor tier (the priceBreakdown tier whose
+// price equals the emitted price).
+//   1. per-person affirmatively asserted     -> bare Offer.price, byte-
+//      identical to what shipped before this gate existed.
+//   2. non-per-person affirmatively asserted -> no bare price; a
+//      UnitPriceSpecification whose unitText is the VERBATIM card string —
+//      never a parallel wording. If the card renders no unit string there is
+//      nothing to mirror, so no price at all.
+//   3. no unit evidence either way -> no price at all. Absence of evidence is
+//      not per-person; silence is honest, a guess is not.
+// This pool's vocabulary (scripts/evidence/s53-wusvi-schema-gate/vocab-out.txt)
+// has exactly two adjudicated unit labels — "per adult" and "private boat".
+// Every other priceLabel in the draw pool is either unset or an unadjudicated
+// raw tier name the WAMS classifier never promoted to a canonical label (see
+// the classifier-guard note above formatPrice) and stays state 3 — an
+// unverified label is not affirmative evidence, so ambiguity resolves toward
+// silence, not a guess.
+function classifyUnitText(s) {
+    if (typeof s !== 'string') return '';
+    const t = s.trim().toLowerCase();
+    if (t === 'per adult') return 'per-person';
+    if (t === 'private boat') return 'non-per-person';
+    return '';
+}
+
+// Combine the row's three evidence sources into one verdict. In this pool
+// none of the three ever disagree (verified 2026-08-27: zero rows where
+// priceUnit/anchor-tier assert a unit priceLabel does not), so precedence
+// between conflicting sources never actually fires — checked in this order
+// regardless, so a future data change that introduces a conflict fails safe
+// toward the non-per-person reading rather than a silently wrong bare price.
+function unitStateFromEvidence(tour) {
+    const pb = Array.isArray(tour.priceBreakdown) ? tour.priceBreakdown : [];
+    const anchor = pb.find(p => p.price === tour.price);
+    const verdicts = [
+        (tour.priceLabel || '').trim(),
+        priceUnit(tour),
+        anchor ? (anchor.singular || '').trim() : ''
+    ].map(classifyUnitText);
+    if (verdicts.includes('non-per-person')) return 'non-per-person';
+    if (verdicts.includes('per-person')) return 'per-person';
+    return 'none';
+}
+
 function generateTourSchema(tour) {
-    const priceGated = tour.priceLabel === 'per adult' && (tour.priceConfidence === 'high' || tour.priceConfidence === 'medium');
+    const evidenceState = unitStateFromEvidence(tour);
+    const priceGated = evidenceState === 'per-person' && (tour.priceConfidence === 'high' || tour.priceConfidence === 'medium');
+    const nonPerPersonAsserted = evidenceState === 'non-per-person' && tour.priceConfidence === 'high';
+    const cardUnit = priceUnit(tour);
+    // A non-per-person row whose card renders no unit string (or whose card
+    // string itself reads per-person — a contradiction) has nothing honest
+    // to mirror, so it emits no price at all.
+    const emitSpec = nonPerPersonAsserted && cardUnit && classifyUnitText(cardUnit) !== 'per-person';
     return {
         "@context": "https://schema.org",
         "@type": "TouristTrip",
@@ -271,6 +328,14 @@ function generateTourSchema(tour) {
         "offers": {
             "@type": "Offer",
             ...(priceGated ? { "price": tour.price } : {}),
+            ...(emitSpec ? {
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "price": tour.price,
+                    "priceCurrency": "USD",
+                    "unitText": cardUnit
+                }
+            } : {}),
             "priceCurrency": "USD",
             "url": tour.bookingUrl
             // No "availability". It was hardcoded to schema.org/InStock on every

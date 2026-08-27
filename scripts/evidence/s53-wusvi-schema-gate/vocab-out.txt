@@ -1,0 +1,247 @@
+pool (emitting population): 551 of 634 rows
+already bare-price-gated today (priceLabel === 'per adult', confidence high/medium): 149
+remaining rows (candidates for state 2/3): 402
+
+== priceUnit (_unknownFields.priceUnit via priceUnit()) — rest only (68 distinct) ==
+  283  <empty>
+    6  32'  Intrepid Boat (32 ft.)
+    6  One Day Rental
+    5  Jeep
+    5  Private Charter
+    5  Flying Tiger II - Private Charter
+    4  Full Day Charter
+    4  Sunset Cruise
+    4  Three Nights
+    3  Private Parasail Trip
+    3  Private Jeep
+    3  Full Day USVI
+    3  Private Tour
+    3  Private Tour - Number of Jeeps
+    3  private boat
+    3  private cabin, 1 student
+    2  Six Hour Private Charter (USVI only trip)
+    2  Half Day
+    2  One Hour
+    2  Includes Up To 6 Guests
+    2  Go Fast Full Day BVI Cruise
+    2  per group, up to 4 people
+    2  per session, 1 hour
+    1  Yamaha Jet Ski
+    1  per jet ski
+    1  1/2 day (4 hours) Buccaneer (USVI only)
+    1  Full Day Boat Charter
+    1  Sunset Sail - 41' Catamaran
+    1  per boat, up to 6 guests
+    1  Standard Full Day Palma Bella III BVI Cruise
+    1  Half Day Single Glass Bottom Kayak
+    1  Half Day Single Sit On Top Ocean Kayak
+    1  3 Day
+    1  Full Day Rental
+    1  Surf N' Turf Trip
+    1  per boat, up to 20 passengers
+    1  per vehicle, 3 days
+    1  Group (3 People)
+    1  Ocean Kayak - Per Person Ticket
+    1  per jeep, up to 4 people
+    1  Private Group (1-3 people)
+    1  Private Group (4-6 people)
+    1  Group of 1–5 Adults
+    1  Emerald / Lindbergh Bay (Z1)
+    1  Private Charter Full day
+    1  Innovation 2
+    1  per group, up to 6 pax
+    1  per UTV
+    1  per ocean kayak
+    1  One Day
+    1  Luxury Full Day BVI Cruise
+    1  Private Luxury Sunset Cruise
+    1  per group, up to 9 people
+    1  Private Group | St. Thomas
+    1  Snorkel Gear- Mask/Snorkel Only
+    1  per group, up to 16 people
+    1  Half Day Rental
+    1  Half Day: Dinghy 25HP
+    1  per paddle board
+    1  Private Charter 1-6 Guests
+    1  Parasailor - Depart from St. Thomas
+    1  Adirondack Chair
+    1  Full Day BVI
+    1  FROM: Jost Van Dyke
+    1  TO: Jost Van Dyke
+    1  Machine
+    1  Jost Van Dyke Trip
+    1  per boat, up to 6 people, 7 days
+
+== priceLabel — rest only (72 distinct) ==
+  143  private boat
+  102  <null>
+   27  unknown
+   10  Person
+    8  Adult
+    6  One Day Rental
+    5  Jeep
+    4  3 Day
+    4  Private Tour
+    4  Three Nights
+    3  Private Parasail Trip
+    3  Private Jeep
+    3  Private Tour - Number of Jeeps
+    3  starting at
+    3  Private Cabin for 1 Student
+    2  Yamaha Jet Ski
+    2  Snorkeler
+    2  One Hour
+    2  Includes Up To 6 Guests
+    2  charter
+    2  per person
+    2  Group
+    2  One Hour Photo Session
+    2  Full Day USVI
+    2  per adult
+    2  Group Package (up to 6 pax)
+    2  Be Driven
+    2  Parasailor - Depart from St. Thomas
+    2  TO: Jost Van Dyke
+    2  Private Group | St. Thomas
+    2  Water Sports
+    2  Drive Your Own UTV Tour
+    1  Private Charter - Additional Guests
+    1  1/2 day (4 hours) Buccaneer (USVI only)
+    1  Parasailor - Depart from St. Croix
+    1  Passenger
+    1  Parasailor - Depart from St. John
+    1  Snorkel Gear Rentals - 1 day
+    1  Half Day Single Glass Bottom Kayak
+    1  Half Day Stand Up Paddleboard
+    1  Half Day Single Sit On Top Ocean Kayak
+    1  Full Day Rental
+    1  Surf N' Turf Trip
+    1  Single Kayak Rental - 1 Week
+    1  Group (3 People)
+    1  Ocean Kayak - Per Person Ticket
+    1  Private Group (1-3 people)
+    1  Private Group (4-6 people)
+    1  Group of 1–5 Adults
+    1  Emerald / Lindbergh Bay (Z1)
+    1  2 Day
+    1  Innovation 2
+    1  Snorkel Gear Rental - 1 week
+    1  Ocean Kayak
+    1  Adult Price (11 to 15 pax)
+    1  Half Day Private Charter
+    1  From: STT Sapphire Marina        TO:     STJ
+    1  Snorkel Gear- Mask/Snorkel Only
+    1  Half Day Rental
+    1  Meet Up at Joyia Jewelry (Child)
+    1  Child Price
+    1  Private Charter 1-6 Guests
+    1  From: St John  To: Sapphire Marina STT
+    1  Single Kayak Rental - 1 Day
+    1  Sunset Tour
+    1  Adirondack Chair
+    1  FROM: Jost Van Dyke
+    1  Public Shared Transportation One Way
+    1  IDC Student
+    1  Machine
+    1  Empty Seat - Full Price
+    1  All Ages
+
+== anchor tier singular — rest only (94 distinct) ==
+  139  <no-anchor-tier>
+   67  Private Charter
+   11  Full Day Charter
+   10  Half Day Charter
+   10  Person
+    8  Adult
+    6  32'  Intrepid Boat (32 ft.)
+    6  One Day Rental
+    5  Six Hour Private Charter (USVI only trip)
+    5  Full Day Boat Charter
+    5  Jeep
+    5  Flying Tiger II - Private Charter
+    4  Sunset Cruise
+    4  Includes Up To 6 Guests
+    4  3 Day
+    4  Private Tour
+    4  Three Nights
+    3  Full Day Charter Up to 12 Guests
+    3  Private Parasail Trip
+    3  Private Jeep
+    3  Full Day USVI
+    3  Private Tour - Number of Jeeps
+    3  Private Cabin for 1 Student
+    2  Yamaha Jet Ski
+    2  Snorkeler
+    2  Half Day
+    2  One Hour
+    2  Go Fast Full Day BVI Cruise
+    2  Group
+    2  One Hour Photo Session
+    2  Diver
+    2  Group Package (up to 6 pax)
+    2  Be Driven
+    2  Parasailor - Depart from St. Thomas
+    2  TO: Jost Van Dyke
+    2  Private Group | St. Thomas
+    2  Water Sports
+    2  Drive Your Own UTV Tour
+    2  Full Day BVI
+    1  Private Charter - Additional Guests
+    1  1/2 day (4 hours) Buccaneer (USVI only)
+    1  Sunset Sail - 41' Catamaran
+    1  Parasailor - Depart from St. Croix
+    1  Passenger
+    1  Parasailor - Depart from St. John
+    1  Snorkel Gear Rentals - 1 day
+    1  Standard Full Day Palma Bella III BVI Cruise
+    1  Half Day Single Glass Bottom Kayak
+    1  Half Day Stand Up Paddleboard
+    1  Half Day Single Sit On Top Ocean Kayak
+    1  Full Day Rental
+    1  Surf N' Turf Trip
+    1  1/2 Day - Sailing Catamaran
+    1  Single Kayak Rental - 1 Week
+    1  Full Day Private Charter
+    1  Group (3 People)
+    1  Ocean Kayak - Per Person Ticket
+    1  Private Group (1-3 people)
+    1  Private Group (4-6 people)
+    1  Group of 1–5 Adults
+    1  Emerald / Lindbergh Bay (Z1)
+    1  2 Day
+    1  Private Charter Full day
+    1  Innovation 2
+    1  Snorkel Gear Rental - 1 week
+    1  Adult Price (11 to 15 pax)
+    1  One Day
+    1  Luxury Full Day BVI Cruise
+    1  Half Day Private Charter
+    1  From: STT Sapphire Marina        TO:     STJ
+    1  Private Luxury Sunset Cruise
+    1  Half-Day USVI All-Inclusive Private Charter
+    1  Full Day Boat Rental
+    1  Snorkel Gear- Mask/Snorkel Only
+    1  Half Day Rental
+    1  Meet Up at Joyia Jewelry (Child)
+    1  Child Price
+    1  Half Day: Dinghy 25HP
+    1  Private Charter 1-6 Guests
+    1  3/4 Day Charter
+    1  From: St John  To: Sapphire Marina STT
+    1  Single Kayak Rental - 1 Day
+    1  Sunset Tour
+    1  Adirondack Chair
+    1  Full-Day USVI Luxury Private Charter
+    1  Full day Intrepid charter
+    1  Private Group
+    1  FROM: Jost Van Dyke
+    1  Public Shared Transportation One Way
+    1  IDC Student
+    1  Machine
+    1  Jost Van Dyke Trip
+    1  Empty Seat - Full Price
+    1  All Ages
+
+== priceConfidence — rest only (2 distinct) ==
+  216  high
+  186  low

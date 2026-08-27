@@ -1,0 +1,29 @@
+extra constraint: 150 of 150 priceLabel==='per adult' rows (full dataset) byte-identical to origin/main
+
+pool (emitting population): 551 of 634 rows
+
+state 1 per-person asserted      : 149 rows, face $16,079.93 -> bare Offer.price, byte-identical
+state 2 non-per-person asserted  : 143 rows, face $268,050.92
+  2a card unit mirrored          : 47 rows, face $102,336.93 -> UnitPriceSpecification, unitText = card string verbatim
+  2b no mirrorable card unit      : 96 rows, face $165,713.99 -> no price emitted
+state 3 no unit evidence          : 259 rows, face $107,374.43 -> no price emitted
+
+cross-check vs s52/#144/#147/#153 audit: ~143 verified whole-boat rows / ~$268,050 face, median $1,400; this census (state 2 total): 143 rows / $268,050.92
+
+=== fixture: perPerson — pk 2101 "Turtle Cove Catamaran Snorkel & Sail Adventure at Little Buck Island St. Thomas" price $109 ===
+  evidence: priceLabel="per adult" priceConfidence="high" priceUnit=""
+  before offers: {"@type":"Offer","price":109,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/thevicat/items/2101/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+  after  offers: {"@type":"Offer","price":109,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/thevicat/items/2101/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+  full schema byte-identical to baseline: true
+
+=== fixture: noEvidence — pk 377266 "Jet Ski Rental" price $140 ===
+  evidence: priceLabel="Yamaha Jet Ski" priceConfidence="high" priceUnit="Yamaha Jet Ski"
+  before offers: {"@type":"Offer","priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/viboatcharter/items/377266/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+  after  offers: {"@type":"Offer","priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/viboatcharter/items/377266/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+
+=== fixture: wholeBoat — pk 424721 "Full Day BVI Adventure" price $1650 ===
+  evidence: priceLabel="private boat" priceConfidence="high" priceUnit="private boat"
+  before offers: {"@type":"Offer","priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/onecaribbeancharter/items/424721/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+  after  offers: {"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":1650,"priceCurrency":"USD","unitText":"private boat"},"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/onecaribbeancharter/items/424721/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+
+all assertions passed: state-1 byte-identical (render pool + full-dataset extra constraint), partition exact, state-2a verbatim card unitText + no bare price, state-2b/3 no price key

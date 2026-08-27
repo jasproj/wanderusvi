@@ -27883,9 +27883,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Croix/Christiansted",
       "island": "st-croix",
-      "price": null,
-      "priceLabel": null,
-      "priceConfidence": "low",
+      "price": 25,
+      "priceLabel": "Ocean Kayak",
+      "priceConfidence": "high",
       "qualityScore": 54,
       "currency": "USD",
       "duration": null,
@@ -27947,11 +27947,11 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "s51-wusvi-restamp-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T16:42:10.068Z",
-      "priceEnrichmentStatus": "zero_price",
-      "priceSource": "s51-wusvi-restamp",
-      "priceVerifiedAt": "2026-08-26",
+      "priceEnrichmentSource": "s52-wusvi-charter-floors-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-27T16:53:54.909Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s52-wusvi-charter-floors",
+      "priceVerifiedAt": "2026-08-27",
       "priceTiers": [
         {
           "singular": "Ocean Kayak",
@@ -27978,7 +27978,10 @@
           "minPartySize": 1
         }
       ],
-      "priceBasis": "prior: s40 HOLD D-484 no asserted person unit (thing-token \"kayak\" alone) (tier seen \"Ocean Kayak\"); re-probed under the settled rule set: zero_price: every live tier is $0 on the majority reading (Ocean Kayak / Clear Kayak / SUP Board); 4/4 open dated readings (1 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "s52-wusvi-charter-floors: re-probed 4 dates (2026-09-03, 2026-09-17, 2026-10-01, 2026-10-20), all open, unanimous reading on all 4. Anchor tier \"Ocean Kayak\" $25 with co-tenant tiers \"Clear Kayak\" $25 and \"SUP Board\" $25 tying at the same figure on all 4 sampled dates; anchor is position-0 among equals, not a lone cheapest tier. \"Ocean Kayak\" is a thing-token, not an explicit person unit (D-484) — published badge-only (priceLabel is the tier label verbatim, gate does not render a figure), unit \"per ocean kayak\" set via _unknownFields.priceUnit; following the s51 release of the s40 thing-token HOLD class. Repriced from stored null (zero_price — every live tier read $0 on the s51 probe). Prior: s51-wusvi-restamp-price-preview-v2 zero_price.",
+      "_unknownFields": {
+        "priceUnit": "per ocean kayak"
+      }
     },
     {
       "id": "194126",
@@ -32720,9 +32723,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
-      "price": 75,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 1650,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 51,
       "currency": "USD",
       "duration": null,
@@ -32758,13 +32761,16 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851967",
-      "priceSource": "s51-wusvi-restamp",
-      "priceEnrichmentSource": "s51-wusvi-restamp-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T16:42:10.068Z",
-      "priceVerifiedAt": "2026-08-26",
-      "priceEnrichmentStatus": "unsampled",
-      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24), 4 zero-base closed-date reading(s) excluded (R-zero-base); stored $75 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict); prior: s40 HOLD D-482 ambiguous full-fare set (2 distinct prices)",
-      "priceTiers": []
+      "priceSource": "s52-wusvi-charter-floors",
+      "priceEnrichmentSource": "s52-wusvi-charter-floors-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-27T16:53:54.909Z",
+      "priceVerifiedAt": "2026-08-27",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "s52-wusvi-charter-floors: re-probed 4 dates (2026-09-03, 2026-09-17, 2026-10-01, 2026-10-20), all open, unanimous reading on all 4. Full Day BVI $1650 with co-tier Passenger $0 on all 4 sampled dates; $0 passenger co-tier establishes whole-boat unit. Published as private boat, confidence high. Repriced from stored $75 (unknown, unsampled) — 22x understatement corrected. Prior: s51-wusvi-restamp-price-preview-v2 UNSAMPLED (absent from items[] on the s51 4-date probe, 2026-09-05/09-19/10-03/10-24); prior: s40 HOLD D-482 ambiguous full-fare set (2 distinct prices).",
+      "priceTiers": [],
+      "_unknownFields": {
+        "priceUnit": "private boat"
+      }
     },
     {
       "id": "424727",
@@ -32775,9 +32781,9 @@
       "category": "",
       "location": "U.S. Virgin Islands/St. Thomas/Charlotte Amalie",
       "island": "st-thomas",
-      "price": 850,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 950,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 51,
       "currency": "USD",
       "duration": null,
@@ -32813,13 +32819,16 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851970",
-      "priceSource": "s51-wusvi-restamp",
-      "priceEnrichmentSource": "s51-wusvi-restamp-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T16:42:10.068Z",
-      "priceVerifiedAt": "2026-08-26",
-      "priceEnrichmentStatus": "unsampled",
-      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24), 4 zero-base closed-date reading(s) excluded (R-zero-base); stored $850 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict); prior: s40 HOLD D-482 ambiguous full-fare set (2 distinct prices)",
-      "priceTiers": []
+      "priceSource": "s52-wusvi-charter-floors",
+      "priceEnrichmentSource": "s52-wusvi-charter-floors-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-27T16:53:54.909Z",
+      "priceVerifiedAt": "2026-08-27",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "s52-wusvi-charter-floors: re-probed 4 dates (2026-09-03, 2026-09-17, 2026-10-01, 2026-10-20), all open, unanimous reading on all 4. Half Day Charter $950 with co-tier Passenger $0 on all 4 sampled dates; $0 passenger co-tier establishes whole-boat unit. Published as private boat, confidence high. Repriced from stored $850 (unknown, unsampled). Prior: s51-wusvi-restamp-price-preview-v2 UNSAMPLED (absent from items[] on the s51 4-date probe, 2026-09-05/09-19/10-03/10-24); prior: s40 HOLD D-482 ambiguous full-fare set (2 distinct prices).",
+      "priceTiers": [],
+      "_unknownFields": {
+        "priceUnit": "private boat"
+      }
     },
     {
       "id": "519075",
@@ -45177,8 +45186,8 @@
       "location": "U.S. Virgin Islands/Charlotte Amalie",
       "island": "st-thomas",
       "price": 2000,
-      "priceLabel": "Full Day BVI",
-      "priceConfidence": "low",
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 69,
       "currency": "USD",
       "duration": "",
@@ -45227,12 +45236,12 @@
       ],
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
-      "priceEnrichmentSource": "s51-wusvi-restamp-price-preview-v2",
-      "priceEnrichmentAt": "2026-08-26T16:42:10.068Z",
-      "priceEnrichmentStatus": "unsampled",
-      "priceSource": "s51-wusvi-restamp",
-      "priceVerifiedAt": "2026-08-26",
-      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24), 4 zero-base closed-date reading(s) excluded (R-zero-base); stored $2000 (Full Day BVI) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict); prior: s40 HOLD D-482 ambiguous full-fare set (2 distinct prices)",
+      "priceEnrichmentSource": "s52-wusvi-charter-floors-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-27T16:53:54.909Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s52-wusvi-charter-floors",
+      "priceVerifiedAt": "2026-08-27",
+      "priceBasis": "s52-wusvi-charter-floors: re-probed 4 dates (2026-09-03, 2026-09-17, 2026-10-01, 2026-10-20), all open, unanimous reading on all 4. Full Day BVI $2000 with co-tier Passenger $0 on all 4 sampled dates; $0 passenger co-tier establishes whole-boat unit. Published as private boat, confidence high. Restamp only — figure unchanged from stored $2000 (Full Day BVI, unsampled), delta zero; still dated and stamped. Prior: s51-wusvi-restamp-price-preview-v2 UNSAMPLED (absent from items[] on the s51 4-date probe, 2026-09-05/09-19/10-03/10-24); prior: s40 HOLD D-482 ambiguous full-fare set (2 distinct prices).",
       "priceTiers": [
         {
           "singular": "Full Day BVI",
@@ -45250,7 +45259,10 @@
           "price": 0,
           "minPartySize": 1
         }
-      ]
+      ],
+      "_unknownFields": {
+        "priceUnit": "private boat"
+      }
     },
     {
       "id": "452820",

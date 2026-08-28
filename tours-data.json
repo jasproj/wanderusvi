@@ -2105,7 +2105,10 @@
         }
       ],
       "priceEnrichmentStatus": "zero_price",
-      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Transfer from Cyril E. King Airport to East End / Transfer from East End to Cyril E. King Airport / Transfer from Cyril E. King Airport to Downtown/Northside / Transfer from Downtown/Northside to Cyril E. King Airport); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Transfer from Cyril E. King Airport to East End / Transfer from East End to Cyril E. King Airport / Transfer from Cyril E. King Airport to Downtown/Northside / Transfer from Downtown/Northside to Cyril E. King Airport); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "346091",
@@ -2601,7 +2604,10 @@
         }
       ],
       "priceEnrichmentStatus": "zero_price",
-      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Private Tour Package); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Private Tour Package); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "197271",
@@ -6752,7 +6758,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $595 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "B — whole-operator-dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "608195",
@@ -9157,7 +9166,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $449 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "B — whole-operator-dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "8450",
@@ -9718,7 +9730,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $110 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark (Reef2Peak guided-product-retired); s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "414246",
@@ -10733,7 +10748,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $110 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark (Reef2Peak guided-product-retired); s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "274477",
@@ -11638,7 +11656,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $95 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark (Reef2Peak guided-product-retired); s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "211131",
@@ -11693,7 +11714,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $95 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark (Reef2Peak guided-product-retired); s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "377230",
@@ -13713,7 +13737,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $11770 (charter) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "B — whole-operator-dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "484584",
@@ -13769,7 +13796,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $199 (per person) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "B — whole-operator-dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "662320",
@@ -19353,7 +19383,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $95 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark (Reef2Peak guided-product-retired); s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "239155",
@@ -20259,7 +20292,10 @@
         }
       ],
       "priceEnrichmentStatus": "zero_price",
-      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Private Charter - 40 Foot Deep Impact / Private Charter - 35 Foot Scarab); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Private Charter - 40 Foot Deep Impact / Private Charter - 35 Foot Scarab); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "170675",
@@ -23444,7 +23480,10 @@
           "price": 2046,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "601021",
@@ -23514,7 +23553,10 @@
         }
       ],
       "priceEnrichmentStatus": "zero_price",
-      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Person); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Person); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "614616",
@@ -25190,7 +25232,10 @@
         }
       ],
       "priceEnrichmentStatus": "zero_price",
-      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Ocean Kayak - Per Person Ticket); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Ocean Kayak - Per Person Ticket); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "615131",
@@ -26936,7 +26981,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $150 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "622386",
@@ -27261,7 +27309,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $85 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "622389",
@@ -27309,7 +27360,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $75 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "622391",
@@ -27357,7 +27411,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $75 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "622393",
@@ -27405,7 +27462,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $120 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "622395",
@@ -27453,7 +27513,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $85 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "622399",
@@ -27501,7 +27564,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $75 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "622401",
@@ -29711,7 +29777,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $280 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "C — course/certification; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "458899",
@@ -32578,7 +32647,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $50 (starting at) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "A — dated/seasonal event; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "353281",
@@ -37335,7 +37407,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $75 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark (Reef2Peak guided-product-retired); s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "334596",
@@ -38744,7 +38819,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $1200 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "577264",
@@ -39997,7 +40075,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $50 (starting at) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "424877",
@@ -40169,7 +40250,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $175 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "B — whole-operator-dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "487208",
@@ -40225,7 +40309,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $6995 (charter) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "B — whole-operator-dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "510184",
@@ -40457,7 +40544,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $60 (unknown) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "A — dated/seasonal event; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "556346",
@@ -41989,7 +42079,10 @@
         }
       ],
       "priceEnrichmentStatus": "zero_price",
-      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Private Charter); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Private Charter); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "251911",
@@ -42844,7 +42937,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $75 (per person) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "595451",
@@ -44569,7 +44665,10 @@
       "priceVerifiedAt": "2026-08-26",
       "priceEnrichmentStatus": "unsampled",
       "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-09-05, 2026-09-19, 2026-10-03, 2026-10-24); stored $1395 (starting at) retained unpublished pending a live reading (empty availability is a date verdict, not a liveness verdict)",
-      "priceTiers": []
+      "priceTiers": [],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "306991",
@@ -45174,7 +45273,10 @@
           "price": 125,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "D — dark (Reef2Peak guided-product-retired); s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "424742",
@@ -45512,7 +45614,10 @@
           "price": 50,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "662884",
@@ -45795,7 +45900,10 @@
           "price": 89,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "D — dark (Reef2Peak guided-product-retired); s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "399477",
@@ -45863,7 +45971,10 @@
           "price": 39,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "D — dark (Reef2Peak guided-product-retired); s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "425249",
@@ -46604,7 +46715,10 @@
           "price": 250,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "A — dated/seasonal event; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "481891",
@@ -50231,7 +50345,10 @@
           "price": 0,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "231376",
@@ -52773,7 +52890,10 @@
           "price": 4849,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "C — course/certification; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "509300",
@@ -54111,7 +54231,10 @@
           "price": 139.95,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "A — dated/seasonal event; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "23304",
@@ -54194,7 +54317,10 @@
           "price": 119,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "A — dated/seasonal event; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     },
     {
       "id": "428052",
@@ -56374,7 +56500,10 @@
           "price": 108,
           "minPartySize": 1
         }
-      ]
+      ],
+      "hidden": true,
+      "hiddenReason": "D — dark; s40 297-sweep DEAD (2026-08-22), still status=active as of s54-wusvi-hide-gate re-derivation; no live availability found across s40/s50/s51 probes",
+      "hiddenAt": "2026-08-28T17:27:39.005Z"
     }
   ]
 }

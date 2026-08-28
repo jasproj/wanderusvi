@@ -167,7 +167,13 @@ async function loadTours() {
         
         const _raw = await response.json();
         toursData = Array.isArray(_raw) ? _raw : _raw.tours;
-        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead);
+        // hidden:true (s54) is a render gate, not a status: a row can be dark
+        // (no live availability across repeated probes) without being retired
+        // — see scripts-staging/s54-wusvi-hide-gate-apply.py. Ported from
+        // keywestsandbartours #254 rather than hand-flipping status:'inactive'
+        // per row, so the gate is one place, reversible, and self-documenting
+        // via hiddenReason/hiddenAt instead of a one-off edit repeated forever.
+        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead && !t.hidden);
         updateVerifiedToursCount(toursData.length);
         console.log(`✅ Loaded ${toursData.length} tours`);
 

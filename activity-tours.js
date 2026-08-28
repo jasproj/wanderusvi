@@ -198,13 +198,18 @@
         .then(function (raw) {
             var all = Array.isArray(raw) ? raw : (raw && raw.tours) || [];
 
-            // Two-signal liveness, same as app.js: status active AND not
-            // bookingDead. A bookingUrl is required too — a card that cannot be
-            // booked is not worth rendering.
+            // Three-signal liveness, same as app.js: status active, not
+            // bookingDead, and not hidden (s54 hide gate — a dark row with no
+            // live availability across repeated probes, ported from
+            // keywestsandbartours #254; see
+            // scripts-staging/s54-wusvi-hide-gate-apply.py). A bookingUrl is
+            // required too — a card that cannot be booked is not worth
+            // rendering.
             var live = all.filter(function (t) {
                 return t
                     && t.status !== 'inactive'
                     && !t.bookingDead
+                    && !t.hidden
                     && t.bookingUrl
                     && Array.isArray(t.tags)
                     && t.tags.indexOf(TAG) !== -1;

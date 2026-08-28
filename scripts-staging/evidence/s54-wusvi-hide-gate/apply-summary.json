@@ -1,0 +1,232 @@
+{
+ "derivedAt": "2026-08-28T17:27:39.005Z",
+ "rowsChanged": 43,
+ "disposition": {
+  "A — dated/seasonal event": 5,
+  "D — dark": 21,
+  "C — course/certification": 2,
+  "D — dark (Reef2Peak guided-product-retired)": 9,
+  "B — whole-operator-dark": 6
+ },
+ "sha256": {
+  "before": "647e97d886fbce8fc82ea9aa226ea908932b0bce6ceb192591c2cd230c36ec2d",
+  "after": "ca38f8d7453014f1f7e4f029b0a50c46970c0e8ae208e6c88d4610ecbae8f2c9"
+ },
+ "summary": [
+  {
+   "pk": 12127,
+   "name": "4th of July Firework Cruise",
+   "bucket": "A — dated/seasonal event"
+  },
+  {
+   "pk": 23304,
+   "name": "4th of July Firework Cruise",
+   "bucket": "A — dated/seasonal event"
+  },
+  {
+   "pk": 30072,
+   "name": "Private Tour Packages",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 75237,
+   "name": "Island Buddy Full Day Surf & Turf Excursion",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 98820,
+   "name": "Moonlight Kayak Trip",
+   "bucket": "A — dated/seasonal event"
+  },
+  {
+   "pk": 108035,
+   "name": "Full Day Charter",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 170676,
+   "name": "Bubblemaker",
+   "bucket": "C — course/certification"
+  },
+  {
+   "pk": 194130,
+   "name": "Private Full Day Sail in the BVI",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 211099,
+   "name": "East End Kayaking Excursion",
+   "bucket": "D — dark (Reef2Peak guided-product-retired)"
+  },
+  {
+   "pk": 211109,
+   "name": "East End Stand Up Paddle Board Excursion",
+   "bucket": "D — dark (Reef2Peak guided-product-retired)"
+  },
+  {
+   "pk": 211114,
+   "name": "Snorkel Excursion Starting at Haulover",
+   "bucket": "D — dark (Reef2Peak guided-product-retired)"
+  },
+  {
+   "pk": 211118,
+   "name": "Hiking Excursion - Salt Pond and Drunk Bay",
+   "bucket": "D — dark (Reef2Peak guided-product-retired)"
+  },
+  {
+   "pk": 211126,
+   "name": "Hiking and Snorkeling Excursion - Waterlemon Cay",
+   "bucket": "D — dark (Reef2Peak guided-product-retired)"
+  },
+  {
+   "pk": 211131,
+   "name": "Hiking Excursion - Brown Bay",
+   "bucket": "D — dark (Reef2Peak guided-product-retired)"
+  },
+  {
+   "pk": 271749,
+   "name": "Dinner Sail to Lovango",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 276913,
+   "name": "A Trip to LimeOut",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 289236,
+   "name": "Luxury Private Airport Transfer",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 399468,
+   "name": "Water Sports Day Pass",
+   "bucket": "D — dark (Reef2Peak guided-product-retired)"
+  },
+  {
+   "pk": 399477,
+   "name": "Beach Gear Day Pass",
+   "bucket": "D — dark (Reef2Peak guided-product-retired)"
+  },
+  {
+   "pk": 399480,
+   "name": "Everything Maho Bay Pass",
+   "bucket": "D — dark (Reef2Peak guided-product-retired)"
+  },
+  {
+   "pk": 407382,
+   "name": "IDC Course",
+   "bucket": "C — course/certification"
+  },
+  {
+   "pk": 416907,
+   "name": "LATE NIGHT Bioluminescent Kayak Trip",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 448258,
+   "name": "Economy",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 484583,
+   "name": "Multi-night Sailing Adventures in the U.S. Virgin Islands and British Virgin Islands",
+   "bucket": "B — whole-operator-dark"
+  },
+  {
+   "pk": 484584,
+   "name": "Sunset Sailing Adventures in St. Thomas and St. John",
+   "bucket": "B — whole-operator-dark"
+  },
+  {
+   "pk": 487206,
+   "name": "2-Hour Sailing and Exploring Adventure in St. Augustine.  (Private 1/2 day and full-day charters are available as well)",
+   "bucket": "B — whole-operator-dark"
+  },
+  {
+   "pk": 487208,
+   "name": "Multi-night Sailing Adventure in St. Augustine, Cumberland Island, and Amelia Island",
+   "bucket": "B — whole-operator-dark"
+  },
+  {
+   "pk": 521254,
+   "name": "Discover Jost Van Dyke",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 554947,
+   "name": "Coral Reef Week kayaking",
+   "bucket": "A — dated/seasonal event"
+  },
+  {
+   "pk": 587814,
+   "name": "Valkyrie - USVI Private Sunset Cruise",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 601021,
+   "name": "Hike the Caledonia Ghut",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 601328,
+   "name": "Destination Kayak",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 601987,
+   "name": "St Thomas Jeep Tour Half Day",
+   "bucket": "B — whole-operator-dark"
+  },
+  {
+   "pk": 602576,
+   "name": "St John or St Thomas Jeep Tour - Full Day",
+   "bucket": "B — whole-operator-dark"
+  },
+  {
+   "pk": 622183,
+   "name": "Black Jeep Wrangler Sport 4x4",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 622387,
+   "name": "Blue Honda HRV (Mid Size)",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 622389,
+   "name": "White Toyota Corolla (Sedan)",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 622391,
+   "name": "Black Toyota Corolla (Sedan)",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 622393,
+   "name": "Red Toyota Sienna (Mini Van)",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 622395,
+   "name": "Red Toyota CHR (Compact)",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 622399,
+   "name": "Silver Toyota Corolla (Sedan)",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 664660,
+   "name": "Royal - St. John Cinnamon Bay",
+   "bucket": "D — dark"
+  },
+  {
+   "pk": 731034,
+   "name": "Exclusive 4th of July St John Fireworks Yacht Charter Aboard 50' Luxury Catamaran",
+   "bucket": "A — dated/seasonal event"
+  }
+ ]
+}

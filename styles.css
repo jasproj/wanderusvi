@@ -1697,13 +1697,13 @@ section { padding: var(--space-3xl) 0; }
     
     /* Hero Mobile */
     .hero {
-        min-height: 100svh;
+        min-height: auto;
         padding: 90px var(--space-md) 20px;
     }
     
     .hero-content {
         padding: 0 20px;
-        padding-bottom: 180px;
+        padding-bottom: 20px;
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;

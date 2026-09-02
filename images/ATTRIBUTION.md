@@ -140,3 +140,23 @@ of a warning as clearance.
 Local assets only. Do not hotlink a third-party host for page imagery — six
 Wikimedia URLs were removed on 2026-08-02, five of which had never existed on
 Commons at all. If no honest local match exists, ship the card as text.
+
+## Blog card images (added 2026-09-02, s55)
+
+All from Pexels (free license, attribution not required but recorded):
+
+- `images/blog/best-diving-usvi.jpg` — Pexels photo 31717403 by Thomas Judge — https://www.pexels.com/photo/31717403/
+- `images/blog/things-to-do-st-croix.jpg` — Pexels photo 31376012 by Jesus Rivera Rosa — https://www.pexels.com/photo/31376012/
+- `images/blog/hiking-st-john-virgin-islands.jpg` — Pexels photo 39313566 by Karen Susi — https://www.pexels.com/photo/39313566/
+- `images/blog/things-to-do-st-john.jpg` — Pexels photo 15163667 by Matt Barnard — https://www.pexels.com/photo/15163667/
+- `images/blog/best-beaches-usvi.jpg` — Pexels photo 7052741 by Richard Issa Bockari — https://www.pexels.com/photo/7052741/
+- `images/blog/things-to-do-st-thomas.jpg` — Pexels photo 34650333 by Arian Fernandez — https://www.pexels.com/photo/34650333/
+- `images/blog/kayak-paddleboard-usvi-beginners.jpg` — Pexels photo 35875761 by Gilbert Castaño B — https://www.pexels.com/photo/35875761/
+- `images/blog/best-time-to-visit-usvi.jpg` — Pexels photo 11807182 by Katie Cerami — https://www.pexels.com/photo/11807182/
+- `images/blog/st-thomas-vs-st-john-vs-st-croix.jpg` — Pexels photo 7054604 by Joe Kritz — https://www.pexels.com/photo/7054604/
+- `images/blog/top-snorkeling-usvi.jpg` — Pexels photo 38787825 by Samson Bush — https://www.pexels.com/photo/38787825/
+- `images/blog/usvi-night-activities-guide.jpg` — Pexels photo 4316233 by Steshka Croes — https://www.pexels.com/photo/4316233/
+- `images/blog/best-shore-excursions-st-thomas-cruise-ship.jpg` — Pexels photo 15305866 by Diego F. Parra — https://www.pexels.com/photo/15305866/
+- `images/blog/best-snorkeling-tours-st-john-for-beginners.jpg` — Pexels photo 36132584 by Zack Gilbert — https://www.pexels.com/photo/36132584/
+- `images/blog/best-snorkeling-tours-st-thomas-for-beginners.jpg` — Pexels photo 35010455 by Gavin Fregona — https://www.pexels.com/photo/35010455/
+- `images/blog/kayak-and-snorkel-with-sea-turtles-st-john-usvi.jpg` — Pexels photo 28800349 by Markos Torpillas — https://www.pexels.com/photo/28800349/

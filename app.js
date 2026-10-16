@@ -6,7 +6,12 @@
 // Local + Pexels-licensed; images/ATTRIBUTION.md records source slug
 // "scenic-view-of-st-thomas-harbor-in-summer-34650321",
 // which verifies the region from the source URL, not from our own caption.
-const FALLBACK_IMAGE = '/images/hero-photo-1.jpg';
+const FALLBACK_IMAGE = '/images/hero-photo-1-800.webp';
+// s65: ask Filestack for an 800px webp instead of the original.
+function cardImage(url) {
+    const m = /^https:\/\/cdn\.filestackcontent\.com\/([A-Za-z0-9]{15,25})(?:\/convert\?.*)?$/.exec(url || '');
+    return m ? `https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/${m[1]}` : url;
+}
 
 let toursData = [];
 
@@ -456,7 +461,7 @@ function createTourCard(tour) {
         <article class="tour-card" data-id="${tour.id}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
-                <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="${cardImage(tour.image) || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
                 ${qualityBadge}
             </div>
             <div class="tour-content">
@@ -636,7 +641,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // and renderTours() would then deref a null #tours-grid. Same guard shape
     // as activity-tours.js, which checks its own grid before its fetch.
     if (document.getElementById('tours-grid')) {
-        loadTours();
+        // s65: tours-data.json is 3.0 MB and the grid is prerendered; fetch after first paint.
+        const startTours = () => setTimeout(loadTours, 300);
+        if (document.readyState === 'complete') startTours(); else window.addEventListener('load', startTours, { once: true });
     }
 
     // The delegated Book Now click handler that used to call

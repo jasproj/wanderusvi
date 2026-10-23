@@ -1,5 +1,33 @@
 [
     {
+        "url": "/blog/best-parks-us-virgin-islands.html",
+        "title": "Best Parks in the US Virgin Islands: National Parks, Wildlife Refuges & Reserves",
+        "description": "VINP, Buck Island Reef, Salt River Bay, Sandy Point NWR, Magens Bay, and more — the definitive guide to protected lands across St. John, St. Thomas, and St. Croix.",
+        "image": "/images/blog/hiking-st-john-virgin-islands.jpg",
+        "tag": "Guide"
+    },
+    {
+        "url": "/blog/best-beaches-and-swimming-coves-usvi.html",
+        "title": "Best Beaches & Swimming Coves in the USVI: 13 Top Picks",
+        "description": "Trunk Bay, Maho, Cinnamon, Magens, Secret Harbour, Lindquist, Isaac Bay, and more — the best beaches on St. Thomas, St. John, St. Croix, and Water Island with calm-water ratings and facilities.",
+        "image": "/images/blog/best-beaches-usvi.jpg",
+        "tag": "Beaches"
+    },
+    {
+        "url": "/blog/sea-caves-arches-and-rock-formations-usvi.html",
+        "title": "Sea Caves, Arches & Rock Formations of the Virgin Islands",
+        "description": "Salt River Canyon, Frederiksted Pier, Carvel Rock, Congo Cay, and the BVI's Caves and Baths on a day trip — underwater and coastal rock features across the Virgin Islands.",
+        "image": "/images/blog/best-diving-usvi.jpg",
+        "tag": "Guide"
+    },
+    {
+        "url": "/blog/best-hikes-and-trails-usvi.html",
+        "title": "Best Hikes & Trails in the US Virgin Islands: 10 Routes",
+        "description": "Reef Bay Trail, Ram Head, Bordeaux Mountain, Lind Point, and more — the best hiking trails on St. John and St. Croix with distances, difficulty ratings, and what to bring.",
+        "image": "/images/blog/hiking-st-john-virgin-islands.jpg",
+        "tag": "Hike"
+    },
+    {
         "url": "/blog/best-time-to-visit-usvi.html",
         "title": "Best Time to Visit the US Virgin Islands: Month-by-Month",
         "description": "When to visit the USVI for the best weather, lowest prices, and clearest snorkeling — a month-by-month guide for travelers planning St. Thomas, St. John, or St. Croix.",

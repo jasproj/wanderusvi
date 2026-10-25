@@ -190,7 +190,9 @@
 
     // Root-absolute: these pages sit at the site root today, but a relative path
     // would break the moment one moved into a subdirectory.
-    fetch('/tours-data.json', { cache: 'no-cache' })
+    // tours-live.json is the slim live-only subset (scripts/build-tours-live.py);
+    // the full 3 MB catalogue with cache:'no-cache' was costing ~5 s per page load.
+    fetch('/tours-live.json')
         .then(function (r) {
             if (!r.ok) throw new Error('HTTP ' + r.status);
             return r.json();

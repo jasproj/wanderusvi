@@ -6808,8 +6808,8 @@
       "timeOfDay": "",
       "capacity": 30,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "operator-declared-dead: FareHarbor v1 item API reports is_archived=true (s66 audit 2026-10-25)",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:49:49.851144",
@@ -6844,7 +6844,8 @@
         }
       ],
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier \"Adult\" $125, published as per adult; ladder Adult $125; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD; anchor identical on all 4 sampled dates"
+      "priceBasis": "D-624 cheapest adult/base per-person tier \"Adult\" $125, published as per adult; ladder Adult $125; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD; anchor identical on all 4 sampled dates",
+      "hidden": true
     },
     {
       "id": "723298",

@@ -1,210 +1,216 @@
 [
-    {
-        "url": "/blog/best-parks-us-virgin-islands.html",
-        "title": "Best Parks in the US Virgin Islands: National Parks, Wildlife Refuges & Reserves",
-        "description": "VINP, Buck Island Reef, Salt River Bay, Sandy Point NWR, Magens Bay, and more — the definitive guide to protected lands across St. John, St. Thomas, and St. Croix.",
-        "image": "/images/blog/hiking-st-john-virgin-islands.jpg",
-        "tag": "Guide"
-    },
-    {
-        "url": "/blog/best-beaches-and-swimming-coves-usvi.html",
-        "title": "Best Beaches & Swimming Coves in the USVI: 13 Top Picks",
-        "description": "Trunk Bay, Maho, Cinnamon, Magens, Secret Harbour, Lindquist, Isaac Bay, and more — the best beaches on St. Thomas, St. John, St. Croix, and Water Island with calm-water ratings and facilities.",
-        "image": "/images/blog/best-beaches-usvi.jpg",
-        "tag": "Beaches"
-    },
-    {
-        "url": "/blog/sea-caves-arches-and-rock-formations-usvi.html",
-        "title": "Sea Caves, Arches & Rock Formations of the Virgin Islands",
-        "description": "Salt River Canyon, Frederiksted Pier, Carvel Rock, Congo Cay, and the BVI's Caves and Baths on a day trip — underwater and coastal rock features across the Virgin Islands.",
-        "image": "/images/blog/best-diving-usvi.jpg",
-        "tag": "Guide"
-    },
-    {
-        "url": "/blog/best-hikes-and-trails-usvi.html",
-        "title": "Best Hikes & Trails in the US Virgin Islands: 10 Routes",
-        "description": "Reef Bay Trail, Ram Head, Bordeaux Mountain, Lind Point, and more — the best hiking trails on St. John and St. Croix with distances, difficulty ratings, and what to bring.",
-        "image": "/images/blog/hiking-st-john-virgin-islands.jpg",
-        "tag": "Hike"
-    },
-    {
-        "url": "/blog/best-time-to-visit-usvi.html",
-        "title": "Best Time to Visit the US Virgin Islands: Month-by-Month",
-        "description": "When to visit the USVI for the best weather, lowest prices, and clearest snorkeling — a month-by-month guide for travelers planning St. Thomas, St. John, or St. Croix.",
-        "tag": "Best Time"
-    },
-    {
-        "url": "/blog/st-thomas-vs-st-john-vs-st-croix.html",
-        "title": "St. Thomas vs St. John vs St. Croix: Which Island Fits",
-        "description": "A practical comparison of the three US Virgin Islands — vibe, snorkeling, food, and how to choose for your trip type. Updated for 2026 travelers.",
-        "tag": "Compare"
-    },
-    {
-        "url": "/blog/top-snorkeling-usvi.html",
-        "title": "Top Snorkeling Spots in the US Virgin Islands",
-        "description": "The best snorkeling reefs in St. Thomas, St. John, and St. Croix — including underwater trails, sea turtle spots, and accessible shore-snorkel sites.",
-        "tag": "Top Picks"
-    },
-    {
-        "url": "/blog/best-shore-excursions-st-thomas-cruise-ship.html",
-        "title": "Best Shore Excursions in St. Thomas for Cruise Ship Passengers",
-        "description": "The best St. Thomas shore excursions for cruise passengers with limited time — snorkeling, beach hopping, and island tours that work with port schedules.",
-        "tag": "Guide"
-    },
-    {
-        "url": "/blog/best-snorkeling-tours-st-john-for-beginners.html",
-        "title": "Best Snorkeling Tours St. John for Beginners",
-        "description": "Find the best beginner-friendly snorkeling tours in St. John, USVI. Expert guide to calm bays, what to expect, and how to book your first snorkeling adventure.",
-        "tag": "Tours"
-    },
-    {
-        "url": "/blog/best-snorkeling-tours-st-thomas-for-beginners.html",
-        "title": "Best Snorkeling Tours St Thomas for Beginners",
-        "description": "Find the best beginner-friendly snorkeling tours in St. Thomas, USVI. Expert tips on choosing your first snorkel adventure, what to expect, and how to book.",
-        "tag": "Tours"
-    },
-    {
-        "url": "/blog/kayak-and-snorkel-with-sea-turtles-st-john-usvi.html",
-        "title": "Kayak and Snorkel with Sea Turtles in St. John, USVI",
-        "description": "Everything you need to know about kayak and snorkel tours with sea turtles in St. John, USVI — best bays, what to expect, and how to book a local guided trip.",
-        "tag": "Snorkel"
-    },
-    {
-        "url": "/blog/kayak-paddleboard-usvi-beginners.html",
-        "title": "Best Kayaking and Paddleboarding in USVI for Beginners",
-        "description": "A practical guide to beginner-friendly kayak and SUP tours in St. Thomas, St. John, and St. Croix — calm bays, mangrove routes, and what to expect on your first paddle.",
-        "tag": "Guide"
-    },
-    {
-        "url": "/blog/usvi-night-activities-guide.html",
-        "title": "USVI Bio Bay? No, But Here's What You Can Do",
-        "description": "The Virgin Islands don't have bioluminescent bays, but here are the best night activities and what makes USVI special after dark.",
-        "tag": "Guide"
-    },
-    {
-        "url": "/blog/magens-bay-st-thomas.html",
-        "title": "Magens Bay, St. Thomas: Beach Guide",
-        "description": "Magens Bay is one of the most-visited beaches in the Caribbean — a sheltered mile-long arc of sand on St. Thomas's north shore with calm water and easy access from Charlotte Amalie.",
-        "image": "/images/blog/best-beaches-usvi.jpg",
-        "tag": "Beaches"
-    },
-    {
-        "url": "/blog/charlotte-amalie-99-steps-blackbeards-castle.html",
-        "title": "Charlotte Amalie, the 99 Steps & Blackbeard's Castle",
-        "description": "The capital of the USVI sits above one of the Caribbean's finest natural harbors — 18th-century Danish warehouses, a hillside staircase cut from Danish-era brick, and a watchtower with a privateer legend.",
-        "image": "/images/blog/things-to-do-st-thomas.jpg",
-        "tag": "History"
-    },
-    {
-        "url": "/blog/paradise-point-skyride-st-thomas.html",
-        "title": "Paradise Point Skyride, St. Thomas",
-        "description": "The gondola ride up to Paradise Point at 700 feet gives one of the best harbor views in the Caribbean — Charlotte Amalie spread below, cruise ships in the bay, and the BVI visible on clear days.",
-        "image": "/images/blog/things-to-do-st-thomas.jpg",
-        "tag": "Guide"
-    },
-    {
-        "url": "/blog/trunk-bay-snorkel-trail-st-john.html",
-        "title": "Trunk Bay Underwater Snorkel Trail, St. John",
-        "description": "Trunk Bay's underwater trail is the most famous snorkeling experience in the US Virgin Islands — labeled markers along a 225-yard reef route in 5 to 15 feet of crystal-clear water.",
-        "image": "/images/blog/top-snorkeling-usvi.jpg",
-        "tag": "Snorkel"
-    },
-    {
-        "url": "/blog/virgin-islands-national-park.html",
-        "title": "Virgin Islands National Park, St. John: Complete Guide",
-        "description": "VINP covers 60% of St. John — 20-plus hiking trails, pristine beaches, coral reefs, and plantation ruins. What to see, how to get there, and what makes this park unlike any other in the US.",
-        "image": "/images/blog/hiking-st-john-virgin-islands.jpg",
-        "tag": "Guide"
-    },
-    {
-        "url": "/blog/annaberg-plantation-ruins-st-john.html",
-        "title": "Annaberg Sugar Plantation Ruins, St. John",
-        "description": "The best-preserved sugar estate in the USVI — windmill tower, horse mill, and boiling house ruins from 1718, free to visit inside Virgin Islands National Park on St. John's north shore.",
-        "image": "/images/blog/things-to-do-st-john.jpg",
-        "tag": "History"
-    },
-    {
-        "url": "/blog/reef-bay-petroglyphs-st-john.html",
-        "title": "Reef Bay Trail & Petroglyphs, St. John",
-        "description": "The Reef Bay Trail descends 2.3 miles through three vegetation zones to pre-Columbian rock carvings beside a freshwater pool — one of the best hikes in the Caribbean.",
-        "image": "/images/blog/hiking-st-john-virgin-islands.jpg",
-        "tag": "Hike"
-    },
-    {
-        "url": "/blog/cinnamon-bay-st-john.html",
-        "title": "Cinnamon Bay, St. John: Beach, Snorkeling & History Guide",
-        "description": "One of the longest beaches on St. John — a wide arc of white sand inside Virgin Islands National Park with good snorkeling, ancient ruins nearby, and a quieter vibe than Trunk Bay.",
-        "image": "/images/blog/best-beaches-usvi.jpg",
-        "tag": "Beaches"
-    },
-    {
-        "url": "/blog/buck-island-reef-national-monument-st-croix.html",
-        "title": "Buck Island Reef National Monument, St. Croix",
-        "description": "Buck Island is a federally protected reef monument off St. Croix's northeast coast — an underwater snorkel trail through some of the healthiest elkhorn coral in the Caribbean.",
-        "image": "/images/blog/top-snorkeling-usvi.jpg",
-        "tag": "Snorkel"
-    },
-    {
-        "url": "/blog/christiansted-fort-christiansvaern-st-croix.html",
-        "title": "Christiansted & Fort Christiansvaern, St. Croix",
-        "description": "Christiansted's Danish colonial waterfront is the best-preserved 18th-century Caribbean townscape in the US territory — pastel warehouses, a working harbor, and a bright yellow fort.",
-        "image": "/images/blog/things-to-do-st-croix.jpg",
-        "tag": "History"
-    },
-    {
-        "url": "/blog/frederiksted-pier-diving-st-croix.html",
-        "title": "Frederiksted Pier Diving, St. Croix",
-        "description": "The Frederiksted Pier on St. Croix's west coast is one of the most celebrated pier dives in the Caribbean — a structure colonized by seahorses, frogfish, and thousands of reef fish.",
-        "image": "/images/blog/best-diving-usvi.jpg",
-        "tag": "Diving"
-    },
-    {
-        "url": "/blog/point-udall-st-croix.html",
-        "title": "Point Udall: The Easternmost Point of the USA",
-        "description": "Point Udall on St. Croix's eastern tip is the easternmost point in the United States — a windswept promontory with an unobstructed view east into the open Atlantic.",
-        "image": "/images/blog/st-thomas-vs-st-john-vs-st-croix.jpg",
-        "tag": "Guide"
-    },
-    {
-        "url": "/blog/cruzan-rum-distillery-st-croix.html",
-        "title": "Cruzan Rum Distillery, St. Croix",
-        "description": "Cruzan Rum has been distilled on St. Croix since 1760 — the distillery tour shows the full production process from molasses fermentation to barrel aging and blending.",
-        "image": "/images/blog/usvi-night-activities-guide.jpg",
-        "tag": "Guide"
-    },
-    {
-        "url": "/blog/st-george-village-botanical-garden-st-croix.html",
-        "title": "St. George Village Botanical Garden, St. Croix",
-        "description": "A 16-acre garden built over the ruins of an 18th-century Danish estate — over 1,500 plant species arranged across the stone foundations of a working sugar plantation.",
-        "image": "/images/blog/things-to-do-st-croix.jpg",
-        "tag": "Guide"
-    },
-    {
-        "url": "/blog/water-island-honeymoon-beach-usvi.html",
-        "title": "Water Island & Honeymoon Beach, USVI",
-        "description": "Water Island is the fourth-largest US Virgin Island — a quiet residential island 15 minutes by ferry from Charlotte Amalie with Honeymoon Beach and almost no tourist infrastructure.",
-        "image": "/images/blog/best-beaches-usvi.jpg",
-        "tag": "Beaches"
-    },
-    {
-        "url": "/blog/hassel-island-st-thomas.html",
-        "title": "Hassel Island, St. Thomas Harbor",
-        "description": "A national park island in Charlotte Amalie Harbor with 19th-century fort ruins, a historic marine railway, and panoramic harbor views — 10 minutes from the cruise pier and almost no crowds.",
-        "image": "/images/blog/things-to-do-st-thomas.jpg",
-        "tag": "History"
-    },
-    {
-        "url": "/blog/the-baths-virgin-gorda-bvi-day-trip.html",
-        "title": "The Baths, Virgin Gorda & BVI Day Trips from USVI",
-        "description": "The Baths at Virgin Gorda are the most-visited site in the British Virgin Islands — massive granite boulders and sea grottos accessible on a day trip from St. Thomas or St. John.",
-        "image": "/images/blog/best-time-to-visit-usvi.jpg",
-        "tag": "Day Trip"
-    },
-    {
-        "url": "/blog/humpback-whales-usvi-winter.html",
-        "title": "Humpback Whales in the USVI: When & Where to See Them",
-        "description": "Humpback whales migrate through US Virgin Islands waters each winter, passing north from their Caribbean breeding grounds. When they arrive, where they're spotted, and how to plan a whale watching trip.",
-        "image": "/images/blog/best-time-to-visit-usvi.jpg",
-        "tag": "Wildlife"
-    }
+  {
+    "url": "/blog/st-john-snorkeling-tours.html",
+    "title": "St. John Snorkeling Tours & Excursions: Best Spots & Boats (2026)",
+    "description": "Find the best beginner-friendly snorkeling tours in St. John, USVI. Expert guide to calm bays, what to expect, and how to book your first snorkeling adventure.",
+    "tag": "Tours"
+  },
+  {
+    "url": "/blog/best-parks-us-virgin-islands.html",
+    "title": "Best Parks in the US Virgin Islands: National Parks, Wildlife Refuges & Reserves",
+    "description": "VINP, Buck Island Reef, Salt River Bay, Sandy Point NWR, Magens Bay, and more — the definitive guide to protected lands across St. John, St. Thomas, and St. Croix.",
+    "image": "/images/blog/hiking-st-john-virgin-islands.jpg",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/best-beaches-and-swimming-coves-usvi.html",
+    "title": "Best Beaches & Swimming Coves in the USVI: 13 Top Picks",
+    "description": "Trunk Bay, Maho, Cinnamon, Magens, Secret Harbour, Lindquist, Isaac Bay, and more — the best beaches on St. Thomas, St. John, St. Croix, and Water Island with calm-water ratings and facilities.",
+    "image": "/images/blog/best-beaches-usvi.jpg",
+    "tag": "Beaches"
+  },
+  {
+    "url": "/blog/sea-caves-arches-and-rock-formations-usvi.html",
+    "title": "Sea Caves, Arches & Rock Formations of the Virgin Islands",
+    "description": "Salt River Canyon, Frederiksted Pier, Carvel Rock, Congo Cay, and the BVI's Caves and Baths on a day trip — underwater and coastal rock features across the Virgin Islands.",
+    "image": "/images/blog/best-diving-usvi.jpg",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/best-hikes-and-trails-usvi.html",
+    "title": "Best Hikes & Trails in the US Virgin Islands: 10 Routes",
+    "description": "Reef Bay Trail, Ram Head, Bordeaux Mountain, Lind Point, and more — the best hiking trails on St. John and St. Croix with distances, difficulty ratings, and what to bring.",
+    "image": "/images/blog/hiking-st-john-virgin-islands.jpg",
+    "tag": "Hike"
+  },
+  {
+    "url": "/blog/best-time-to-visit-usvi.html",
+    "title": "Best Time to Visit the US Virgin Islands: Month-by-Month",
+    "description": "When to visit the USVI for the best weather, lowest prices, and clearest snorkeling — a month-by-month guide for travelers planning St. Thomas, St. John, or St. Croix.",
+    "tag": "Best Time"
+  },
+  {
+    "url": "/blog/st-thomas-vs-st-john-vs-st-croix.html",
+    "title": "St. Thomas vs St. John vs St. Croix: Which Island Fits",
+    "description": "A practical comparison of the three US Virgin Islands — vibe, snorkeling, food, and how to choose for your trip type. Updated for 2026 travelers.",
+    "tag": "Compare"
+  },
+  {
+    "url": "/blog/top-snorkeling-usvi.html",
+    "title": "Top Snorkeling Spots in the US Virgin Islands",
+    "description": "The best snorkeling reefs in St. Thomas, St. John, and St. Croix — including underwater trails, sea turtle spots, and accessible shore-snorkel sites.",
+    "tag": "Top Picks"
+  },
+  {
+    "url": "/blog/best-shore-excursions-st-thomas-cruise-ship.html",
+    "title": "Best Shore Excursions in St. Thomas for Cruise Ship Passengers",
+    "description": "The best St. Thomas shore excursions for cruise passengers with limited time — snorkeling, beach hopping, and island tours that work with port schedules.",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/best-snorkeling-tours-st-john-for-beginners.html",
+    "title": "Best Snorkeling Tours St. John for Beginners",
+    "description": "Find the best beginner-friendly snorkeling tours in St. John, USVI. Expert guide to calm bays, what to expect, and how to book your first snorkeling adventure.",
+    "tag": "Tours"
+  },
+  {
+    "url": "/blog/best-snorkeling-tours-st-thomas-for-beginners.html",
+    "title": "Best Snorkeling Tours St Thomas for Beginners",
+    "description": "Find the best beginner-friendly snorkeling tours in St. Thomas, USVI. Expert tips on choosing your first snorkel adventure, what to expect, and how to book.",
+    "tag": "Tours"
+  },
+  {
+    "url": "/blog/kayak-and-snorkel-with-sea-turtles-st-john-usvi.html",
+    "title": "Kayak and Snorkel with Sea Turtles in St. John, USVI",
+    "description": "Everything you need to know about kayak and snorkel tours with sea turtles in St. John, USVI — best bays, what to expect, and how to book a local guided trip.",
+    "tag": "Snorkel"
+  },
+  {
+    "url": "/blog/kayak-paddleboard-usvi-beginners.html",
+    "title": "Best Kayaking and Paddleboarding in USVI for Beginners",
+    "description": "A practical guide to beginner-friendly kayak and SUP tours in St. Thomas, St. John, and St. Croix — calm bays, mangrove routes, and what to expect on your first paddle.",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/usvi-night-activities-guide.html",
+    "title": "USVI Bio Bay? No, But Here's What You Can Do",
+    "description": "The Virgin Islands don't have bioluminescent bays, but here are the best night activities and what makes USVI special after dark.",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/magens-bay-st-thomas.html",
+    "title": "Magens Bay, St. Thomas: Beach Guide",
+    "description": "Magens Bay is one of the most-visited beaches in the Caribbean — a sheltered mile-long arc of sand on St. Thomas's north shore with calm water and easy access from Charlotte Amalie.",
+    "image": "/images/blog/best-beaches-usvi.jpg",
+    "tag": "Beaches"
+  },
+  {
+    "url": "/blog/charlotte-amalie-99-steps-blackbeards-castle.html",
+    "title": "Charlotte Amalie, the 99 Steps & Blackbeard's Castle",
+    "description": "The capital of the USVI sits above one of the Caribbean's finest natural harbors — 18th-century Danish warehouses, a hillside staircase cut from Danish-era brick, and a watchtower with a privateer legend.",
+    "image": "/images/blog/things-to-do-st-thomas.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/paradise-point-skyride-st-thomas.html",
+    "title": "Paradise Point Skyride, St. Thomas",
+    "description": "The gondola ride up to Paradise Point at 700 feet gives one of the best harbor views in the Caribbean — Charlotte Amalie spread below, cruise ships in the bay, and the BVI visible on clear days.",
+    "image": "/images/blog/things-to-do-st-thomas.jpg",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/trunk-bay-snorkel-trail-st-john.html",
+    "title": "Trunk Bay Underwater Snorkel Trail, St. John",
+    "description": "Trunk Bay's underwater trail is the most famous snorkeling experience in the US Virgin Islands — labeled markers along a 225-yard reef route in 5 to 15 feet of crystal-clear water.",
+    "image": "/images/blog/top-snorkeling-usvi.jpg",
+    "tag": "Snorkel"
+  },
+  {
+    "url": "/blog/virgin-islands-national-park.html",
+    "title": "Virgin Islands National Park, St. John: Complete Guide",
+    "description": "VINP covers 60% of St. John — 20-plus hiking trails, pristine beaches, coral reefs, and plantation ruins. What to see, how to get there, and what makes this park unlike any other in the US.",
+    "image": "/images/blog/hiking-st-john-virgin-islands.jpg",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/annaberg-plantation-ruins-st-john.html",
+    "title": "Annaberg Sugar Plantation Ruins, St. John",
+    "description": "The best-preserved sugar estate in the USVI — windmill tower, horse mill, and boiling house ruins from 1718, free to visit inside Virgin Islands National Park on St. John's north shore.",
+    "image": "/images/blog/things-to-do-st-john.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/reef-bay-petroglyphs-st-john.html",
+    "title": "Reef Bay Trail & Petroglyphs, St. John",
+    "description": "The Reef Bay Trail descends 2.3 miles through three vegetation zones to pre-Columbian rock carvings beside a freshwater pool — one of the best hikes in the Caribbean.",
+    "image": "/images/blog/hiking-st-john-virgin-islands.jpg",
+    "tag": "Hike"
+  },
+  {
+    "url": "/blog/cinnamon-bay-st-john.html",
+    "title": "Cinnamon Bay, St. John: Beach, Snorkeling & History Guide",
+    "description": "One of the longest beaches on St. John — a wide arc of white sand inside Virgin Islands National Park with good snorkeling, ancient ruins nearby, and a quieter vibe than Trunk Bay.",
+    "image": "/images/blog/best-beaches-usvi.jpg",
+    "tag": "Beaches"
+  },
+  {
+    "url": "/blog/buck-island-reef-national-monument-st-croix.html",
+    "title": "Buck Island Reef National Monument, St. Croix",
+    "description": "Buck Island is a federally protected reef monument off St. Croix's northeast coast — an underwater snorkel trail through some of the healthiest elkhorn coral in the Caribbean.",
+    "image": "/images/blog/top-snorkeling-usvi.jpg",
+    "tag": "Snorkel"
+  },
+  {
+    "url": "/blog/christiansted-fort-christiansvaern-st-croix.html",
+    "title": "Christiansted & Fort Christiansvaern, St. Croix",
+    "description": "Christiansted's Danish colonial waterfront is the best-preserved 18th-century Caribbean townscape in the US territory — pastel warehouses, a working harbor, and a bright yellow fort.",
+    "image": "/images/blog/things-to-do-st-croix.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/frederiksted-pier-diving-st-croix.html",
+    "title": "Frederiksted Pier Diving, St. Croix",
+    "description": "The Frederiksted Pier on St. Croix's west coast is one of the most celebrated pier dives in the Caribbean — a structure colonized by seahorses, frogfish, and thousands of reef fish.",
+    "image": "/images/blog/best-diving-usvi.jpg",
+    "tag": "Diving"
+  },
+  {
+    "url": "/blog/point-udall-st-croix.html",
+    "title": "Point Udall: The Easternmost Point of the USA",
+    "description": "Point Udall on St. Croix's eastern tip is the easternmost point in the United States — a windswept promontory with an unobstructed view east into the open Atlantic.",
+    "image": "/images/blog/st-thomas-vs-st-john-vs-st-croix.jpg",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/cruzan-rum-distillery-st-croix.html",
+    "title": "Cruzan Rum Distillery, St. Croix",
+    "description": "Cruzan Rum has been distilled on St. Croix since 1760 — the distillery tour shows the full production process from molasses fermentation to barrel aging and blending.",
+    "image": "/images/blog/usvi-night-activities-guide.jpg",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/st-george-village-botanical-garden-st-croix.html",
+    "title": "St. George Village Botanical Garden, St. Croix",
+    "description": "A 16-acre garden built over the ruins of an 18th-century Danish estate — over 1,500 plant species arranged across the stone foundations of a working sugar plantation.",
+    "image": "/images/blog/things-to-do-st-croix.jpg",
+    "tag": "Guide"
+  },
+  {
+    "url": "/blog/water-island-honeymoon-beach-usvi.html",
+    "title": "Water Island & Honeymoon Beach, USVI",
+    "description": "Water Island is the fourth-largest US Virgin Island — a quiet residential island 15 minutes by ferry from Charlotte Amalie with Honeymoon Beach and almost no tourist infrastructure.",
+    "image": "/images/blog/best-beaches-usvi.jpg",
+    "tag": "Beaches"
+  },
+  {
+    "url": "/blog/hassel-island-st-thomas.html",
+    "title": "Hassel Island, St. Thomas Harbor",
+    "description": "A national park island in Charlotte Amalie Harbor with 19th-century fort ruins, a historic marine railway, and panoramic harbor views — 10 minutes from the cruise pier and almost no crowds.",
+    "image": "/images/blog/things-to-do-st-thomas.jpg",
+    "tag": "History"
+  },
+  {
+    "url": "/blog/the-baths-virgin-gorda-bvi-day-trip.html",
+    "title": "The Baths, Virgin Gorda & BVI Day Trips from USVI",
+    "description": "The Baths at Virgin Gorda are the most-visited site in the British Virgin Islands — massive granite boulders and sea grottos accessible on a day trip from St. Thomas or St. John.",
+    "image": "/images/blog/best-time-to-visit-usvi.jpg",
+    "tag": "Day Trip"
+  },
+  {
+    "url": "/blog/humpback-whales-usvi-winter.html",
+    "title": "Humpback Whales in the USVI: When & Where to See Them",
+    "description": "Humpback whales migrate through US Virgin Islands waters each winter, passing north from their Caribbean breeding grounds. When they arrive, where they're spotted, and how to plan a whale watching trip.",
+    "image": "/images/blog/best-time-to-visit-usvi.jpg",
+    "tag": "Wildlife"
+  }
 ]

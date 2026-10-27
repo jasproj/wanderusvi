@@ -306,6 +306,30 @@
     }
   ]
 }</script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -323,16 +347,63 @@
     
     <section class="activity-hero">
         <div class="container">
-            <h1>Kayaking in the US Virgin Islands: Tours &amp; Rentals</h1>
+            <h1>USVI Kayaking: Tours &amp; Rentals</h1>
             <p>Where to paddle in US Virgin Islands: open-water sea kayak, river runs, and lake routes worth a half-day or more.</p>
             <div class="hero-stats">
                 <div class="hero-stat"><span class="hero-stat-number">6</span><span class="hero-stat-label">Spots Listed</span></div>
                 <div class="hero-stat"><span class="hero-stat-number">3</span><span class="hero-stat-label">Islands</span></div>
                 <div class="hero-stat"><span class="hero-stat-number">Year-Round</span><span class="hero-stat-label">Season</span></div>
             </div>
-        </div>
+        
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a></div>
+</div>
     </section>
-    <section class="tours" id="tours">
+<section class="top-picks" aria-label="Top picks">
+  <div class="container">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/vDTEAidSwijo0FKYFiAl" alt="Glow Boats LED Night Kayak from The Marriott Frenchman&#x27;s Cove, USVI" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $65</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">St. Thomas Water Sports</div>
+        <h3 class="tour-title">Glow Boats LED Night Kayak from The Marriott Frenchman&#x27;s Cove, USVI</h3>
+        <p class="tour-desc">Departing from Marriott&#x27;s Frenchman&#x27;s Cove Dock/St. We recommend that you try to make it to the tour departure site at least 45 minutes…</p>
+        <a href="https://fareharbor.com/embeds/book/st-thomaswatersports/items/259438/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="259438" data-tour-name="Glow Boats LED Night Kayak from The Marriott Frenchman&#x27;s Cove, USVI">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/tb4My33hTLm2g7T48PNW" alt="Glow Boats LED Night Kayak from The Marriott&#x27;s Frenchman&#x27;s Cove, USVI" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $65</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">The VI Cat</div>
+        <h3 class="tour-title">Glow Boats LED Night Kayak from The Marriott&#x27;s Frenchman&#x27;s Cove, USVI</h3>
+        <p class="tour-desc">Park in the large, flat gravel parking lot after the security booth on the right. What to bring Bring a copy of your ticket either on…</p>
+        <a href="https://fareharbor.com/embeds/book/thevicat/items/440447/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="440447" data-tour-name="Glow Boats LED Night Kayak from The Marriott&#x27;s Frenchman&#x27;s Cove, USVI">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/kHF2gccrTCay19s4LYxb" alt="Ghosts of Piracy Past" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $175</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">The Tropical Treasure Hunt Co.</div>
+        <h3 class="tour-title">Ghosts of Piracy Past</h3>
+        <p class="tour-desc">Join Tropical Treasure Hunt for a spooky, immersive nighttime treasure hunt through mangroves and historic grounds as you solve clues,…</p>
+        <a href="https://fareharbor.com/embeds/book/tropicaltreasurehunt/items/191573/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="191573" data-tour-name="Ghosts of Piracy Past">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 9 tours ↓</a>
+  </div>
+</section>
+
+<section class="tours" id="tours">
       <div class="container">
         <h2>Book 🚣 US Virgin Islands Kayaking (9 available)</h2>
         <div class="tours-grid">
@@ -447,6 +518,8 @@
         </div>
       </div>
     </section>
+
+
 
 
     <section class="types-section">

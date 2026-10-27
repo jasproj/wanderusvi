@@ -432,6 +432,30 @@
   ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -468,41 +492,56 @@
   <div class="container">
     <h1>St. Thomas Tours, Catamaran Sails &amp; Snorkeling</h1>
     <p>The most-visited of the U.S. Virgin Islands — duty-free shopping in Charlotte Amalie, charter boats out of Red Hook.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">20 tours</span><span class="hub-chip">From $65</span><span class="hub-chip">USVI</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-
-<!-- s57-internal-links -->
-<aside style="border:1px solid #dbe1e8;border-left:4px solid #0077b6;border-radius:8px;padding:16px 18px;margin:28px 0;background:#f7fafc">
-<p style="margin:0 0 10px;font-weight:600;font-size:1rem">Popular USVI tours</p>
-<ul style="margin:0;padding-left:20px;line-height:1.7">
-<li style="margin:0 0 6px"><a href="/blog/best-shore-excursions-st-thomas-cruise-ship.html" style="color:#0077b6">Best Shore Excursions in St. Thomas for Cruise Passengers</a></li>
-<li style="margin:0 0 6px"><a href="/st-thomas-catamaran-sail.html" style="color:#0077b6">Which St. Thomas Catamaran Sail to Book</a></li>
-</ul>
-</aside>
-    <h2>About St. Thomas</h2>
-    <p>St. Thomas is the largest and busiest of the three U.S. Virgin Islands. Charlotte Amalie, on the south coast, is one of the Caribbean's largest cruise ports — up to four ships in a day during peak winter weeks. Most charter boats and snorkel tours depart from either the Charlotte Amalie waterfront or Red Hook (on the east end), which is closer to the protected snorkeling at Coki Beach and a 10-minute ferry from St. John.<br><br>If you're staying on St. Thomas and want to get on the water, the typical day is a half-day catamaran charter that hits Buck Island, Christmas Cove, or Honeymoon Beach (on the small Water Island). Full-day tours often add a stop at Trunk Bay on St. John. Operators we work with include independent captain-owner outfits and a few of the larger catamaran companies. Cell coverage is good across the island except in the deep coves; AT&T and T-Mobile both work without an international plan since the USVI is U.S. soil.</p>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/NlcQ3L6Tcma1F7V0UMor" alt="Turtle Cove Catamaran Snorkel &amp; Sail Adventure at Little Buck Island St. Thomas" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $109</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">The VI Cat</div>
+        <h3 class="tour-title">Turtle Cove Catamaran Snorkel &amp; Sail Adventure at Little Buck Island St. Thomas</h3>
+        <p class="tour-desc">Park in the large, flat gravel parking lot after the security booth on the right. What to bring Towel, sun protection, sunglasses, reef-safe…</p>
+        <a href="https://fareharbor.com/embeds/book/thevicat/items/2101/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="2101" data-tour-name="Turtle Cove Catamaran Snorkel &amp; Sail Adventure at Little Buck Island St. Thomas">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/inEelbocR6CphZuTifct" alt="Sunset Sail with Cocktails and Appetizers" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">$85</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">The VI Cat</div>
+        <h3 class="tour-title">Sunset Sail with Cocktails and Appetizers</h3>
+        <p class="tour-desc">Park in the large, flat gravel parking lot after the security booth on the right. What to bring Bring a copy of your ticket either on your phone…</p>
+        <a href="https://fareharbor.com/embeds/book/thevicat/items/2102/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="2102" data-tour-name="Sunset Sail with Cocktails and Appetizers">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/lA9kOz3hSNu72RhEVYB2" alt="Sunset &amp; Harbor Lights Dinner Sail from the Marriott&#x27;s Frenchman&#x27;s Cove" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $109</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">The VI Cat</div>
+        <h3 class="tour-title">Sunset &amp; Harbor Lights Dinner Sail from the Marriott&#x27;s Frenchman&#x27;s Cove</h3>
+        <p class="tour-desc">Park in the large, flat gravel parking lot after the security booth on the right. What to bring Bring a copy of your ticket either on your phone…</p>
+        <a href="https://fareharbor.com/embeds/book/thevicat/items/2103/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="2103" data-tour-name="Sunset &amp; Harbor Lights Dinner Sail from the Marriott&#x27;s Frenchman&#x27;s Cove">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 20 tours ↓</a>
   </div>
 </section>
 
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-      <li>Cruise ship traffic peaks Dec-April; book private charters 2+ weeks ahead during cruise weeks</li>
-<li>Red Hook (east end) is the launching point for most St. John ferries and east-side snorkel tours</li>
-<li>Charlotte Amalie has the largest selection of catamaran day-trip operators</li>
-<li>No passport needed — USVI is U.S. soil; domestic flights apply</li>
-<li>Hurricane season is June-November; most operators offer 24-hour reschedule for weather</li>
-<li>Cell service: U.S. carriers work without roaming charges</li>
-    </ul>
-  </div>
-</section>
-
-
-<section class="tours">
+<section class="tours" id="tours">
   <div class="container">
     <h2>St. Thomas tours</h2>
     <div class="tours-grid">
@@ -749,6 +788,35 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+
+<!-- s57-internal-links -->
+<aside style="border:1px solid #dbe1e8;border-left:4px solid #0077b6;border-radius:8px;padding:16px 18px;margin:28px 0;background:#f7fafc">
+<p style="margin:0 0 10px;font-weight:600;font-size:1rem">Popular USVI tours</p>
+<ul style="margin:0;padding-left:20px;line-height:1.7">
+<li style="margin:0 0 6px"><a href="/blog/best-shore-excursions-st-thomas-cruise-ship.html" style="color:#0077b6">Best Shore Excursions in St. Thomas for Cruise Passengers</a></li>
+<li style="margin:0 0 6px"><a href="/st-thomas-catamaran-sail.html" style="color:#0077b6">Which St. Thomas Catamaran Sail to Book</a></li>
+</ul>
+</aside>
+    <h2>About St. Thomas</h2>
+    <p>St. Thomas is the largest and busiest of the three U.S. Virgin Islands. Charlotte Amalie, on the south coast, is one of the Caribbean's largest cruise ports — up to four ships in a day during peak winter weeks. Most charter boats and snorkel tours depart from either the Charlotte Amalie waterfront or Red Hook (on the east end), which is closer to the protected snorkeling at Coki Beach and a 10-minute ferry from St. John.<br><br>If you're staying on St. Thomas and want to get on the water, the typical day is a half-day catamaran charter that hits Buck Island, Christmas Cove, or Honeymoon Beach (on the small Water Island). Full-day tours often add a stop at Trunk Bay on St. John. Operators we work with include independent captain-owner outfits and a few of the larger catamaran companies. Cell coverage is good across the island except in the deep coves; AT&T and T-Mobile both work without an international plan since the USVI is U.S. soil.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+      <li>Cruise ship traffic peaks Dec-April; book private charters 2+ weeks ahead during cruise weeks</li>
+<li>Red Hook (east end) is the launching point for most St. John ferries and east-side snorkel tours</li>
+<li>Charlotte Amalie has the largest selection of catamaran day-trip operators</li>
+<li>No passport needed — USVI is U.S. soil; domestic flights apply</li>
+<li>Hurricane season is June-November; most operators offer 24-hour reschedule for weather</li>
+<li>Cell service: U.S. carriers work without roaming charges</li>
+    </ul>
+  </div>
+</section>
+
 
 <!--
   WUSVI Weather Widget (St. Thomas) — drop-in partial.

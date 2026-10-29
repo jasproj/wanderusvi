@@ -83,7 +83,9 @@
     .hero { padding: 50px 20px; }}
     /* s50-wusvi-cards: unit qualifier inside the static price badge — same rule as styles.css
        `.tour-price small` (PR #147); these pages inline their CSS rather than link styles.css. */
-    .tour-price small { display: block; font-size: 0.62rem; font-weight: 600; line-height: 1.15; letter-spacing: 0.3px; text-transform: uppercase; }</style>
+    .tour-price small { display: block; font-size: 0.62rem; font-weight: 600; line-height: 1.15; letter-spacing: 0.3px; text-transform: uppercase; }
+    /* The hero's featured tour reuses .tour-content; the badge rule above is for cards and has no positioned ancestor here, so it escaped to the bottom of the page. */
+    .hero .tour-content .tour-price { position: static; display: inline-block; margin: 6px 0 12px; }</style>
     <link rel="stylesheet" href="/sponsor-slot.css">
     <link rel="stylesheet" href="/shared-chrome.css">
     <script src="/sponsor-slot.js" defer></script>
